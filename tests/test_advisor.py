@@ -73,3 +73,25 @@ def test_theme_bias_makes_risk_news_negative():
 def test_weights_sum_to_one():
     from stock_advisor import config
     assert abs(sum(config.WEIGHTS.values()) - 1) < 1e-9
+
+
+def test_cathay_fx_parse():
+    from pathlib import Path
+    from stock_advisor import fx
+    page = (Path(__file__).parent / "fixtures" / "cathay_fx_sample.html").read_text(encoding="utf-8")
+    d = fx.parse(page)
+    assert d["board_time"] and "年" in d["board_time"]
+    usd = next(r for r in d["rates"] if r["code"] == "USD")
+    assert usd["name"] == "美元"
+    assert usd["spot"]["buy"] < usd["spot"]["sell"]
+    assert usd["cash"]["buy"] < usd["spot"]["buy"]  # 現鈔買進價較低
+    assert fx.usd_rate(d) == usd["spot"]["sell"]
+    assert fx.parse("<html>改版</html>")["rates"] == []
+
+
+def test_us_price_converted_to_twd():
+    from stock_advisor.demo import demo_fx
+    r = engine.analyze(prices=demo_prices(), news_fetcher=demo_news, fx_fetcher=demo_fx)
+    s = r["markets"]["US"]["stocks"][0]
+    assert s["price_twd"] and abs(s["price_twd"] - s["price"] * 33.24) < 1
+    assert r["markets"]["TW"]["stocks"][0]["price_twd"] is None

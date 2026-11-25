@@ -46,4 +46,14 @@ def to_markdown(r: dict) -> str:
             mark = "🟢" if h["sentiment"] > 0.1 else "🔴" if h["sentiment"] < -0.1 else "⚪"
             lines.append(f"- {mark} [{h['title']}]({h['link']})")
         lines.append("")
+    fx = r.get("fx") or {}
+    if fx.get("rates"):
+        lines += [f"## 國泰世華牌告匯率（台幣）", "", f"資料時間：{fx.get('board_time') or '—'}", "",
+                  "| 幣別 | 即期買進 | 即期賣出 | 數位優惠買進 | 數位優惠賣出 | 現鈔買進 | 現鈔賣出 | 較上次 |",
+                  "|---|---:|---:|---:|---:|---:|---:|---:|"]
+        g = lambda x, k, s: "—" if not (x.get(k) or {}).get(s) else f"{x[k][s]:g}"
+        for x in fx["rates"]:
+            lines.append(f"| {x['name']} {x['code']} | {g(x,'spot','buy')} | {g(x,'spot','sell')} | {g(x,'digital','buy')} "
+                         f"| {g(x,'digital','sell')} | {g(x,'cash','buy')} | {g(x,'cash','sell')} | {_f(x.get('change_pct'), '{:+.3f}%')} |")
+        lines.append("")
     return "\n".join(lines)
