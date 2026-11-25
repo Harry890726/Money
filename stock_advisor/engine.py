@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 import numpy as np
 import pandas as pd
 
-from . import config, indicators, news
+from . import config, fx as fxmod, indicators, news
 from .themes import THEMES
 
 
@@ -40,7 +40,7 @@ def news_query_for(symbol: str, name: str, market: str) -> str:
     return f"{name} stock" if name.upper() != symbol else f"{symbol} stock"
 
 
-def analyze(prices: dict | None = None, news_fetcher=news.fetch) -> dict:
+def analyze(prices: dict | None = None, news_fetcher=news.fetch, fx_fetcher=fxmod.fetch) -> dict:
     """prices 可傳入預先準備好的資料（測試/離線用），否則即時抓取。"""
     w = config.WEIGHTS
     result = {
@@ -54,6 +54,10 @@ def analyze(prices: dict | None = None, news_fetcher=news.fetch) -> dict:
         all_syms += [m["index"], *m["watchlist"].keys()]
     if prices is None:
         prices = fetch_prices(all_syms)
+
+    fx = fx_fetcher()
+    result["fx"] = fx
+    usd = fxmod.usd_rate(fx)
 
     themes = analyze_themes(news_fetcher)
     result["themes"] = themes
@@ -121,6 +125,8 @@ def analyze(prices: dict | None = None, news_fetcher=news.fetch) -> dict:
             mk["stocks"].append({
                 "symbol": sym, "name": name,
                 "price": _r(ind["price"], 2), "change_pct": _r(ind["change_pct"], 2),
+                # 美股以國泰世華美元即期賣出匯率換算台幣
+                "price_twd": _r(ind["price"] * usd, 0) if (m["currency"] == "USD" and usd and ind["price"]) else None,
                 "ret_5d": _r(ind["ret_5d"], 2), "ret_20d": _r(ind["ret_20d"], 2),
                 "rsi14": _r(ind["rsi14"], 1), "volatility": _r(ind["volatility_20d"], 1),
                 "sma20": _r(ind["sma20"], 2), "sma50": _r(ind["sma50"], 2),

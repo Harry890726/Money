@@ -22,14 +22,15 @@ REPORT_DIR = ROOT / "reports"
 
 def run_once(demo: bool = False) -> dict:
     if demo:
-        from .demo import demo_prices, demo_news
-        result = engine.analyze(prices=demo_prices(), news_fetcher=demo_news)
+        from .demo import demo_fx, demo_news, demo_prices
+        result = engine.analyze(prices=demo_prices(), news_fetcher=demo_news, fx_fetcher=demo_fx)
         result["demo"] = True
     else:
         result = engine.analyze()
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
+    _attach_fx_change(result)
     payload = json.dumps(result, ensure_ascii=False, indent=1)
     (DATA_DIR / "latest.json").write_text(payload, encoding="utf-8")
 
@@ -37,6 +38,7 @@ def run_once(demo: bool = False) -> dict:
     snap = {
         "t": result["generated_at"],
         **{f"{c}_market": m["market_score"] for c, m in result["markets"].items()},
+        "fx": {r["code"]: (r.get("spot") or {}).get("sell") for r in result["fx"]["rates"]},
         "stocks": {s["symbol"]: [s["price"], s["score"]]
                    for m in result["markets"].values() for s in m["stocks"]},
     }
@@ -47,6 +49,25 @@ def run_once(demo: bool = False) -> dict:
     print(f"[ok] {result['generated_at']} 已更新 "
           + ", ".join(f"{c}: {len(m['stocks'])} 檔" for c, m in result["markets"].items()))
     return result
+
+
+def _attach_fx_change(result: dict) -> None:
+    """與上一次紀錄比較即期賣出匯率，算出漲跌（台幣貶值 = 外幣匯率上升）。"""
+    prev = {}
+    hist = DATA_DIR / "history.jsonl"
+    if hist.exists():
+        lines = hist.read_text(encoding="utf-8").strip().splitlines()
+        for line in reversed(lines):
+            try:
+                prev = json.loads(line).get("fx") or {}
+            except ValueError:
+                continue
+            if prev:
+                break
+    for r in result["fx"]["rates"]:
+        now, before = (r.get("spot") or {}).get("sell"), prev.get(r["code"])
+        r["prev_sell"] = before
+        r["change_pct"] = round((now / before - 1) * 100, 3) if now and before else None
 
 
 def main():

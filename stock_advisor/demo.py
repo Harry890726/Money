@@ -37,3 +37,10 @@ def demo_news(query: str, lang: dict, limit: int = 10) -> list[dict]:
         "title": f"{t}（{query}）", "link": "#", "source": "Demo", "published": "",
         "age_hours": round(float(rng.uniform(0, 48)), 1), "sentiment": round(news.sentiment(t), 3),
     } for t in titles]
+
+
+def demo_fx() -> dict:
+    from pathlib import Path
+    from . import fx
+    sample = Path(__file__).resolve().parent.parent / "tests" / "fixtures" / "cathay_fx_sample.html"
+    return {"source": "國泰世華銀行（示範）", "url": fx.URL, **fx.parse(sample.read_text(encoding="utf-8"))}
