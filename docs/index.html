@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>台美股投資建議</title>
+<style>
+:root{
+  --bg:#f6f7f9;--card:#fff;--fg:#1b1f24;--muted:#667085;--line:#e4e7ec;
+  --up:#d92d20;--down:#079455;--accent:#2e5bff;
+  --r-sb:#b42318;--r-b:#e8590c;--r-h:#667085;--r-s:#0e9384;--r-ss:#067647;
+}
+/* 台灣慣例：紅漲綠跌 */
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1115;--card:#171a21;--fg:#e6e8ec;--muted:#98a2b3;--line:#2a2f3a;--up:#f97066;--down:#32d583;--accent:#7b9bff;
+}}
+:root[data-theme="dark"]{--bg:#0f1115;--card:#171a21;--fg:#e6e8ec;--muted:#98a2b3;--line:#2a2f3a;--up:#f97066;--down:#32d583;--accent:#7b9bff;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 system-ui,-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:20px 16px 48px}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:baseline;justify-content:space-between}
+h1{font-size:22px;margin:0}
+.muted{color:var(--muted);font-size:13px}
+.tabs{display:flex;gap:6px;margin:18px 0 12px}
+.tabs button{border:1px solid var(--line);background:var(--card);color:var(--fg);padding:7px 16px;border-radius:999px;cursor:pointer;font:inherit}
+.tabs button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.kpi .v{font-size:22px;font-weight:650;font-variant-numeric:tabular-nums}
+.up{color:var(--up)}.down{color:var(--down)}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{padding:9px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th{font-size:12px;color:var(--muted);font-weight:500}
+th:nth-child(-n+2),td:nth-child(-n+2),td.reason,th.reason{text-align:left}
+td.reason{white-space:normal;color:var(--muted);font-size:13px;min-width:220px}
+tr.row{cursor:pointer}tr.row:hover{background:color-mix(in srgb,var(--accent) 6%,transparent)}
+.badge{display:inline-block;padding:2px 9px;border-radius:999px;color:#fff;font-size:12px;font-weight:600}
+.scroll{overflow-x:auto}
+.detail td{background:color-mix(in srgb,var(--accent) 4%,transparent);text-align:left;white-space:normal}
+.news a{color:var(--fg);text-decoration:none}.news a:hover{text-decoration:underline}
+.news li{margin:5px 0}
+ul{padding-left:18px;margin:6px 0}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.disc{margin-top:24px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}
+h2{font-size:16px;margin:22px 0 10px}
+.warn{background:#fef0c7;color:#7a2e0e;padding:8px 12px;border-radius:8px;margin-top:10px;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>台美股投資建議</h1>
+    <span class="muted" id="ts">載入中…</span>
+  </header>
+  <div id="demo"></div>
+  <div class="tabs" id="tabs"></div>
+  <div id="view"></div>
+  <p class="disc">本頁由演算法每小時自動更新，綜合技術指標（均線、RSI、MACD、布林通道、動能、量能）與國家／個股新聞情緒分數產生建議，僅供研究參考，不構成任何投資建議。投資有風險，請自行判斷並承擔盈虧。</p>
+</div>
+<script>
+const RC={"強力買進":"var(--r-sb)","買進":"var(--r-b)","持有觀望":"var(--r-h)","減碼":"var(--r-s)","賣出":"var(--r-ss)"};
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const pct=v=>v==null?"—":`<span class="${v>0?"up":v<0?"down":""}">${v>0?"+":""}${v.toFixed(2)}%</span>`;
+const num=(v,d=2)=>v==null?"—":v.toLocaleString(undefined,{minimumFractionDigits:d,maximumFractionDigits:d});
+const sc=v=>`<span class="${v>0?"up":v<0?"down":""}">${v>0?"+":""}${v.toFixed(2)}</span>`;
+const safeUrl=u=>/^https?:\/\//.test(u||"")?u:"#";
+
+function spark(arr){
+  if(!arr||arr.length<2)return"";
+  const w=110,h=28,mn=Math.min(...arr),mx=Math.max(...arr),k=(mx-mn)||1;
+  const pts=arr.map((v,i)=>`${(i/(arr.length-1)*w).toFixed(1)},${(h-2-(v-mn)/k*(h-4)).toFixed(1)}`).join(" ");
+  const col=arr.at(-1)>=arr[0]?"var(--up)":"var(--down)";
+  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><polyline fill="none" stroke="${col}" stroke-width="1.5" points="${pts}"/></svg>`;
+}
+function newsList(items){
+  if(!items?.length)return`<p class="muted">暫無新聞</p>`;
+  return `<ul class="news">${items.map(n=>{
+    const c=n.sentiment>0.1?"var(--up)":n.sentiment<-0.1?"var(--down)":"var(--muted)";
+    return `<li><span class="dot" style="background:${c}"></span><a href="${esc(safeUrl(n.link))}" target="_blank" rel="noopener">${esc(n.title)}</a> <span class="muted">${n.age_hours<1?"剛剛":Math.round(n.age_hours)+" 小時前"}</span></li>`;
+  }).join("")}</ul>`;
+}
+function render(data,code){
+  const m=data.markets[code],ix=m.index;
+  const counts={};m.stocks.forEach(s=>counts[s.rating]=(counts[s.rating]||0)+1);
+  let html=`<div class="grid">
+    <div class="card kpi"><div class="muted">${esc(ix.name)}</div><div class="v">${num(ix.price)}</div><div>${pct(ix.change_pct)} 今日 · ${pct(ix.ret_20d)} 20日</div></div>
+    <div class="card kpi"><div class="muted">市場綜合分數</div><div class="v">${sc(m.market_score)}</div><div class="muted">${esc(m.market_view)}</div></div>
+    <div class="card kpi"><div class="muted">國家新聞情緒</div><div class="v">${sc(m.macro_sentiment)}</div><div class="muted">${m.headlines.length} 則近期新聞</div></div>
+    <div class="card kpi"><div class="muted">建議分布</div><div style="margin-top:6px">${Object.keys(RC).filter(k=>counts[k]).map(k=>`<span class="badge" style="background:${RC[k]};margin:2px">${k} ${counts[k]}</span>`).join("")}</div></div>
+  </div>
+  <h2>個股建議（點擊列查看細節）</h2>
+  <div class="card scroll" style="padding:4px 8px"><table>
+  <thead><tr><th>代號</th><th>名稱</th><th>價格</th><th>今日</th><th>20日</th><th>近60日</th><th>RSI</th><th>技術</th><th>新聞</th><th>總分</th><th>建議</th><th>信心</th></tr></thead><tbody>`;
+  m.stocks.forEach((s,i)=>{
+    html+=`<tr class="row" data-i="${i}"><td><b>${esc(s.symbol)}</b></td><td>${esc(s.name)}</td><td>${num(s.price)}</td><td>${pct(s.change_pct)}</td><td>${pct(s.ret_20d)}</td><td>${spark(s.spark)}</td><td>${s.rsi14==null?"—":s.rsi14.toFixed(0)}</td><td>${sc(s.technical_score)}</td><td>${sc(s.news_score)}</td><td><b>${sc(s.score)}</b></td><td><span class="badge" style="background:${RC[s.rating]}">${esc(s.rating)}</span></td><td>${esc(s.confidence)}</td></tr>
+    <tr class="detail" id="d${i}" hidden><td colspan="12"><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+      <div><b>判斷理由</b><ul>${s.reasons.map(r=>`<li>${esc(r)}</li>`).join("")||"<li>訊號中性</li>"}</ul>
+      <span class="muted">20MA ${num(s.sma20)} · 50MA ${num(s.sma50)} · 年化波動 ${s.volatility??"—"}%</span></div>
+      <div><b>相關新聞</b>${newsList(s.news)}</div></div></td></tr>`;
+  });
+  html+=`</tbody></table></div>
+  <h2>大盤訊號</h2><div class="card"><ul>${ix.reasons.map(r=>`<li>${esc(r)}</li>`).join("")||"<li>訊號中性</li>"}</ul></div>
+  <h2>國家重點新聞</h2><div class="card">${newsList(m.headlines)}</div>`;
+  const v=document.getElementById("view");v.innerHTML=html;
+  v.querySelectorAll("tr.row").forEach(tr=>tr.onclick=()=>{const d=document.getElementById("d"+tr.dataset.i);d.hidden=!d.hidden;});
+}
+async function load(){
+  try{
+    const r=await fetch("data/latest.json?t="+Date.now());const data=await r.json();
+    const t=new Date(data.generated_at);
+    document.getElementById("ts").textContent="最後更新："+t.toLocaleString("zh-TW",{timeZone:"Asia/Taipei",hour12:false})+"（台北時間）";
+    if(data.demo)document.getElementById("demo").innerHTML=`<div class="warn">目前顯示的是離線示範資料，等待第一次自動更新後會換成真實行情。</div>`;
+    const codes=Object.keys(data.markets);
+    let cur=(()=>{try{return localStorage.getItem("mkt")}catch{return null}})();
+    if(!codes.includes(cur))cur=codes[0];
+    const tabs=document.getElementById("tabs");
+    const draw=()=>{tabs.innerHTML=codes.map(c=>`<button class="${c===cur?"on":""}" data-c="${c}">${esc(data.markets[c].name)}</button>`).join("");
+      tabs.querySelectorAll("button").forEach(b=>b.onclick=()=>{cur=b.dataset.c;try{localStorage.setItem("mkt",cur)}catch{};draw();});
+      render(data,cur);};
+    draw();
+  }catch(e){document.getElementById("ts").textContent="資料載入失敗："+e;}
+}
+load();setInterval(load,10*60*1000);
+</script>
+</body>
+</html>
