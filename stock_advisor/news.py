@@ -23,6 +23,8 @@ POS = {
     "upgrade": 1.5, "upgraded": 1.5, "growth": 1, "gain": 1, "gains": 1, "rise": 1, "rises": 1,
     "jump": 1.5, "jumps": 1.5, "bullish": 1.5, "strong": 1, "optimism": 1.5, "rate cut": 1,
     "outperform": 1.5, "boost": 1, "rebound": 1, "recovery": 1, "profit": 0.5, "buy": 0.5,
+    "暫緩": 1.5, "豁免": 1.5, "休兵": 1.5, "緩和": 1.5, "達成協議": 1.5, "勝訴": 1.5, "需求強": 1.5,
+    "truce": 1.5, "exemption": 1.5, "eases": 1, "easing": 1, "deal": 1, "agreement": 1, "wins": 1,
 }
 NEG = {
     "大跌": 2, "暴跌": 2, "重挫": 2, "跌停": 2, "崩跌": 2, "疲弱": 1.5, "低於預期": 2, "不如預期": 2,
@@ -34,6 +36,9 @@ NEG = {
     "drop": 1, "drops": 1, "decline": 1, "declines": 1, "bearish": 1.5, "weak": 1, "fears": 1.5,
     "layoffs": 1.5, "loss": 1, "losses": 1, "tariff": 1, "tariffs": 1, "sell-off": 2, "selloff": 2,
     "rate hike": 1, "inflation": 0.5, "lawsuit": 1, "probe": 1, "underperform": 1.5, "slowdown": 1.5,
+    "緊張": 1.5, "軍演": 1.5, "封鎖": 1.5, "升溫": 1, "罰款": 1.5, "反壟斷": 1, "禁令": 1.5, "管制": 1,
+    "tension": 1.5, "tensions": 1.5, "escalation": 1.5, "escalates": 1.5, "ban": 1.5,
+    "fined": 1.5, "antitrust": 1, "sanctions": 1.5, "export controls": 1.5,
 }
 NEGATORS = ("不", "未", "沒", "無", "not ", "no ", "n't ")
 
@@ -100,6 +105,11 @@ def aggregate(items: list[dict]) -> float:
         num += it["sentiment"] * w
         den += w
     return num / den if den else 0.0
+
+
+def heat(items: list[dict]) -> float:
+    """新聞熱度 0 ~ 1：近期（時間加權）報導越多越熱，約 8 則當日新聞即為滿分。"""
+    return min(1.0, sum(0.5 ** (it["age_hours"] / 24) for it in items) / 8)
 
 
 def dedupe(items: list[dict]) -> list[dict]:

@@ -44,3 +44,32 @@ def test_full_pipeline_demo():
         scores = [s["score"] for s in m["stocks"]]
         assert scores == sorted(scores, reverse=True)
         assert all(-1 <= x <= 1 for x in scores)
+
+
+def test_theme_score_direction():
+    themes = [
+        {"id": "a", "name": "A", "signal": 0.8, "count": 5, "exposure": {"X": 1.0, "Y": -0.5}},
+        {"id": "b", "name": "B", "signal": -0.6, "count": 5, "exposure": {"X": 0.5}},
+        {"id": "c", "name": "C", "signal": 0.9, "count": 0, "exposure": {"X": 1.0}},  # 無新聞不計
+    ]
+    sx, hits = engine.theme_score("X", themes)
+    assert abs(sx - (0.8 - 0.3) / 1.5) < 1e-9
+    assert hits[0]["id"] == "a"
+    sy, _ = engine.theme_score("Y", themes)
+    assert sy < 0  # 反向曝險
+    assert engine.theme_score("Z", themes) == (0.0, [])
+
+
+def test_theme_bias_makes_risk_news_negative():
+    # 關稅主題：標題中性但報導很多 -> 訊號偏負
+    neutral = lambda q, lang, limit=10: [
+        {"title": f"tariff update {i}", "link": "", "source": "", "published": "", "age_hours": 1.0, "sentiment": 0.0}
+        for i in range(10)]
+    themes = {t["id"]: t for t in engine.analyze_themes(neutral)}
+    assert themes["tariff"]["signal"] < 0
+    assert themes["semi"]["signal"] == 0
+
+
+def test_weights_sum_to_one():
+    from stock_advisor import config
+    assert abs(sum(config.WEIGHTS.values()) - 1) < 1e-9

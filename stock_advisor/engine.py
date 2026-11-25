@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 
 from . import config, indicators, news
+from .themes import THEMES
 
 
 def fetch_prices(symbols: list[str]) -> dict[str, pd.DataFrame]:
@@ -45,6 +46,7 @@ def analyze(prices: dict | None = None, news_fetcher=news.fetch) -> dict:
     result = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "markets": {},
+        "themes": [],
     }
 
     all_syms = []
@@ -52,6 +54,9 @@ def analyze(prices: dict | None = None, news_fetcher=news.fetch) -> dict:
         all_syms += [m["index"], *m["watchlist"].keys()]
     if prices is None:
         prices = fetch_prices(all_syms)
+
+    themes = analyze_themes(news_fetcher)
+    result["themes"] = themes
 
     for code, m in config.MARKETS.items():
         # --- 國家 / 總體新聞 ---
@@ -96,7 +101,9 @@ def analyze(prices: dict | None = None, news_fetcher=news.fetch) -> dict:
             s_items = news.dedupe(news_fetcher(news_query_for(sym, name, code), m["news_lang"], 10))
             s_news = news.aggregate(s_items)
 
-            total = (w["technical"] * tech + w["stock_news"] * s_news
+            t_score, t_hits = theme_score(sym, themes)
+
+            total = (w["technical"] * tech + w["stock_news"] * s_news + w["theme"] * t_score
                      + w["macro_news"] * macro_score + w["market_trend"] * idx_score)
             total = float(np.clip(total, -1, 1))
 
@@ -104,6 +111,8 @@ def analyze(prices: dict | None = None, news_fetcher=news.fetch) -> dict:
                 reasons.append(f"個股新聞偏正面（{s_news:+.2f}）")
             elif s_news <= -0.25:
                 reasons.append(f"個股新聞偏負面（{s_news:+.2f}）")
+            for h in t_hits[:2]:
+                reasons.append(f"{'受惠' if h['impact'] > 0 else '受壓'}主題：{h['name']}（{h['impact']:+.2f}）")
             if macro_score >= 0.2:
                 reasons.append("國家總體新聞氣氛偏多")
             elif macro_score <= -0.2:
@@ -116,6 +125,7 @@ def analyze(prices: dict | None = None, news_fetcher=news.fetch) -> dict:
                 "rsi14": _r(ind["rsi14"], 1), "volatility": _r(ind["volatility_20d"], 1),
                 "sma20": _r(ind["sma20"], 2), "sma50": _r(ind["sma50"], 2),
                 "technical_score": round(tech, 3), "news_score": round(s_news, 3),
+                "theme_score": round(t_score, 3), "themes": t_hits,
                 "score": round(total, 3), "rating": rate(total),
                 "confidence": _confidence(tech, s_news, macro_score, len(s_items)),
                 "reasons": reasons[:6],
@@ -123,8 +133,52 @@ def analyze(prices: dict | None = None, news_fetcher=news.fetch) -> dict:
                 "spark": [round(float(x), 2) for x in df["Close"].iloc[-60:]],
             })
         mk["stocks"].sort(key=lambda s: s["score"], reverse=True)
+        names = {s["symbol"]: s["name"] for s in mk["stocks"]}
+        mk["themes"] = [{
+            "id": t["id"], "name": t["name"], "signal": t["signal"], "heat": t["heat"],
+            "stocks": [{"symbol": sym, "name": names[sym], "exposure": e}
+                       for sym, e in sorted(t["exposure"].items(), key=lambda x: -abs(x[1])) if sym in names],
+        } for t in themes if any(sym in names for sym in t["exposure"])]
         result["markets"][code] = mk
     return result
+
+
+def analyze_themes(news_fetcher) -> list[dict]:
+    """抓取每個時事主題的中英文新聞，算出主題訊號。"""
+    out = []
+    for t in THEMES:
+        items = []
+        for code, q in t["queries"].items():
+            items += news_fetcher(q, config.MARKETS[code]["news_lang"], config.NEWS_PER_QUERY)
+        items = news.dedupe(items)
+        sent = news.aggregate(items)
+        heat = news.heat(items)
+        signal = float(np.clip(sent + t.get("bias", 0.0) * heat, -1, 1))
+        out.append({
+            "id": t["id"], "name": t["name"], "signal": round(signal, 3),
+            "sentiment": round(sent, 3), "heat": round(heat, 2), "count": len(items),
+            "exposure": t["exposure"],
+            "headlines": sorted(items, key=lambda x: x["age_hours"])[:6],
+        })
+    out.sort(key=lambda x: -abs(x["signal"]))
+    return out
+
+
+def theme_score(symbol: str, themes: list[dict]) -> tuple[float, list[dict]]:
+    """個股主題分數 = Σ(曝險 × 主題訊號) / Σ|曝險|，並列出影響最大的主題。"""
+    num = den = 0.0
+    hits = []
+    for t in themes:
+        e = t["exposure"].get(symbol)
+        if not e or t["count"] == 0:
+            continue
+        impact = e * t["signal"]
+        num += impact
+        den += abs(e)
+        if abs(impact) >= 0.05:
+            hits.append({"id": t["id"], "name": t["name"], "impact": round(impact, 3)})
+    hits.sort(key=lambda h: -abs(h["impact"]))
+    return (float(np.clip(num / den, -1, 1)) if den else 0.0), hits
 
 
 def _r(v, n):

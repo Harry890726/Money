@@ -7,9 +7,11 @@ import pandas as pd
 from . import config, news
 
 _SAMPLE = {
-    "TW": ["台股大漲創新高 外資買超", "台積電營收優於預期", "央行維持利率不變", "關稅疑慮 電子股走弱", "AI 伺服器訂單滿 廣達看好"],
+    "TW": ["台股大漲創新高 外資買超", "台積電營收優於預期", "央行維持利率不變", "關稅疑慮 電子股走弱", "AI 伺服器訂單滿 廣達看好",
+           "關稅暫緩 電子股反彈", "兩岸局勢緊張 外資賣超"],
     "US": ["Stocks rally as Fed signals rate cut", "Nvidia beats estimates on AI demand",
-           "Tesla shares tumble after delivery miss", "Inflation fears weigh on Wall Street", "Apple upgraded by analysts"],
+           "Tesla shares tumble after delivery miss", "Inflation fears weigh on Wall Street", "Apple upgraded by analysts",
+           "Tariffs escalation fears hit Apple", "AI data center spending surge"],
 }
 
 

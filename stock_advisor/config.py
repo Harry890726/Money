@@ -40,12 +40,14 @@ MARKETS = {
     },
 }
 
-# 綜合分數權重（技術面、個股新聞、國家/總體新聞、大盤趨勢）
+# 綜合分數權重（合計 1.0）：技術面、個股新聞、時事主題、國家/總體新聞、大盤趨勢
+# 時事主題對應表在 themes.py
 WEIGHTS = {
-    "technical": 0.50,
+    "technical": 0.45,
     "stock_news": 0.20,
-    "macro_news": 0.15,
-    "market_trend": 0.15,
+    "theme": 0.15,
+    "macro_news": 0.10,
+    "market_trend": 0.10,
 }
 
 # 分數門檻 -> 建議
