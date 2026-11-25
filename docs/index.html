@@ -43,6 +43,13 @@ ul{padding-left:18px;margin:6px 0}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
 .disc{margin-top:24px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}
 h2{font-size:16px;margin:22px 0 10px}
+.themes{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.theme h3{font-size:15px;margin:0 0 4px;display:flex;justify-content:space-between;gap:8px}
+.bar{position:relative;height:6px;background:var(--line);border-radius:3px;margin:8px 0}
+.bar i{position:absolute;top:0;bottom:0;border-radius:3px}
+.bar::after{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--muted)}
+.chip{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin:2px 4px 2px 0;font-size:12px}
+details summary{cursor:pointer;color:var(--muted);font-size:13px;margin-top:6px}
 .warn{background:#fef0c7;color:#7a2e0e;padding:8px 12px;border-radius:8px;margin-top:10px;font-size:13px}
 </style>
 </head>
@@ -55,7 +62,7 @@ h2{font-size:16px;margin:22px 0 10px}
   <div id="demo"></div>
   <div class="tabs" id="tabs"></div>
   <div id="view"></div>
-  <p class="disc">本頁由演算法每小時自動更新，綜合技術指標（均線、RSI、MACD、布林通道、動能、量能）與國家／個股新聞情緒分數產生建議，僅供研究參考，不構成任何投資建議。投資有風險，請自行判斷並承擔盈虧。</p>
+  <p class="disc">本頁由演算法每小時自動更新，綜合技術指標（均線、RSI、MACD、布林通道、動能、量能）、個股新聞、時事主題對應產業與國家新聞情緒分數產生建議，僅供研究參考，不構成任何投資建議。投資有風險，請自行判斷並承擔盈虧。</p>
 </div>
 <script>
 const RC={"強力買進":"var(--r-sb)","買進":"var(--r-b)","持有觀望":"var(--r-h)","減碼":"var(--r-s)","賣出":"var(--r-ss)"};
@@ -90,16 +97,31 @@ function render(data,code){
   </div>
   <h2>個股建議（點擊列查看細節）</h2>
   <div class="card scroll" style="padding:4px 8px"><table>
-  <thead><tr><th>代號</th><th>名稱</th><th>價格</th><th>今日</th><th>20日</th><th>近60日</th><th>RSI</th><th>技術</th><th>新聞</th><th>總分</th><th>建議</th><th>信心</th></tr></thead><tbody>`;
+  <thead><tr><th>代號</th><th>名稱</th><th>價格</th><th>今日</th><th>20日</th><th>近60日</th><th>RSI</th><th>技術</th><th>新聞</th><th>主題</th><th>總分</th><th>建議</th><th>信心</th></tr></thead><tbody>`;
   m.stocks.forEach((s,i)=>{
-    html+=`<tr class="row" data-i="${i}"><td><b>${esc(s.symbol)}</b></td><td>${esc(s.name)}</td><td>${num(s.price)}</td><td>${pct(s.change_pct)}</td><td>${pct(s.ret_20d)}</td><td>${spark(s.spark)}</td><td>${s.rsi14==null?"—":s.rsi14.toFixed(0)}</td><td>${sc(s.technical_score)}</td><td>${sc(s.news_score)}</td><td><b>${sc(s.score)}</b></td><td><span class="badge" style="background:${RC[s.rating]}">${esc(s.rating)}</span></td><td>${esc(s.confidence)}</td></tr>
-    <tr class="detail" id="d${i}" hidden><td colspan="12"><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+    html+=`<tr class="row" data-i="${i}"><td><b>${esc(s.symbol)}</b></td><td>${esc(s.name)}</td><td>${num(s.price)}</td><td>${pct(s.change_pct)}</td><td>${pct(s.ret_20d)}</td><td>${spark(s.spark)}</td><td>${s.rsi14==null?"—":s.rsi14.toFixed(0)}</td><td>${sc(s.technical_score)}</td><td>${sc(s.news_score)}</td><td>${sc(s.theme_score??0)}</td><td><b>${sc(s.score)}</b></td><td><span class="badge" style="background:${RC[s.rating]}">${esc(s.rating)}</span></td><td>${esc(s.confidence)}</td></tr>
+    <tr class="detail" id="d${i}" hidden><td colspan="13"><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
       <div><b>判斷理由</b><ul>${s.reasons.map(r=>`<li>${esc(r)}</li>`).join("")||"<li>訊號中性</li>"}</ul>
+      ${(s.themes||[]).length?`<div style="margin-bottom:6px">${s.themes.map(h=>`<span class="chip">${esc(h.name)} ${sc(h.impact)}</span>`).join("")}</div>`:""}
       <span class="muted">20MA ${num(s.sma20)} · 50MA ${num(s.sma50)} · 年化波動 ${s.volatility??"—"}%</span></div>
       <div><b>相關新聞</b>${newsList(s.news)}</div></div></td></tr>`;
   });
-  html+=`</tbody></table></div>
-  <h2>大盤訊號</h2><div class="card"><ul>${ix.reasons.map(r=>`<li>${esc(r)}</li>`).join("")||"<li>訊號中性</li>"}</ul></div>
+  html+=`</tbody></table></div>`;
+  const tmap=Object.fromEntries((data.themes||[]).map(t=>[t.id,t]));
+  if((m.themes||[]).length){
+    html+=`<h2>時事主題（訊號 × 個股曝險 = 主題分數）</h2><div class="themes">`;
+    m.themes.forEach(t=>{
+      const g=tmap[t.id]||{},v=t.signal,w=Math.min(50,Math.abs(v)*50);
+      const col=v>0?"var(--up)":"var(--down)";
+      html+=`<div class="card theme"><h3><span>${esc(t.name)}</span>${sc(v)}</h3>
+        <div class="bar"><i style="background:${col};${v>=0?`left:50%`:`left:${50-w}%`};width:${w}%"></i></div>
+        <div class="muted">新聞熱度 ${Math.round(t.heat*100)}% · ${v>0.1?"利多":v<-0.1?"利空":"中性"}</div>
+        <div style="margin-top:6px">${t.stocks.map(x=>`<span class="chip">${esc(x.name)}${x.exposure<0?" ↘反向":""}</span>`).join("")}</div>
+        <details><summary>相關新聞</summary>${newsList(g.headlines)}</details></div>`;
+    });
+    html+=`</div>`;
+  }
+  html+=`<h2>大盤訊號</h2><div class="card"><ul>${ix.reasons.map(r=>`<li>${esc(r)}</li>`).join("")||"<li>訊號中性</li>"}</ul></div>
   <h2>國家重點新聞</h2><div class="card">${newsList(m.headlines)}</div>`;
   const v=document.getElementById("view");v.innerHTML=html;
   v.querySelectorAll("tr.row").forEach(tr=>tr.onclick=()=>{const d=document.getElementById("d"+tr.dataset.i);d.hidden=!d.hidden;});
