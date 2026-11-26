@@ -51,6 +51,17 @@ h2{font-size:16px;margin:22px 0 10px}
 .bar::after{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--muted)}
 .chip{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin:2px 4px 2px 0;font-size:12px}
 details summary{cursor:pointer;color:var(--muted);font-size:13px;margin-top:6px}
+.rbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-top:12px;font-size:13px}
+.rbar select,.rbar button{font:inherit;font-size:13px;padding:5px 10px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--fg)}
+.rbar button{cursor:pointer}.rbar button:disabled{opacity:.5;cursor:default}
+.switch{display:inline-flex;align-items:center;gap:6px;cursor:pointer;user-select:none}
+.switch input{appearance:none;width:34px;height:20px;border-radius:10px;background:var(--line);position:relative;cursor:pointer;margin:0;transition:background .2s}
+.switch input::after{content:"";position:absolute;top:2px;left:2px;width:16px;height:16px;border-radius:50%;background:#fff;transition:left .2s}
+.switch input:checked{background:var(--accent)}.switch input:checked::after{left:16px}
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:var(--fg);color:var(--bg);padding:9px 16px;border-radius:999px;font-size:14px;opacity:0;pointer-events:none;transition:all .3s;z-index:10;max-width:calc(100% - 32px)}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+@keyframes flash{from{background:color-mix(in srgb,var(--accent) 18%,transparent)}to{background:transparent}}
+.flash{animation:flash 1.6s ease-out}
 .warn{background:#fef0c7;color:#7a2e0e;padding:8px 12px;border-radius:8px;margin-top:10px;font-size:13px}
 </style>
 </head>
@@ -60,6 +71,13 @@ details summary{cursor:pointer;color:var(--muted);font-size:13px;margin-top:6px}
     <h1>台美股投資建議</h1>
     <span class="muted" id="ts">載入中…</span>
   </header>
+  <div class="rbar" id="rbar">
+    <label class="switch"><input type="checkbox" id="auto"><span>自動刷新</span></label>
+    <select id="every" aria-label="刷新間隔"><option value="30">每 30 秒</option><option value="60">每 1 分鐘</option><option value="300">每 5 分鐘</option></select>
+    <span id="countdown" class="muted"></span>
+    <button id="now" type="button">↻ 立即刷新</button>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
   <div id="demo"></div>
   <div class="tabs" id="tabs"></div>
   <div id="view"></div>
@@ -125,7 +143,7 @@ function render(data,code){
   <div class="card scroll" style="padding:4px 8px"><table>
   <thead><tr><th>代號</th><th>名稱</th><th>價格</th><th>今日</th><th>20日</th><th>近60日</th><th>RSI</th><th>技術</th><th>新聞</th><th>主題</th><th>總分</th><th>建議</th><th>信心</th></tr></thead><tbody>`;
   m.stocks.forEach((s,i)=>{
-    html+=`<tr class="row" data-i="${i}"><td><b>${esc(s.symbol)}</b></td><td>${esc(s.name)}</td><td>${num(s.price)}</td><td>${pct(s.change_pct)}</td><td>${pct(s.ret_20d)}</td><td>${spark(s.spark)}</td><td>${s.rsi14==null?"—":s.rsi14.toFixed(0)}</td><td>${sc(s.technical_score)}</td><td>${sc(s.news_score)}</td><td>${sc(s.theme_score??0)}</td><td><b>${sc(s.score)}</b></td><td><span class="badge" style="background:${RC[s.rating]}">${esc(s.rating)}</span></td><td>${esc(s.confidence)}</td></tr>
+    html+=`<tr class="row" data-i="${i}" data-sym="${esc(s.symbol)}"><td><b>${esc(s.symbol)}</b></td><td>${esc(s.name)}</td><td>${num(s.price)}</td><td>${pct(s.change_pct)}</td><td>${pct(s.ret_20d)}</td><td>${spark(s.spark)}</td><td>${s.rsi14==null?"—":s.rsi14.toFixed(0)}</td><td>${sc(s.technical_score)}</td><td>${sc(s.news_score)}</td><td>${sc(s.theme_score??0)}</td><td><b>${sc(s.score)}</b></td><td><span class="badge" style="background:${RC[s.rating]}">${esc(s.rating)}</span></td><td>${esc(s.confidence)}</td></tr>
     <tr class="detail" id="d${i}" hidden><td colspan="13"><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
       <div><b>判斷理由</b><ul>${s.reasons.map(r=>`<li>${esc(r)}</li>`).join("")||"<li>訊號中性</li>"}</ul>
       ${(s.themes||[]).length?`<div style="margin-bottom:6px">${s.themes.map(h=>`<span class="chip">${esc(h.name)} ${sc(h.impact)}</span>`).join("")}</div>`:""}
@@ -144,41 +162,87 @@ function render(data,code){
         <div class="bar"><i style="background:${col};${v>=0?`left:50%`:`left:${50-w}%`};width:${w}%"></i></div>
         <div class="muted">新聞熱度 ${Math.round(t.heat*100)}% · ${v>0.1?"利多":v<-0.1?"利空":"中性"}</div>
         <div style="margin-top:6px">${t.stocks.map(x=>`<span class="chip">${esc(x.name)}${x.exposure<0?" ↘反向":""}</span>`).join("")}</div>
-        <details><summary>相關新聞</summary>${newsList(g.headlines)}</details></div>`;
+        <details data-k="${esc(code+t.id)}"><summary>相關新聞</summary>${newsList(g.headlines)}</details></div>`;
     });
     html+=`</div>`;
   }
   html+=`<h2>大盤訊號</h2><div class="card"><ul>${ix.reasons.map(r=>`<li>${esc(r)}</li>`).join("")||"<li>訊號中性</li>"}</ul></div>
   <h2>國家重點新聞</h2><div class="card">${newsList(m.headlines)}</div>`;
   const v=document.getElementById("view");v.innerHTML=html;
-  v.querySelectorAll("tr.row").forEach(tr=>tr.onclick=()=>{const d=document.getElementById("d"+tr.dataset.i);d.hidden=!d.hidden;});
+  v.querySelectorAll("tr.row").forEach(tr=>tr.onclick=()=>{const d=document.getElementById("d"+tr.dataset.i);d.hidden=!d.hidden;
+    d.hidden?openRows.delete(tr.dataset.sym):openRows.add(tr.dataset.sym);});
+  v.querySelectorAll("tr.row").forEach(tr=>{if(openRows.has(tr.dataset.sym))document.getElementById("d"+tr.dataset.i).hidden=false;});
+  v.querySelectorAll("details[data-k]").forEach(d=>{d.open=openDetails.has(d.dataset.k);d.ontoggle=()=>d.open?openDetails.add(d.dataset.k):openDetails.delete(d.dataset.k);});
 }
-async function load(){
+const openRows=new Set(),openDetails=new Set();
+let DATA=null,lastLoad=0,timer=null,nextAt=0,pageHash=null,checks=0;
+const store={get:(k,d)=>{try{return localStorage.getItem(k)??d}catch{return d}},set:(k,v)=>{try{localStorage.setItem(k,v)}catch{}}};
+const hash=t=>{let h=0;for(let i=0;i<t.length;i++)h=(h*31+t.charCodeAt(i))|0;return h};
+function toast(msg){const el=document.getElementById("toast");el.textContent=msg;el.classList.add("show");clearTimeout(toast.t);toast.t=setTimeout(()=>el.classList.remove("show"),2600);}
+function showTime(){
+  if(!DATA)return;
+  const t=new Date(DATA.generated_at),mins=Math.max(0,Math.round((Date.now()-t)/60000));
+  const ago=mins<60?`${mins} 分鐘前`:mins<1440?`${Math.floor(mins/60)} 小時 ${mins%60} 分前`:`${Math.floor(mins/1440)} 天前`;
+  document.getElementById("ts").innerHTML=`資料時間：${esc(t.toLocaleString("zh-TW",{timeZone:"Asia/Taipei",hour12:false}))}（${ago}）`+
+    (lastLoad?`<br><span style="font-size:12px">最後檢查 ${new Date(lastLoad).toLocaleTimeString("zh-TW",{hour12:false})}</span>`:"");
+}
+function draw(){
+  const data=DATA,codes=[...Object.keys(data.markets),"FX"];
+  const label=c=>c==="FX"?"國泰匯率":data.markets[c].name;
+  let cur=store.get("mkt",codes[0]);if(!codes.includes(cur))cur=codes[0];
+  const tabs=document.getElementById("tabs");
+  tabs.innerHTML=codes.map(c=>`<button class="${c===cur?"on":""}" data-c="${c}">${esc(label(c))}</button>`).join("");
+  tabs.querySelectorAll("button").forEach(b=>b.onclick=()=>{store.set("mkt",b.dataset.c);draw();});
+  cur==="FX"?renderFx(data):render(data,cur);
+}
+async function load(manual){
+  const btn=document.getElementById("now");btn.disabled=true;
   try{
-    const r=await fetch("data/latest.json?t="+Date.now());const data=await r.json();
-    const t=new Date(data.generated_at);
-    const mins=Math.max(0,Math.round((Date.now()-t)/60000));
-    const ago=mins<60?`${mins} 分鐘前`:mins<1440?`${Math.floor(mins/60)} 小時 ${mins%60} 分前`:`${Math.floor(mins/1440)} 天前`;
-    document.getElementById("ts").innerHTML=`資料時間：${esc(t.toLocaleString("zh-TW",{timeZone:"Asia/Taipei",hour12:false}))}（${ago}）<br><span style="font-size:12px">畫面於 ${new Date().toLocaleTimeString("zh-TW",{hour12:false})} 重新讀取</span>`;
-    if(data.demo)document.getElementById("demo").innerHTML=`<div class="warn">目前顯示的是離線示範資料，等待第一次自動更新後會換成真實行情。</div>`;
-    const codes=[...Object.keys(data.markets),"FX"];
-    const label=c=>c==="FX"?"國泰匯率":data.markets[c].name;
-    let cur=(()=>{try{return localStorage.getItem("mkt")}catch{return null}})();
-    if(!codes.includes(cur))cur=codes[0];
-    const tabs=document.getElementById("tabs");
-    const draw=()=>{tabs.innerHTML=codes.map(c=>`<button class="${c===cur?"on":""}" data-c="${c}">${esc(label(c))}</button>`).join("");
-      tabs.querySelectorAll("button").forEach(b=>b.onclick=()=>{cur=b.dataset.c;try{localStorage.setItem("mkt",cur)}catch{};draw();});
-      cur==="FX"?renderFx(data):render(data,cur);};
-    draw();
-  }catch(e){document.getElementById("ts").textContent="資料載入失敗："+e;}
+    const r=await fetch("data/latest.json?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok)throw new Error("HTTP "+r.status);
+    const data=await r.json();lastLoad=Date.now();
+    const changed=!DATA||data.generated_at!==DATA.generated_at;
+    if(changed){
+      const first=!DATA,y=window.scrollY;DATA=data;
+      if(data.demo)document.getElementById("demo").innerHTML=`<div class="warn">目前顯示的是離線示範資料，等待第一次自動更新後會換成真實行情。</div>`;
+      draw();
+      if(!first){window.scrollTo(0,y);document.getElementById("view").classList.remove("flash");void document.body.offsetWidth;document.getElementById("view").classList.add("flash");toast("已更新為最新資料");}
+    }else if(manual)toast("目前已是最新資料");
+    showTime();
+    if(++checks%10===0)checkNewVersion();
+  }catch(e){
+    if(!DATA)document.getElementById("ts").textContent="資料載入失敗："+e.message;
+    else if(manual)toast("刷新失敗，稍後會自動再試");
+  }finally{btn.disabled=false;schedule();}
 }
-load();setInterval(load,60*1000);
-// 手機切回此頁、從主畫面重新開啟、或從上一頁返回時，立即重新讀取最新資料
-let lastLoad=Date.now();
-const reloadIfStale=()=>{if(document.visibilityState==="visible"&&Date.now()-lastLoad>30*1000){lastLoad=Date.now();load();}};
-document.addEventListener("visibilitychange",reloadIfStale);
-window.addEventListener("pageshow",e=>{if(e.persisted){lastLoad=0;reloadIfStale();}});
-window.addEventListener("focus",reloadIfStale);
+// 網站程式有更新時（例如新增功能），自動重新整理整個頁面
+async function checkNewVersion(){
+  try{const h=hash(await (await fetch("index.html?t="+Date.now(),{cache:"no-store"})).text());
+    if(pageHash===null)pageHash=h;else if(h!==pageHash){toast("網站已更新，重新載入中…");setTimeout(()=>location.reload(),1200);}}catch{}
+}
+function schedule(){
+  clearTimeout(timer);nextAt=0;
+  if(!document.getElementById("auto").checked||document.visibilityState!=="visible")return;
+  const sec=+document.getElementById("every").value;nextAt=Date.now()+sec*1000;timer=setTimeout(()=>load(false),sec*1000);
+}
+setInterval(()=>{  // 倒數顯示 + 「幾分鐘前」持續更新
+  const el=document.getElementById("countdown");
+  if(!document.getElementById("auto").checked)el.textContent="已暫停";
+  else if(nextAt){const s=Math.max(0,Math.ceil((nextAt-Date.now())/1000));el.textContent=`${s} 秒後刷新`;}
+  showTime();
+},1000);
+(()=>{
+  const auto=document.getElementById("auto"),every=document.getElementById("every");
+  auto.checked=store.get("auto","1")==="1";every.value=store.get("every","60");if(!every.value)every.value="60";
+  auto.onchange=()=>{store.set("auto",auto.checked?"1":"0");auto.checked?load(false):schedule();};
+  every.onchange=()=>{store.set("every",every.value);schedule();};
+  document.getElementById("now").onclick=()=>load(true);
+  // 切到其他 App 時暫停，切回來立即檢查一次
+  const back=()=>{if(document.visibilityState==="visible"){if(auto.checked&&Date.now()-lastLoad>15000)load(false);else schedule();}else{clearTimeout(timer);nextAt=0;}};
+  document.addEventListener("visibilitychange",back);
+  window.addEventListener("pageshow",e=>{if(e.persisted)back();});
+  checkNewVersion();load(false);
+})();
 </script>
 </body>
 </html>
