@@ -1,109 +1,109 @@
 # 台美股投資建議報告
 
-更新時間：2026-11-26 01:57（台北時間）
+更新時間：2026-11-26 09:46（台北時間）
 
 > 本報告由演算法依技術指標與新聞情緒自動產生，僅供參考，不構成投資建議。投資有風險，請自行判斷。
 
 ## 台灣股市
 
-- **大盤**：加權指數 40,122.35（今日 +8.99%，20 日 -12.96%）
-- **市場看法**：偏空：降低持股、保留現金（市場分數 -0.44，新聞情緒 -0.20）
+- **大盤**：加權指數 39,245.60（今日 -2.19%，20 日 -16.56%）
+- **市場看法**：偏空：降低持股、保留現金（市場分數 -0.42，新聞情緒 -0.15）
 
 | 代號 | 名稱 | 價格 | 今日 | 20日 | RSI | 主題 | 分數 | 建議 | 信心 | 主要理由 |
 |---|---|---:|---:|---:|---:|---:|---:|---|---|---|
-| 2412.TW | 中華電 | 164.50 | +0.00% | +4.11% | 64 | -0.08 | +0.01 | **持有觀望** | 低 | 股價站上 20/50 日均線，多頭排列；位於 200 日均線之上（長多）；價跌量增（量比 3.1x） |
-| 2454.TW | 聯發科 | 4,050.00 | +9.91% | +2.27% | 52 | -0.06 | -0.05 | **持有觀望** | 低 | 位於 200 日均線之上（長多）；個股新聞偏負面（-0.42）；受壓主題：關稅與貿易戰（-0.24） |
-| 2330.TW | 台積電 | 2,230.00 | +9.85% | -7.08% | 48 | -0.04 | -0.27 | **減碼** | 中 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之上（長多）；受壓主題：關稅與貿易戰（-0.29） |
-| 2881.TW | 富邦金 | 143.50 | +9.96% | -11.42% | 43 | -0.06 | -0.31 | **減碼** | 中 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之上（長多）；近 20 日下跌 11.4% |
-| 2308.TW | 台達電 | 1,085.00 | +9.60% | -28.15% | 39 | -0.02 | -0.36 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 28.1% |
-| 0050.TW | 元大台灣50 | 95.70 | +10.00% | -10.23% | 46 | -0.08 | -0.38 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 10.2% |
-| 2317.TW | 鴻海 | 226.50 | +9.95% | -8.48% | 46 | -0.07 | -0.39 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 8.5% |
-| 2382.TW | 廣達 | 282.50 | +9.92% | -13.74% | 45 | -0.09 | -0.40 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 13.7% |
+| 2412.TW | 中華電 | 169.00 | +3.36% | +6.96% | 70 | -0.11 | +0.08 | **持有觀望** | 低 | 股價站上 20/50 日均線，多頭排列；位於 200 日均線之上（長多）；突破布林上軌，短線乖離大 |
+| 2454.TW | 聯發科 | 3,825.00 | +4.94% | -5.44% | 48 | -0.09 | -0.12 | **持有觀望** | 中 | 位於 200 日均線之上（長多）；受壓主題：關稅與貿易戰（-0.26）；受壓主題：兩岸與地緣政治（-0.11） |
+| 2308.TW | 台達電 | 1,120.00 | +6.16% | -24.32% | 42 | -0.04 | -0.25 | **減碼** | 低 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 24.3% |
+| 2382.TW | 廣達 | 277.00 | +6.13% | -12.89% | 45 | -0.11 | -0.28 | **減碼** | 中 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；MACD 黃金交叉 |
+| 2881.TW | 富邦金 | 138.00 | +4.15% | -14.81% | 41 | -0.05 | -0.31 | **減碼** | 中 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之上（長多）；近 20 日下跌 14.8% |
+| 0050.TW | 元大台灣50 | 92.50 | -3.34% | -14.86% | 42 | -0.10 | -0.35 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 14.9% |
+| 2317.TW | 鴻海 | 216.50 | +4.84% | -12.70% | 43 | -0.09 | -0.39 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 12.7% |
+| 2330.TW | 台積電 | 2,150.00 | +0.00% | -10.97% | 43 | -0.06 | -0.40 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 11.0% |
 
 ### 時事主題
 
 | 主題 | 訊號 | 熱度 | 相關個股 |
 |---|---:|---:|---|
-| 關稅與貿易戰 | -0.49 | 100% | 鴻海、廣達、台積電、台達電、聯發科 |
+| 關稅與貿易戰 | -0.52 | 100% | 鴻海、廣達、台積電、台達電、聯發科 |
 | AI 伺服器與算力 | +0.27 | 100% | 廣達、台積電、鴻海、台達電、元大台灣50 |
-| 電動車 | +0.17 | 100% | 台達電、鴻海 |
-| 兩岸與地緣政治 | -0.17 | 100% | 台積電、元大台灣50、鴻海、聯發科、廣達 |
-| 半導體景氣 | +0.05 | 100% | 台積電、聯發科、元大台灣50、台達電 |
+| 兩岸與地緣政治 | -0.19 | 100% | 台積電、元大台灣50、鴻海、聯發科、廣達 |
+| 電動車 | +0.16 | 100% | 台達電、鴻海 |
+| 利率與央行政策 | -0.06 | 100% | 元大台灣50、台積電、富邦金(反向)、中華電 |
 | iPhone 與消費電子 | +0.04 | 100% | 鴻海、台積電、聯發科 |
-| 利率與央行政策 | -0.02 | 100% | 元大台灣50、台積電、富邦金(反向)、中華電 |
-| 金融與壽險 | -0.02 | 100% | 富邦金、元大台灣50 |
+| 半導體景氣 | +0.01 | 100% | 台積電、聯發科、元大台灣50、台達電 |
+| 金融與壽險 | +0.01 | 100% | 富邦金、元大台灣50 |
 
 ### 國家重點新聞
 
-- 🔴 [美301調查出爐 擬對14經濟體加關稅 台灣上限15%且不疊加 - Yahoo新聞](https://news.google.com/rss/articles/CBMi3AJBVV95cUxQdXl0V1ZLenhZbFJubVJ4b1FRX2tkdWxOZldveENBTHM4QzhuY3RSbGJhVGpmcmQxNXN5RGowNVRzcGR2bHZKSl8ycTBYYjYxVlZyVW50WVUyX0w1ZFhXc19fajF2bTZ1a3dPN05YZUwtQ2wxT2hYZ3NWbWkyNEhJUWZkR0ZMY25YREs1TC1wTkFRdVpDQTA1WlBVZUlnZ2hUZXlWOURtZWgxdUJNRk5MaFhHMFU3SEpPVkpSSVQ5QklHSEZHZ2NnSjlhWTg0ZTVVNUhXTUhQY0Itd0ptWVhFcDl1dEJsR2pFSEtGbnFuaHlmRlg4QjVEODZMMEVsS3gza0JKNVdtVWtrU1RYWnpEVUJHNE1McXpsNWNKOF80bWhDblBfaWxJUC0zN2lRQkhVamVBN3pkWEcxNy1FYmxfa3lwTzVRY284ZDhzaW5obTV5Wm1DaDZFYVUwa0U?oc=5)
-- 🔴 [台股重挫1926點還沒完? 台指期夜盤再跌近2000點 3萬7保衛戰提前上演| 財經焦點 - 太報 TaiSounds](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fVDg4TTdrcThHbGVHLVlpUER5Y2c0czUweW4ta1VsakdRZWJrX0IzcDhOVThQNXBGcjZMWWR2YUZYb2g5Z3kyYnBSZmVZRmRVOW10UFFIb2U5YlpY?oc=5)
-- ⚪ [臺東縣地方自願檢視報告榮獲「2026台灣企業永續獎」金級肯定 展現慢經濟與永續治理成果 - 台灣新聞雲報](https://news.google.com/rss/articles/CBMiRkFVX3lxTE5nRDhldGVMdVZUb3I4YXFwU2cxeTFmcmZ1RTBrT0ROajlfeHg1bDNld0xwNXpDQzllNEhDSWpWaHRHN0xZNmc?oc=5)
-- ⚪ [台指期外資空單攀高 期貨商：大盤波動率增 短線保守看待 - 經濟日報](https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6cDNva1o5N3daWldwODU0MkF0emdidmYyUzFGcEo0YmV0MWt4RVg1Rm0xekVHYktEWlE0TE9NdzRsY3lmR0FaUTFQVFdtYlo0dkJ4RlRKd25WdDjSAWBBVV95cUxQb2VyN3BSU21CZGpaM01DUDQ0NXFMT2ZvZkoxT2pTX1RKcjJ0TmR0UnFJd3JHOVJmWjdzQlMyZlQ4Z0tCSGc3NWtHUWNUOHA4OWJWbk5aTDhSa3NrMS04V0U?oc=5)
-- ⚪ [美國公布產能過剩301調查 台灣擬適用最高15%，另列25%備案 - 優分析 UAnalyze](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RRzFHWGhRMnllWlp5RnFKQzJvRzM0dWkyN2RLWkIwQXVXU3RQeGdxWDlrV1RFRmF2ZVR3ZlVEUXBkd2dMWGttX3R2dFVvaXVHVkY0LUZ3?oc=5)
-- 🔴 [AI泡沫若破恐比網路泡沫更慘！《WSJ》揭美經濟3大風險 台灣恐因「這原因」陷衰退 - 鉅亨網](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsaGp5NG13SzZGNVRwSUkxZHFXNEp2OElMakJaN2dBYzNyX3Uyck4wUmRTeUh2TDdveWg3ZEtHZHRDM2k1clNneFFla012SmM?oc=5)
-- 🔴 [川普關稅大刀來了！影響14經濟體 台灣協議「稅率至少15%」 - 三立新聞](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9heUQyMDBwdVMtd0c5X0d0UjZGOF9PbjBTMGNaWTBPTEdiUzBXbm1vR1pvT3M5eDFaTlkzd0VJR2lCQXVDRm1wSjF0aw?oc=5)
-- 🔴 [美301調查結果出爐！將對14個經濟體加徵關稅 台灣協議稅率至少15％ - 知新聞](https://news.google.com/rss/articles/CBMib0FVX3lxTE44UmZJbHZsQ3RacVcxemhnb1ZRZlBwN3R0Z3g5MXdycjVoeU5PRk9rUlNnZjBVYW51WnBFREZwcmtmZVRmeFlQVGtINUJ3M3VNZldiUkFXYl9GTGhxMXFUdGtNRk1qMUZkVWlLQ05lWQ?oc=5)
+- 🟢 [台股反彈大漲逾900點！2大權值股狂噴 PCB、記憶體復活 - Yahoo股市](https://news.google.com/rss/articles/CBMizAJBVV95cUxNZ3ROMXAxTE1VSThYcVlTSzktS1pBRUVEa2VIdEVIeTh0VmFKX1M4R2JGdzFyLWR4MWtsTEFadkNiaWpSUWhPV2c4YnhJTWNRY1FPT2RhQnVqSmgwcWprYmpVb2hLc1pBdkFPZmZoV1VIWHYwUERnaWFKeWNNRmhybGlMaVQyb05ZRTlXRFhDcEs2cEFQei10eVNJamlsSm4xeml4b1R6UTJlTmp0ODNFMDQ0UmJrSkQzMkJYTTJuTERweVhyQVFMQjMybnRqWWp3bGI1R3JUVTFzX3RJNHRRdlJ5OUNWVmVOWU5CQ1dHRTBlYjhJSk80eEI1X3VYUkdONFJIemc2M2NXOFVKQS0xeGhUc29zaEYwRGpWV0RkSG12M2dZcjM4WERjLWVJQkRGdkdjS0JjdVFxSkxQeHFnQnlmUnNKU2d0QXJJaw?oc=5)
+- ⚪ [【九合一選舉燒台股】抱股投票安啦？近9屆數據揭：選後1個月勝率近8成 - Yahoo股市](https://news.google.com/rss/articles/CBMi0wNBVV95cUxQUHFxRFJwV1drQ2liVVJGdG1OTmVaUl82ZlRLM1NDUkkwUWpHNHBwNl9oOWh5d253QmFaaXd2TTFsQ3lQT1J6RmlTdHJ4VGQ4MUVtWWI4aTY4ZVZVWlBwRUEzdExHdjB6WC03LVdMdlEwMV9aZVFJcUhZN1ZMdVdHY0kxRTFWbmdpbGN0NllLeG5aLUVQTDFmTEdPXzJ4b2tnS3BUeE9jbmd0Z0Jyc2dkeGNmOFlqTDFYXzFob2w4R2l1Sm94WDZteVBWLW9hRUcyTGxTRjc0aWhWX01BWTFUQUtmTmFrVU1fVnpWUlVNMUNhcTRFWFNRQWdTbHBFN1VxOXpoUUVnSktBOXZNSGRGa2lqbjZ2RnBqYXlyRkFtbEpzT0ZubHd3ZzgyYUJGX0Z2ODNxM3RBbmEzVW1KaTVxVFI2Y1Nvd0ZmQ1NRc2dmbHhEUDlPemRVRFR1bVhtRDlSNERiRE1YQU54b1N3MXpfR2lsWWlBUnJRWDJMZnhJaldtWlNGLVRLR0F1LWozVjUwWXhMalUzLURTa0JLYjVfaU1sVzlRX2ZNR2RrUTU2SkRPeURQWmg4d2s0alJWZnpHMkEtUW91TTFIZ1E2bGpyVThUUQ?oc=5)
+- ⚪ [台股重摔失守年線！「國家隊防線」支撐不能破 - UDN](https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KbHVhT09aaG10R1JiYXgzVzJSYVJMOWZ3RmVlV1c3ZHpEd0JZMm9WdExFWXp2eUt2bEtaUzZGUzRzSE1rYU5JREY2TzNoQ0lL0gFWQVVfeXFMTlpZZXduODN4MWxkaUxfeHpxcS1nSnJqN1R1aXhkem10bnd2MWZMWl96Q3RGVDJyYzZReVRJT3dYSzZTazRTSVRDYnVpM1VMcmZuX0lQMnc?oc=5)
+- 🔴 [快訊｜台股重挫1926點收38195點 外資賣超1236億元、投信逆勢買535億 - 墨新聞-MORE News](https://news.google.com/rss/articles/CBMiQkFVX3lxTE9FNGpEcGs1QkppYTlESmZvT09QZmRNRVFpckVDM3BmMGVUbTlxVVk5YjQwOXY4ZUlWWWVvbDhhYWxNUQ?oc=5)
+- ⚪ [無力最終要仍要看台積電？前外資首席分析師陳慧明：2關鍵神山明年衝5000元拉回都是買點？《雅筑會客室》EP72｜陳慧明、張雅筑｜豐雲學堂2026 年 11 月 - 永豐金證券](https://news.google.com/rss/articles/CBMi0AVBVV95cUxNYW9YbEdxMGM1QjBGOFFWR2hqTlRfc1hyOUNHa3VVYU1mX0RsZUNCZTQtRGkwRHZ6aXFxOXd1N3BCOThDTkVPQmp2NW5kU29ZbXZYRGFaU3ViQXlBdVVaZm1PZ1A4YlVJRlJXWXdNeHpMMnNPVDNqRFlDNXdsNXNydHUtdWZFNW5YcVJCTGJoZlVIZUdDbjZLaFN4djdySzRrNzBIZ2NGeDZMemVKeXAyR2hWZWQ0SVBUYU5jeFM5dUl6c2g5WU02YmRmbkNNRUk4SnNPd0ZtY19xTnc0RG1nMDQyTk8tWGxfM1pYMG53YVl1U0llYjNFd1R1NGdibzc4ZXRsLURic0VyZEdNb1c5UEh6ZUQ3b3l4WnlQbS1iTVFMZ0tBVFRTeDVWSUhnOTF1dEFzaTNLTHhBQnprSlhyREQ0TTdWS214dTJHZGV2ZDM4VzN0YXFPQ2h6cGFEb2J5dnk0bHRWczYwQktfdFZCdzlkSzBQRHhKSjF3bGRWV2oyZnplUTNhVkc1YUo5ZlVLNWgwdnR1VHo1X0VXN3RCV0JFMTlvdkhyc1FUb3YtbndlUFJIVTQxVmdCcU9YTmpPT21jQTNGX2tFOHBpYnVMUlpfT3p6UW9NZGhpbWFVNzlyWmNtQ1ZncHhrOWNQTmZHWXhXeUhid2VITkx0cmIwVEZfc25RUndZb1pLdDhUbkUyODVGWVhfZktHZ1VEbGNmbVhvWi1PQ09UckczcHVEYkVucHQwWk9seVhtYzRVRnpJM0NhdmpEeGppZGVza2RBSU1YVlZjSS1SclplREU3OFQzRUhJRVFXUXpFWjByNU5EbjBDUHpURHZaY1hPM0xXMklnaDhuR1ZqY0UwNTItOUxNNUhRRkxqcy1vbTVhaHlDYVoxT1BjbTFWdmNyelNhNmV4TnJfandIS1cyTEhmeVdHbW1udHFmb25aLUZZem8?oc=5)
+- ⚪ [美國 301 調查點名台灣半導體成焦點，出口導向經濟模式面臨檢視 - TechNews 科技新報](https://news.google.com/rss/articles/CBMirgFBVV95cUxQekNsVFNQVENOWm9mOXg5a05hR21Uc0ZmdFFEbVFzOFZoaDM4LXFvSUxJTXdiQUw2eWdBR0MxMmNxZzI4V1l6Q1pCc2ExQVlQQWVCRWxtRV9uZEJHa3VyY09vZ2ZzWWZYTzIyMEMyMkdldHdIeXIweFF2OXlxVUdtemdSUkE1dDB2UmZTY1F3eGxCUmVBN3JOSFlabXZNcUFwYzdRTWdIa29ESjJYRGc?oc=5)
+- ⚪ [台股有救了？日經飆逾1100點 韓股漲逾2.5％ - 自由財經](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkVm96UEJsNVp0dTMtRkFOVTNqeE4zUzEtRFQwaE5EYjhpblRocWZlU01BdnI1ZVBMWURGN2pLaktLMzlrWmpyX2ctQUdqNWVEWkhvdXZ0MkVKLXdWYVJz0gFkQVVfeXFMTUdkcUY1djRzWHVZclN6Vm1OLVdsWndKdzl4Zk1QY0J4U3R5eWdRc0tyVFN2aUgwQUdSdktlTjVkSGdDa1FVU0d1S3lvR3E5VHotbXZNR2o5MC1YZXczRGRjTTdHUg?oc=5)
+- 🔴 [川普政府再出手！美國301關稅出爐，台灣15%、越南最高35%，14國稅率總整理｜股市話題｜豐雲學堂2026 年 11 月 - 永豐金證券](https://news.google.com/rss/articles/CBMi7gNBVV95cUxOZ29XUVJhalJkODdKbU4ta0FBLXg0NUU2SWZrOThpVlRTS2NPUzNWMmxwRzd4OEkwZzE4X2IwVnZkVWpkX282UXcwYW03MkpLd1lSVTNWZllXdXZuQlVXQlNMWm5fcmp3TE1GSWNZU0xjVldsUDkycTlOMEtFV1liZXVPaEhsYThkay1lOVRfc0E0RzNoUzJ3WXRUdGF6QUhoUEsxd1NaRFNKOHdVNGc0R3Z3RDJDdVlqa3NOMGdQaDhGNmRrZGJfQzN4QVd3RWRUZGwxem1SUE1kSk40ODRPUWJLV3hHMHh2YkZvR1ZoRGlyZkxlTDJTZ3E2SmxhcVBrcXZCcjJVazdDbS1idldRNjdQbHhNZDdJaTVNTHlxVWR0SGx4VHNZMlF0YjJzQzk1d1FTaTlZZklSQ2JJWHFPMmwyc1p0cjd3dGpnMzZaVHZLd0c1MGM4dzlIam1Gb2NLNUFCaU1XYTZMNC0zLUFhNDc4dG5SSU41U2lDQXBCbVZ5N2lvZllSSmwwdEtOOVlfNG5CemJGcDhPT2Z5TnVxR1ZzR09RM1hlbUk2cjdyMHFCbmp4dzlFQmxNaVREWE1KT3VQSTNubnZsMTNXd05nR1N6Qzd6cTJPQ3UzNVZnWEtVRVQ0SEdFUVBOeHlKdw?oc=5)
 
 ## 美國股市
 
-- **大盤**：S&P 500 7,135.63（今日 -0.91%，20 日 -7.86%）
-- **市場看法**：偏空：降低持股、保留現金（市場分數 -0.40，新聞情緒 -0.17）
+- **大盤**：S&P 500 7,182.78（今日 -0.25%，20 日 -7.25%）
+- **市場看法**：偏空：降低持股、保留現金（市場分數 -0.36，新聞情緒 -0.08）
 
 | 代號 | 名稱 | 價格 | 今日 | 20日 | RSI | 主題 | 分數 | 建議 | 信心 | 主要理由 |
 |---|---|---:|---:|---:|---:|---:|---:|---|---|---|
-| AAPL | Apple | 353.35 | -0.20% | +2.85% | 56 | -0.20 | +0.08 | **持有觀望** | 低 | 股價站上 20/50 日均線，多頭排列；位於 200 日均線之上（長多）；受壓主題：關稅與貿易戰（-0.49） |
-| MSFT | Microsoft | 489.04 | -1.43% | -7.73% | 39 | +0.04 | -0.22 | **減碼** | 中 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之上（長多）；受惠主題：AI 伺服器與算力（+0.16） |
-| META | Meta | 602.92 | +2.22% | -1.56% | 44 | -0.05 | -0.29 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；受壓主題：科技巨頭監管（-0.25） |
-| AMZN | Amazon | 244.45 | -3.11% | -3.99% | 42 | -0.11 | -0.30 | **減碼** | 中 | 位於 200 日均線之下（長空）；受壓主題：關稅與貿易戰（-0.24）；受惠主題：AI 伺服器與算力（+0.16） |
-| TSLA | Tesla | 371.42 | -3.45% | -8.11% | 48 | -0.06 | -0.31 | **減碼** | 高 | 位於 200 日均線之下（長空）；近 20 日下跌 8.1%；受壓主題：關稅與貿易戰（-0.29） |
-| GOOGL | Alphabet | 271.19 | -2.82% | -16.53% | 36 | -0.05 | -0.33 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 16.5% |
-| SPY | S&P 500 ETF | 711.88 | -0.96% | -7.82% | 38 | -0.07 | -0.34 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；受壓主題：關稅與貿易戰（-0.20） |
-| NVDA | NVIDIA | 145.91 | -6.09% | -32.25% | 36 | +0.02 | -0.39 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 32.3% |
+| AAPL | Apple | 354.07 | +1.43% | +2.09% | 57 | -0.23 | +0.04 | **持有觀望** | 低 | 股價站上 20/50 日均線，多頭排列；位於 200 日均線之上（長多）；受壓主題：關稅與貿易戰（-0.52） |
+| TSLA | Tesla | 384.68 | -0.20% | -5.59% | 52 | -0.08 | +0.02 | **持有觀望** | 低 | 股價站上 20/50 日均線，多頭排列；位於 200 日均線之上（長多）；受壓主題：關稅與貿易戰（-0.31） |
+| AMZN | Amazon | 252.29 | -1.21% | -0.32% | 46 | -0.14 | -0.12 | **持有觀望** | 低 | 位於 200 日均線之上（長多）；受壓主題：關稅與貿易戰（-0.26）；受壓主題：科技巨頭監管（-0.19） |
+| MSFT | Microsoft | 496.13 | +0.74% | -6.44% | 41 | +0.01 | -0.17 | **減碼** | 低 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之上（長多）；受惠主題：AI 伺服器與算力（+0.16） |
+| GOOGL | Alphabet | 279.05 | -1.08% | -12.95% | 40 | -0.09 | -0.30 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 13.0% |
+| SPY | S&P 500 ETF | 718.78 | -0.49% | -6.61% | 40 | -0.09 | -0.30 | **減碼** | 中 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；受壓主題：關稅與貿易戰（-0.21） |
+| META | Meta | 589.82 | -1.30% | -4.90% | 40 | -0.09 | -0.32 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；受壓主題：科技巨頭監管（-0.32） |
+| NVDA | NVIDIA | 155.38 | -5.86% | -28.71% | 40 | -0.00 | -0.34 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 28.7% |
 
 ### 時事主題
 
 | 主題 | 訊號 | 熱度 | 相關個股 |
 |---|---:|---:|---|
-| 關稅與貿易戰 | -0.49 | 100% | Apple、Tesla、Amazon、NVIDIA、S&P 500 ETF |
+| 關稅與貿易戰 | -0.52 | 100% | Apple、Tesla、Amazon、NVIDIA、S&P 500 ETF |
+| 科技巨頭監管 | -0.32 | 100% | Alphabet、Meta、Apple、Amazon、Microsoft |
 | AI 伺服器與算力 | +0.27 | 100% | NVIDIA、Microsoft、Alphabet、Amazon、Meta |
-| 科技巨頭監管 | -0.25 | 100% | Alphabet、Meta、Apple、Amazon、Microsoft |
-| 電動車 | +0.17 | 100% | Tesla |
-| 兩岸與地緣政治 | -0.17 | 100% | Apple、NVIDIA |
-| 半導體景氣 | +0.05 | 100% | NVIDIA、S&P 500 ETF |
+| 兩岸與地緣政治 | -0.19 | 100% | Apple、NVIDIA |
+| 電動車 | +0.16 | 100% | Tesla |
+| 利率與央行政策 | -0.06 | 100% | Tesla、S&P 500 ETF、NVIDIA、Amazon、Meta |
 | iPhone 與消費電子 | +0.04 | 100% | Apple |
-| 利率與央行政策 | -0.02 | 100% | Tesla、S&P 500 ETF、NVIDIA、Amazon、Meta |
-| 金融與壽險 | -0.02 | 100% | S&P 500 ETF |
+| 半導體景氣 | +0.01 | 100% | NVIDIA、S&P 500 ETF |
+| 金融與壽險 | +0.01 | 100% | S&P 500 ETF |
 
 ### 國家重點新聞
 
-- 🔴 [The Fed’s Attempt to Dismiss Lawsuit Over Bowman’s Corruption with Wall Street Banks Should Fail - Better Markets](https://news.google.com/rss/articles/CBMiygFBVV95cUxNTV93LTF6RHp6SldRdnF3SFg4LW1XcFI3TEVPMEVHNU95R21Fb000TFkxbU1ERVlEM1dxc2RRcHJvbGtGQzNoZERScWZMdXQ2SkZOSE94MkJEMEozOUc4RE1SMmtyY1RBbDBCOUhwOUFrMHdpLWJKNVBNcUNPUWduWkZRZWRweUJTaHc4VFVnTU5WWXprMDMxU2M3alN0aWtjelItZVFZR2dDWGN5bGc5Q2dTcHRLMGk4MWpLLU9mdEdHcVBwU3I0N3hB?oc=5)
-- 🔴 [Nasdaq sinks about 4% as AI rout, fresh Trump tariffs spook Wall St - Reuters](https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5)
-- ⚪ [AI rout drags Wall Street lower as S&P 500 slumps - Scripps News](https://news.google.com/rss/articles/CBMimgFBVV95cUxQdkx4OTF4cVVCbmpDa3VURmx5RXBucVBHWlliV1Bab0hnYTNjclF2MzJrZHN0Z0tpbnBOZmNiSTNoZS1zY001SFh6M3JNVm1WLXUzd0c0a2o4c21UNm0zb0MzZldKeFNkbko1a2dUcTExaW9IVXE1UTcxNTVFWi1XUWxRNFRFS0c3M2kwREptZGFRWnlhbXRNdDhn?oc=5)
-- 🔴 [UK stocks fall as banks, miners track Wall Street selloff - Reuters](https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTW1VcFBpakVFWW8xQ3dPdGNtZFRQRGJuX2tmOTVZOHBsa2hvQ3hkNHMwVmJvNmo1eHlxd0xkV2xDSFpuSGZqX2hUMWxQUV9xdVl5WTNfOXFRYnRYRGlKcF9xajludy1FQjY3R1dFT2pjYkEyXzRnYkd5amRiSDA4QkZyeFR3N0NKUGZsbDV2SW0xS085Qzl4bHdFSW1HNEVrX0hvbE5HUmo1QQ?oc=5)
-- ⚪ [House Panel to Examine AI Risks and Financial Services Innovation - Legis1](https://news.google.com/rss/articles/CBMieEFVX3lxTFBUSXJ6WU9mVUJjQWNObFZLTUFOYncyTm9DNzlxWnZMb3h5X1ZtTWZfdnBJUGVKOVRfX0M3XzhjR08wQTF3N0xBcWtqN1dsNXJmTTVrUmFFdzRpNTNRQUxaVlRpdDdldUxnOEUzQ3hiWDI1RGlJdzVwVQ?oc=5)
-- 🔴 [Core inflation rose to an annual 3.3% in October - upi](https://news.google.com/rss/articles/CBMitAFBVV95cUxQRXZKck42UFVMYkJjWktMcGZlTWZqQWU2bjlkcEVnZ3l2Z3FRclh2ZEgwR2FJekVkZWJBSG5oZmZNbzdBLXd6TnBwcEZYS1ZOZlROR0t4U3I2MVFWekRnZVhBQnJwSnJZX01md21HUFl5dkFDbENkWWJVWDI2bkU4amlyMEpEcWFTdFN2OTBPYWlqN2ctTzR2XzdnbC1xSFdfeWtWWC1MRXUxa1ZuN2k0NzlLaHHSAboBQVVfeXFMUF91ZjRiNVM1ZjJYZzNwVVZMS3NudTMwOHhxUzM4TFowbTFfY3ZrTnRhc0o4YTMzUWhHdVcxMWpjTG15NHVLU2V6a3h3SElYeWJ0UWR5bnRKbjMzMG5pZ3Q4SnhjQ1pnZGtjRWlZaEREb1lGQUVYT2ZxcjNnWnZ5OVUxWjNDOEk5anBxS3V3QlBsOEhEX2xMa1pQNUlMNDVvY1NLOEFUVUpkWGdhOWpmUkhMOW1sZUs4SDlR?oc=5)
-- 🟢 [Anthropic’s stock slide tests Wall Street’s AI profit expectations - Idaho Business Review](https://news.google.com/rss/articles/CBMimwFBVV95cUxPZlozdkw2YkYzal9YRENnbUpzUnBYZFlQbFg3M2dPS0VVc1F5dUJZcldfU20wcElXcVY5TnpsbFdoTnQ3cjdRZ1d3VGNmR1VkZmQ0SkE0NVdlbVpLQlYxcmtWNjFWN3Ntdk12blZ5S2lIUFBVMHNLSjQzd3F6UlFIelhZblF6TzVpbmZ2ZTVfQ2ZkbzluQ21ZUTJoMA?oc=5)
-- ⚪ [Is the Stock Market Open on Thanksgiving Day 2026? - Newsweek](https://news.google.com/rss/articles/CBMickFVX3lxTE04dzRGa3FqUFRfU0w1dkFDVzkyLUNGaUZ0ai1VSTlmd1JWRDhKd3lPcjBoZUNsalN4VWRVQlNkVGNFZGRiNTVWd0J6Rms3OUQtbmxWelRRNnBRSWFqMXJCMl9ZNTlkQ0s0WXlTOEdUZGN4QQ?oc=5)
+- ⚪ [The Frantic White House Push to Get Jensen Huang Back - WSJ](https://news.google.com/rss/articles/CBMieEFVX3lxTE1pRUxrRllGQzRjbm1mbkxwWi1pcGVDREtMYVFlTWt0c2RaMm4zSFZ0UTFIOHc3eVpiaS1xODducUx5T013ekU4czVXaUVmR2JUblZPNS03Qy1yNW9wNloyaGdWeHVBQUI1VVR5NTdfRUxfNTdvdG1pSA?oc=5)
+- ⚪ [A Tip of the Pen to the Wall Street Journal’s Jesse Newman and Liz Essley Whyte - Marler Blog](https://news.google.com/rss/articles/CBMitwFBVV95cUxPcTFhTG9keEJuRTlFRmEwV2Rqa1JCcVVrS2VhNXhPVFBEaFM4bGNUQS1XR1JDdlhmZzNHdFJ4SEVkeENhZ3JGT0pIVWhldEZJb1YxbzBXUVZPNkhKa3ljcVZNeVhWWGZqNjFQTExMWXVsUlowZHdERk55WmJIR3NndUtEOEhJSWRHSzhoVlJJTm11b250R0gySTVWZkNNdkpkcTctVzFWajlaZDVQXzRIeGg2bWRad28?oc=5)
+- 🔴 [Your Thanksgiving Meal Costs More as US Food Inflation Returns - Bloomberg](https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ091d1V6STMzbmJEYnBWQnNNMDlueHo4ZC1MLVpaRktic0psNjJZaDZoWWlSSFdnaFZBcmV2X3pQZmFSSlBDdTc5YWtxT0FEMHdBNTBGajRSUVRmRzZ5ak16amhBSTBZNjFuSEJtbGpYYmFTMkx3TlVyRVFweEFEN2RMSW90V0sybmw1UGV5ZnlqazFnNzlHSTYxUTIzODJuWlFqR3dLS1BwRnhfUFVNZHlJQnJSdUE?oc=5)
+- 🟢 [Asian Stocks Rise as Dip Buyers Stabilize AI Trade: Markets Wrap - Bloomberg](https://news.google.com/rss/articles/CBMilAFBVV95cUxPeEQtTUQwY0ZyTEpubU1fOUV6eVQzR2llam9uaF9UUnQ5LVNvcWJFT0dRYW9NRHM2cDQtYkpaOF9rS1ZuVE8zaDhmYWk0S1IzdU1sOER5aWJLOTQteFZFTjRkMUJwUTdta0ZnemNITTBEa1VVb1c1MGJkUnZoMFRKNDZjM1d6SDBqZ1g2NDZTenZfSEZK?oc=5)
+- 🔴 [Why this stock-market selloff is probably going to get worse before it gets better - MarketWatch](https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ1ZXTDVEU29FWUtGNFJaQk13ckRwNjBRYXpXdmV1V3hKRzdsQUNsWE95aFBHenNRUlJ6eGNKNmlCa0thT0EtR285elg2VUpHZDRkcHAtUWZlaWRHOEt2TjJWY3pHRzROdFN6Q3EwZXAweWQ5LWJVZ1dROElKOFhrOGxEM0xBVk10TnF6aFJOOWUzbnVfZzNKNGtZOE1FR2ZfelRJTjV5SXBqX2E3amdtVHVnR2pIX0RWYng3OWxCakVEclk?oc=5)
+- ⚪ [The Most Famous Problem in Math Was Just Solved by AI—and This Human - WSJ](https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ0x4ejFTYkxaVjZTM3hTS0o5b2IteVFjczV3UHlJa0pzZjg5bmlGY1k3UXU5My1zamU5VnNBUXdtOWJ3aHBReFMtNDJhQktiVTJpMFBjN1daM1lMMGRGTzItRi12T0VxaTAxV3ZocUhRUG00RWxWc0k5S05qYmtJT1ZvMlNjWjZiNndZTA?oc=5)
+- ⚪ [Fed report reveals more positives for the economy, though many might not feel it - kare11.com](https://news.google.com/rss/articles/CBMiiwJBVV95cUxNRkJTSHcxVEtnblpfWmhwYmNsTU81MUxwSWdUaks3RTdRdVAyQjdBZjBQRU9MaC1MMVphckFFbFpwYUptbmFWZDNkcEx2NVVGUnFUY1NuOXJzNWFPWllsTEJ0SzJtbklaZlM5Ty1NaEk3ZEJMTXhfNThqNGVRTjVPdXc1bzRFUlVLdGotUmFZbGlYbG53QS05NVYwaTk3UWNTTy1EQXI4clRaX0FOSXBQRWsydV9xY1pIanVoRGVpMV9QRVlJRWpaY1NQMWphbGYxZDZkSm5XS1lBLU9VeHdnSC0zQzl5MFVJbkdqbGFKaDR6QzdDREo5ZTVxTkhpVFcyakxYSUFaS3hVaHc?oc=5)
+- ⚪ [Arkansas’ economy growing moderately thanks to data center construction, defense spending, Federal Reserve says - Northwest Arkansas Democrat-Gazette](https://news.google.com/rss/articles/CBMilgFBVV95cUxQM0lGUmZwamJvaWdKbWVub2E5elVhaDJWZDhqNGR6WDJnbS1NQ1M1dFZhV0Z2YUFCZE9EdHo2amJvN2ZyVEJVOEkyVDFCY1l4RnpwNHdMSmxzNnpiN2Y0TlJyRnRYWXVVSml0RmlackxCYWJqUDlBUmFYLXRzVEZyMU1ScXluTEV3bGZ2UWRCQkM3NWpkZnc?oc=5)
 
 ## 國泰世華牌告匯率（台幣）
 
-資料時間：2026年11月26日 01:57:41
+資料時間：2026年11月26日 09:46:24
 
 | 幣別 | 即期買進 | 即期賣出 | 數位優惠買進 | 數位優惠賣出 | 現鈔買進 | 現鈔賣出 | 較上次 |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| 美元 USD | 33.04 | 33.24 | 33.07 | 33.21 | 32.76 | 33.46 | +0.000% |
-| 歐元 EUR | 36.16 | 36.66 | 36.22 | 36.6 | 35.73 | 37.01 | +0.411% |
-| 日圓 JPY | 0.206 | 0.211 | 0.207 | 0.21 | 0.202 | 0.213 | +0.142% |
-| 人民幣 CNY | 4.93 | 5.005 | 4.94 | 4.995 | 4.83 | 5.025 | +0.120% |
-| 港幣 HKD | 4.194 | 4.264 | 4.204 | 4.254 | 4.114 | 4.304 | +0.000% |
-| 澳大利亞幣 AUD | 21.82 | 22.08 | 21.85 | 22.05 | — | — | +0.684% |
-| 紐西蘭幣 NZD | 18.04 | 18.34 | 18.06 | 18.32 | — | — | +0.603% |
-| 南非幣 ZAR | 1.826 | 1.946 | 1.831 | 1.941 | — | — | +0.673% |
-| 加拿大幣 CAD | 23.14 | 23.54 | 23.17 | 23.51 | — | — | +0.256% |
-| 英鎊 GBP | 43.16 | 43.78 | 43.22 | 43.72 | — | — | +0.413% |
-| 瑞士法郎 CHF | 39.68 | 40.2 | 39.71 | 40.17 | — | — | +0.100% |
-| 瑞典幣 SEK | 3.181 | 3.301 | 3.191 | 3.291 | — | — | +0.518% |
-| 新加坡幣 SGD | 25.54 | 25.84 | 25.57 | 25.81 | — | — | +0.155% |
-| 泰國幣 THB | 0.943 | 1.003 | 0.946 | 1 | — | — | +0.200% |
-| 丹麥幣 DKK | 4.79 | 4.95 | 4.8 | 4.94 | — | — | +0.406% |
-| 土耳其里拉 TRY | 0.294 | 1.014 | 0.324 | 0.984 | — | — | +0.000% |
+| 美元 USD | 33.06 | 33.16 | 33.09 | 33.13 | 32.78 | 33.38 | -0.241% |
+| 歐元 EUR | 36.1 | 36.5 | 36.16 | 36.44 | 35.67 | 36.85 | -0.436% |
+| 日圓 JPY | 0.2061 | 0.2101 | 0.2071 | 0.2091 | 0.2021 | 0.2121 | -0.427% |
+| 人民幣 CNY | 4.937 | 4.987 | 4.947 | 4.977 | 4.837 | 5.007 | -0.360% |
+| 港幣 HKD | 4.194 | 4.254 | 4.204 | 4.244 | 4.114 | 4.294 | -0.235% |
+| 澳大利亞幣 AUD | 21.83 | 22.05 | 21.86 | 22.02 | — | — | -0.136% |
+| 紐西蘭幣 NZD | 18.04 | 18.26 | 18.06 | 18.24 | — | — | -0.436% |
+| 南非幣 ZAR | 1.837 | 1.932 | 1.842 | 1.927 | — | — | -0.719% |
+| 加拿大幣 CAD | 23.18 | 23.38 | 23.21 | 23.35 | — | — | -0.680% |
+| 英鎊 GBP | 43.18 | 43.6 | 43.24 | 43.54 | — | — | -0.411% |
+| 瑞士法郎 CHF | 39.7 | 39.94 | 39.73 | 39.91 | — | — | -0.647% |
+| 瑞典幣 SEK | 3.188 | 3.276 | 3.198 | 3.266 | — | — | -0.757% |
+| 新加坡幣 SGD | 25.56 | 25.76 | 25.59 | 25.73 | — | — | -0.310% |
+| 泰國幣 THB | 0.952 | 0.992 | 0.955 | 0.989 | — | — | -1.097% |
+| 丹麥幣 DKK | 4.82 | 4.9 | 4.83 | 4.89 | — | — | -1.010% |
+| 土耳其里拉 TRY | 0.473 | 0.833 | 0.503 | 0.803 | — | — | -17.850% |
