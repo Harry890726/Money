@@ -63,7 +63,7 @@ details summary{cursor:pointer;color:var(--muted);font-size:13px;margin-top:6px}
   <div id="demo"></div>
   <div class="tabs" id="tabs"></div>
   <div id="view"></div>
-  <p class="disc">本頁由演算法約每 5 分鐘自動更新（新聞每 30 分鐘重新搜尋），綜合技術指標（均線、RSI、MACD、布林通道、動能、量能）、個股新聞、時事主題對應產業與國家新聞情緒分數產生建議，僅供研究參考，不構成任何投資建議。投資有風險，請自行判斷並承擔盈虧。</p>
+  <p class="disc">本頁由演算法約每 5 分鐘自動更新（新聞每 30 分鐘重新搜尋；股價來自 Yahoo Finance，約延遲 15～20 分鐘），綜合技術指標（均線、RSI、MACD、布林通道、動能、量能）、個股新聞、時事主題對應產業與國家新聞情緒分數產生建議，僅供研究參考，不構成任何投資建議。投資有風險，請自行判斷並承擔盈虧。</p>
 </div>
 <script>
 const RC={"強力買進":"var(--r-sb)","買進":"var(--r-b)","持有觀望":"var(--r-h)","減碼":"var(--r-s)","賣出":"var(--r-ss)"};
@@ -105,11 +105,18 @@ function renderFx(data){
   <p class="muted">銀行買進＝你把外幣賣給銀行的價格；銀行賣出＝你向銀行買外幣的價格。「較上次」為與約一小時前紀錄相比的即期賣出匯率變化，數字上升代表台幣貶值。匯率以銀行實際成交為準。</p>`;
   document.getElementById("view").innerHTML=html;
 }
+const ST={"交易中":"var(--up)","盤前":"var(--r-b)","已收盤":"var(--muted)","休市（週末）":"var(--muted)","休市（假日）":"var(--muted)"};
+function quoteLine(q){
+  if(!q)return"";
+  const st=q.status?`<span class="badge" style="background:${ST[q.status]||"var(--muted)"};font-size:11px">${esc(q.status)}</span>`:"";
+  let t=q.time_taipei?`股價時間 ${esc(q.time_taipei)}`+(q.time_local&&q.time_local!==q.time_taipei?`<br><span style="font-size:12px">（當地 ${esc(q.time_local)}）</span>`:""):q.date_only?`股價日期 ${esc(q.date_only)}`:"股價時間 —";
+  return `<div class="muted" style="margin-top:6px;font-size:13px">${st} ${t}</div>`;
+}
 function render(data,code){
   const m=data.markets[code],ix=m.index;
   const counts={};m.stocks.forEach(s=>counts[s.rating]=(counts[s.rating]||0)+1);
   let html=`<div class="grid">
-    <div class="card kpi"><div class="muted">${esc(ix.name)}</div><div class="v">${num(ix.price)}</div><div>${pct(ix.change_pct)} 今日 · ${pct(ix.ret_20d)} 20日</div></div>
+    <div class="card kpi"><div class="muted">${esc(ix.name)}</div><div class="v">${num(ix.price)}</div><div>${pct(ix.change_pct)} 今日 · ${pct(ix.ret_20d)} 20日</div>${quoteLine(m.quote)}</div>
     <div class="card kpi"><div class="muted">市場綜合分數</div><div class="v">${sc(m.market_score)}</div><div class="muted">${esc(m.market_view)}</div></div>
     <div class="card kpi"><div class="muted">國家新聞情緒</div><div class="v">${sc(m.macro_sentiment)}</div><div class="muted">${m.headlines.length} 則近期新聞</div></div>
     <div class="card kpi"><div class="muted">建議分布</div><div style="margin-top:6px">${Object.keys(RC).filter(k=>counts[k]).map(k=>`<span class="badge" style="background:${RC[k]};margin:2px">${k} ${counts[k]}</span>`).join("")}</div></div>

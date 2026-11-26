@@ -10,6 +10,16 @@ def _f(v, fmt="{:+.2f}%"):
     return "—" if v is None else fmt.format(v)
 
 
+def _quote_text(m: dict) -> str:
+    q = m.get("quote") or {}
+    if q.get("time_taipei"):
+        local = f"，當地 {q['time_local']}" if q.get("time_local") != q.get("time_taipei") else ""
+        return f"{q['time_taipei']} 台北時間{local}（{q['status']}，報價約延遲 15～20 分鐘）"
+    if q.get("date_only"):
+        return f"{q['date_only']} 日資料（{q.get('status', '')}）"
+    return "—"
+
+
 def to_markdown(r: dict) -> str:
     t = datetime.fromisoformat(r["generated_at"]).astimezone(TW_TZ)
     lines = [
@@ -26,6 +36,7 @@ def to_markdown(r: dict) -> str:
             f"## {m['name']}",
             "",
             f"- **大盤**：{idx['name']} {_f(idx['price'], '{:,.2f}')}（今日 {_f(idx['change_pct'])}，20 日 {_f(idx['ret_20d'])}）",
+            f"- **股價時間**：{_quote_text(m)}",
             f"- **市場看法**：{m['market_view']}（市場分數 {m['market_score']:+.2f}，新聞情緒 {m['macro_sentiment']:+.2f}）",
             "",
             "| 代號 | 名稱 | 價格 | 今日 | 20日 | RSI | 主題 | 分數 | 建議 | 信心 | 主要理由 |",

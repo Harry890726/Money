@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 from stock_advisor import engine, indicators, news
-from stock_advisor.demo import demo_news, demo_prices
+from stock_advisor.demo import demo_fx, demo_news, demo_prices, demo_quote_time
 
 
 def _series(trend):
@@ -38,7 +38,7 @@ def test_rating_thresholds():
 
 
 def test_full_pipeline_demo():
-    r = engine.analyze(prices=demo_prices(), news_fetcher=demo_news)
+    r = engine.analyze(prices=demo_prices(), news_fetcher=demo_news, fx_fetcher=demo_fx, quote_time_fetcher=demo_quote_time)
     for m in r["markets"].values():
         assert len(m["stocks"]) == 8
         scores = [s["score"] for s in m["stocks"]]
@@ -91,7 +91,7 @@ def test_cathay_fx_parse():
 
 def test_us_price_converted_to_twd():
     from stock_advisor.demo import demo_fx
-    r = engine.analyze(prices=demo_prices(), news_fetcher=demo_news, fx_fetcher=demo_fx)
+    r = engine.analyze(prices=demo_prices(), news_fetcher=demo_news, fx_fetcher=demo_fx, quote_time_fetcher=demo_quote_time)
     s = r["markets"]["US"]["stocks"][0]
     assert s["price_twd"] and abs(s["price_twd"] - s["price"] * 33.24) < 1
     assert r["markets"]["TW"]["stocks"][0]["price_twd"] is None
@@ -119,3 +119,24 @@ def test_news_cache_reuses_and_refreshes(tmp_path):
     news.cached(fake, tmp_path / "c.json", ttl_minutes=0)("台股", lang, 10)
     assert len(calls) == 2
     assert f("fail", lang, 10) == []
+
+
+def test_market_status():
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    from stock_advisor.market_clock import describe, status
+    tp, ny = ZoneInfo("Asia/Taipei"), ZoneInfo("America/New_York")
+    wed = lambda h, m, tz: datetime(2026, 11, 25, h, m, tzinfo=tz)  # 週三
+    q_today = wed(10, 0, tp)
+    assert status("TW", q_today, wed(10, 20, tp)) == "交易中"
+    assert status("TW", q_today, wed(8, 45, tp)) == "盤前"
+    assert status("TW", wed(13, 30, tp), wed(20, 0, tp)) == "已收盤"
+    assert status("TW", q_today, datetime(2026, 11, 28, 10, 0, tzinfo=tp)) == "休市（週末）"
+    # 平日開盤後卻沒有當天報價 -> 假日
+    assert status("TW", datetime(2026, 11, 24, 13, 30, tzinfo=tp), wed(11, 0, tp)) == "休市（假日）"
+    # 美股：台北週四早上 = 美東週三晚上，已收盤
+    assert status("US", wed(16, 0, ny), datetime(2026, 11, 26, 8, 0, tzinfo=tp)) == "已收盤"
+    assert status("US", wed(10, 0, ny), wed(10, 30, ny)) == "交易中"
+    d = describe("US", wed(16, 0, ny), wed(18, 0, ny))
+    assert d["time_local"] == "11/25 16:00" and d["time_taipei"] == "11/26 05:00"
+    assert describe("TW", None, wed(10, 0, tp))["time"] is None

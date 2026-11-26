@@ -44,3 +44,8 @@ def demo_fx() -> dict:
     from . import fx
     sample = Path(__file__).resolve().parent.parent / "tests" / "fixtures" / "cathay_fx_sample.html"
     return {"source": "國泰世華銀行（示範）", "url": fx.URL, **fx.parse(sample.read_text(encoding="utf-8"))}
+
+
+def demo_quote_time(symbol: str):
+    from datetime import datetime, timedelta, timezone
+    return datetime.now(timezone.utc).replace(second=0, microsecond=0) - timedelta(minutes=20)
