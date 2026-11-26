@@ -45,7 +45,7 @@ pip install -r requirements.txt
 python -m stock_advisor            # 執行一次
 python -m stock_advisor --loop     # 常駐，每小時更新
 python -m stock_advisor --demo     # 離線示範資料
-cd docs && python -m http.server   # 開 http://localhost:8000 看儀表板
+python -m stock_advisor --serve    # 開啟 http://localhost:8000 並每小時自動更新（推薦）
 ```
 
 ## 自訂
