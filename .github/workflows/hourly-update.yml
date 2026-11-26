@@ -2,7 +2,8 @@ name: 每小時更新投資建議
 
 on:
   schedule:
-    - cron: "17 * * * *"   # 每小時第 17 分執行（UTC）
+    # 每 5 分鐘（GitHub 允許的最短間隔）；尖峰時段可能延後或跳過
+    - cron: "*/5 * * * *"
   workflow_dispatch:        # 可在 Actions 頁面手動執行
   push:
     branches: [main]
@@ -27,10 +28,21 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      # 新聞快取跨次執行保留（30 分鐘內重複使用），避免每 5 分鐘都搜尋 Google News
+      - uses: actions/cache@v4
+        with:
+          path: .cache
+          key: news-${{ github.run_id }}
+          restore-keys: news-
       - name: 產生建議
         run: python -m stock_advisor
+      # 網頁每次都發布；存回 repo 每小時一次（手動執行時一定存），避免紀錄暴增
       - name: 提交更新的資料
         run: |
+          last=$(git log -1 --format=%ct -- docs/data/latest.json 2>/dev/null || echo 0)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ $(( $(date +%s) - ${last:-0} )) -lt 3300 ]; then
+            echo "距上次存檔不到 55 分鐘，本次只更新網頁"; exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898732+github-actions[bot]@users.noreply.github.com"
           git add docs/data reports

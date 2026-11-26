@@ -3,7 +3,7 @@
   python -m stock_advisor            # 執行一次，輸出 docs/data/latest.json 與 reports/latest.md
   python -m stock_advisor --loop     # 本機常駐，每小時更新一次
   python -m stock_advisor --demo     # 離線示範資料（不連網）
-  python -m stock_advisor --serve    # 開啟本機網頁 http://localhost:8000 並每小時自動更新
+  python -m stock_advisor --serve    # 開啟本機網頁 http://localhost:8000 並每 5 分鐘自動更新
 """
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from . import engine
+from . import config, engine, news
 from .report import to_markdown
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -27,7 +27,8 @@ def run_once(demo: bool = False) -> dict:
         result = engine.analyze(prices=demo_prices(), news_fetcher=demo_news, fx_fetcher=demo_fx)
         result["demo"] = True
     else:
-        result = engine.analyze()
+        fetcher = news.cached(news.fetch, ROOT / ".cache" / "news.json", config.NEWS_CACHE_MINUTES)
+        result = engine.analyze(news_fetcher=fetcher)
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
@@ -43,13 +44,24 @@ def run_once(demo: bool = False) -> dict:
         "stocks": {s["symbol"]: [s["price"], s["score"]]
                    for m in result["markets"].values() for s in m["stocks"]},
     }
-    with open(DATA_DIR / "history.jsonl", "a", encoding="utf-8") as f:
-        f.write(json.dumps(snap, ensure_ascii=False) + "\n")
+    if _hours_since_last_history() >= 1:
+        with open(DATA_DIR / "history.jsonl", "a", encoding="utf-8") as f:
+            f.write(json.dumps(snap, ensure_ascii=False) + "\n")
 
     (REPORT_DIR / "latest.md").write_text(to_markdown(result), encoding="utf-8")
     print(f"[ok] {result['generated_at']} 已更新 "
           + ", ".join(f"{c}: {len(m['stocks'])} 檔" for c, m in result["markets"].items()))
     return result
+
+
+def _hours_since_last_history() -> float:
+    hist = DATA_DIR / "history.jsonl"
+    try:
+        last = hist.read_text(encoding="utf-8").strip().splitlines()[-1]
+        t = datetime.fromisoformat(json.loads(last)["t"])
+        return (datetime.now(timezone.utc) - t).total_seconds() / 3600
+    except (OSError, IndexError, ValueError, KeyError):
+        return float("inf")
 
 
 def _attach_fx_change(result: dict) -> None:
@@ -89,10 +101,11 @@ def _start_server(port: int) -> None:
 
 def main():
     ap = argparse.ArgumentParser(description="台美股投資建議工具")
-    ap.add_argument("--loop", action="store_true", help="每小時自動更新")
-    ap.add_argument("--interval", type=int, default=3600, help="更新間隔秒數（預設 3600）")
+    ap.add_argument("--loop", action="store_true", help="定時自動更新")
+    ap.add_argument("--interval", type=int, default=config.UPDATE_MINUTES * 60,
+                    help=f"更新間隔秒數（預設 {config.UPDATE_MINUTES * 60}）")
     ap.add_argument("--demo", action="store_true", help="使用離線示範資料")
-    ap.add_argument("--serve", action="store_true", help="同時開啟本機網頁並每小時自動更新")
+    ap.add_argument("--serve", action="store_true", help="同時開啟本機網頁並定時自動更新")
     ap.add_argument("--port", type=int, default=8000, help="本機網頁埠號（預設 8000）")
     args = ap.parse_args()
 
