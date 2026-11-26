@@ -95,3 +95,27 @@ def test_us_price_converted_to_twd():
     s = r["markets"]["US"]["stocks"][0]
     assert s["price_twd"] and abs(s["price_twd"] - s["price"] * 33.24) < 1
     assert r["markets"]["TW"]["stocks"][0]["price_twd"] is None
+
+
+def test_news_cache_reuses_and_refreshes(tmp_path):
+    calls = []
+
+    def fake(q, lang, limit=10):
+        calls.append(q)
+        return [{"title": "x", "link": "", "source": "", "published": "", "age_hours": 0.0,
+                 "ts": 0, "sentiment": 0.5}] if q != "fail" else []
+
+    lang = {"hl": "zh-TW"}
+    f = news.cached(fake, tmp_path / "c.json", ttl_minutes=30)
+    a = f("台股", lang, 10)
+    b = f("台股", lang, 10)
+    assert len(calls) == 1 and a[0]["title"] == b[0]["title"]
+    assert b[0]["age_hours"] > 1000  # 依 ts 重新計算新聞年齡
+    # 新的實例讀取同一個檔案也能命中
+    f2 = news.cached(fake, tmp_path / "c.json", ttl_minutes=30)
+    f2("台股", lang, 10)
+    assert len(calls) == 1
+    # ttl 為 0 時重新抓取
+    news.cached(fake, tmp_path / "c.json", ttl_minutes=0)("台股", lang, 10)
+    assert len(calls) == 2
+    assert f("fail", lang, 10) == []

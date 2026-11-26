@@ -1,9 +1,12 @@
 """新聞抓取（Google News RSS）與中英文關鍵字情緒分析。"""
 from __future__ import annotations
 
+import calendar
 import html
+import json
 import re
 import time
+from pathlib import Path
 from urllib.parse import quote
 
 import feedparser
@@ -78,7 +81,7 @@ def fetch(query: str, lang: dict, limit: int = 15, max_age_hours: float = 72) ->
     now = time.time()
     items = []
     for e in feed.entries[:limit]:
-        published = time.mktime(e.published_parsed) if getattr(e, "published_parsed", None) else now
+        published = calendar.timegm(e.published_parsed) if getattr(e, "published_parsed", None) else now
         age_h = max(0.0, (now - published) / 3600)
         if age_h > max_age_hours:
             continue
@@ -90,9 +93,47 @@ def fetch(query: str, lang: dict, limit: int = 15, max_age_hours: float = 72) ->
             "source": source,
             "published": time.strftime("%Y-%m-%d %H:%M", time.gmtime(published)) + " UTC",
             "age_hours": round(age_h, 1),
+            "ts": int(published),
             "sentiment": round(sentiment(title), 3),
         })
     return items
+
+
+def cached(fetcher, path: Path, ttl_minutes: float = 30):
+    """包裝新聞抓取：同一關鍵字在 ttl 分鐘內重複使用上次結果，避免高頻更新時被 Google 封鎖。
+    重複使用時會依發布時間重新計算「幾小時前」。抓取失敗（空結果）不寫入快取。"""
+    path = Path(path)
+    try:
+        store = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        store = {}
+
+    def wrapper(query: str, lang: dict, limit: int = 15) -> list[dict]:
+        key = f"{lang['hl']}|{limit}|{query}"
+        now = time.time()
+        hit = store.get(key)
+        if hit and now - hit["fetched_at"] < ttl_minutes * 60:
+            items = [dict(it) for it in hit["items"]]
+            for it in items:
+                if "ts" in it:
+                    it["age_hours"] = round(max(0.0, (now - it["ts"]) / 3600), 1)
+            return items
+        items = fetcher(query, lang, limit)
+        if items:
+            store[key] = {"fetched_at": now, "items": items}
+            # 清掉一天以上沒用到的關鍵字
+            for k in [k for k, v in store.items() if now - v["fetched_at"] > 86400]:
+                del store[k]
+            try:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(store, ensure_ascii=False), encoding="utf-8")
+            except OSError as e:
+                print(f"[news] 無法寫入快取: {e}")
+        elif hit:  # 這次失敗就沿用舊資料
+            return [dict(it) for it in hit["items"]]
+        return items
+
+    return wrapper
 
 
 def aggregate(items: list[dict]) -> float:

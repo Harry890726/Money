@@ -63,7 +63,7 @@ details summary{cursor:pointer;color:var(--muted);font-size:13px;margin-top:6px}
   <div id="demo"></div>
   <div class="tabs" id="tabs"></div>
   <div id="view"></div>
-  <p class="disc">本頁由演算法每小時自動更新，綜合技術指標（均線、RSI、MACD、布林通道、動能、量能）、個股新聞、時事主題對應產業與國家新聞情緒分數產生建議，僅供研究參考，不構成任何投資建議。投資有風險，請自行判斷並承擔盈虧。</p>
+  <p class="disc">本頁由演算法約每 5 分鐘自動更新（新聞每 30 分鐘重新搜尋），綜合技術指標（均線、RSI、MACD、布林通道、動能、量能）、個股新聞、時事主題對應產業與國家新聞情緒分數產生建議，僅供研究參考，不構成任何投資建議。投資有風險，請自行判斷並承擔盈虧。</p>
 </div>
 <script>
 const RC={"強力買進":"var(--r-sb)","買進":"var(--r-b)","持有觀望":"var(--r-h)","減碼":"var(--r-s)","賣出":"var(--r-ss)"};
@@ -102,7 +102,7 @@ function renderFx(data){
   <thead><tr><th>幣別</th><th>代號</th><th>即期買進</th><th>即期賣出</th><th>數位優惠買進</th><th>數位優惠賣出</th><th>現鈔買進</th><th>現鈔賣出</th><th>較上次</th></tr></thead><tbody>
   ${rates.map(r=>`<tr><td>${esc(r.name)}</td><td><b>${esc(r.code)}</b></td><td>${g(r,"spot","buy")}</td><td>${g(r,"spot","sell")}</td><td>${g(r,"digital","buy")}</td><td>${g(r,"digital","sell")}</td><td>${g(r,"cash","buy")}</td><td>${g(r,"cash","sell")}</td><td>${r.change_pct==null?"—":pct(r.change_pct)}</td></tr>`).join("")}
   </tbody></table></div>
-  <p class="muted">銀行買進＝你把外幣賣給銀行的價格；銀行賣出＝你向銀行買外幣的價格。「較上次」為與前一次更新相比的即期賣出匯率變化，數字上升代表台幣貶值。匯率以銀行實際成交為準。</p>`;
+  <p class="muted">銀行買進＝你把外幣賣給銀行的價格；銀行賣出＝你向銀行買外幣的價格。「較上次」為與約一小時前紀錄相比的即期賣出匯率變化，數字上升代表台幣貶值。匯率以銀行實際成交為準。</p>`;
   document.getElementById("view").innerHTML=html;
 }
 function render(data,code){
@@ -165,7 +165,7 @@ async function load(){
     draw();
   }catch(e){document.getElementById("ts").textContent="資料載入失敗："+e;}
 }
-load();setInterval(load,5*60*1000);
+load();setInterval(load,60*1000);
 // 手機切回此頁、從主畫面重新開啟、或從上一頁返回時，立即重新讀取最新資料
 let lastLoad=Date.now();
 const reloadIfStale=()=>{if(document.visibilityState==="visible"&&Date.now()-lastLoad>30*1000){lastLoad=Date.now();load();}};

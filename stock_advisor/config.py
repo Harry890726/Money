@@ -60,4 +60,6 @@ RATING_THRESHOLDS = [
 ]
 
 PRICE_HISTORY = "1y"
+UPDATE_MINUTES = 5          # 本機 --serve / --loop 的更新間隔
+NEWS_CACHE_MINUTES = 30     # 新聞重複使用時間（股價、匯率每次都重新抓）
 NEWS_PER_QUERY = 15

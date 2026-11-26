@@ -1,6 +1,6 @@
 # Money — 台美股投資建議小工具
 
-每小時自動抓取 **台灣與美國** 的股價與新聞，依「技術面演算 + 國家／個股新聞情緒」計算分數，產出投資建議（強力買進／買進／持有觀望／減碼／賣出），並發布成網頁儀表板。
+約每 5 分鐘自動抓取 **台灣與美國** 的股價與新聞，依「技術面演算 + 國家／個股新聞情緒」計算分數，產出投資建議（強力買進／買進／持有觀望／減碼／賣出），並發布成網頁儀表板。
 
 > ⚠️ 本工具輸出為演算法自動產生的參考資訊，**不構成投資建議**。投資有風險，請自行判斷。
 
@@ -28,24 +28,24 @@
 每次更新會抓取[國泰世華銀行牌告匯率](https://www.cathaybk.com.tw/cathaybk/personal/product/deposit/currency-billboard/)（16 種外幣的即期、數位通路優惠、現鈔買進／賣出價），
 顯示在儀表板的「國泰匯率」分頁與報告中，並與上一次更新比較漲跌。美股個股另以美元即期賣出匯率換算每股台幣價格。
 
-## 每小時自動更新（GitHub Actions + Pages）
+## 自動更新（GitHub Actions + Pages）
 
 1. 將此分支合併到 `main`（GitHub 的排程只會在預設分支上執行）。
 2. 到 repo **Settings → Pages → Source** 選 **GitHub Actions**。
 3. 到 **Actions → 每小時更新投資建議 → Run workflow** 先手動跑一次。
 
-之後每小時第 17 分（UTC）自動執行，結果會：
+之後每 5 分鐘自動執行（GitHub 尖峰時段可能延後或跳過）。股價、匯率每次重新抓取；新聞快取 30 分鐘以免被 Google 封鎖。結果會：
 - 發布到 `https://<你的帳號>.github.io/Money/` 儀表板
-- 提交 `docs/data/latest.json`（完整資料）、`docs/data/history.jsonl`（歷史分數，可回測）、`reports/latest.md`（Markdown 報告）
+- 每小時存回 repo 一次：`docs/data/latest.json`（完整資料）、`docs/data/history.jsonl`（歷史分數，可回測）、`reports/latest.md`（Markdown 報告）
 
 ## 本機執行
 
 ```bash
 pip install -r requirements.txt
 python -m stock_advisor            # 執行一次
-python -m stock_advisor --loop     # 常駐，每小時更新
+python -m stock_advisor --loop     # 常駐，每 5 分鐘更新
 python -m stock_advisor --demo     # 離線示範資料
-python -m stock_advisor --serve    # 開啟 http://localhost:8000 並每小時自動更新（推薦）
+python -m stock_advisor --serve    # 開啟 http://localhost:8000 並每 5 分鐘自動更新（推薦）
 ```
 
 ## 自訂
