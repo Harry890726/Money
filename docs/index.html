@@ -150,7 +150,9 @@ async function load(){
   try{
     const r=await fetch("data/latest.json?t="+Date.now());const data=await r.json();
     const t=new Date(data.generated_at);
-    document.getElementById("ts").textContent="最後更新："+t.toLocaleString("zh-TW",{timeZone:"Asia/Taipei",hour12:false})+"（台北時間）";
+    const mins=Math.max(0,Math.round((Date.now()-t)/60000));
+    const ago=mins<60?`${mins} 分鐘前`:mins<1440?`${Math.floor(mins/60)} 小時 ${mins%60} 分前`:`${Math.floor(mins/1440)} 天前`;
+    document.getElementById("ts").innerHTML=`資料時間：${esc(t.toLocaleString("zh-TW",{timeZone:"Asia/Taipei",hour12:false}))}（${ago}）<br><span style="font-size:12px">畫面於 ${new Date().toLocaleTimeString("zh-TW",{hour12:false})} 重新讀取</span>`;
     if(data.demo)document.getElementById("demo").innerHTML=`<div class="warn">目前顯示的是離線示範資料，等待第一次自動更新後會換成真實行情。</div>`;
     const codes=[...Object.keys(data.markets),"FX"];
     const label=c=>c==="FX"?"國泰匯率":data.markets[c].name;
@@ -163,7 +165,13 @@ async function load(){
     draw();
   }catch(e){document.getElementById("ts").textContent="資料載入失敗："+e;}
 }
-load();setInterval(load,10*60*1000);
+load();setInterval(load,5*60*1000);
+// 手機切回此頁、從主畫面重新開啟、或從上一頁返回時，立即重新讀取最新資料
+let lastLoad=Date.now();
+const reloadIfStale=()=>{if(document.visibilityState==="visible"&&Date.now()-lastLoad>30*1000){lastLoad=Date.now();load();}};
+document.addEventListener("visibilitychange",reloadIfStale);
+window.addEventListener("pageshow",e=>{if(e.persisted){lastLoad=0;reloadIfStale();}});
+window.addEventListener("focus",reloadIfStale);
 </script>
 </body>
 </html>

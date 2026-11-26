@@ -2,7 +2,8 @@ name: 每小時更新投資建議
 
 on:
   schedule:
-    - cron: "17 * * * *"   # 每小時第 17 分執行（UTC）
+    # GitHub 免費排程在尖峰時常延後或跳過，因此每小時排三次以確保至少有一次成功執行
+    - cron: "7,27,47 * * * *"
   workflow_dispatch:        # 可在 Actions 頁面手動執行
   push:
     branches: [main]
