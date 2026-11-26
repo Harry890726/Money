@@ -3,6 +3,7 @@
   python -m stock_advisor            # 執行一次，輸出 docs/data/latest.json 與 reports/latest.md
   python -m stock_advisor --loop     # 本機常駐，每小時更新一次
   python -m stock_advisor --demo     # 離線示範資料（不連網）
+  python -m stock_advisor --serve    # 開啟本機網頁 http://localhost:8000 並每小時自動更新
 """
 from __future__ import annotations
 
@@ -70,22 +71,47 @@ def _attach_fx_change(result: dict) -> None:
         r["change_pct"] = round((now / before - 1) * 100, 3) if now and before else None
 
 
+def _start_server(port: int) -> None:
+    """在背景執行緒提供 docs/ 網頁，主程式繼續定時更新資料。"""
+    import functools
+    import threading
+    from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+
+    class QuietHandler(SimpleHTTPRequestHandler):
+        def log_message(self, *a):  # 不要每次瀏覽都印一行
+            pass
+
+    handler = functools.partial(QuietHandler, directory=str(ROOT / "docs"))
+    server = ThreadingHTTPServer(("127.0.0.1", port), handler)
+    threading.Thread(target=server.serve_forever, daemon=True).start()
+    print(f"[web] 網頁已啟動：http://localhost:{port}  （按 Ctrl+C 結束）")
+
+
 def main():
     ap = argparse.ArgumentParser(description="台美股投資建議工具")
     ap.add_argument("--loop", action="store_true", help="每小時自動更新")
     ap.add_argument("--interval", type=int, default=3600, help="更新間隔秒數（預設 3600）")
     ap.add_argument("--demo", action="store_true", help="使用離線示範資料")
+    ap.add_argument("--serve", action="store_true", help="同時開啟本機網頁並每小時自動更新")
+    ap.add_argument("--port", type=int, default=8000, help="本機網頁埠號（預設 8000）")
     args = ap.parse_args()
 
+    if args.serve:
+        _start_server(args.port)
+        args.loop = True
     if not args.loop:
         run_once(args.demo)
         return
-    while True:
-        try:
-            run_once(args.demo)
-        except Exception as e:
-            print(f"[error] {datetime.now(timezone.utc)}: {e}")
-        time.sleep(args.interval)
+    try:
+        while True:
+            try:
+                run_once(args.demo)
+            except Exception as e:
+                print(f"[error] {datetime.now(timezone.utc)}: {e}")
+            print(f"[wait] 下次更新：{args.interval // 60} 分鐘後")
+            time.sleep(args.interval)
+    except KeyboardInterrupt:
+        print("\n已停止")
 
 
 if __name__ == "__main__":
