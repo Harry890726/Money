@@ -1,10 +1,17 @@
 name: 每小時更新投資建議
 
+# 更新方式：每次執行結束前等約 3.5 分鐘，再自動觸發下一次（接力），約每 5 分鐘更新一次。
+# GitHub 的 schedule 排程實測經常好幾小時都不觸發，只保留作為接力中斷時的備援。
+# 要停止自動更新：Actions → 每小時更新投資建議 → 右上「…」→ Disable workflow。
 on:
   schedule:
-    # 每 5 分鐘（GitHub 允許的最短間隔）；尖峰時段可能延後或跳過
     - cron: "*/5 * * * *"
-  workflow_dispatch:        # 可在 Actions 頁面手動執行
+  workflow_dispatch:        # 可在 Actions 頁面手動執行（也會重新啟動接力）
+    inputs:
+      chain:
+        description: "由上一輪自動接力觸發（手動執行請保持 false）"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths: ["stock_advisor/**", "docs/index.html", ".github/workflows/hourly-update.yml"]
@@ -40,7 +47,8 @@ jobs:
       - name: 提交更新的資料
         run: |
           last=$(git log -1 --format=%ct -- docs/data/latest.json 2>/dev/null || echo 0)
-          if [ "${{ github.event_name }}" = "schedule" ] && [ $(( $(date +%s) - ${last:-0} )) -lt 3300 ]; then
+          auto=${{ github.event_name == 'schedule' || inputs.chain == true }}
+          if [ "$auto" = "true" ] && [ $(( $(date +%s) - ${last:-0} )) -lt 3300 ]; then
             echo "距上次存檔不到 55 分鐘，本次只更新網頁"; exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -61,3 +69,18 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # 接力：等待後觸發下一輪。即使本輪失敗也繼續，避免自動更新中斷。
+  next:
+    needs: [update, deploy]
+    if: always() && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - name: 約 3.5 分鐘後觸發下一輪
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sleep 210
+          gh workflow run hourly-update.yml --repo "${{ github.repository }}" --ref main -f chain=true

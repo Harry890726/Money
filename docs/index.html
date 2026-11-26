@@ -98,11 +98,23 @@ function spark(arr){
   const col=arr.at(-1)>=arr[0]?"var(--up)":"var(--down)";
   return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><polyline fill="none" stroke="${col}" stroke-width="1.5" points="${pts}"/></svg>`;
 }
+// 依新聞發布時間即時計算「多久前」，並附上台北時間
+function newsAge(ts,ageH){
+  let ms;
+  if(ts)ms=Date.now()-ts*1000;
+  else if(ageH!==""&&ageH!=null&&DATA)ms=Date.now()-new Date(DATA.generated_at)+ageH*3600000;
+  else return"";
+  const m=Math.max(0,Math.floor(ms/60000));
+  const rel=m<1?"剛剛":m<60?`${m} 分鐘前`:m<1440?`${Math.floor(m/60)} 小時${m%60?` ${m%60} 分`:""}前`:`${Math.floor(m/1440)} 天前`;
+  const at=ts?new Date(ts*1000).toLocaleString("zh-TW",{timeZone:"Asia/Taipei",month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit",hour12:false}):"";
+  return at?`${rel} · ${at}`:rel;
+}
+function refreshNewsAges(){document.querySelectorAll(".news-age").forEach(el=>{el.textContent=newsAge(+el.dataset.ts||0,el.dataset.age===""?null:+el.dataset.age);});}
 function newsList(items){
   if(!items?.length)return`<p class="muted">暫無新聞</p>`;
   return `<ul class="news">${items.map(n=>{
     const c=n.sentiment>0.1?"var(--up)":n.sentiment<-0.1?"var(--down)":"var(--muted)";
-    return `<li><span class="dot" style="background:${c}"></span><a href="${esc(safeUrl(n.link))}" target="_blank" rel="noopener">${esc(n.title)}</a> <span class="muted">${n.age_hours<1?"剛剛":Math.round(n.age_hours)+" 小時前"}</span></li>`;
+    return `<li><span class="dot" style="background:${c}"></span><a href="${esc(safeUrl(n.link))}" target="_blank" rel="noopener">${esc(n.title)}</a> <span class="muted news-age" data-ts="${n.ts||""}" data-age="${n.age_hours??""}">${newsAge(n.ts,n.age_hours)}</span></li>`;
   }).join("")}</ul>`;
 }
 function renderFx(data){
@@ -230,6 +242,7 @@ setInterval(()=>{  // 倒數顯示 + 「幾分鐘前」持續更新
   if(!document.getElementById("auto").checked)el.textContent="已暫停";
   else if(nextAt){const s=Math.max(0,Math.ceil((nextAt-Date.now())/1000));el.textContent=`${s} 秒後刷新`;}
   showTime();
+  if(Date.now()%30000<1000)refreshNewsAges();  // 每 30 秒更新新聞的「多久前」
 },1000);
 (()=>{
   const auto=document.getElementById("auto"),every=document.getElementById("every");

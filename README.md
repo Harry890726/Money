@@ -34,7 +34,7 @@
 2. 到 repo **Settings → Pages → Source** 選 **GitHub Actions**。
 3. 到 **Actions → 每小時更新投資建議 → Run workflow** 先手動跑一次。
 
-之後每 5 分鐘自動執行（GitHub 尖峰時段可能延後或跳過）。股價、匯率每次重新抓取；新聞快取 30 分鐘以免被 Google 封鎖。結果會：
+之後約每 5 分鐘自動執行：每一輪結束後自動觸發下一輪（GitHub 的排程常常不觸發，只當備援）。要停止時到 Actions → 每小時更新投資建議 → 「…」→ Disable workflow。股價、匯率每次重新抓取；新聞快取 30 分鐘以免被 Google 封鎖。結果會：
 - 發布到 `https://<你的帳號>.github.io/Money/` 儀表板
 - 每小時存回 repo 一次：`docs/data/latest.json`（完整資料）、`docs/data/history.jsonl`（歷史分數，可回測）、`reports/latest.md`（Markdown 報告）
 
