@@ -1,23 +1,24 @@
 # 台美股投資建議報告
 
-更新時間：2026-11-26 12:26（台北時間）
+更新時間：2026-11-26 12:36（台北時間）
 
 > 本報告由演算法依技術指標與新聞情緒自動產生，僅供參考，不構成投資建議。投資有風險，請自行判斷。
 
 ## 台灣股市
 
-- **大盤**：加權指數 39,227.69（今日 +2.70%，20 日 -15.40%）
+- **大盤**：加權指數 39,218.38（今日 +2.68%，20 日 -15.42%）
+- **股價時間**：11/26 12:17 台北時間（交易中，報價約延遲 15～20 分鐘）
 - **市場看法**：偏空：降低持股、保留現金（市場分數 -0.39，新聞情緒 -0.07）
 
 | 代號 | 名稱 | 價格 | 今日 | 20日 | RSI | 主題 | 分數 | 建議 | 信心 | 主要理由 |
 |---|---|---:|---:|---:|---:|---:|---:|---|---|---|
-| 2412.TW | 中華電 | 168.50 | +3.06% | +6.65% | 69 | -0.12 | +0.03 | **持有觀望** | 低 | 股價站上 20/50 日均線，多頭排列；位於 200 日均線之上（長多）；突破布林上軌，短線乖離大 |
-| 2454.TW | 聯發科 | 3,740.00 | +2.61% | -7.54% | 47 | -0.08 | -0.17 | **減碼** | 中 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之上（長多）；受壓主題：關稅與貿易戰（-0.28） |
-| 2308.TW | 台達電 | 1,120.00 | +6.16% | -24.32% | 42 | -0.07 | -0.23 | **減碼** | 低 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 24.3% |
+| 2412.TW | 中華電 | 169.00 | +3.36% | +6.96% | 70 | -0.12 | +0.04 | **持有觀望** | 低 | 股價站上 20/50 日均線，多頭排列；位於 200 日均線之上（長多）；突破布林上軌，短線乖離大 |
+| 2454.TW | 聯發科 | 3,760.00 | +3.16% | -7.05% | 47 | -0.08 | -0.16 | **減碼** | 中 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之上（長多）；受壓主題：關稅與貿易戰（-0.28） |
+| 2308.TW | 台達電 | 1,125.00 | +6.64% | -23.99% | 42 | -0.07 | -0.23 | **減碼** | 低 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 24.0% |
 | 2382.TW | 廣達 | 282.50 | +8.24% | -11.16% | 47 | -0.14 | -0.27 | **減碼** | 中 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；MACD 黃金交叉 |
-| 2881.TW | 富邦金 | 137.50 | +3.77% | -15.12% | 41 | -0.04 | -0.29 | **減碼** | 中 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之上（長多）；近 20 日下跌 15.1% |
+| 2881.TW | 富邦金 | 137.00 | +3.40% | -15.43% | 40 | -0.04 | -0.29 | **減碼** | 中 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之上（長多）；近 20 日下跌 15.4% |
 | 0050.TW | 元大台灣50 | 92.50 | -3.34% | -14.86% | 42 | -0.12 | -0.34 | **減碼** | 中 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 14.9% |
-| 2317.TW | 鴻海 | 217.50 | +5.33% | -12.30% | 43 | -0.07 | -0.37 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 12.3% |
+| 2317.TW | 鴻海 | 218.00 | +5.57% | -12.10% | 44 | -0.07 | -0.37 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 12.1% |
 | 2330.TW | 台積電 | 2,160.00 | +0.47% | -10.56% | 44 | -0.07 | -0.39 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；近 20 日下跌 10.6% |
 
 ### 時事主題
@@ -47,13 +48,14 @@
 ## 美國股市
 
 - **大盤**：S&P 500 7,182.78（今日 -0.25%，20 日 -7.25%）
+- **股價時間**：11/26 05:00 台北時間，當地 11/25 16:00（已收盤，報價約延遲 15～20 分鐘）
 - **市場看法**：偏空：降低持股、保留現金（市場分數 -0.35，新聞情緒 -0.06）
 
 | 代號 | 名稱 | 價格 | 今日 | 20日 | RSI | 主題 | 分數 | 建議 | 信心 | 主要理由 |
 |---|---|---:|---:|---:|---:|---:|---:|---|---|---|
 | AAPL | Apple | 355.58 | +0.43% | +3.50% | 58 | -0.18 | +0.06 | **持有觀望** | 低 | 股價站上 20/50 日均線，多頭排列；位於 200 日均線之上（長多）；受壓主題：關稅與貿易戰（-0.55） |
 | TSLA | Tesla | 380.14 | -1.18% | -5.96% | 50 | -0.12 | -0.14 | **持有觀望** | 中 | 位於 200 日均線之下（長空）；受壓主題：關稅與貿易戰（-0.33）；受惠主題：電動車（+0.10） |
-| MSFT | Microsoft | 489.93 | -1.25% | -7.56% | 39 | -0.00 | -0.22 | **減碼** | 中 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之上（長多）；受惠主題：AI 伺服器與算力（+0.12） |
+| MSFT | Microsoft | 489.93 | -1.25% | -7.56% | 39 | -0.01 | -0.22 | **減碼** | 中 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之上（長多）；受惠主題：AI 伺服器與算力（+0.12） |
 | AMZN | Amazon | 244.43 | -3.12% | -3.99% | 42 | -0.15 | -0.23 | **減碼** | 低 | 位於 200 日均線之下（長空）；受壓主題：關稅與貿易戰（-0.28）；受壓主題：科技巨頭監管（-0.15） |
 | META | Meta | 609.89 | +3.40% | -0.42% | 46 | -0.08 | -0.25 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；受壓主題：科技巨頭監管（-0.25） |
 | SPY | S&P 500 ETF | 716.70 | -0.29% | -7.20% | 40 | -0.12 | -0.33 | **減碼** | 高 | 股價跌破 20/50 日均線，空頭排列；位於 200 日均線之下（長空）；受壓主題：關稅與貿易戰（-0.22） |
@@ -82,12 +84,12 @@
 - ⚪ [The Other Nvidia Romance With an Executive at a Company Linked to China - WSJ](https://news.google.com/rss/articles/CBMimAFBVV95cUxNM2JKcnNFYk5jM09EUEZXNjdqZ1N6V05CbnNQR1gzd09nUlhzRVpTSlM4ZjM4SG1uVXExci1OWWdCY05oNkpTOVFjbzk5amIyeHNzdHNpejM1THVZNFdYVWw5dGx3MFF6YndNbGVnN0dTbHNuVDdSSlQwVWl4MDRadXVxbkJyV0FnVEhjNDlVN21JRDVKRkpGeQ?oc=5)
 - 🔴 [Market Take | Will Wall Street's Selloff Spoil Black Friday? 7 Retail Stocks to Watch - Moomoo](https://news.google.com/rss/articles/CBMisAFBVV95cUxPU0FldTc1UGpPeXhFdE1ONHhYQzNCcUVsTW8xUGd4Q2QtT1NOV21EMVNRVm9RSUpXeXFZMmlmdDdKdHBUSG9LazIzSU8xaTRoR3g3MXgtdjJBdzZrZ3VzTGFNdzRRcmlVSnRxZV84RkVVRmo0bXY5Z1l1d0hKNWxJSDZ6QVZ0YWxGRGdvZHlTNDJGX3NEOXU0bEs5RUxoTG1rQ2JDN0dMSzhsbTV5MlZqZQ?oc=5)
 - ⚪ [‘60 Minutes’ Tries to Move Past Months of Turmoil - WSJ](https://news.google.com/rss/articles/CBMilgFBVV95cUxNZmVvN1lwUjZNYWdzYlhsdWRPaXBjb3RIMjlyT3ZEdXR5ekNiVWgwZl83RzlwcHJNSXZfaFU3UGd1bU5OTkNWdE9QNHlpSV9NSE5FWlNDS0ozTkZtdVZ4Y0RjTGd0RmZWQnRWdWk0V2NSUW5Ld1hMODNIb3JXZUpweFVOQ1hzY05wS1pCcGw3TU9pWGFfUkE?oc=5)
-- 🟢 [Bank of Korea Resumes Rate Hikes as AI Boom Fuels Growth - WSJ](https://news.google.com/rss/articles/CBMirgFBVV95cUxQcXZSVVFTbjZKSnNJM0RpSFVGXzV3VHhTUV8za1dmUkhCSDdtcTdLS1VaaS1KLTZ4LVJYLXRhYnQxRHhtNEhVMldlY3VUXzJaYmgyem02SktTb0hocmpsVVN0QndKNDdVZktvSTRsVWJjTUp0Um5SNVdsUVlEQy1NeXlOZWlsbWNwV05Vd1llTU5lamV5YUhDcmhhQVhNTVhSRWQwVms2NmNKMFNsTmc?oc=5)
 - ⚪ [Exclusive | Aschenbrenner’s Situational Awareness Tells Investors It Lost 65% in Third Quarter - WSJ](https://news.google.com/rss/articles/CBMixgFBVV95cUxOUXgxcE1tNTdoYWR4Vld1UWtPeHRadlE1T1RrbXlBbUJad01lVGZZU2ljYURrcXNCY3QzcGQ1RUlxM1Q1Mk1YVTh1dnpGcGxFYlNUSHRZY0NYRWdzNnZzb2g5UURNWEtDQnZBbTNjSUZyRVdsSExOU2otY2FGVnhIYXVadkE1LTFyVGNOU3RFMDhpc0RBNGNURUM0cHA0eVZMSzkyTmpuR2hfaGZSRGQ3cUdVRWtnS1VFTFlGNWJSRHFhZ2JTelE?oc=5)
+- 🟢 [Bank of Korea Resumes Rate Hikes as AI Boom Fuels Growth - WSJ](https://news.google.com/rss/articles/CBMirgFBVV95cUxQcXZSVVFTbjZKSnNJM0RpSFVGXzV3VHhTUV8za1dmUkhCSDdtcTdLS1VaaS1KLTZ4LVJYLXRhYnQxRHhtNEhVMldlY3VUXzJaYmgyem02SktTb0hocmpsVVN0QndKNDdVZktvSTRsVWJjTUp0Um5SNVdsUVlEQy1NeXlOZWlsbWNwV05Vd1llTU5lamV5YUhDcmhhQVhNTVhSRWQwVms2NmNKMFNsTmc?oc=5)
 
 ## 國泰世華牌告匯率（台幣）
 
-資料時間：2026年11月26日 12:26:08
+資料時間：2026年11月26日 12:36:53
 
 | 幣別 | 即期買進 | 即期賣出 | 數位優惠買進 | 數位優惠賣出 | 現鈔買進 | 現鈔賣出 | 較上次 |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -97,8 +99,8 @@
 | 人民幣 CNY | 4.917 | 4.967 | 4.927 | 4.957 | 4.817 | 4.987 | -0.101% |
 | 港幣 HKD | 4.174 | 4.234 | 4.184 | 4.224 | 4.094 | 4.274 | -0.118% |
 | 澳大利亞幣 AUD | 21.79 | 22.01 | 21.82 | 21.98 | — | — | +0.000% |
-| 紐西蘭幣 NZD | 17.96 | 18.18 | 17.98 | 18.16 | — | — | -0.110% |
-| 南非幣 ZAR | 1.831 | 1.926 | 1.836 | 1.921 | — | — | -0.156% |
+| 紐西蘭幣 NZD | 17.97 | 18.19 | 17.99 | 18.17 | — | — | -0.055% |
+| 南非幣 ZAR | 1.832 | 1.927 | 1.837 | 1.922 | — | — | -0.104% |
 | 加拿大幣 CAD | 23.07 | 23.27 | 23.1 | 23.24 | — | — | -0.129% |
 | 英鎊 GBP | 42.96 | 43.38 | 43.02 | 43.32 | — | — | -0.092% |
 | 瑞士法郎 CHF | 39.49 | 39.73 | 39.52 | 39.7 | — | — | -0.101% |

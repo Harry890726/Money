@@ -1,15 +1,21 @@
 {
- "generated_at": "2026-11-26T04:26:02+00:00",
+ "generated_at": "2026-11-26T04:36:47+00:00",
  "markets": {
   "TW": {
    "name": "台灣股市",
    "currency": "TWD",
+   "quote": {
+    "status": "交易中",
+    "time": "2026-11-26T04:17+00:00",
+    "time_taipei": "11/26 12:17",
+    "time_local": "11/26 12:17"
+   },
    "index": {
     "symbol": "^TWII",
     "name": "加權指數",
-    "price": 39227.69140625,
-    "change_pct": 2.70257914937877,
-    "ret_20d": -15.399814932943523,
+    "price": 39218.37890625,
+    "change_pct": 2.6781979601208095,
+    "ret_20d": -15.419898684884926,
     "trend_score": -0.6,
     "reasons": [
      "股價跌破 20/50 日均線，空頭排列",
@@ -26,7 +32,7 @@
      "link": "https://news.google.com/rss/articles/CBMivANBVV95cUxQNFowckZRaHlnMEtKcVFvZlplZnFLaXhIYkJjVGIxY3c5S2ZlaE9QVjIyWHBVckdoQVhJUmNKb3BOaldENzhSYkQ0ckItbUtzQUQtNWdlUGFqR2JGTk5hblZ6V05vMUNqVnhocTNkZ2xOa1lpeERKX1gtZGpOQkF2WGNNZjhZWmZ3cDZVRnZtQ1dhNVFXLWhHVWxTbW5La044WFBYVUFFRkkwWjN0QmNuWXZLakpQU3FxY0JtNWNXcTlKWlBOT3VuTDNGN3Z3Y3ZtdlRVdFF0R3NGRHFLTGxHN1F5cUo1R0d5VGtWem1MRWhrUm83Z3BFZ3NEc2lzZlBRWUtIRW02YjdPbHJfM3RPemV0ajZjdHV1cE1VZWlvX1FERHhJZlRLLTFhTVpMWUFrRXo2MHVyZXhKU0ZsNlJGV3RpMWFibnduRl9Tcm9NTVFqODRZSGdONEw0ZHJJOG05Sjl4X3c1YXdIWm5vRHMydWFtakd4VHhERXhSQUpIYVc5ekZiM0U2YmhWQjg1NDB6SHlTNHZpZmhMbUpYaVBzdlgtMW5kakpxT0ZaVUhuQm9nLURVWUJlbk5tVF8?oc=5",
      "source": "Yahoo股市",
      "published": "2026-11-26 04:23 UTC",
-     "age_hours": 0.0,
+     "age_hours": 0.2,
      "ts": 1795667035,
      "sentiment": 0.0
     },
@@ -35,7 +41,7 @@
      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5rTlpmWnZEZWU0WTNPazZVaGJVTG16bndoUkhIb0Q3ZFR6SkIwZmtMTWZvTllFSTBwZ1pjQ0NEOVZzUk16Mng5ckdDcDZnN2ltQktpR09WY0IxSm1PdHc?oc=5",
      "source": "ETtoday新聞雲",
      "published": "2026-11-26 04:07 UTC",
-     "age_hours": 0.3,
+     "age_hours": 0.5,
      "ts": 1795666020,
      "sentiment": -0.5
     },
@@ -44,7 +50,7 @@
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNGVEQ2hvZ0dxV1E0bGZFcXphVkxJZ1hZaEdCNzhBN2ZxaUhXeWU5ZThDb2VncnFYZUthYmFnc3VjQVcwLVI3aGQ1SnYwTGcyWnQwelg5c1hLUmVUVFpCVFI4WnRzREdjdTRYN2NCd3Q1RjVHTjBaM1ktRUZjd3NXb2h5clNDZnBVajFBQlZLeVk4Vm5ZbTdydkRUMUY?oc=5",
      "source": "TechOrange 科技報橘",
      "published": "2026-11-26 04:04 UTC",
-     "age_hours": 0.4,
+     "age_hours": 0.5,
      "ts": 1795665870,
      "sentiment": -0.333
     },
@@ -53,7 +59,7 @@
      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4zSFl3b0sySXJNU0JsOFV4ajBtOEdHQjFfdVJ4TGFwa1VKS2N0Y0FhMFhBTi1aVlE1YVJEWjBKYWJad0dnNWt3bER3VnNZUUUxNFBZNFk4WXNoN3VKVDl30gFkQVVfeXFMTXZuWURHRmFqVXhXeEFnbzRrbnQtNmhBdFBJVTk4NUpNLU8xYV9vSWdOZjIzN0RYZjZVOWpFd0I4NlJ6eTBfZm5nRkhaTW95NHVMZHdlbVYxU3pzWFNGOWRTNUd4WQ?oc=5",
      "source": "自由財經",
      "published": "2026-11-26 04:01 UTC",
-     "age_hours": 0.4,
+     "age_hours": 0.6,
      "ts": 1795665673,
      "sentiment": 0.0
     },
@@ -62,7 +68,7 @@
      "link": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxPb18wM3BCR2lad3V3MjJSM2pYRVJTbDhfUHBINE9OdHpLdzB4NFk5SFJKOUtxc1pXY0F5V0pHR1I4ZFlpMldTZmV1MVVpV01lY21iRkc2SHBEcGVFNmVOQjktWmtUUFk2eldvRlFTSGZiTm14TzlZR2FXczA3dHVBeEdqRDk0TXFuUFJHOFdmT0RQWm5ONTNvZXlJdVhQcTN3NG8zS2pDbWNpZktSWnZQT1k1cHRKcFFTOHNzZllGTkRlVDQ5NFV1aFh3X3JZalBWRXNBajdvX1lDVV9BbGVYelQ1NU9xLXZfdUlCNXdrRHZUY3BVa0NEcFNrdDJfWWloTkJhY2RpaFhFemxSLUVEUXZLWU51YjNITVFFd0FJUVRiVHVoZE9oN192Q2hKYUxZemdRcnVtRTd1NHAwUDNwczNXb19wWmFxdXY4Tkw1bDZZTG9zMzVCY1pBblVBVDZ2anNBVjhqM1BBdE1NLTlBeG1mekF4YVFPbEFSUy15ODAtWEVZeHFwdVBmVUZMdjVlM1JnTWppYnFJVXd5cUk4SmtZRVFodlFzOGx1d0FmWktESzdmNDhsZDJ5eDhTeWM5NEl4UjVIMG5VVUtBYWtROC1qVF9CcTFPajJpeGJB?oc=5",
      "source": "Yahoo股市",
      "published": "2026-11-26 03:56 UTC",
-     "age_hours": 0.5,
+     "age_hours": 0.7,
      "ts": 1795665375,
      "sentiment": 0.333
     },
@@ -71,7 +77,7 @@
      "link": "https://news.google.com/rss/articles/CBMi8ARBVV95cUxQLTF6SzZjNkxmTVc0M05Fdjl6TUZkME1HdWx0MktvdXRRR244M2FFOGV3UlRtY1NKZkcwQ3Iwa3pKRXdac1NkeXQxWHoyLW80YkstUlAwTFJkRTlIck1JeVp0ZnViY25wdE9sNkpHeEJORXM1YWFoeTNIQ3lDRFM5Tk00dlF6ZnhrcmJTeV9EUi0zWVR6WlBhQmh5dGtwSWJzd2Y3WmlNSnlVd2gzYVNvNWY2cGFtWFBHa2ZCRVlWMDlBdG5YWkJMSGg2WE1GaHBXSFhsVTdsOXFiNldGQ1ZzaXBsblpTb3pRYWU5Q1pHYW5MbFdMX2p3eFFpeTVtcUc5YVNvOFlKeWt1V1F4dHhsM25uNXhmaWlLeHNfYThKdXhXX2pOdC14YlBnRWlLZWZuWWdQZjRfQTNrUmJtNXZHRm9XSUg3Y1lFYVo1TjVSNG1YbmJlbS11Z0tsT216Q0Nwc0JBMEJGQ0JHcU9HU2dGTXpUZEV5akJldDdoV1R3ZFpwUmlrN0V1WVlZS1NjdHI3R0NKdUxPQmZOczliUW0tQnJDM2poa1ZUVTFDNzFsLTFUVnVUaDdFYnQwczREMnE0SDc5Qlg3R2Zzb1kxWXk0X0k0eGY4TF9OVjBGaGdMcmdGR2w3SjhORGFsWHk3dDNTMDhrdnR4QVVkdlcxT0pxNGdiVEoyM1VmVEpJQ3B6aW1HNVRkS24xZ0RJSDUwNmgwYm02S3NzaUgzeVlhMHNJdk95YUVWT0F6bE9wS3dLUkhVUE03ajJaZlFhRzhYU1dTS3lsdEFZdDRURkhYZHFMajFVMGNmNHVRRklONkhxQ1I?oc=5",
      "source": "永豐金證券",
      "published": "2026-11-26 03:48 UTC",
-     "age_hours": 0.6,
+     "age_hours": 0.8,
      "ts": 1795664919,
      "sentiment": 0.667
     },
@@ -80,7 +86,7 @@
      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9rNFN6MmpTRHhCcERBUXVCNkJfZ29CVWI3RlpvMW1JYlBOUEMzVmNXWUEtNVRBSzduZnZBZUZTTmplY2VCNWV3LTU5RQ?oc=5",
      "source": "三立新聞",
      "published": "2026-11-26 03:23 UTC",
-     "age_hours": 1.0,
+     "age_hours": 1.2,
      "ts": 1795663424,
      "sentiment": -0.333
     },
@@ -89,7 +95,7 @@
      "link": "https://news.google.com/rss/articles/CBMilANBVV95cUxNcXVWdGFTY1AtQUg4QWI3OXFMLWFRTFRFOXZhcFJmR01uOVRKVnRUa2hVdGNuWDZERHRvY1pOQzlGcFBHQU9rRnAwWmVkbW5vdkN5azFlWnZLS3pjSFZwMkQzdGhnNFBkQUpUdFU3eVpIVkdabWgtaUhZN1hNVkNDVmJHWlFCVEhQTmtsMy1WTEswTFFMOFE3dU1zOHBJMXktS2dzQVFNVGlUQmRLZDVNVWJsOE1JUHM2ai1hSm1NazB1aEhyRnZUUUd3Rk52RTNNU1VmUXlreHFDMnk0RkFVdnVBVkM0U2N3NllPS1BGdDNXcmp1NkJFNDhhRUlScEFueVRDY1ZmTWp0ZEh1bkhHOENreUd3NE5OSGtvU0htcTRFTzd0T2s1M1lWYkNvdFJKMUdfaGFRNXZtODE1M19KMnFnMnAzc0VCbzdxSHBETWJNYnRxOFA2WEM2ZlBoVW53RWlrZkFPYkFXSnE5WFQ4T2RZb3NwOXJHYWd0aGxMbGRpNC1zY0pmT0R0cUlyck5yMTN3aQ?oc=5",
      "source": "Yahoo股市",
      "published": "2026-11-26 03:18 UTC",
-     "age_hours": 1.1,
+     "age_hours": 1.3,
      "ts": 1795663127,
      "sentiment": 0.0
     },
@@ -98,7 +104,7 @@
      "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxQMDdvZDg4NUw0ZzE4Yll4ek5rYUtBNG5KQXFhNGxWbEs4emR4YUlmQTFmSmlFTGp6SGJyVUFYTGVqa01aTDNIam1fSnhnUzdsU2RjU2RLVkl5NHc2WUx1ZGFDZTY4Qm5ndGVBUnc5em5SbkZzS1ZxSklRckJDSVVSd2FPOVlHUHYyOWo3YWthZHdQN1dVamxyUEdJRUcySFdyLXZId0FCNklUanEwVGhxZGUzbmdoRFBocU9JSThqbncwek5CbjFYOXo0aHU1SUpPS1VEcy1LU2JOTEFsdTgzNUtSX09KS3lqZ2drakVsZXZsRUlLV0xhZUZtNXFUZF83cDctZVB6VlE0YlJxRTBkYmtyRXJiSDBiaDdsdFN5OU1wZFkxeTNkQ2RqcTRLcjlKaXR4NXItSVlSVzh0R0hYZ0g5LVp2TFYyMG80TlJpQjNDc2kyQlJHRGk1SUdqTjkyR2QxNmRlaGFwYkpPYlY2SQ?oc=5",
      "source": "Yahoo股市",
      "published": "2026-11-26 03:11 UTC",
-     "age_hours": 1.2,
+     "age_hours": 1.4,
      "ts": 1795662711,
      "sentiment": 0.5
     },
@@ -107,47 +113,47 @@
      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLMHZTZ3dLd0Q3c1U3NGFERGJDMUQyTzNwelVjQm5GN203VG50YWp4TERjOWl2OVhxUWlqWEhJU09JeThJck1hcG1jVF9JRHN5cEE?oc=5",
      "source": "UDN",
      "published": "2026-11-26 03:03 UTC",
-     "age_hours": 1.4,
+     "age_hours": 1.6,
      "ts": 1795662227,
      "sentiment": -0.333
-    },
-    {
-     "title": "美301產能過剩調查台灣列最低級別 鄭麗君：台美有共識最終稅率15%不疊加 - 民報",
-     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5neUl4dmtjQ181d2pFaWFkanNKTzJxNEN6TGhqLVdRVU1VeUN6TDBOcmpfNGE0a2w3OWVqZEo2T2g5ZlFRY0JYM3RPSlM1WWJ6aTN2R0NBNFY3LUNTeVE?oc=5",
-     "source": "民報",
-     "published": "2026-11-26 02:57 UTC",
-     "age_hours": 1.5,
-     "ts": 1795661841,
-     "sentiment": 0.0
     },
     {
      "title": "台股暴跌散戶爆斷頭潮 怒轟政府護盤反變「外資逃命波」 - TVBS新聞",
      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE56ZVFZY2ZHa0dRNmFvdERDcm9VQ3RJQWJtU3VQV1RZTFlFRXFPc2M2R3o4MnBnQnR0SzFkN3BWRFBiMDNkdUF5a0VkTENQNXM?oc=5",
      "source": "TVBS新聞",
      "published": "2026-11-26 02:58 UTC",
-     "age_hours": 1.5,
+     "age_hours": 1.6,
      "ts": 1795661880,
      "sentiment": -0.667
+    },
+    {
+     "title": "美301產能過剩調查台灣列最低級別 鄭麗君：台美有共識最終稅率15%不疊加 - 民報",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5neUl4dmtjQ181d2pFaWFkanNKTzJxNEN6TGhqLVdRVU1VeUN6TDBOcmpfNGE0a2w3OWVqZEo2T2g5ZlFRY0JYM3RPSlM1WWJ6aTN2R0NBNFY3LUNTeVE?oc=5",
+     "source": "民報",
+     "published": "2026-11-26 02:57 UTC",
+     "age_hours": 1.7,
+     "ts": 1795661841,
+     "sentiment": 0.0
     }
    ],
    "stocks": [
     {
      "symbol": "2412.TW",
      "name": "中華電",
-     "price": 168.5,
-     "change_pct": 3.06,
+     "price": 169.0,
+     "change_pct": 3.36,
      "price_twd": null,
-     "ret_5d": 1.51,
-     "ret_20d": 6.65,
-     "rsi14": 69.1,
-     "volatility": 21.1,
-     "sma20": 162.68,
-     "sma50": 154.31,
-     "technical_score": 0.344,
-     "news_score": -0.184,
-     "theme_score": -0.124,
+     "ret_5d": 1.81,
+     "ret_20d": 6.96,
+     "rsi14": 69.8,
+     "volatility": 21.7,
+     "sma20": 162.7,
+     "sma50": 154.32,
+     "technical_score": 0.349,
+     "news_score": -0.185,
+     "theme_score": -0.125,
      "themes": [],
-     "score": 0.033,
+     "score": 0.035,
      "rating": "持有觀望",
      "confidence": "低",
      "reasons": [
@@ -161,7 +167,7 @@
        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBrQWE4U3o2aDBFVkpsekZHUV9XWXJsYnBSb3R4U0R1ZWk1WGY4dWpFOV9hQnAxUm9ZX3dOZ0h5QTcwWC1SLXJXbG9weDRHWkYwVndPd2d0T01yWjJTTG82Wk9LMXdqaHJ3RVE?oc=5",
        "source": "旺得富理財網",
        "published": "2026-11-26 03:38 UTC",
-       "age_hours": 0.8,
+       "age_hours": 1.0,
        "ts": 1795664297,
        "sentiment": 0.0
       },
@@ -170,7 +176,7 @@
        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50dGtyMUo3T0lvM3dHTlh4Wkdjck1nV1Z0X1cwZzVqay13aGRqckFqbFZGeElVMjZYSlhKcVp6dFh4MmpHZ3RWcDU2dGxOWmZ3ZkHSAVdBVV95cUxNcHk5RVBES1RfM3RDVHctakdvc2RFOGtrVlc0OUFiX3BsQUdIamM5ZHJkYlhDUC1qNjlYWnd3U2lmYThYTVNYOTA2Y0pKcmZTUFdCNWpFQzg?oc=5",
        "source": "UDN",
        "published": "2026-11-26 02:16 UTC",
-       "age_hours": 2.2,
+       "age_hours": 2.3,
        "ts": 1795659399,
        "sentiment": -1.0
       },
@@ -179,7 +185,7 @@
        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40Q1ktaGFmSzR3eVkyYk5veFJBajJ1ZjdzeDQzQnZMNHhBbktsS01pNWEySWxVS0NKcDg3Yi1GWWt6UG5NVXBxajlSenpsQ1E4VTE0?oc=5",
        "source": "CMoney",
        "published": "2026-11-25 18:41 UTC",
-       "age_hours": 9.7,
+       "age_hours": 9.9,
        "ts": 1795632119,
        "sentiment": 0.0
       },
@@ -188,7 +194,7 @@
        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZm1iX1oydmYxbGpLLXc2LVRmdk8tdzBROHZQcWVFcWR0RDQ2TVdsUmxDVWxwSVBoQjRpTVcxVExTNUl6cXMwYmlQYkxBMExFWUlJYThjT3JQNkZEUUVQeDYwUWtvQ1VJMGdybDY4MGx5YVV2QUxGNW1WbXAySFVjWkpDMUhRXy1ZRjc1Wjl2d2M?oc=5",
        "source": "CMoney投資網誌",
        "published": "2026-11-25 03:24 UTC",
-       "age_hours": 25.0,
+       "age_hours": 25.2,
        "ts": 1795577081,
        "sentiment": 0.0
       },
@@ -197,7 +203,7 @@
        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOODlmcUxPTG54OWhqUC11elZfY1IzQTdHNlBKTEo5SFQxUUtTc0E0RU1UQ0lWd05XZWZoYVZ2T01BNzh0RTJ2ZGtrNHBuT0NDSG9jaHlLU2szS0RUWGhDVkZSWlR0THpBZ0VrcHItNXhUblBVVXI2QUJZTmxvS0otdXFqS3hQc2dMeG1tZGU3QUo?oc=5",
        "source": "CMoney投資網誌",
        "published": "2026-11-25 02:38 UTC",
-       "age_hours": 25.8,
+       "age_hours": 26.0,
        "ts": 1795574311,
        "sentiment": 0.0
       }
@@ -262,23 +268,23 @@
       164.5,
       164.5,
       163.5,
-      168.5
+      169.0
      ]
     },
     {
      "symbol": "2454.TW",
      "name": "聯發科",
-     "price": 3740.0,
-     "change_pct": 2.61,
+     "price": 3760.0,
+     "change_pct": 3.16,
      "price_twd": null,
-     "ret_5d": 0.54,
-     "ret_20d": -7.54,
-     "rsi14": 46.8,
-     "volatility": 103.6,
-     "sma20": 3770.25,
-     "sma50": 4259.2,
-     "technical_score": -0.211,
-     "news_score": 0.037,
+     "ret_5d": 1.08,
+     "ret_20d": -7.05,
+     "rsi14": 47.2,
+     "volatility": 103.8,
+     "sma20": 3771.25,
+     "sma50": 4259.6,
+     "technical_score": -0.201,
+     "news_score": 0.038,
      "theme_score": -0.083,
      "themes": [
       {
@@ -294,7 +300,7 @@
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.084
+       "impact": 0.083
       },
       {
        "id": "iphone",
@@ -302,7 +308,7 @@
        "impact": 0.06
       }
      ],
-     "score": -0.167,
+     "score": -0.162,
      "rating": "減碼",
      "confidence": "中",
      "reasons": [
@@ -317,7 +323,7 @@
        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fVDVDV2xfTXdxQkE4ckNYSDc0a1dmQzdfUzVvc0J4d3ZobGQyQmNJQkVtdGpLX1ZqUC15LU5DTVlCbjFNeWdsWDNzcHdjMlM1ekRHT0dpb3AyNS1aZ1NR?oc=5",
        "source": "工商時報",
        "published": "2026-11-26 01:22 UTC",
-       "age_hours": 3.1,
+       "age_hours": 3.2,
        "ts": 1795656120,
        "sentiment": 0.5
       },
@@ -326,7 +332,7 @@
        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9sdERhU1Jhd1lkZlBlbGpybW5pRXBFTk9WcVc4RTl1X0tuQWYzcDhNd1ZEVkRUR213cERyUXB5cFNmME0zeGpUa2s2MUJrLTVQ0gFWQVVfeXFMTkI4M0plX2M4UG1wVm9mbXlUaWFkdk5mYzJ4QVJvbWZudTFQZXZsYVV6X3p3UUVpR0tMbHFpUVVtX2dfNUp0MEk5Z21XVGU1aWJqUzdHX2c?oc=5",
        "source": "UDN",
        "published": "2026-11-26 01:19 UTC",
-       "age_hours": 3.1,
+       "age_hours": 3.3,
        "ts": 1795655994,
        "sentiment": 0.5
       },
@@ -335,7 +341,7 @@
        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9pZXhqQnJNUXd0WkRnajNTSDdvZzZZNDhGblJKcEhNZTJsOEEtZ3E3dlJPVWc4V1laVzl2dHQ2ZHJlWXozNTBxQTFJU1JDYndxZ2c?oc=5",
        "source": "UDN",
        "published": "2026-11-26 00:53 UTC",
-       "age_hours": 3.6,
+       "age_hours": 3.7,
        "ts": 1795654390,
        "sentiment": 0.0
       },
@@ -344,7 +350,7 @@
        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBHR2VEdTR4UVo4dnZhZFA1Yms4aktlRTVEQmJtQ3NMdGdYSElFR3p1QjZlZ0V3NGpJb3M2QUVHdk9scHkwaDZkOVFzdVpuVVd4dkwyTDdOb2U?oc=5",
        "source": "CMoney",
        "published": "2026-11-25 23:35 UTC",
-       "age_hours": 4.8,
+       "age_hours": 5.0,
        "ts": 1795649754,
        "sentiment": 0.0
       },
@@ -353,7 +359,7 @@
        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE44RUhaUzFrcWptalBUNmRjc3VnU3phNU9vcUdaVUwwdld0VVBjbGNZMnpMbmUtQnBEVjhydEcxZVpxRnYxWDAxbWNWQ3M?oc=5",
        "source": "聚財網",
        "published": "2026-11-25 09:20 UTC",
-       "age_hours": 19.1,
+       "age_hours": 19.3,
        "ts": 1795598412,
        "sentiment": 0.0
       }
@@ -418,21 +424,21 @@
       3685.0,
       4050.0,
       3645.0,
-      3740.0
+      3760.0
      ]
     },
     {
      "symbol": "2308.TW",
      "name": "台達電",
-     "price": 1120.0,
-     "change_pct": 6.16,
+     "price": 1125.0,
+     "change_pct": 6.64,
      "price_twd": null,
-     "ret_5d": 12.0,
-     "ret_20d": -24.32,
-     "rsi14": 42.2,
-     "volatility": 111.7,
-     "sma20": 1148.0,
-     "sma50": 1514.9,
+     "ret_5d": 12.5,
+     "ret_20d": -23.99,
+     "rsi14": 42.5,
+     "volatility": 112.1,
+     "sma20": 1148.25,
+     "sma50": 1515.0,
      "technical_score": -0.46,
      "news_score": 0.267,
      "theme_score": -0.073,
@@ -464,7 +470,7 @@
      "reasons": [
       "股價跌破 20/50 日均線，空頭排列",
       "位於 200 日均線之下（長空）",
-      "近 20 日下跌 24.3%",
+      "近 20 日下跌 24.0%",
       "個股新聞偏正面（+0.27）",
       "受壓主題：關稅與貿易戰（-0.33）",
       "受惠主題：AI 伺服器與算力（+0.15）"
@@ -475,7 +481,7 @@
        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9oZDFfQjVHXzRaM184S213ZTR6U2VFQUktUGhwcmIwVVJQdFpfcnhGS0E1WDlIM2NhUVZTVmdCLVhVdzk0NFFKY3lWaXVvN1M3NUxHYmRlTWtMRTNUeGMxZ0dZMGVjRFJwamc?oc=5",
        "source": "旺得富理財網",
        "published": "2026-11-26 03:17 UTC",
-       "age_hours": 1.1,
+       "age_hours": 1.3,
        "ts": 1795663055,
        "sentiment": 0.0
       },
@@ -484,7 +490,7 @@
        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRnpYQ1c4aEVHMDFxdTRNc3F0RE9TV0pjcUhJV3BNUjJGVWpuYWtJNUFtTGQtbldXZ1phdlVPakEyZXY2V3lfU2lIRS1QUFZyRUdiUzhMOTV3dV9xbWM3Y2o3OEFrTGxSMWdoQ3dLRm5ERld1SXF5VUxPcm93RXlwdHdn?oc=5",
        "source": "CMoney投資網誌",
        "published": "2026-11-26 03:14 UTC",
-       "age_hours": 1.2,
+       "age_hours": 1.4,
        "ts": 1795662847,
        "sentiment": 0.667
       },
@@ -493,7 +499,7 @@
        "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxPbURJdkVkV0MzMWFMcVdMT0FCWkpNdXU5U095aGQtY3JIM04xN3IxbXBMY1dPVDU4blQxRThsV3ZlNG9qUWFHUEZvM2d5QXBjWWNMdWpxUmp5eTcweG0zZTF6MjM5TTBfNDZpSDFGR1FOblVLY0YxMFhRMlZPODNmMEpONFQ4b3JXYWlIR0dCOTNHOC0xZnJiQnBhVVF1ZmdyLTRIc2JRQ2I2U1pIaEVDeHlieGNDNlppSFRJaHBRZ2N3SDJyMmFTVnltMFNmQ2RHUmI2M05PaWF0VlRrSXA5TjNQWmpHN0RtbTR3YUF1REt3QzlSSnRDSE1sOFNlTVNsZkZSc0lkNzR0d1lhUkhGdFUxWnpEa3dpdUplVnBGdG9YTXA1a1NDd1JlNlhHaHI1MkF5b0xIVDIxSUl6eXJXYzJ1MXVLbTZiRkE4T3AtTEgtR3ZGdVNGTjhFYTBrd0JQUk1xYTBaOXp1ZUpoTnlTeTZLdUlabTh5?oc=5",
        "source": "Yahoo股市",
        "published": "2026-11-26 01:20 UTC",
-       "age_hours": 3.1,
+       "age_hours": 3.3,
        "ts": 1795656035,
        "sentiment": 0.0
       },
@@ -502,7 +508,7 @@
        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5WVDI1VFhqemE2WHVTaGJMakdNSzZ2blZneHBFU2swc3NuWFQ5YVNHWi1yQkdGNGZJZjV0bUlnNHJxNVU3MzQwN3JjWQ?oc=5",
        "source": "FTNN 新聞網",
        "published": "2026-11-25 23:50 UTC",
-       "age_hours": 4.6,
+       "age_hours": 4.8,
        "ts": 1795650600,
        "sentiment": 0.333
       },
@@ -511,7 +517,7 @@
        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LdEh3T0pRaFVOY05lekVVUFVNZkk1WGxiR3I5V0hHb2tlZWlYV2dZQkRaZUxwalV0TjlzUlFsa0E4eU1hdl9RdUMydG04czJaWUM2UUlMWXk?oc=5",
        "source": "CMoney",
        "published": "2026-11-25 22:38 UTC",
-       "age_hours": 5.8,
+       "age_hours": 6.0,
        "ts": 1795646312,
        "sentiment": 0.0
       }
@@ -576,7 +582,7 @@
       990.0,
       1085.0,
       1055.0,
-      1120.0
+      1125.0
      ]
     },
     {
@@ -593,7 +599,7 @@
      "sma50": 311.76,
      "technical_score": -0.36,
      "news_score": -0.12,
-     "theme_score": -0.143,
+     "theme_score": -0.144,
      "themes": [
       {
        "id": "tariff",
@@ -603,7 +609,7 @@
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.209
+       "impact": 0.208
       },
       {
        "id": "geo",
@@ -628,7 +634,7 @@
        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WZGluWU0zN0wtN05HYlNidEdEZUd3a1h2N2JQc0FOZ083X3hGbGQ2a0VpT2h1dTU0bUh6RGdqOG5WX2NLa2VZN2t6VHg1ZmVRZ1Jz?oc=5",
        "source": "鏈新聞 ABMedia",
        "published": "2026-11-26 03:13 UTC",
-       "age_hours": 1.2,
+       "age_hours": 1.4,
        "ts": 1795662824,
        "sentiment": 0.0
       },
@@ -637,7 +643,7 @@
        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMUGpJSW5Fc1dyVjlPdDI1WmZ5aVA1LWhoSDgxT243bjZ1dm1EcENfbVJmUEE2SF9Fc1dKVHUwcVJzV3dzdFRLdW03Yjc3YW1MU2FoTWF3?oc=5",
        "source": "優分析 UAnalyze",
        "published": "2026-11-26 02:01 UTC",
-       "age_hours": 2.4,
+       "age_hours": 2.6,
        "ts": 1795658489,
        "sentiment": 0.0
       },
@@ -646,7 +652,7 @@
        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hR21adndSMDFoRy1JWFFzWDBYTkNJTUZtSEt1NTMwT2xoZUlvazUxRTZUQ3V2RV9ZMlpjT1hTT1I0TGpKa3FybkNlNjdCVnRqbTNndTZiTnlfbnlnTTJHOXVXNjNsWDJqOWc?oc=5",
        "source": "旺得富理財網",
        "published": "2026-11-25 22:47 UTC",
-       "age_hours": 5.6,
+       "age_hours": 5.8,
        "ts": 1795646872,
        "sentiment": 0.0
       },
@@ -655,7 +661,7 @@
        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9tM0dxTC1VUTh6ZGYtQnZfdE5kVk13TWhqdlA4MzR3TlhHdTJrSjhJMVp4Z01hd2dFV3ZXWFFTakwwOENaSUVXX251OA?oc=5",
        "source": "FTNN 新聞網",
        "published": "2026-11-25 06:31 UTC",
-       "age_hours": 21.9,
+       "age_hours": 22.1,
        "ts": 1795588260,
        "sentiment": -1.0
       },
@@ -664,7 +670,7 @@
        "link": "https://news.google.com/rss/articles/CBMiygNBVV95cUxOdFBoZkkwZ2VrajdYT1lwaHNYaGlqVlZmSFpGWTNGMWFPNWMzcnprdXFva2tISV9hVDJnMVFKVFZIY2YyRWJaSi1fNHBBTWotT01sd2xMSDBEdnNUWFJRTTNDY3dubFVIU2xrWjByUmVHYnNCZzhJQTlzbVRUSXRqZ3FoN21zYnZzOWhnei14emxoVXBZaXIzNFR5OF81VF9mbWFTd05IMUw1VGlLMkNjWmdNeXdtcnpSOVNCMkpSWWdUWTVCaV9fRmFRTHBlakpudEIxQkViWlVtMFZnaWZ6SmpXeG5lNkNRZnU4SndpRHczcUxwVmF0aFFaUFVfV3B2cGVSN2VsTWt3TUd0UVlaenZpY1UyMUFXUUx3ZS1aYXVPV1FnQWNfWE4zOVpTMVJYSFNvekNJYzdkTHVNa05UZ2J6SG9Yc2hEU2I0a2szX3RQYi10XzB6V01la3lLMGg3NHNkbG9uQXBVVklfZGZQTjVOM2RpdGdXQk44UjBKVTNkYVgyclFvYUgzMVRldFphd2JSclloMWk4MHYxY3FXalF0ODBtYkJKc1htSE1pNHRhLTA1LUlVOUdtN2cwTXVBZE9KaTd4UlpUUQ?oc=5",
        "source": "Yahoo股市",
        "published": "2026-11-25 05:25 UTC",
-       "age_hours": 23.0,
+       "age_hours": 23.2,
        "ts": 1795584345,
        "sentiment": -0.333
       }
@@ -735,15 +741,15 @@
     {
      "symbol": "2881.TW",
      "name": "富邦金",
-     "price": 137.5,
-     "change_pct": 3.77,
+     "price": 137.0,
+     "change_pct": 3.4,
      "price_twd": null,
-     "ret_5d": -7.09,
-     "ret_20d": -15.12,
-     "rsi14": 40.8,
-     "volatility": 68.1,
-     "sma20": 149.97,
-     "sma50": 153.25,
+     "ret_5d": -7.43,
+     "ret_20d": -15.43,
+     "rsi14": 40.3,
+     "volatility": 67.8,
+     "sma20": 149.95,
+     "sma50": 153.24,
      "technical_score": -0.4,
      "news_score": -0.214,
      "theme_score": -0.038,
@@ -760,7 +766,7 @@
      "reasons": [
       "股價跌破 20/50 日均線，空頭排列",
       "位於 200 日均線之上（長多）",
-      "近 20 日下跌 15.1%",
+      "近 20 日下跌 15.4%",
       "受壓主題：兩岸與地緣政治（-0.11）"
      ],
      "news": [
@@ -769,7 +775,7 @@
        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE04ckY4TWxlWTJ5c2NpMV9HS2xyMDhtNGJKMlJFUkZsMUFjYURUOUE0RlI5LVhPanB2YVpucGFaTEpoNDhVWEY3TldjTldpRUpyLW1OWEs2dW4?oc=5",
        "source": "CMoney",
        "published": "2026-11-25 23:12 UTC",
-       "age_hours": 5.2,
+       "age_hours": 5.4,
        "ts": 1795648342,
        "sentiment": 0.0
       },
@@ -778,7 +784,7 @@
        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ORnlGdXlaUnhPU2taSUNTdUJLcFZQalpyNnVMMFFrZnVoNHZSNWxxT1R2Wk13Y3pheUtwVTU4aFpMNGZSSjhrY2NxRjZkUzFmT0c4?oc=5",
        "source": "CMoney",
        "published": "2026-11-25 15:15 UTC",
-       "age_hours": 13.2,
+       "age_hours": 13.4,
        "ts": 1795619735,
        "sentiment": 0.0
       },
@@ -787,7 +793,7 @@
        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xbVJfV0dqSGtIRTVQN2JOdFJLY0hGU2U4S08zQm9OTGxqZHF4dng4Q3BpZ0l1TlRzbnhabGc1RUVVMnkxdl9oM1RCV29DT21N0gFWQVVfeXFMTzNQWFlXS2JLNEIzYUNEQlpDYUs1c2M3NWFDRmNvWmtUOVNUWVlYOXZvNnFscWU5WDJMZ1VSeGpoZ1NRNDFyQlVhM2ZMY1RpU2drY1VheWc?oc=5",
        "source": "UDN",
        "published": "2026-11-25 11:05 UTC",
-       "age_hours": 17.3,
+       "age_hours": 17.5,
        "ts": 1795604735,
        "sentiment": 0.0
       },
@@ -796,7 +802,7 @@
        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLW1QRzY4cEtXWFJwbVQtX2VjdjJzUmFlc0d1RzNWR1AyZmZnZTVBdzdLZHk0VjhhNHY3TzJMc0FqTWswVjJlWHpLUF80Z2JJN0VHUVdYTTlYbTIwSjQ4Qnk5WlJ5TE96X21wSHR2bkg2ajI4Z2sxRmVUVWxTOVlMRQ?oc=5",
        "source": "今周刊",
        "published": "2026-11-25 09:39 UTC",
-       "age_hours": 18.8,
+       "age_hours": 19.0,
        "ts": 1795599540,
        "sentiment": -1.0
       },
@@ -805,7 +811,7 @@
        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rZGlkZUFaaURqUFdiSnlhcU5nTHk2cEo3SnE1ZUIxVGtxaGJ5RVJkcUFRM2dodnlfQ2dETGJ1WGlfMkFaY0gtb0Nvb0hfTTl1a3NHNmcwSWxXUQ?oc=5",
        "source": "中央社 CNA",
        "published": "2026-11-25 09:28 UTC",
-       "age_hours": 19.0,
+       "age_hours": 19.1,
        "ts": 1795598905,
        "sentiment": 0.0
       }
@@ -870,7 +876,7 @@
       130.5,
       143.5,
       132.5,
-      137.5
+      137.0
      ]
     },
     {
@@ -921,7 +927,7 @@
        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9EWnNpNnBpSWhEa2t2eHJNSDg0bVFNXzJiRm5xTzRiQk8yWGE4RGVsczFFVzZtV3o3b2h3ekJ3WU1ZRU9aclZ6SHMtdw?oc=5",
        "source": "FTNN 新聞網",
        "published": "2026-11-26 03:55 UTC",
-       "age_hours": 0.5,
+       "age_hours": 0.7,
        "ts": 1795665300,
        "sentiment": 0.0
       },
@@ -930,7 +936,7 @@
        "link": "https://news.google.com/rss/articles/CBMirwNBVV95cUxQdk1NWWJBMV83MjFLSjJsOU5KVXpfUmRMRmY0ZEsyZXQ5bWtmS2VkRlpVcTE4X1RPVWI5cHEwdkswbmQ2NHNDU1VzVTl1dk1XMHJMazRELUtiYVQ0RkNJMXJ4dUJGamd6bmxVOWxLYy1hekx1TkVuUm9SR1pzbTNpOVZYcmc3WjlvcUZwLTFITUw2V1ZoVTN6QUZpX0hQTE5WVkRyVlVpWGhtUTlRZERSQ2h5TjBMc1gxRmZaaTZHbGFiUW50ZlhlUnhSbFdCamlQVnZyY2M5SWl5RlB4MS1BQ1NTaGtqTmdsTy02dEZBWFFxTC01X0oyMzVPVWxXZkxmZDBDQXdIUGt2Q3ZlZE5nT0dlQndGSzdRQWZadmZSR1UzQ2t0d0J1YTdmbUswbU4wMVNrdE1sWVB6dkhSLXZtbVJ2bGpOQ25tMl84WW9FcTFmdXNTVUdFMEhCOEx4M09zdHZzbF9UYlJiV3VmZ2xtN1VGMDh1cXVmbFhCY2R6NHhxQmpOU2FJQXBVT2ZiY1VPSWxTLVdVSG9QeXR5XzF0MFJEdnE0QXJpOWxFb1RqVQ?oc=5",
        "source": "Yahoo股市",
        "published": "2026-11-26 01:42 UTC",
-       "age_hours": 2.7,
+       "age_hours": 2.9,
        "ts": 1795657363,
        "sentiment": 0.333
       },
@@ -939,7 +945,7 @@
        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zNC1LemozYld4UXVwLW9UMV9wanJWcC1GNHpjODdZRnB4aE5hU1RsNzJpU1J5eVByd0NGdTNxNTVDV0pwekhoeE1YekVmNTlsOXI40gFYQVVfeXFMUFJtZ05qbkdGNHdVMEhnWjBQNzRqOVZQc3JQM3pGclhIbExJc2pYckJEYk5SSmgzeEpmZnFWbDZCVHQzdWFVTlNJdF96WmhUdDlhNThpLWZxaQ?oc=5",
        "source": "UDN",
        "published": "2026-11-26 01:13 UTC",
-       "age_hours": 3.2,
+       "age_hours": 3.4,
        "ts": 1795655596,
        "sentiment": 0.0
       },
@@ -948,7 +954,7 @@
        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xN2VmZ3c3aFpqS28zQ0prdGRJQ3Btc2YybGhiRE5qSk8zMkYtVTNmX252TmtiUnQxelU3YndUbWhRLW1IdDMtSk4zMXhyWnNBYUN4cF9xVmJ4dkZCUEE?oc=5",
        "source": "鏡週刊Mirror Media",
        "published": "2026-11-25 21:10 UTC",
-       "age_hours": 7.3,
+       "age_hours": 7.4,
        "ts": 1795641000,
        "sentiment": 0.0
       },
@@ -957,7 +963,7 @@
        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5jc3BsYUw5NUNWaVB6Z0diWGNORVgtVFotajRzeF9ia3hja2xLU3BZOXlKR0VSaFpfX0Jnb2dqTV9QM3F0QVgxZDZ2Q3Y2RzBROFAzbzNiVmc?oc=5",
        "source": "CMoney",
        "published": "2026-11-25 17:23 UTC",
-       "age_hours": 11.1,
+       "age_hours": 11.2,
        "ts": 1795627380,
        "sentiment": 0.0
       }
@@ -1028,15 +1034,15 @@
     {
      "symbol": "2317.TW",
      "name": "鴻海",
-     "price": 217.5,
-     "change_pct": 5.33,
+     "price": 218.0,
+     "change_pct": 5.57,
      "price_twd": null,
-     "ret_5d": -1.36,
-     "ret_20d": -12.3,
-     "rsi14": 43.4,
-     "volatility": 72.6,
-     "sma20": 229.53,
-     "sma50": 240.82,
+     "ret_5d": -1.13,
+     "ret_20d": -12.1,
+     "rsi14": 43.7,
+     "volatility": 72.9,
+     "sma20": 229.55,
+     "sma50": 240.83,
      "technical_score": -0.6,
      "news_score": -0.104,
      "theme_score": -0.075,
@@ -1054,7 +1060,7 @@
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.167
+       "impact": 0.166
       },
       {
        "id": "geo",
@@ -1068,7 +1074,7 @@
      "reasons": [
       "股價跌破 20/50 日均線，空頭排列",
       "位於 200 日均線之下（長空）",
-      "近 20 日下跌 12.3%",
+      "近 20 日下跌 12.1%",
       "受壓主題：關稅與貿易戰（-0.55）",
       "受惠主題：iPhone 與消費電子（+0.18）"
      ],
@@ -1078,7 +1084,7 @@
        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Gd0ZjMkl0MUdyVm5ObVpCZ1dBYUNTMzJ5R2tQa3VueW5TVGkwMXkwcHFSNnVVcmgxM2RzYzBTLVp4clB2OWEzZTZiclBDQnY2YkJhSmxHQXR3RUkydXFR0gFkQVVfeXFMUERRUk1LZHhVUHBmc1FTQzhuWGtiT3A5WDZjNlJSTnBPOHlhbkxoUEtfZVpxU1Y2RzdRMGZrbF8yQWZRWUtZV1dOZUYwR3kwZnQwNTg4Wm9fbGJ6VTFWYk9FVUxWSg?oc=5",
        "source": "自由財經",
        "published": "2026-11-26 02:22 UTC",
-       "age_hours": 2.1,
+       "age_hours": 2.2,
        "ts": 1795659747,
        "sentiment": 0.0
       },
@@ -1087,7 +1093,7 @@
        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1KQ3pjWHJpSHBFUkhKeXpxb19pY2ZuQ3Fhd1B3TnFrTlNzLTBBcV9TbGQ2S1U3ZlhkdXNFd1gzQWVCYnIyTVVZczh0SG1PcUU0THZmdHBLZlI?oc=5",
        "source": "CMoney",
        "published": "2026-11-26 01:03 UTC",
-       "age_hours": 3.4,
+       "age_hours": 3.6,
        "ts": 1795654994,
        "sentiment": 0.0
       },
@@ -1096,7 +1102,7 @@
        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE94LWd4R1BsaWJRYTQ0QlpOa2NNQkx6UFduQjVwaEo2dkRldXRLOVI1dEc3eVVZWU9WRW9CYlA4TmIwUXVFcnBOM01VRmZmXy04VVRqSlZVZzU?oc=5",
        "source": "CMoney",
        "published": "2026-11-25 21:20 UTC",
-       "age_hours": 7.1,
+       "age_hours": 7.3,
        "ts": 1795641643,
        "sentiment": 0.0
       },
@@ -1105,7 +1111,7 @@
        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9EUDRqNWo2U0FIekdOUFloMWVybFJ0T1V1am5NLVBJd05vZHR4dlZGdE9WT1ZGV0MxRU5HUXNnYXJmT2Y0SGI1dHpaVTBPa044OTRvaUpHZ0JXd01xc0RCREQyWVY?oc=5",
        "source": "LINE TODAY",
        "published": "2026-11-25 13:00 UTC",
-       "age_hours": 15.4,
+       "age_hours": 15.6,
        "ts": 1795611659,
        "sentiment": 0.0
       },
@@ -1114,7 +1120,7 @@
        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE83SWNFZDVrZmZ1V09adnY5WW1OczFBVEZhUVJBV0U0RW03TGZFUHFTeFRKaUFUdjNiaEdaQXNnVk5oNHFVM1ZoTGJiNV9hd3lsN3BIenQ5OA?oc=5",
        "source": "東森新聞",
        "published": "2026-11-25 11:16 UTC",
-       "age_hours": 17.2,
+       "age_hours": 17.3,
        "ts": 1795605360,
        "sentiment": 0.0
       }
@@ -1179,7 +1185,7 @@
       206.0,
       226.5,
       206.5,
-      217.5
+      218.0
      ]
     },
     {
@@ -1206,7 +1212,7 @@
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.188
+       "impact": 0.187
       },
       {
        "id": "geo",
@@ -1235,7 +1241,7 @@
        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZlF3bmVOWnpkZnA4Rl9GVldzZ2ladmQxY2FPX09wM3RvYmNEUEJzZFJCWU1RcHZWM1kzZE5RT2ExalZJWURWX3pPSWxOejB3YWQ3R1h6UlI5Skg4Y2VWNnhocUEwbkFVOGRFMlR3YlFJTTE3cUdvTm5MT2hKMnA0UUlRUzRlM05GRVZoWmVLNFRsdw?oc=5",
        "source": "MoneyDJ",
        "published": "2026-11-26 02:42 UTC",
-       "age_hours": 1.7,
+       "age_hours": 1.9,
        "ts": 1795660920,
        "sentiment": -0.333
       },
@@ -1244,7 +1250,7 @@
        "link": "https://news.google.com/rss/articles/CBMiuwNBVV95cUxQLWVGZFBlRUo3VTYwYVNPWWpYdDlnYmpDV3U4ZjJlWTVtR1JZbE9TeVBsQ2FsamVIOWljdktVbURVSjJwRTdqQjRYZ3dRZXBzNlg5SXJCUndYaEh2UGhxbFpKUkpDdl9FT3BJMFp6N181NWdxeUJwcFV2bERtUnR4WkZ1amczYmdHemJ3eGp2b2dtYk9GQWQ1RnZBcVRDcWlmRnI2ZWNveW5Pc2NiRGxKMnBETFN6MzJLS3B6eTJjQWRac1pwbV9YVWJVSFBVNXFYN3o1SzlsenZ4bnVlZHZQUEFzZmZELUdPQ2JyY3ljLTBRSU1wcWRvNU5kU21RNTFTc0VSSERTUFJHNkFUSDd4ejFsRXVRT2V2OXZOS0N6ajdpdEdmN1VPbXFjSERkWFFvV1lPbTh4TldoWGcxZ2RuT3VNRUZmbkNmRko3MlZrRmROOFl0VGpGeTRiT3FZNmMyYkh2RW9BUVlDbUhsb3FFYXByQ0o1ellIeUNFRGcxRVVGNTUxOUNJSmhxQnNVTmM3UjAwVjJNTy1DSTh1Q3FmTEFNOGRobTVPaVQza2hja3VPMkVYbFpJeC1DOA?oc=5",
        "source": "Yahoo股市",
        "published": "2026-11-26 01:31 UTC",
-       "age_hours": 2.9,
+       "age_hours": 3.1,
        "ts": 1795656716,
        "sentiment": -1.0
       },
@@ -1253,27 +1259,27 @@
        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hX1ZFRVoybUJRcFZ4TF9pZHJhZmpIQURCbmJiNUtRdmZ5d0ZmanI3RzRnbmQzUzhzbV9GVGo2TUZ3a1ljcmJRdXlhaXQ1NjZ4Z2F2QWxvNXE?oc=5",
        "source": "CMoney",
        "published": "2026-11-26 01:33 UTC",
-       "age_hours": 2.9,
+       "age_hours": 3.1,
        "ts": 1795656794,
        "sentiment": 0.0
-      },
-      {
-       "title": "台股開高強彈逾950點！聯發科扛多頭大旗、台積電卻陷震盪 - UDN",
-       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9sdERhU1Jhd1lkZlBlbGpybW5pRXBFTk9WcVc4RTl1X0tuQWYzcDhNd1ZEVkRUR213cERyUXB5cFNmME0zeGpUa2s2MUJrLTVQ0gFWQVVfeXFMTkI4M0plX2M4UG1wVm9mbXlUaWFkdk5mYzJ4QVJvbWZudTFQZXZsYVV6X3p3UUVpR0tMbHFpUVVtX2dfNUp0MEk5Z21XVGU1aWJqUzdHX2c?oc=5",
-       "source": "UDN",
-       "published": "2026-11-26 01:19 UTC",
-       "age_hours": 3.1,
-       "ts": 1795655994,
-       "sentiment": 0.5
       },
       {
        "title": "川普關稅嚇不倒「護國神山」！台積電驚險翻紅站上10日線 專家：利空淡化了 - Yahoo股市",
        "link": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxOX2pBenkzLWEzYUtoT2Y1TGVWeEtqV2ktSE1kcW1rbjRHZ19nOE9ET2NLbWptc2JYeTdIVXk0ekN2NkhlMkZlTXdILWJTNWljX3pFQzdadWFHOUFHZXBYelNHYVRJeFp0d2VaVmZLTk1BbGhtMnY3LVFmMEozSl9SU0dGR3ZnQjBuRkNIcXJpZnFETEVGeWgzalBWb0RPRk1WcHNuYjJJeU56ZEdyWG9UZmFKbG01WWFkazNLbnFMX19fLV8yMjRtTWcydVV1bzlmdnduY3d3Y2pfYmdnaHJfdmpSYlV4aHRLUUNIZ3lDM1JyMXlLU29FbWdCOTVrcnk0S2g3Wkp3ZUNxSTJFSVd3d29icFg1VE51SElrYU9ORDBXbHdkOHFkaENKYjBfX1lzQzVqSGtnS3k2cWtibWR3emU3b3VDcWE5cXdheDhpaF8tNUFaX0g5TTFkR05DZk1HVHcwRWdHZTVsMVEwckw5dDRDSDR3RUszRzR5UmtSV3AzS2JIMHcxZWtzUXBXQVBsc3kyVnJJQWJUT2p2MTdPbXhialZrQmdBdmllRDVHeWxPdE50Ul9pUDE4WlMySGJ5WEh5VUlra0pfV1BSN251MGZjTVRMZXFSWjFlRFYwQ041RTVhZXVsb0F5aw?oc=5",
        "source": "Yahoo股市",
        "published": "2026-11-26 01:22 UTC",
-       "age_hours": 3.1,
+       "age_hours": 3.2,
        "ts": 1795656140,
        "sentiment": -1.0
+      },
+      {
+       "title": "台股開高強彈逾950點！聯發科扛多頭大旗、台積電卻陷震盪 - UDN",
+       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9sdERhU1Jhd1lkZlBlbGpybW5pRXBFTk9WcVc4RTl1X0tuQWYzcDhNd1ZEVkRUR213cERyUXB5cFNmME0zeGpUa2s2MUJrLTVQ0gFWQVVfeXFMTkI4M0plX2M4UG1wVm9mbXlUaWFkdk5mYzJ4QVJvbWZudTFQZXZsYVV6X3p3UUVpR0tMbHFpUVVtX2dfNUp0MEk5Z21XVGU1aWJqUzdHX2c?oc=5",
+       "source": "UDN",
+       "published": "2026-11-26 01:19 UTC",
+       "age_hours": 3.3,
+       "ts": 1795655994,
+       "sentiment": 0.5
       }
      ],
      "spark": [
@@ -1382,7 +1388,7 @@
     {
      "id": "ai",
      "name": "AI 伺服器與算力",
-     "signal": 0.209,
+     "signal": 0.208,
      "heat": 1.0,
      "stocks": [
       {
@@ -1509,7 +1515,7 @@
     {
      "id": "rates",
      "name": "利率與央行政策",
-     "signal": -0.082,
+     "signal": -0.083,
      "heat": 1.0,
      "stocks": [
       {
@@ -1555,7 +1561,7 @@
     {
      "id": "semi",
      "name": "半導體景氣",
-     "signal": 0.012,
+     "signal": 0.011,
      "heat": 1.0,
      "stocks": [
       {
@@ -1585,6 +1591,12 @@
   "US": {
    "name": "美國股市",
    "currency": "USD",
+   "quote": {
+    "status": "已收盤",
+    "time": "2026-11-25T21:00+00:00",
+    "time_taipei": "11/26 05:00",
+    "time_local": "11/25 16:00"
+   },
    "index": {
     "symbol": "^GSPC",
     "name": "S&P 500",
@@ -1606,7 +1618,7 @@
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeEQtTUQwY0ZyTEpubU1fOUV6eVQzR2llam9uaF9UUnQ5LVNvcWJFT0dRYW9NRHM2cDQtYkpaOF9rS1ZuVE8zaDhmYWk0S1IzdU1sOER5aWJLOTQteFZFTjRkMUJwUTdta0ZnemNITTBEa1VVb1c1MGJkUnZoMFRKNDZjM1d6SDBqZ1g2NDZTenZfSEZK?oc=5",
      "source": "Bloomberg",
      "published": "2026-11-26 04:08 UTC",
-     "age_hours": 0.3,
+     "age_hours": 0.5,
      "ts": 1795666080,
      "sentiment": 0.333
     },
@@ -1615,7 +1627,7 @@
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ091d1V6STMzbmJEYnBWQnNNMDlueHo4ZC1MLVpaRktic0psNjJZaDZoWWlSSFdnaFZBcmV2X3pQZmFSSlBDdTc5YWtxT0FEMHdBNTBGajRSUVRmRzZ5ak16amhBSTBZNjFuSEJtbGpYYmFTMkx3TlVyRVFweEFEN2RMSW90V0sybmw1UGV5ZnlqazFnNzlHSTYxUTIzODJuWlFqR3dLS1BwRnhfUFVNZHlJQnJSdUE?oc=5",
      "source": "Bloomberg",
      "published": "2026-11-26 03:00 UTC",
-     "age_hours": 1.4,
+     "age_hours": 1.6,
      "ts": 1795662053,
      "sentiment": -0.167
     },
@@ -1624,7 +1636,7 @@
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVGo3R1BkTkVaRWx0UGJ3N1czdWlKRVhIYndCdkFtdU1mRzN1THRjQmRDZkJqZG9LY1lTVUlQcW1wSUJKekdXd2pMbEVYZWQ5M3hfQkpSU3NnY3R0cV9mUGlGRkZlbnhVRDFLVWhSMFo1VnpONzY3eUJiSFpHV2g5V1dqdTNJYk1sR0Q2c1FySmc3S3gtUzJWc05FaXRBVV8wYnMwUnBTMmdhUQ?oc=5",
      "source": "KSNV",
      "published": "2026-11-26 02:35 UTC",
-     "age_hours": 1.9,
+     "age_hours": 2.0,
      "ts": 1795660521,
      "sentiment": 0.0
     },
@@ -1633,7 +1645,7 @@
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM2JKcnNFYk5jM09EUEZXNjdqZ1N6V05CbnNQR1gzd09nUlhzRVpTSlM4ZjM4SG1uVXExci1OWWdCY05oNkpTOVFjbzk5amIyeHNzdHNpejM1THVZNFdYVWw5dGx3MFF6YndNbGVnN0dTbHNuVDdSSlQwVWl4MDRadXVxbkJyV0FnVEhjNDlVN21JRDVKRkpGeQ?oc=5",
      "source": "WSJ",
      "published": "2026-11-26 02:00 UTC",
-     "age_hours": 2.4,
+     "age_hours": 2.6,
      "ts": 1795658400,
      "sentiment": 0.0
     },
@@ -1642,7 +1654,7 @@
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU0FldTc1UGpPeXhFdE1ONHhYQzNCcUVsTW8xUGd4Q2QtT1NOV21EMVNRVm9RSUpXeXFZMmlmdDdKdHBUSG9LazIzSU8xaTRoR3g3MXgtdjJBdzZrZ3VzTGFNdzRRcmlVSnRxZV84RkVVRmo0bXY5Z1l1d0hKNWxJSDZ6QVZ0YWxGRGdvZHlTNDJGX3NEOXU0bEs5RUxoTG1rQ2JDN0dMSzhsbTV5MlZqZQ?oc=5",
      "source": "Moomoo",
      "published": "2026-11-26 01:56 UTC",
-     "age_hours": 2.5,
+     "age_hours": 2.7,
      "ts": 1795658208,
      "sentiment": -0.667
     },
@@ -1651,8 +1663,17 @@
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZmVvN1lwUjZNYWdzYlhsdWRPaXBjb3RIMjlyT3ZEdXR5ekNiVWgwZl83RzlwcHJNSXZfaFU3UGd1bU5OTkNWdE9QNHlpSV9NSE5FWlNDS0ozTkZtdVZ4Y0RjTGd0RmZWQnRWdWk0V2NSUW5Ld1hMODNIb3JXZUpweFVOQ1hzY05wS1pCcGw3TU9pWGFfUkE?oc=5",
      "source": "WSJ",
      "published": "2026-11-26 01:38 UTC",
-     "age_hours": 2.8,
+     "age_hours": 3.0,
      "ts": 1795657082,
+     "sentiment": 0.0
+    },
+    {
+     "title": "Exclusive | Aschenbrenner’s Situational Awareness Tells Investors It Lost 65% in Third Quarter - WSJ",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUXgxcE1tNTdoYWR4Vld1UWtPeHRadlE1T1RrbXlBbUJad01lVGZZU2ljYURrcXNCY3QzcGQ1RUlxM1Q1Mk1YVTh1dnpGcGxFYlNUSHRZY0NYRWdzNnZzb2g5UURNWEtDQnZBbTNjSUZyRVdsSExOU2otY2FGVnhIYXVadkE1LTFyVGNOU3RFMDhpc0RBNGNURUM0cHA0eVZMSzkyTmpuR2hfaGZSRGQ3cUdVRWtnS1VFTFlGNWJSRHFhZ2JTelE?oc=5",
+     "source": "WSJ",
+     "published": "2026-11-26 01:04 UTC",
+     "age_hours": 3.5,
+     "ts": 1795655040,
      "sentiment": 0.0
     },
     {
@@ -1660,25 +1681,16 @@
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcXZSVVFTbjZKSnNJM0RpSFVGXzV3VHhTUV8za1dmUkhCSDdtcTdLS1VaaS1KLTZ4LVJYLXRhYnQxRHhtNEhVMldlY3VUXzJaYmgyem02SktTb0hocmpsVVN0QndKNDdVZktvSTRsVWJjTUp0Um5SNVdsUVlEQy1NeXlOZWlsbWNwV05Vd1llTU5lamV5YUhDcmhhQVhNTVhSRWQwVms2NmNKMFNsTmc?oc=5",
      "source": "WSJ",
      "published": "2026-11-26 01:07 UTC",
-     "age_hours": 3.3,
+     "age_hours": 3.5,
      "ts": 1795655220,
      "sentiment": 0.333
-    },
-    {
-     "title": "Exclusive | Aschenbrenner’s Situational Awareness Tells Investors It Lost 65% in Third Quarter - WSJ",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUXgxcE1tNTdoYWR4Vld1UWtPeHRadlE1T1RrbXlBbUJad01lVGZZU2ljYURrcXNCY3QzcGQ1RUlxM1Q1Mk1YVTh1dnpGcGxFYlNUSHRZY0NYRWdzNnZzb2g5UURNWEtDQnZBbTNjSUZyRVdsSExOU2otY2FGVnhIYXVadkE1LTFyVGNOU3RFMDhpc0RBNGNURUM0cHA0eVZMSzkyTmpuR2hfaGZSRGQ3cUdVRWtnS1VFTFlGNWJSRHFhZ2JTelE?oc=5",
-     "source": "WSJ",
-     "published": "2026-11-26 01:04 UTC",
-     "age_hours": 3.4,
-     "ts": 1795655040,
-     "sentiment": 0.0
     },
     {
      "title": "U.S. stock futures turn higher as tech rebound holds after wild swings on Wall St - Yahoo Finance",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYzZHNkZ3QVhhZ3RXaUk4WnVrVTZTcDJ1eXRrNVBIX2ROU2t0NTFLdEh6SHpsbEtSMEZTTWR6VjJudW92TXRoZTJEdXRzbm1Fc3ZsdG9XY2tfdndGNXcycDFGTDlEMWY5UEVGM1hGYzBfU3RHbnJmVXJMUlhkb3VhRFdIMW9vdVFXZUdDS2dXQkxCb2NYNUlhWWRiTQ?oc=5",
      "source": "Yahoo Finance",
      "published": "2026-11-26 00:13 UTC",
-     "age_hours": 4.2,
+     "age_hours": 4.4,
      "ts": 1795651980,
      "sentiment": 0.333
     },
@@ -1687,17 +1699,8 @@
      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNRkJTSHcxVEtnblpfWmhwYmNsTU81MUxwSWdUaks3RTdRdVAyQjdBZjBQRU9MaC1MMVphckFFbFpwYUptbmFWZDNkcEx2NVVGUnFUY1NuOXJzNWFPWllsTEJ0SzJtbklaZlM5Ty1NaEk3ZEJMTXhfNThqNGVRTjVPdXc1bzRFUlVLdGotUmFZbGlYbG53QS05NVYwaTk3UWNTTy1EQXI4clRaX0FOSXBQRWsydV9xY1pIanVoRGVpMV9QRVlJRWpaY1NQMWphbGYxZDZkSm5XS1lBLU9VeHdnSC0zQzl5MFVJbkdqbGFKaDR6QzdDREo5ZTVxTkhpVFcyakxYSUFaS3hVaHc?oc=5",
      "source": "kare11.com",
      "published": "2026-11-25 23:57 UTC",
-     "age_hours": 4.5,
+     "age_hours": 4.7,
      "ts": 1795651071,
-     "sentiment": 0.0
-    },
-    {
-     "title": "AI stock rout deepens but damage is limited by afternoon bounce - Reuters",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMmNMM0doWElDVk9BdjNGZnJHakNCUFg1blQzSlk0eW9zeVduV3ZKcEtJd0hpUkxDMVhnRE9rY1lLUzF1eENZaFh0SUNKbmRjanN3YWtZakZud2RYUnlSRkk5b1RZT2VfbFJPXzhZVEVyYnFnRHBwYVlGdFQzaEt2Z2VjaGVXWUE0Qmd5bjZYandmR2M2QXBSY2tKem80OGNlSzh3?oc=5",
-     "source": "Reuters",
-     "published": "2026-11-25 23:39 UTC",
-     "age_hours": 4.8,
-     "ts": 1795649948,
      "sentiment": 0.0
     },
     {
@@ -1705,8 +1708,17 @@
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM0lGUmZwamJvaWdKbWVub2E5elVhaDJWZDhqNGR6WDJnbS1NQ1M1dFZhV0Z2YUFCZE9EdHo2amJvN2ZyVEJVOEkyVDFCY1l4RnpwNHdMSmxzNnpiN2Y0TlJyRnRYWXVVSml0RmlackxCYWJqUDlBUmFYLXRzVEZyMU1ScXluTEV3bGZ2UWRCQkM3NWpkZnc?oc=5",
      "source": "Northwest Arkansas Democrat-Gazette",
      "published": "2026-11-25 23:40 UTC",
-     "age_hours": 4.8,
+     "age_hours": 4.9,
      "ts": 1795650000,
+     "sentiment": 0.0
+    },
+    {
+     "title": "AI stock rout deepens but damage is limited by afternoon bounce - Reuters",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMmNMM0doWElDVk9BdjNGZnJHakNCUFg1blQzSlk0eW9zeVduV3ZKcEtJd0hpUkxDMVhnRE9rY1lLUzF1eENZaFh0SUNKbmRjanN3YWtZakZud2RYUnlSRkk5b1RZT2VfbFJPXzhZVEVyYnFnRHBwYVlGdFQzaEt2Z2VjaGVXWUE0Qmd5bjZYandmR2M2QXBSY2tKem80OGNlSzh3?oc=5",
+     "source": "Reuters",
+     "published": "2026-11-25 23:39 UTC",
+     "age_hours": 5.0,
+     "ts": 1795649948,
      "sentiment": 0.0
     }
    ],
@@ -1763,7 +1775,7 @@
        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWFVMQXQ3ZnRNeTFDdEtMNjFZbklUM3EwUHhnMWVMR0lRUmlyS1BzcEh1QTNYRGZnc2tDMXJnSi0xUkVSYmxkQlREYUg1VWEtWE52OGItaFhHME9iNXNrS3NMa29hR2VZTTlaYjlGbndrczY5TUlCV1lERGlBcFJpZEdyQlEwVjJzWnk0LXdtcVZPRTZfVDZVTEln?oc=5",
        "source": "Yahoo Finance",
        "published": "2026-11-26 01:00 UTC",
-       "age_hours": 3.4,
+       "age_hours": 3.6,
        "ts": 1795654800,
        "sentiment": -0.667
       },
@@ -1772,7 +1784,7 @@
        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZmx0QkdUUWF5dUxZbnBYa1RYYjBXTXdDR0FQOHJwWUszbm50Mk5NTWg1VHJlUVo0YlZ4WEpsRmlQOTZqOGZnelA4NXhBbDRTWUFYN1hLT0FnSmUyWUJFRG1TbXc0dTlBU0U2RnVxV2tDNjdiSUZyUXI2U1NVdVl3Q0tmWFJMWldvNlE1cEdiWVpIcDhldnBHZWFpTQ?oc=5",
        "source": "The Motley Fool",
        "published": "2026-11-25 20:00 UTC",
-       "age_hours": 8.4,
+       "age_hours": 8.6,
        "ts": 1795636802,
        "sentiment": -0.667
       },
@@ -1781,7 +1793,7 @@
        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVnJldG14QVcxVlBlS19EV0pNaTZTRDM4RzlnaTRwd3lqYmNuZ1R0WmZzSjlVZndlMnRlNFdJeXBfSW9NLURKbm1ab212U1YtWDlJWkQ3ZXpzazR1Q2k3Wk1TeXBUVFRWQWRPeVkwWnV4SUNqdy14bDNxNHB5cndGMA?oc=5",
        "source": "Seeking Alpha",
        "published": "2026-11-25 18:49 UTC",
-       "age_hours": 9.6,
+       "age_hours": 9.8,
        "ts": 1795632587,
        "sentiment": 0.0
       },
@@ -1790,7 +1802,7 @@
        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYmRlRUZPZmhGNTd6NW9Lb2JPSFdJZUFyR1NqUGxuY2NpTGZvYzdTaDJoaEFmMGNjUXVwRExPak42RWttUUd5OURabUNPR0dhaDVvX0N6VEJzM2l5M3ZCOFIxSUtINDJSb2FYSVhwMmk2VkNNTDZWRF8wdWJvMkJmVUFtRVNLY0NDMTV1WHFiVlRFcUlUbTdYUzZyS1ZhVkl5WTBGdXgxclE?oc=5",
        "source": "Benzinga",
        "published": "2026-11-25 18:40 UTC",
-       "age_hours": 9.8,
+       "age_hours": 9.9,
        "ts": 1795632057,
        "sentiment": 0.0
       },
@@ -1799,7 +1811,7 @@
        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kQ1kxdXRCcDlaWWZTNFRheDhXd1RNbE5hZ2xRa3FoN0VnbHFRMnIwcnkwdzRGUVdfeU5jblZfZXU1Ym8tU2xiT29aOTRhVkxSWjJMQ2xmWkZPdmYweHBZN2tWWTR1dndsRERWLXRyNkRUa28?oc=5",
        "source": "Mashable",
        "published": "2026-11-25 15:17 UTC",
-       "age_hours": 13.2,
+       "age_hours": 13.3,
        "ts": 1795619830,
        "sentiment": 0.0
       }
@@ -1881,7 +1893,7 @@
      "sma50": 377.17,
      "technical_score": -0.119,
      "news_score": -0.039,
-     "theme_score": -0.123,
+     "theme_score": -0.124,
      "themes": [
       {
        "id": "tariff",
@@ -1913,7 +1925,7 @@
        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5aYy0yaFhtMTRsbXZyVWNJc3RXaXdyeWpWeTlUb2F4RTVjd1hkeVpPSy1JdE1ONjllbXpPWDJZZk5FdXdX?oc=5",
        "source": "Digg",
        "published": "2026-11-25 23:25 UTC",
-       "age_hours": 5.0,
+       "age_hours": 5.2,
        "ts": 1795649103,
        "sentiment": 0.0
       },
@@ -1922,7 +1934,7 @@
        "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPemtacDZ1ZW1Wa0NTbUp5a1ltaENNUE5oeUxRMWg2SkxzaFNMZ3ZhLXNwa05vMDB3WDhTNVJyVWpBRW9QLVlzR1dOZTVNUDNDbkcyQkNJbGR1SWotck9yQ2h2SENRamNwcnZKb2p3QjFYX25CUUpWMmd5T1VRN2d3ZWFFQkZZbl9pTFd2RFRJYmppNlZlSW53NnBmV2hSa2E1RTVIQ0MxYW0xUjlvSWFoMm9KbHAwUWpCTmpyRHhvTWJmOHB6UnhLb3dVODg2YjVWcW5rUjk1dHU1SS1mN29BZ3VMQ0NHZUZYcEZHYURrdWZhcnR5Nmk4QV9JZndkT2s?oc=5",
        "source": "The Motley Fool",
        "published": "2026-11-25 23:04 UTC",
-       "age_hours": 5.4,
+       "age_hours": 5.5,
        "ts": 1795647842,
        "sentiment": 0.0
       },
@@ -1931,7 +1943,7 @@
        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UU1UtSWRicDJWa2RlR0RIQkxoa2xJUElVaTdaYTRsWFgyeVFPczVZTXhZdzVvdVp6X0JEa0xJRFRnT29vUWpEa21weElaaHVsRTJ5S3c1V2FQLUZseW5NWUpHeG5mVzJQZ1FyUFFiS2g?oc=5",
        "source": "Barron's",
        "published": "2026-11-25 16:38 UTC",
-       "age_hours": 11.8,
+       "age_hours": 12.0,
        "ts": 1795624680,
        "sentiment": 0.0
       },
@@ -1940,7 +1952,7 @@
        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX21TU1QzV0o3SXVFSl83OWhvMVZzN2IxRFc1dzdBbGZDSEZYY2ZMTlBBaV9mVlF4dGVKTUU2eE4wN0xHajRtZ3EtNnA1RWNoWDlCZkE1NndHVTZlZzlHMEdObE5aYWxBRkNtajAwU25rbXVXZWY0OWRJb09iaG1xd0VvdnlkTm0ycjdmbWZVUUFRQUVBYW9wTXNiejAwdGtfNXE2dU1XN0MyS0l5WHVhQzlmZGYwZGc2?oc=5",
        "source": "Yahoo Finance",
        "published": "2026-11-25 15:41 UTC",
-       "age_hours": 12.7,
+       "age_hours": 12.9,
        "ts": 1795621319,
        "sentiment": 0.0
       },
@@ -1949,7 +1961,7 @@
        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcFZGV2R2TWJpQmt5aHQ1SGtDdUowa2tLVVp2Rmw1S0ZpTnBGMV9YUnlHTllfeTFkanFtcUZVUllwLUZmMDF4QUtjUFhkYnhHWEVKLVN4N21JUmFiVTI5UFAxa3ZzT19LbTdEcHlmakNWdGh4T2RiVWZnZzJVVmlETWFVQmVYWGdYNlhQT1RVZDBoajFxcElQQkFn?oc=5",
        "source": "Investing.com",
        "published": "2026-11-25 15:17 UTC",
-       "age_hours": 13.2,
+       "age_hours": 13.3,
        "ts": 1795619838,
        "sentiment": 0.0
       }
@@ -2031,7 +2043,7 @@
      "sma50": 518.64,
      "technical_score": -0.351,
      "news_score": 0.011,
-     "theme_score": -0.004,
+     "theme_score": -0.005,
      "themes": [
       {
        "id": "ai",
@@ -2059,7 +2071,7 @@
        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQa1BXZnNZbXktajBUc1BCVkpUUWp6bWNCS3F5aVBfQW83d05MX3FYVm1pVTBJUkhMQS1fX09KbS1VQkpuZHpWazZtbFU3bERaWWlxbXdaQVQxeGkzMkdVSlZVUVpRYWMyVEh0Qi01alZsMXhPY2FtdVlIYngtcF9nMk02U1BadjgxM0VzbmlDRGVkemJTcGFJdmFsMDVvMjkwTkttVXUtMExQa2FXdzhSTmhtV1k3eHNtOExRT2FlTkZQNDJqQjJZ0gHMAUFVX3lxTE5UVnVwY3Fveno3ZDljOGZhRVJ0ZnhnbUxuNENkM1NmVm1yVGtFMTl6bVF0alhsUFlLWGpwUGJKYWhGbGVEZm03aVdoUWJCTmZuMnFFUmNsMXpDbmNUb3h4YXkyeXdPRUYzSElFTm9BS3NwUWJGU3RZRkMwUjFwaWxLaWdRZkJ5TmpBQjZFeTR3VUFnRWdXckI3aVZydjVBNkJ5alF4ek9JUkFjbEI0RUl2TlRfbzlETFRiMmRCY09Ra2dXejFZejJzT2h6ZA?oc=5",
        "source": "Simply Wall St",
        "published": "2026-11-26 03:26 UTC",
-       "age_hours": 1.0,
+       "age_hours": 1.2,
        "ts": 1795663574,
        "sentiment": 0.0
       },
@@ -2068,7 +2080,7 @@
        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYkwwaEEtY3lVNTJENlZ1NVNGMFZrSTlxYU5tMXFGMnVGdk1fYXo0a2pUTy1NRVBOWGhfSEo4UTNXNlFBY285b016NnVJNHgyZWwzbWpZcHM1NENDekdoUE9DMTFpbXBEcDRTZVZrZll6cm5wSXRlV3FCMXZFczRpUGFleVR6MVlNcnlzN0pvWmV4eEFPQ1NjVzBR?oc=5",
        "source": "Yahoo Finance",
        "published": "2026-11-26 02:39 UTC",
-       "age_hours": 1.8,
+       "age_hours": 2.0,
        "ts": 1795660740,
        "sentiment": -0.333
       },
@@ -2077,7 +2089,7 @@
        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPOHJQdFVfNmt2b1RaRnJrNnJlVVVhSjRDMExPY3JTaDhCM2VjSUQzRmxfUlRaeGN1bENBZEJHaGNFcnQ0U05FMnBTSjFzWXIxRUJ0Vll0bFh5eTZhcWFkdElOOVRrWTB4T2ZNMVdUYUZhRVZLTkhJeUtQeXBISVp3UEd3SEdtNUg0OFBFQmhMVTI1YnRtSEwyeXpVZm9MRHBxZW5ZNmFOMUg1V21oeF9tOVdJa05GOF9HYUFtTWFjaldrSWhNV01oSGtrNGtINE1OUEpYWFYwRnVXNmM4WUM3Y1cyblBfQQ?oc=5",
        "source": "MarketWatch",
        "published": "2026-11-25 21:31 UTC",
-       "age_hours": 6.9,
+       "age_hours": 7.1,
        "ts": 1795642260,
        "sentiment": 0.0
       },
@@ -2086,7 +2098,7 @@
        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ0JUcTVtR0NmZ20taWVOZTlEeVB1dU4taElwQlBKN2hoOG5rWWFaSmhsNG45ZU9fS3BiaXozTXI1RE1oam5hWm1IN2ZVMFc4S2pORVJCS2VpNDNMbFIyNDl0dVhJdnRkaXlvcVIyWGd1dm1MTHdkXzFuRDRfa2VHSFhUNjcwX0tVWnZISFptaTcwanc?oc=5",
        "source": "Traders Union",
        "published": "2026-11-25 18:31 UTC",
-       "age_hours": 9.9,
+       "age_hours": 10.1,
        "ts": 1795631471,
        "sentiment": 0.0
       },
@@ -2095,7 +2107,7 @@
        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMjd4Rlg2RHNBRnI4SnB1cm9ySWNZOTFXdmVLcG8xckM4clBTdDJ3YkxBX0J6Q3NZeV85RXpNckdqcGdtOUhmaDdHc2FPcDlJZV9EbE9WZzcyQXBsdGJkWDFhSDFaWVBSZ0Nub0pIT1VQSFFyRWRoN0ZfeExSMEhvcUFjY0kyeDZHejFWX1ZVUmNPRi0xVjNRektlbFRuNzExNl9j?oc=5",
        "source": "TradingView",
        "published": "2026-11-25 16:55 UTC",
-       "age_hours": 11.5,
+       "age_hours": 11.7,
        "ts": 1795625724,
        "sentiment": 0.0
       }
@@ -2209,7 +2221,7 @@
        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcWU1cHd4NWROZDBiOHBHbHhpczBFMEZZUWJsQ3k0ZEE1Q1ZXajRnOWRpOGJwOFhsLWtBVllOS3pNa0NIaGhxMjF4S2Q0eVB0di11WUxCRHA4RGFYcjNYSm5wTmdwbWdVajE3N1ZiMkw1aHRUN0ROQlRNRE4ycDVoMVdKWdIBiAFBVV95cUxQS0swbm5FeFdHdk5nTFFjdi1ESHBfQjFZSDZDWV9fMi1KeHZwaWFGM0RwNnFYNWRCcTVZWF9yOE9BUjZiYzZaYzdnbzlUWThGeUZjbUFKSmxIamhpZU9TdGlqdWtaeEVpNFJMbC1DbzF3VG9BckxFTHVJTGc5Qmo5dVcwNDVVU1Vf?oc=5",
        "source": "CNBC",
        "published": "2026-11-26 03:09 UTC",
-       "age_hours": 1.3,
+       "age_hours": 1.5,
        "ts": 1795662540,
        "sentiment": 0.5
       },
@@ -2218,7 +2230,7 @@
        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNV0o0WmdCTmlJaGZ1R1RuUlY3RFZJMFJwNi1ndUJUTmFpUEtkZW9VbUJ0cVVRZ0EtZTVaZG1uMHF5Tjh5SkJHN3Z1LUZHMGF6eG5oaWcxRjRWRUlPNzZteGs2VjByaVROUERkREFBM0ttaFpVTUl2SEt6N3BOYkhIcGtCemRvX1EzSTFDRDN6c2F1WHU1bWdXMDJwVElMeENXSDUtT1g2dlFfcTBzdjdOdWdjS2VWTlBxTE9oQ2RHSVNzM0ZLcW81cHMxbWdPckhGTXR2ZC1yYWJBb2JOcTFfQTM0UXBhd1E?oc=5",
        "source": "Morningstar",
        "published": "2026-11-25 17:30 UTC",
-       "age_hours": 10.9,
+       "age_hours": 11.1,
        "ts": 1795627800,
        "sentiment": 0.0
       },
@@ -2227,7 +2239,7 @@
        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTmQtNGxpanl5bURwWTdvbllMVEFJZ2lzejFRM3l0QUhtZDJLZE1nNHVLTTZZR1JPM3h3Q2ZJblhuZXE0cTBuOGlxVTNOUE8xcEVjcFFNVGZQLW14UFc2Nm9IVmtNS0gzWHFrVlJiTTl0dDJvNXV1RS1WR1phbHg0VjBSOUtWU3gzT3hnaENoSW5FQnlTWmhPdzU2TQ?oc=5",
        "source": "Investing.com",
        "published": "2026-11-25 15:22 UTC",
-       "age_hours": 13.1,
+       "age_hours": 13.2,
        "ts": 1795620146,
        "sentiment": 0.0
       },
@@ -2236,7 +2248,7 @@
        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVEl5RFFOaXVLc3ZVa2NsaWtUaFF2aEVOVWxtekdqOG9MN3hGZUpGZmtyUGljZkZnaHJwdkdRTHlzdEFQMTFxSGVkWGVRMWhQbkV1bWhmTW9rTGlieUhOYzBCQWVzMHRHT0JxYzJ2dktQSW9rbW5VYlg0dmxyZHpld1ZNYmVsSHlVOENn?oc=5",
        "source": "TradingKey",
        "published": "2026-11-25 14:47 UTC",
-       "age_hours": 13.6,
+       "age_hours": 13.8,
        "ts": 1795618059,
        "sentiment": 0.0
       },
@@ -2245,7 +2257,7 @@
        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaVBkX1FzdkpWVUpZU2FNb29mdjJMZFRyQk1tQmdlODN5MmhLblVpWE9ZXzVnRmR2ZDBDTHhVV3BIZ2RBcFhjR0pMVGtmR3JCbGV6TDROZ2p4UTN0SVVmdDFLWml0VDJlanNXb2htdC1tdFRqU0FEWG1tbzhNcU5UMVVBbDVsNGxqUWREUUJSNzhmamc?oc=5",
        "source": "Yahoo Finance",
        "published": "2026-11-25 14:13 UTC",
-       "age_hours": 14.2,
+       "age_hours": 14.4,
        "ts": 1795616032,
        "sentiment": 0.0
       }
@@ -2355,7 +2367,7 @@
        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB5M1YtYTNTSldhajkwSENUM0l2WmNQWnBxbktXUzh2dGE2aC10TXQwZWNuMTQzNjFEU2dXYlhRVDUxSHhyWjB3UThuYmR6Zk9yNG1uNHB4NUFZRlFSb0g2V3FQSEpzZGFkYXdNZkh6UHdSYzA0bVE?oc=5",
        "source": "BigGo Finance",
        "published": "2026-11-26 01:05 UTC",
-       "age_hours": 3.4,
+       "age_hours": 3.5,
        "ts": 1795655100,
        "sentiment": 0.0
       },
@@ -2364,8 +2376,17 @@
        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNnJvc3Jqb0p3eUJZQ3NKX1ZKODdZMVBNM3oxcnVsUFl2cVBfcnVVdWdBOWZMbWJ1aFhKNTh2SWZmbGhWM18zc2N5ZEFCeUxxeVdvelJZQVZhZVJZVTdPRVNQcW9iYTNRa0FQc1Fnb2dmdk1HcFZSQkdWZHgzWTUtX2NnVE8zblB3Q1lPNnBOOHZVT1ctNlBJZWVVWFdZRkU1QmxBSTAwaGItNnNYNi1mbE5mM2Jsc3BsdVJQQVZ5QUlPN0xHZGp2c0NfQ0hPUXJGSUZrc2J3SklqN3c4Y3ZhcGpVSEEtdmw1Y1BMWDN4T3FITHhMWmxV?oc=5",
        "source": "Benzinga",
        "published": "2026-11-26 01:01 UTC",
-       "age_hours": 3.4,
+       "age_hours": 3.6,
        "ts": 1795654865,
+       "sentiment": 0.0
+      },
+      {
+       "title": "Why is Meta Platforms stock sliding today? - Investing.com",
+       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZDhvWjk4QWhGdVJpM1JuQVRYbkc5Z0tpNGxSZWgzLWdPRE5LaHpvMW1lVV9VSFljNXlUaTVVYk0xZEtvamZDVnR4RERGOVdoQlJSdjhhVHgzLWNIOTNNZ1JGWkI0NEtVcHUxbW8xYUVyMFozREVDZXZXVWVtS0lDa3piQ3FUa29kQVg3TlZrdVBEWHpHb3F1MGVDZWRNMlNEZlBFdWhR?oc=5",
+       "source": "Investing.com",
+       "published": "2026-11-25 15:52 UTC",
+       "age_hours": 12.7,
+       "ts": 1795621946,
        "sentiment": 0.0
       },
       {
@@ -2373,25 +2394,16 @@
        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTlYyelVnWWhOTlRnV1BiY0YxSm93bFBuaUV5RkpDSUtpTzMwSVJwNHRDdkVYTzRUODBPQXp1NzVIdnhnVktxR3MxRXBxaEdJbTB1eUNQbHhfZ2lBYTRnN3ZsOXBCeHpGQ2prUnBERU84elZlV2hVMXNJRVhmVGtYOFIwVktUQjhmbU44WlAwam5mR0h0NlNHTU1RRDM5LTgtOGZLV3A3UDgxdS1jY1ZhLVc3bnptNEZwZ1JPMg?oc=5",
        "source": "StreetInsider",
        "published": "2026-11-25 15:51 UTC",
-       "age_hours": 12.6,
+       "age_hours": 12.8,
        "ts": 1795621911,
        "sentiment": 0.333
-      },
-      {
-       "title": "Why is Meta Platforms stock sliding today? - Investing.com",
-       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZDhvWjk4QWhGdVJpM1JuQVRYbkc5Z0tpNGxSZWgzLWdPRE5LaHpvMW1lVV9VSFljNXlUaTVVYk0xZEtvamZDVnR4RERGOVdoQlJSdjhhVHgzLWNIOTNNZ1JGWkI0NEtVcHUxbW8xYUVyMFozREVDZXZXVWVtS0lDa3piQ3FUa29kQVg3TlZrdVBEWHpHb3F1MGVDZWRNMlNEZlBFdWhR?oc=5",
-       "source": "Investing.com",
-       "published": "2026-11-25 15:52 UTC",
-       "age_hours": 12.6,
-       "ts": 1795621946,
-       "sentiment": 0.0
       },
       {
        "title": "Prediction: Meta Could Be One of the Biggest AI Winners Over the Next 5 Years - 24/7 Wall St.",
        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUjluQ012amRBVWpJRHQ4a29DdHR2Yi1tSlVuWXlINHFpMkYyNktXSG94VGhNMjNOMTZiWWtLbGR6S0RkVjBTSldnWWc3QzJzUEtreWM3bmRaNWp3QXZMaklrZlFyTU81Z19EeG9uOEVac3hiSkpWc1pSd0t6aDJtcGFNeUt2XzBwMU9TZU5FRUxKVzBpQmVTd2tyUWFaQnEyNFNwc2djOURBQ2FQSk54bk5GWGxGZlRMUVBVcA?oc=5",
        "source": "24/7 Wall St.",
        "published": "2026-11-25 14:33 UTC",
-       "age_hours": 13.9,
+       "age_hours": 14.1,
        "ts": 1795617180,
        "sentiment": 0.0
       }
@@ -2473,7 +2485,7 @@
      "sma50": 757.85,
      "technical_score": -0.544,
      "news_score": -0.037,
-     "theme_score": -0.116,
+     "theme_score": -0.117,
      "themes": [
       {
        "id": "tariff",
@@ -2483,12 +2495,12 @@
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.063
+       "impact": 0.062
       },
       {
        "id": "rates",
        "name": "利率與央行政策",
-       "impact": -0.057
+       "impact": -0.058
       }
      ],
      "score": -0.33,
@@ -2506,7 +2518,7 @@
        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSVNyM2hLaWRkcy1pZFRBMTBIQzd4MjlZbE10Q3dTREVhcU5JRjk3ZnFmMjdYMHo1dENuT1FlVmNxWVdnc1FoWWp3UXo3ME1qcXRyeGlIZjJ5aVg3NS1ZUjZ3akZJRUFVSEFZS0VLMTlLaDI0M3lpR2xBbWRtQ1pVMTZvSGtWSmx4N0dOc1lSc191eDFhcDM2SV9yeENsOW9tNHdKUkZSajlTTzNWMThXQVVNN3R3Yml2MHRFVVFSUG9qeFMxVy1Oekx0ODl4cHlfZTM1WnV6ajd5aVBhYzQ4TEtwR0pvRXF3am5TdQ?oc=5",
        "source": "TradingView",
        "published": "2026-11-26 03:14 UTC",
-       "age_hours": 1.2,
+       "age_hours": 1.4,
        "ts": 1795662840,
        "sentiment": -0.667
       },
@@ -2515,7 +2527,7 @@
        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaE8tcUZYdmRRdHlqSV84TmN1WUxRYkZTdWl1S3JMOTNGOWlrbzk5aloxbGN6R2J6M01PSVE2TFpZWjBLd1pVSTRENGFubXlMRlJsMUNYNU9fZ2pKb05vdVlBbUdUT290WnVsTGJNODlZdG9GbHJUTlJ2TVowTWpIeVhhV1FNZ2ZuWFNlWklCRmZFVDI0SW44dm9rTkdRRnlfeGV2QnRlcUhZV0U?oc=5",
        "source": "Quantisnow",
        "published": "2026-11-25 22:09 UTC",
-       "age_hours": 6.3,
+       "age_hours": 6.5,
        "ts": 1795644563,
        "sentiment": 0.5
       },
@@ -2524,7 +2536,7 @@
        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVHJDVjhhVjFUYXB1U2xsamF2akNBT00yNjBHRmhERDRfRUpHS1Nlc0dHay1YRDhLa19hYWF3cTZKc2VneWl6Y1lRZUFqc0RLTGhnR0duUlVFLXNoWGN6R2NMdlBqUVdNMnhYRC1NRjNwalpTR2JINjB2UW5mRGFDMTRJY0FMZW4wV0RpQ3d3eEZjQ3JkY3FFZlpKQkdkaEdiTTR0U3VmbG1SZi1tSGxsd3gyU1FOV2N0WFhCa3ZGU3lwZw?oc=5",
        "source": "Benzinga",
        "published": "2026-11-25 20:15 UTC",
-       "age_hours": 8.2,
+       "age_hours": 8.4,
        "ts": 1795637708,
        "sentiment": 0.0
       },
@@ -2533,7 +2545,7 @@
        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPOENwZXVyS0taYmgwWXZlUGJrcklMWWxMNnpHTURxckJfUWk1Z2NEWXQzSFRveUVTTEQ0eXZVWDZCX3ctV2MzRUl0ZlBEbks5eDFuOVZEbFEtaEZpRXlKQ1Z3RlUtdzJUTE9yYzBCU014WkFaaF9WOGFvZmdoMjh5OVN2SUNidHBUbHhtNm8zR09pdENBaVdPS3o4TGhac2c5bmNiazZzMXNxbUlobmd5RFQ3Yk0yUmYxTy1pcThTZExYVHJHWU82WkoyeDdTTl9YZzk4Xy1rdkxTV054WE5iUm9PVnFQRml2NkMzc0VzVQ?oc=5",
        "source": "24/7 Wall St.",
        "published": "2026-11-25 18:02 UTC",
-       "age_hours": 10.4,
+       "age_hours": 10.6,
        "ts": 1795629720,
        "sentiment": 0.0
       },
@@ -2542,7 +2554,7 @@
        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQb2ZXaXdRc0pUVG1rLTh2OV9UZkpnbXR6eDF2Z0xFNzQ5bGVBWUFuQVBnX3RzdUE4d25QZjhEdlUxeHdySDU4M1BJTTlWRkwzWEM4b0xUMExtWGpPbkVOZDZFbi1ySG1XajIxeFplOWxzQ3JOM2ZzU2FEd21WTVR5ai1QYXdkeXNGWklrN2dkWUhIemstM0VWY3pDalB5RjVnNHRNMWFUZnRxdDZodmhueDNLeFZVeU1hd0VQbmRGemZQMmV1c0lCbW8yUjZKMzlPdUNubThLVnE?oc=5",
        "source": "The Motley Fool",
        "published": "2026-11-25 15:45 UTC",
-       "age_hours": 12.7,
+       "age_hours": 12.9,
        "ts": 1795621502,
        "sentiment": 0.0
       }
@@ -2634,7 +2646,7 @@
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.209
+       "impact": 0.208
       },
       {
        "id": "geo",
@@ -2658,7 +2670,7 @@
        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM2JKcnNFYk5jM09EUEZXNjdqZ1N6V05CbnNQR1gzd09nUlhzRVpTSlM4ZjM4SG1uVXExci1OWWdCY05oNkpTOVFjbzk5amIyeHNzdHNpejM1THVZNFdYVWw5dGx3MFF6YndNbGVnN0dTbHNuVDdSSlQwVWl4MDRadXVxbkJyV0FnVEhjNDlVN21JRDVKRkpGeQ?oc=5",
        "source": "WSJ",
        "published": "2026-11-26 02:00 UTC",
-       "age_hours": 2.4,
+       "age_hours": 2.6,
        "ts": 1795658400,
        "sentiment": 0.0
       },
@@ -2667,7 +2679,7 @@
        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeldqODRQRTNYOTNIYmNYSC1NREZjZTdvZUwwT1NkNWZ3TFJYMVQ5VF9FeDJmcG1nV0NGRFlscmpIR2ZmT1JteEdYLUxpa01yR3htWUJlbXJEVnM4dmRlNUF6ejdOTHh1N0RfQkpYTWhJTkdEYjExV1MxT3JDZWluLTJ2d0hYdXRmdWk0?oc=5",
        "source": "The New York Times",
        "published": "2026-11-25 21:36 UTC",
-       "age_hours": 6.8,
+       "age_hours": 7.0,
        "ts": 1795642584,
        "sentiment": 0.667
       },
@@ -2676,7 +2688,7 @@
        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxa0h6bU9nRWJEb2M0SmpFRFZMVWpDWkNlWmo3Y2NyNTF6YVJybk9Pd0pOSGNvdHdWWkg1UmpydVpodmNUSlU4T21Ob251dUktc0d0VGV6cS00Tm8?oc=5",
        "source": "Fox Business",
        "published": "2026-11-25 21:07 UTC",
-       "age_hours": 7.3,
+       "age_hours": 7.5,
        "ts": 1795640843,
        "sentiment": -0.667
       },
@@ -2685,7 +2697,7 @@
        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVnZYQmNDcUVPbkdnb3J6b2xpMU9DVFFqbTNBdDFnTUk2cDBHbTNXQnBuVk9vRWVVdmYwN3dCWjF5RTZRSXV3dENOVGRnLU9BYjkxelMxNi1jRVpneUVmOEdoVjVSUGszREFxNE0xVjM2b2FlOXF5UDJQV0VEVEJra2lCeC1iZUpIQmF1SnZpWklreDQ2MVpjZG90NA?oc=5",
        "source": "Yahoo Finance",
        "published": "2026-11-25 18:53 UTC",
-       "age_hours": 9.6,
+       "age_hours": 9.7,
        "ts": 1795632782,
        "sentiment": 0.0
       },
@@ -2694,7 +2706,7 @@
        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1qNE95d05EdUt4VmhtanBHWXZjaEZhUktJLXRZaUNqejRZWk1lRW5lRUdUbFhMOGM5OUZBVUNYOVAwZTk0LURzQ3RSZHJTU29QT3dGdWhyTjdaMzJUcUdFaUFMMktvUkx3aWE4LTRvUnYtN3NYZHU0TTJR?oc=5",
        "source": "Barron's",
        "published": "2026-11-25 17:50 UTC",
-       "age_hours": 10.6,
+       "age_hours": 10.8,
        "ts": 1795629000,
        "sentiment": 0.0
       }
@@ -2805,7 +2817,7 @@
        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNR2ZteTVlRmM1WUQ4NEJnV0o2b2JDVWJVSjlNUWFnRnJYSDlmTTVydDZqeWl3cjdIOElzUnJXSnhOOXUyZ1EyeWoxSW1vYW51c2hOaTFaLV84aFJ5S245eFFyVDkxaDNnY3BqYndEWllrdnJhYTNsc1hBdXZhUVNMWDRWczdmR3F4OFlyZXAtaUtscEU2UkZDdXRUVF9wSDZWVE9oU1BOT3Z4bHlyUy1Fa0ptSGdjNU05c0JtV1ZRZXF1OVJTWi1RNW9nZlBUYmtDTUxtb19Xam1SaU5ULXBDdXEzNkZ3U2NDNnBUeQ?oc=5",
        "source": "The Globe and Mail",
        "published": "2026-11-26 03:47 UTC",
-       "age_hours": 0.6,
+       "age_hours": 0.8,
        "ts": 1795664849,
        "sentiment": 0.0
       },
@@ -2814,7 +2826,7 @@
        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPN1k5S1ctdmt6QmxRSEJ4eHdxMndHcFBEeC03UHRHdERzd1BZX3hYRkc0WjF3Qzg1QXhWZHZPUzFyYmRrR3FaZklFUTdKR29ZYml0RW9pTDVWT1o2dGRvWWhEQlcwVEhEWDF4TG9jZ0Z5dnFqZ3BmQUpOMDFPS2VNMFZEUkNCZHd5ak84?oc=5",
        "source": "Traders Union",
        "published": "2026-11-25 20:04 UTC",
-       "age_hours": 8.4,
+       "age_hours": 8.5,
        "ts": 1795637061,
        "sentiment": -0.667
       },
@@ -2823,7 +2835,7 @@
        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMnE1Rmc4S01pai0tRUR5V0JRN2dOdllyQ1owZmlJenItaVBTWmdVb0pJZER0YkxhUnczSEF5RmdnQUV5ek9VbUxPbFFkOGlwQWZxX1hIcGtRckJORWZfa3hmMW5oR2sydUNlS1pWbXB5NVZmejVjUW5rYUJRRDlkYkk2bVE1Ry02NE0yVndsUU9lS2RqUDZXOWVn?oc=5",
        "source": "Yahoo Finance",
        "published": "2026-11-25 19:15 UTC",
-       "age_hours": 9.2,
+       "age_hours": 9.4,
        "ts": 1795634101,
        "sentiment": 0.0
       },
@@ -2832,7 +2844,7 @@
        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRHppYVF4UlRjVERuWnA5WUNMVTNTUVJNNWY5Q2RzZmZUNGJXNFZ3SW5XdkJ4cXZORFdxbEZ2R1dSN3BrVGhtcENqUC12bm9fNGlueE50S3BiNDNDdHZId1FmQjZ1Rkx0MnFiMVpZYndnQmsybEQ4Rnk2RlZiay0tdmdJd3JKVi1aVmpkQ2V4M2VrcW4xbGpHUDNPWkhEcmxlVW04OGRwUTRRaUNxclNMUjFiVEhnQ1lnZ1JhNnZ6clVIbWV0clZ3U1hzNDJDWFVC?oc=5",
        "source": "TradingView",
        "published": "2026-11-25 17:14 UTC",
-       "age_hours": 11.2,
+       "age_hours": 11.4,
        "ts": 1795626890,
        "sentiment": -0.333
       },
@@ -2841,7 +2853,7 @@
        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPLXV6TXZPNHNaNm9MZHpYY0dpOS1GZUFQaHVtSUpMNTFORUZSUldyTkZqY2lmYlJWVzJEV0d5WjhLUHBHUUZtUktTOHFRMVhEZlAwc0FNV3V5cEt0YjltaGowOGwzRlVqZVRnWXNqcGNGaTVPc3hkMlpNVFNfZjd2YXVEamVPMHEzX2FacTJzUWhsUmhJQkFacFhkQnlNQTNDQWlkS183RnlqckRqdWdNWVM4WFFfdG1UeHhmNDR3bjRFMkplQUk1N1RYdFQ4S29YMzJEbENMZXdMbTNZb1ZOZ1pVdjUxR2ZtdDEySg?oc=5",
        "source": "The Motley Fool",
        "published": "2026-11-25 16:17 UTC",
-       "age_hours": 12.2,
+       "age_hours": 12.3,
        "ts": 1795623422,
        "sentiment": 0.0
       }
@@ -2980,7 +2992,7 @@
     {
      "id": "ai",
      "name": "AI 伺服器與算力",
-     "signal": 0.209,
+     "signal": 0.208,
      "heat": 1.0,
      "stocks": [
       {
@@ -3062,7 +3074,7 @@
     {
      "id": "rates",
      "name": "利率與央行政策",
-     "signal": -0.082,
+     "signal": -0.083,
      "heat": 1.0,
      "stocks": [
       {
@@ -3123,7 +3135,7 @@
     {
      "id": "semi",
      "name": "半導體景氣",
-     "signal": 0.012,
+     "signal": 0.011,
      "heat": 1.0,
      "stocks": [
       {
@@ -3168,7 +3180,7 @@
      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IQkloM185eWdfMGhXTkZBYmdEWHM2cy1CQjNpODYzQTRRV0V1VzU4akFoUkdsLTJucFZKTlF2MlZtMTgxMV9xZTRoZjdnTjdkRmMtTnd3Y3pZV28?oc=5",
      "source": "BBC",
      "published": "2026-11-26 03:01 UTC",
-     "age_hours": 1.4,
+     "age_hours": 1.6,
      "ts": 1795662100,
      "sentiment": -0.333
     },
@@ -3177,7 +3189,7 @@
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFByRDhxaG1qNHhETjdwcDNpTEx0NEVkRlJ5dWNHbDBoVzFKOWNfa3Q4VXZDUUd5aHRrTC15ei1OZDNBbHNrUlQ2Ni1vajFDRFhT?oc=5",
      "source": "風傳媒",
      "published": "2026-11-26 01:15 UTC",
-     "age_hours": 3.2,
+     "age_hours": 3.4,
      "ts": 1795655700,
      "sentiment": -0.333
     },
@@ -3186,7 +3198,7 @@
      "link": "https://news.google.com/rss/articles/CBMijwRBVV95cUxQUjBqeFNlUW0xUlpTNVVHMDlYMjhOUDhuMW1CVGJfOUNVeDdubGFoai1Jb1FPOXVaNVFyUGxaeG1adUpKYjZWR25KUGJfa0FuV3F0T255UUMzTzJ0VXoyZnlaWEpFYUxJNVRqY1hDRlY3ZFY1aHBoYWxVNGNJRDlYVU5hanRETUQ4MGJZOVp3RlVFSGNtRl81b0hXMnVrVWJDODRJb2ZacUR3NmhfTFFRMWgzWDRGUjJlaC12NXV0aG9ZMEFGNURFZlRiNnk0YkJoUWVUYk15QmV2UHVCMl81WWZsSTd5M1NaNkt1OEJOcHJEVktWVVZvdi1IWGtvNWJxVGZZdTZWVXN3M0FhcF95Q0lMYUo2dl9fa19tWjhZOHN4LTBWdVhpZnI4bkw0VVRzTTlzU3YwVjItWngzZE5DMG5hbzR6S2ItRWRrZDFhMk01OUVPeGo2ajlRdVVmVGhJa1doQnBxOWR3Mk1Tcl9lMXdNYW9ISWJyaDFfdy15VnBvNWxhRktsMkZDSnlDMnY0UDd3ckRmV1Z2REJ0dm83YlhWZlVaaGM5UGQweHlqamJ4Z3lNeGZzTnhMTC1iMVVBNEdoaGFpWTg1M0hlTFdKNk5vc253N0VNQ0tGcm5XLVBrYS04SUdvNnlOb1hXVEM3UXBubkw0NG11emxmTjhjMXJRRml2LWRzT21faW1aOA?oc=5",
      "source": "Yahoo新聞",
      "published": "2026-11-26 00:55 UTC",
-     "age_hours": 3.5,
+     "age_hours": 3.7,
      "ts": 1795654521,
      "sentiment": 0.167
     },
@@ -3195,7 +3207,7 @@
      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaZ1BFNWVVTlJTWnFVbDJ1VldwWnBGc0IxanBFcG1UTUFsR3RuYUFaREkyMGx3WV9ESklpVGVEeTV5aVlQb193MUdkNWNmbC0xdmQ3V3JvVTVvS1JJV3fSAUtBVV95cUxQZXh2cHlkaktYbUFVbFU5cWJGTzZtbUtpOTRySm5YeVdMMnJZTGp3TXhOUWw0U0lUVmFjT29OcUVkdjBRZkdpS0Fiak0?oc=5",
      "source": "ETtoday新聞雲",
      "published": "2026-11-26 00:43 UTC",
-     "age_hours": 3.7,
+     "age_hours": 3.9,
      "ts": 1795653780,
      "sentiment": -0.333
     },
@@ -3204,7 +3216,7 @@
      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CTndoRHhQb0JLMHR2YkJfQjFHUFRXUWZvVk9TMG1QaEh6c2lRYnc4eExtOF85dmJsbU1zNlgxVWpQcC0zdF9wcUV4OTVHTmR3UEZYSm1zaUxLUQ?oc=5",
      "source": "東森電視",
      "published": "2026-11-26 00:27 UTC",
-     "age_hours": 4.0,
+     "age_hours": 4.2,
      "ts": 1795652820,
      "sentiment": -0.333
     },
@@ -3213,7 +3225,7 @@
      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCdnRMR1ctOFN4U3ROR1dHbEdleGhfYlVFdnZBWDNzcmphQXd2VVhZSmpNQjNWRUNTclJlS19oWURvVDZCeUhtR05WOFVuRVVqNW1IUU5SUnNHeVU0dWlJ0gFcQVVfeXFMTURudUlQTlZCZXhOTzdINjlXazhQNnRuM3B2aGx0SHZxMjlwenpnVXFIc1ZZWEp0V1RZcGtWU3NUZjBlR3FVN0Y1bWxWUHVMUFVzWDBaQ2lzXzZacDc?oc=5",
      "source": "Modern Ghana",
      "published": "2026-11-25 23:30 UTC",
-     "age_hours": 4.9,
+     "age_hours": 5.1,
      "ts": 1795649400,
      "sentiment": -0.333
     }
@@ -3239,7 +3251,7 @@
      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qXy1KS3FNVDZoeVlydUZsXy1md2F0MVA4anFocWt4QkpoX2RIaHpPMnFNSWdnWTRUQzZQVnBmX0JzYzUtUnhBMjM1d3A4U0l1NHRUUkJOTmxLVDJGTTEtYVR5eG96RDdzbFlxd0plenB6WHRwMS0tNy1GRGVNZw?oc=5",
      "source": "LINE TODAY",
      "published": "2026-11-26 00:03 UTC",
-     "age_hours": 4.4,
+     "age_hours": 4.6,
      "ts": 1795651424,
      "sentiment": 0.5
     },
@@ -3248,7 +3260,7 @@
      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNTXVpbmtOemdCaC02Y3hndk93RzU3ZEh1WmhPb2Q1QTA0eExITWhrcjRZUTJGcHJkNzBta0JncW1oTkNoZzFTWGM3UHNLbXFCdUp0Ni1WVUppdnBpM25tczZJYkVpdHYwazZpemRMRzVfdkRmM2ZvNm9ndVhtN19GR24zV2ZMdTJQR1R3cVhIQTBwNzJLYWVUYVd6NXVNV3o0eUZlY2NSTUJkcW5QUVM1NnN2NDUzWEU2WFc5MmdrcGt6cHpYR0phSGFQY2RaQkN3dklYekxsZVdZT0VMRGwyM0tlMnNMZFlTNHBHdURyT05jbDFUWmJLUTUyTnBqeklhMXdBMVZ2a2ZGeVNhNWRhSUhHamxYYy02ZVZxbHlWV01iOVV5endIbFpyTW9SYnpPZ3NBZE5sV1JYUjVsS0E?oc=5",
      "source": "RFI",
      "published": "2026-11-25 21:00 UTC",
-     "age_hours": 7.4,
+     "age_hours": 7.6,
      "ts": 1795640431,
      "sentiment": -0.5
     },
@@ -3257,7 +3269,7 @@
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNa3pEREJ3S09wdVVhTDVPMy0xT1NrQ1NzcDVUeklTSUF4eDUtaEpBOGo2TEZGbkQxQUpHU0hrU2o0cU94aVA2LXQ3dnE4VUNhUTU2NGlCTWZrWFcxX3NTOVFIdGFLVXZVeFNhTWxUZG9ZRVp5NHAwYTUtcUxzV2dHcmpDWHVncVp1Ui10ckhmYlJrSHlHa2pHRElXck1DWThQR2Q2QkVPLVJrS2NWOGRxUXpjV3Z6ODRNVlNvbG9PYWJvSDZTSFpV0gHHAUFVX3lxTE1rekREQndLT3B1VWFMNU8zLTFPU2tDU3NwNVR6SVNJQXh4NS1oSkE4ajZMRkZuRDFBSkdTSGtTajRxT3hpUDYtdDd2cThVQ2FRNTY0aUJNZmtYVzFfc1M5UUh0YUtVdlV4U2FNbFRkb1lFWnk0cDBhNS1xTHNXZ0dyakNYdWdxWnVSLXRySGZiUmtIeUdrakdESVdyTUNZOFBHZDZCRU8tUmtLY1Y4ZHFRemNXdno4NE1WU29sb09hYm9INlNIWlU?oc=5",
      "source": "Business Standard",
      "published": "2026-11-25 17:33 UTC",
-     "age_hours": 10.9,
+     "age_hours": 11.1,
      "ts": 1795628011,
      "sentiment": -0.333
     },
@@ -3266,7 +3278,7 @@
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZU5zNGd1VzZ6ZTRFX1Q2MkFSaVZYb0d5TjBYOGN2aV82VEFndFJVNW1aS1JFU3ZId3djMUZyV1BOOTZ1RmhPV3kycmVGQ3BNWnVid1o0bE5aSVlVbFo1YzFUZVF2VkFqR0tMQWRDMk5Od3lFeFE3eUlOZXgyZ2U4cGVFXzJKVG1aVjM3WUVyNVlEc29RcDFOVzc1RG5MRHFZd0d2TV9ZcUFqaHlBTjhNMVotMA?oc=5",
      "source": "Crain's New York",
      "published": "2026-11-25 17:27 UTC",
-     "age_hours": 11.0,
+     "age_hours": 11.2,
      "ts": 1795627620,
      "sentiment": 0.0
     },
@@ -3275,7 +3287,7 @@
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSHRSZkhiRU9BRG1ING5kWlJGXzRhdXdxMkd0cXF2TU5qWjFKOGZweHpoak1DT2dQWlNNTHc5YlpJNDdkd202Qm4tUXd5eDV6d1ZXRHdzSERRZXVoWFVsMHNWZnBVU2ZJZEducS1nenJ5aDgyY1FYa3hXTWtCT1FHZUNfTzNXQlZRU1FabTM2LXVkZTJO?oc=5",
      "source": "102.7 WBOW",
      "published": "2026-11-25 17:10 UTC",
-     "age_hours": 11.3,
+     "age_hours": 11.4,
      "ts": 1795626614,
      "sentiment": -0.333
     },
@@ -3284,7 +3296,7 @@
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVHRnM1R5dTFYVVo5SUFtVkxuWEVzWEluUndpZ2VoZnhyeGJBNkdsRGRtV0J5Y2g3V3BEOHAxdVh4M0UtYmp1cU96UmpqaVlZeEdiNXNCYk9LU3hISkNvNUs2S3JGNFpUaEJEbGdpMDUtYXIwZUZTUy10ck9GLVpKX2ZkSG5jX3RYQ3dudGFn?oc=5",
      "source": "CMoney投資網誌",
      "published": "2026-11-25 17:00 UTC",
-     "age_hours": 11.4,
+     "age_hours": 11.6,
      "ts": 1795626042,
      "sentiment": -0.5
     }
@@ -3293,8 +3305,8 @@
   {
    "id": "ai",
    "name": "AI 伺服器與算力",
-   "signal": 0.209,
-   "sentiment": 0.159,
+   "signal": 0.208,
+   "sentiment": 0.158,
    "heat": 1.0,
    "count": 30,
    "exposure": {
@@ -3317,7 +3329,7 @@
      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5EY3NsX0I4OUY0WnYxUzV3Vy1hYmpRa1BXRGNZQ3VidTR1TUs5YkxTWE5PSnoxdjEwam9KWkprb1dzMjVFaHgtcg?oc=5",
      "source": "鉅亨號",
      "published": "2026-11-26 03:55 UTC",
-     "age_hours": 0.5,
+     "age_hours": 0.7,
      "ts": 1795665300,
      "sentiment": 0.0
     },
@@ -3326,7 +3338,7 @@
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQU1NCamJ0UEs3OHdOcGxnWncxM2xVZ2g1clNuVDduc2FyeW50aHJWSDh3aDB6MTRQNHdoVHp2dWFKMW1pSWlIUjNNR0VWdkl3NEIxNDlsUGZZendjTHk2OVR6SHBWOThCNjZsRzJFN01hSGVQS09HRzREMDVabHZ0cm4xWFV2WDBTS185UWl3?oc=5",
      "source": "CMoney投資網誌",
      "published": "2026-11-26 03:21 UTC",
-     "age_hours": 1.1,
+     "age_hours": 1.3,
      "ts": 1795663298,
      "sentiment": 1.0
     },
@@ -3335,7 +3347,7 @@
      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE14dmM3Yk5PUFpfLVNJZnhRUGhVQk9NMDc2SU5faWhyNllsYWNHNldlQTlfLWRoNi03dkNZbzhwLWFPXzZsRmNwZndZd3lNWW5HZVFzd0NR?oc=5",
      "source": "LINE TODAY",
      "published": "2026-11-26 02:48 UTC",
-     "age_hours": 1.6,
+     "age_hours": 1.8,
      "ts": 1795661291,
      "sentiment": 0.0
     },
@@ -3344,7 +3356,7 @@
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSzl1RVVQXzFmNEhFTmY3cXRWUmlSRXE3d1ZTWHBvNzdwcUtaWXcwelBCUFJMNzBvaFdxSTFhSW44d0wxb3UyTWFQb0tWbzRycC1oVDEtbjhUMm4yNnpSd0pQMXRDRFJuQnMxMVRSRm80eHRyVzhHSGM5MHVrc2tWMzl5UUV4Rk9OS3lmRUJR?oc=5",
      "source": "CMoney投資網誌",
      "published": "2026-11-26 02:35 UTC",
-     "age_hours": 1.9,
+     "age_hours": 2.0,
      "ts": 1795660501,
      "sentiment": 0.667
     },
@@ -3353,7 +3365,7 @@
      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE03bmlwMy1oTERpR05pT3UtTHc0WXhLZC1UQllXeFpJZGFKeC1uUmYxNWNFSmZrZW9IYzZTWnh4b25WTVBVUUJrOXZmb1oxeWlnQXp5Ni1FdzRWZGlU?oc=5",
      "source": "非凡新聞台",
      "published": "2026-11-25 23:14 UTC",
-     "age_hours": 5.2,
+     "age_hours": 5.4,
      "ts": 1795648443,
      "sentiment": 0.0
     },
@@ -3362,7 +3374,7 @@
      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hR21adndSMDFoRy1JWFFzWDBYTkNJTUZtSEt1NTMwT2xoZUlvazUxRTZUQ3V2RV9ZMlpjT1hTT1I0TGpKa3FybkNlNjdCVnRqbTNndTZiTnlfbnlnTTJHOXVXNjNsWDJqOWc?oc=5",
      "source": "旺得富理財網",
      "published": "2026-11-25 22:47 UTC",
-     "age_hours": 5.6,
+     "age_hours": 5.8,
      "ts": 1795646872,
      "sentiment": 0.0
     }
@@ -3387,7 +3399,7 @@
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVEdRWWZBTkhLOXB5WjB3TFNNc0dNc3JNNXp6TW92MHpRUV9RZHRFSmZnYzZNWDRJaVZOQVZLM2EtOHBocElXUmF3RmRQdmdUNS10UlA5aVRLZG5DVTljNDRXOFlBRE0wQXktY19iWi03d3RNVndCUDA5SEdHcW42dVpnQWFNTFNt?oc=5",
      "source": "富聯網",
      "published": "2026-11-26 03:28 UTC",
-     "age_hours": 1.0,
+     "age_hours": 1.1,
      "ts": 1795663680,
      "sentiment": 1.0
     },
@@ -3396,7 +3408,7 @@
      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xR2FMUjBBUk1oeTduYlBnRjJGZUhLSmxUcXBEUl9zb0h0RDVGUnZ2bzBYd3dGWlNVZzUxTWtrZFlYSzJ0bEJWTVprLWd6WEE?oc=5",
      "source": "TVBS",
      "published": "2026-11-26 02:00 UTC",
-     "age_hours": 2.4,
+     "age_hours": 2.6,
      "ts": 1795658400,
      "sentiment": 0.667
     },
@@ -3405,7 +3417,7 @@
      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9UbFBrdzZSSmFabXdSTUhNNHJSNk81QXMwZlk3VUc2UGVPV185OC1RMzlNbm1SUU52aWxpTTZyaWhvTzRTcFdLLdIBTEFVX3lxTFBBXzVHUEVqZ25ucVhHd2JfemwzYjZHMEJ0c0M0aE9lQ1dlZk1Za1o3bGNrTk1GSmJHR0FEdG5kQW5pVFUwaWdSY0p5SVg?oc=5",
      "source": "三立新聞",
      "published": "2026-11-25 23:34 UTC",
-     "age_hours": 4.9,
+     "age_hours": 5.0,
      "ts": 1795649660,
      "sentiment": 0.5
     },
@@ -3414,7 +3426,7 @@
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPblhHcExyQnFWZzgtWWt4Qmx2SlpUZnRkNV9mUHplUjF6Wmo5ejBzQ19aUmZKODZKdU5GQjh5QXJ4bUk3RUlsOG5tNnlIUUVSVFI2Z29STGtRVWpDZUJpQnJBeldBalBwNGtFSWdxRWxmRXZuTUlpRWVXTEVTVEd6VDBqdFg?oc=5",
      "source": "Counterpoint Research",
      "published": "2026-11-25 23:33 UTC",
-     "age_hours": 4.9,
+     "age_hours": 5.1,
      "ts": 1795649588,
      "sentiment": 0.0
     },
@@ -3423,7 +3435,7 @@
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbTItQldOQXN4Rk0wVXdFNnRlaU9ELUNLMDJhQnFvSlJZU24wRkNKWV9jbE1GS09sN2pQZ0J4b0tkSzFvcExObS1GMlEzZDdMWFRDTXhvTE1xMmFaOGRmMHFOME4ycHJEc1RjMEFTS2s0TUtzclRQOVRZeXoxaHZlUjVXTzVadzVkTnFsWkRsNzhLR2Y4bkZiTG9kXzZBZmc?oc=5",
      "source": "Báo VietNamNet",
      "published": "2026-11-25 23:29 UTC",
-     "age_hours": 5.0,
+     "age_hours": 5.1,
      "ts": 1795649340,
      "sentiment": 0.0
     },
@@ -3432,7 +3444,7 @@
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdVQyTWFKYUprOEprSml0TEFHbXl2ZXM5TXhoeU9IS0RYWm00VFY0TFlGbGk5cGRXUGFYUUIyNW80TEFzNlJfRGdmQmg3NmZCdk1CMTlaS3pwSFd4a29MdzRaVzZ2cUxvWmhvQXpZTTdhRFZBMWc3Skd5NGVpaUlvb3A0U3FRM25idTVqbnUxbnVoR1BTcTRUbG04azdPZDNlSnlGTW1fb9IBrAFBVV95cUxNYVF6TUV4T1BpMlExZEQxaXVtMm9hSlYxY0xOeFVHMFdBelJaa0lUUENtempqb2pNQUxScXFBa3NLMUpXdms1SzlWeGpGQ0FndHhqX0xyZlFPdS02c1JMeFNSZXVMaVJGeUhtR3A5SWFiT1ZqWjUzVnc4bk51SURuWUtNamtmRlltZWFYQkxmckQ5SlhvS0xEY3JGT0ZCaldxU2t1cHB6OUdTOEJw?oc=5",
      "source": "MacDailyNews",
      "published": "2026-11-25 20:00 UTC",
-     "age_hours": 8.4,
+     "age_hours": 8.6,
      "ts": 1795636802,
      "sentiment": 0.0
     }
@@ -3463,7 +3475,7 @@
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeHUzY1BPZGtGd2dKeUhJWGJ3NTlzSERKRHB6a3pfOThZcUtBZDJzZEVRZ2dmLVNvclJQZE1lWVh4Y3VCX3J3clc1NHBVT0tab1lZekV4RmxTTUFXRkNzQ0pYOExpTERrWk45Zl9NMGNGZ1J3QUxsLUU5RWJhY2lPc1FNcWFnYTVQdGxZTFJOS0VuSlRzbjY0Sjc2b25MM2tZ?oc=5",
      "source": "North Dallas Gazette",
      "published": "2026-11-26 03:55 UTC",
-     "age_hours": 0.5,
+     "age_hours": 0.7,
      "ts": 1795665330,
      "sentiment": 0.0
     },
@@ -3472,7 +3484,7 @@
      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IQkloM185eWdfMGhXTkZBYmdEWHM2cy1CQjNpODYzQTRRV0V1VzU4akFoUkdsLTJucFZKTlF2MlZtMTgxMV9xZTRoZjdnTjdkRmMtTnd3Y3pZV28?oc=5",
      "source": "BBC",
      "published": "2026-11-26 03:01 UTC",
-     "age_hours": 1.4,
+     "age_hours": 1.6,
      "ts": 1795662100,
      "sentiment": -0.333
     },
@@ -3481,7 +3493,7 @@
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNaFFYS3F1THRyN1Nrb1RIVjBfTzJFMXJKSWlRRG5QZjIzOTBDcnFDc2RRcjB1ZlFtZHR0SmNMYzZ3OHhTaE5FNlc3b1p4eWFMME5qSGk2bWJ6dThlUWRxZW1NX1BTblNrS2JXYW8zWHMyc2l1N3V3eFpYVDdXVlpWTFlIZHBrS01zSkRNYklweEJmMThJZWJncTUtSkx1RGFZbFBTczNoSDh3dmxNNHVWcVBJVUpZc1pGSF9hUnVEOFVsQlhObnBhcmU5dE4wMHowemYwYkZENGR6XzJsODFYTXBR?oc=5",
      "source": "Facebook",
      "published": "2026-11-26 02:13 UTC",
-     "age_hours": 2.2,
+     "age_hours": 2.4,
      "ts": 1795659183,
      "sentiment": 0.0
     },
@@ -3490,7 +3502,7 @@
      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPeTBvMzV5ZmE3WElISm45d3R2eVluRTZidVA3aG56NmZ3emN2eXRqQ185QWRzeTlYSEZhQk5IOE96TXd0MEVDaTJlV3VkWkVGQXQyMk56NnlvS0s0Q1VMZ2lsR2NPdlpUc2U0TURCU3lhdkRTNjdSck1jQmtFNVFydzR2R2dYMXN5Ykw5SW9RakFkX3BndkRsa3dEN3hORjNZMFdMQjgxbjdkNFJWZGV1cXhuSDhJTk9nZ3hidVBhZ1RpbjlZTk02Rk11VThnd0NnaUk3Q3IyRWg4Sm1DcDhnVTVTQXQ4WGpuQ3lJR2NIQmthV000bDgzdFlkblVZRnBGZWtFT1F6OGJ1VnVFYUlDN2JHazdJLVVrdGhKT3hKOXhNN0o0bnFyZHoyUQ?oc=5",
      "source": "TVB",
      "published": "2026-11-25 22:51 UTC",
-     "age_hours": 5.6,
+     "age_hours": 5.8,
      "ts": 1795647060,
      "sentiment": 0.0
     },
@@ -3499,7 +3511,7 @@
      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPc3lCVTd6ODlOUHIyZUUxdHpVSTFXVmtKd2hSdjRkMjJwLXBDSHk2YW5JakE1SGo1VEJXMHVGLU01b2hSUkpwYjljdE9Qa2F2OFZ1XzhHdGNtQ2duN1BqZU9VSUpBZXJqMW5MRHkxZVdVcUx4MENIYnpoY3RrVjB2aTB3SXd3cHNxTGFUdHlnclZMdGVqOXRzTVlhcUdyaEJOSUVLTnVsc0VfNGhvVEpjQ0VhZEl2RnBmelkxcjRvT0JTU2tFYU1tNU1fVlVMeF80MGhiR0VGajVCOEVsanE4RHVNWXVGRWUxNkZhLTVQZmZLaWNzWnU2YXR6amNFSldBUS1DeVhQY1VPdkl3QW5SOWQ0aWNXRWZST2hUMWlNYUk3eXNudEZpT3BsNVBTV2RrbDJ2OFVwYzM?oc=5",
      "source": "Radio-Canada",
      "published": "2026-11-25 17:29 UTC",
-     "age_hours": 10.9,
+     "age_hours": 11.1,
      "ts": 1795627776,
      "sentiment": 0.0
     },
@@ -3508,7 +3520,7 @@
      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORzhyb3h5OUhfZHdvTktTUXJQWU96aTFDbW1Cd1dxcnRyNldhd3RJT2xlejM4RnR3RENXMWh4eVdhVjE3UFdZUTJkbDlWOVhtS2JmTEZwYlNKV296QkJhRDFuUnA3YWYyM0hjTDNucWxuOHFXaDFxNUZDTDMxRXhBazhyVkJiMGk1V1JwZ2tLcHQwUy0xTHNvQkJlSkhGbXBLWS1KQ2R1aHNCUmtQTVVPc2IxZGNXbzZXdzhDUmcweWFVd0R1cVN0NQ?oc=5",
      "source": "24/7 Wall St.",
      "published": "2026-11-25 17:33 UTC",
-     "age_hours": 10.9,
+     "age_hours": 11.1,
      "ts": 1795627980,
      "sentiment": 0.0
     }
@@ -3532,7 +3544,7 @@
      "link": "https://news.google.com/rss/articles/CBMirANBVV95cUxPVmcxUnV4b3NjNWxhb0UzNWpBNnVwZkhIUnNrcVh3WW5HRTVSVEFCV21IenB5dmZRSmNVLXc1ZzlmcHhGNEkxWi05dXZhVWFkZDY3YmM5NWZQdS11cnR3T1VfRmZtUFhzVHVjbFk5TU5vQ3JVLS1mN1d2RHE0Z2dIdWVSLWkxcllIR19MYm44MS1RdkhIU0JxR09uZHZVQ2Z0WEFkd2o2bnJ5VlJ0aGNxRDZNYm1vSzdvd2JDd0ZabGhtbE16MXJSc09iX0c2T0w3djB2eEpLaV9rUXBBX3RaODlseUR0Rlc1WDBCYnhCMktxeFlVa1JaOHBkLTJPQVVaOWM5Si1ncEdNeE45VUkyY2k3ZlAtOWRTS3U3aThNTDc3ejd1WXlyWDVpS3M5YmNaenZIQzBwUWxUR1g5RmVkUnZpcERua3I2RkJwN25HR0NLbWFNR1E4a3F6WWY2OXJZSk1laEVNMUt0czZmZTRKVTJWRHBydTZ0cllYMl9qWWd0MUVBa3NIaFlUN2J2MU5QeWNGN3p0VnppTzFVdmlDYWgxeWJLVURVZ3NiZdIBjAFBVV95cUxQRlV1QmZ0bllYT0JSTEwzcnJHZFRjbjRQbFRWM0xpUl9ieEtjdWgyVjl5ZDdXczNwQzdrLTlxT1hiLUxYMlBFa2ZxcUd5MVcyLVBZanduVmlFTWltRnQtNzdqcFR4eGpfYkh6cHQ4d1B6V3hwMjVMVWN5RkR1OTFsa3R2ZUk5YlBncEFFeQ?oc=5",
      "source": "Sing Tao Daily 星島日報加拿大",
      "published": "2026-11-26 00:21 UTC",
-     "age_hours": 4.1,
+     "age_hours": 4.3,
      "ts": 1795652496,
      "sentiment": 0.0
     },
@@ -3541,7 +3553,7 @@
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94eEo2Ym1uX3plcFJlZ1g1RDg2cU5Qd2dzVUJBWnFGT1FJQzJYOGNKaUl0czBiUGxEZlhqVUZyVjBUNTZ2Vmh3R0hIcU1LbEItblczZjdDdkxCclZxMk1oMllvczY1OHcwMkZLcFZFdGJpZ09fTHFxa3c2MFpTZnM?oc=5",
      "source": "Motor1.com",
      "published": "2026-11-25 22:48 UTC",
-     "age_hours": 5.6,
+     "age_hours": 5.8,
      "ts": 1795646882,
      "sentiment": 0.0
     },
@@ -3550,7 +3562,7 @@
      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1WMUduZjR0cHprb2RDSDlrYnNlUk1vYkh4dnMtR2VVVkhLWlo4eTMxNDAza3dxSG9Vcmt0T3llTU9nT3Job2N5c2lOOXBMdV9MemRkWU9XalRIcVBNSWFweHJEYzlIR1AzWHVUUWdUSE5JTENzcEwyWGNiWE5FQQ?oc=5",
      "source": "Motor1.com",
      "published": "2026-11-25 22:34 UTC",
-     "age_hours": 5.9,
+     "age_hours": 6.0,
      "ts": 1795646044,
      "sentiment": 0.0
     },
@@ -3559,7 +3571,7 @@
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORE1rMEFxR2EwWFpwR3hUMmtESzF1NVRoMExqbUdfVUhLQlE1ZTJ2Qi1uSzJpY0tfc1c1ZDJZQ0Q1a3plUEFUSEtIVXVvUzNLdkpSQnU4bmtnWHlOemctZ0JVSlFNMllUV0NBT3E5ekdBdmtWeTRKd2lWYWZmV2tKSkFNSkFZcGxmT25OYzVlNC1taDE4VkdNQkhVTEI2Y05MdHFjam9udDNQRFRHRkE?oc=5",
      "source": "Automotive News",
      "published": "2026-11-25 18:28 UTC",
-     "age_hours": 10.0,
+     "age_hours": 10.1,
      "ts": 1795631280,
      "sentiment": 0.0
     },
@@ -3568,7 +3580,7 @@
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ncndkVmxpbmVpT2pfTFVYVFhqTGtsa3JDSWxnTkNPeGlHb1hUTUJBXzU5Zi1YRU1IaWJORkNiSmJhczc0Nk1tUk5GVVk3b0JEOEZBUXZwaFMtUWpLbmNkUHkwSUNkT3Bv?oc=5",
      "source": "經貿透視雙周刊",
      "published": "2026-11-25 16:42 UTC",
-     "age_hours": 11.7,
+     "age_hours": 11.9,
      "ts": 1795624956,
      "sentiment": 0.0
     },
@@ -3577,7 +3589,7 @@
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZTVhNWE2Mko1eFRSMkRPdEM4dVpFOGNtbFZOcUJUWkVOUkJuT1NUcl9IWWtGVnhKbGpWZE1OZThva2tYN190RGxVT2I0Q2syNmxxTzJRR0RucDlVRWdFelhZM3lab2JLYV9NM0V3dWs4SDU1aFNHTGI4TklfSk5wN2c2bTJJajZYZzdseTFwNTFJdw?oc=5",
      "source": "Materia Rinnovabile | Renewable Matter",
      "published": "2026-11-25 15:52 UTC",
-     "age_hours": 12.6,
+     "age_hours": 12.7,
      "ts": 1795621972,
      "sentiment": 0.0
     }
@@ -3586,8 +3598,8 @@
   {
    "id": "rates",
    "name": "利率與央行政策",
-   "signal": -0.082,
-   "sentiment": -0.082,
+   "signal": -0.083,
+   "sentiment": -0.083,
    "heat": 1.0,
    "count": 29,
    "exposure": {
@@ -3610,7 +3622,7 @@
      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pYkZxNEtHNk5FZXZSVTdTUkx0OHlyeXJQVG9RWTZmaVYzQ0c2clhXLXBGcm45X2syOXBvbVFXY3lkZVZCMU5LN3RLbHNUNl9GS25kUQ?oc=5",
      "source": "短新聞SHOTNEWS",
      "published": "2026-11-26 03:15 UTC",
-     "age_hours": 1.2,
+     "age_hours": 1.4,
      "ts": 1795662900,
      "sentiment": 0.167
     },
@@ -3619,7 +3631,7 @@
      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hMzhkOEVfSlFkdUF5azI4LWxqUWs4dms2endEUUtXV2REUV9rVnZFbG44RGtKbWduaFBudmZSVlE5bzBqd3RKaXFNQmtCX0hJYVhoSVZYYmtHZllKNDUybEZMdw?oc=5",
      "source": "cwibc.co.id",
      "published": "2026-11-26 03:03 UTC",
-     "age_hours": 1.4,
+     "age_hours": 1.6,
      "ts": 1795662201,
      "sentiment": -0.167
     },
@@ -3628,7 +3640,7 @@
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY3hXT2VicFZWbnd3Mmg0aEkwUU5rQ0hNeElSRTdCQzJ0eW02Qnk4ZDJOcTUzV3VrYTczaTBDREFKY3hjN3plVGxfYmxIZUtWZHJfMjY5UTZXRk9YTTFjRHpPVklCblV6Zlg0b0lLOWZSUlU5VjAwdnZ4SHhYLThRRXloN2dJb29LTG5wZm50ZGNxSFJ5c0NxN28tdWZIenFLZ2x4SjZqeVM4TUxJSzZKQWFSV3V0Zw?oc=5",
      "source": "FXStreet",
      "published": "2026-11-26 02:25 UTC",
-     "age_hours": 2.0,
+     "age_hours": 2.2,
      "ts": 1795659900,
      "sentiment": 0.0
     },
@@ -3637,7 +3649,7 @@
      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNLUJmVTF1eXhwY1dUMUlXZ3ItZi1Ub2RXVGpQMlI3MzZUd1Y2dnVsemdRX04tRjBqRDkweXlvV0NEQ3piTVNPNHRvZm5XVUlIdkhwQV9WdmY?oc=5",
      "source": "BBC",
      "published": "2026-11-25 18:00 UTC",
-     "age_hours": 10.4,
+     "age_hours": 10.6,
      "ts": 1795629600,
      "sentiment": -0.333
     },
@@ -3646,7 +3658,7 @@
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVW43SFhnN0VQZkdTa1l2a3BOVWRmZUdsVzVRN29JNWM5TDdLZElJMF9weE5ub1ZuVW5RTEJ3Sl9CNVZ2UUd4dXNJMURwamF1dTBhOWNjR2NTYTduMEVGanRmc2EyWXAwdXd0cVBKZF9hR0EwQzNTMzA4Z3VmWnh4VmR0T0JxN1c3aXp0TDA0X1NXMFZWeWpaMg?oc=5",
      "source": "Yahoo Finance",
      "published": "2026-11-25 16:38 UTC",
-     "age_hours": 11.8,
+     "age_hours": 12.0,
      "ts": 1795624726,
      "sentiment": -0.5
     },
@@ -3655,7 +3667,7 @@
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0X2NzQ0gxUUViSzNacDBZem8zTERPTVhqS2FpYVVzVXBCVjFOQ2FsM0xsUW5OdDdVSEx2TERTNmprQmFxMUVQcUk0NTBOTUczNFM1T182ZGFsRUUwNUduSVU0UTFxR1V3?oc=5",
      "source": "Tokenist",
      "published": "2026-11-25 16:14 UTC",
-     "age_hours": 12.2,
+     "age_hours": 12.4,
      "ts": 1795623277,
      "sentiment": 0.0
     }
@@ -3679,7 +3691,7 @@
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcExtbFA3eXQ1d1JWVWJ3ay1WWTJtYXhqUUhuNVF4QVdRYWJTd3ZQcEIwUXJnV1FEak1aTm9jeVBxbzdJaGlKc0xCbnI3T0FCYlNheXU4TzdrVUdHQVFvRjBGLVBjT09PRC1IWWE4QmN5dXJraHlBMy0tNHczZUxzQnRn?oc=5",
      "source": "WSJ",
      "published": "2026-11-25 21:57 UTC",
-     "age_hours": 6.5,
+     "age_hours": 6.7,
      "ts": 1795643820,
      "sentiment": 0.0
     },
@@ -3688,7 +3700,7 @@
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSUZpVmpjbTgxcmdDaEZyM1BNQmxnTDU5REpJNGI1bG9XWEVVU3JnRVJ1Vmt5Nml2bmxZdnlUclVRbkNWX0FXcFJ1b1QtT0RmUXRVWDVZNEgtU0VXOXZnUTYyREkxUy1KYy1QSDkwa2d5cUs4bTNKMHVQejdVQkdXd0ZJT0laY1FXZ0lsYnlNN0JQSVNMWHlzTVRScnUyV3ZCZ0UyYU1DTVVZMDN4RUhxZlAzamNNMDBVR3AyN1pCYw?oc=5",
      "source": "Reuters",
      "published": "2026-11-25 19:55 UTC",
-     "age_hours": 8.5,
+     "age_hours": 8.7,
      "ts": 1795636508,
      "sentiment": -0.333
     },
@@ -3697,7 +3709,7 @@
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdmU3alVGenVHTWtpSFQwUk5GeTBrc082cDBIcWlQTk1jSVZVdEp0dDk0bHI3MmJxQWxiN29tTEttTVhUUkprWDFIWlVDMGtaNm5iOG1qN29jN3FmNXlVVDI5bFFUSFl3Ml9kZlI2a0dLdUtwVk5ObERaOGV2eHB3NWtiampSbUUzTHJqODFKYUQzODBDZnQ1bnl6d1g1YlE?oc=5",
      "source": "Yahoo Finance",
      "published": "2026-11-25 18:13 UTC",
-     "age_hours": 10.2,
+     "age_hours": 10.4,
      "ts": 1795630389,
      "sentiment": 0.333
     },
@@ -3706,7 +3718,7 @@
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVHZPR05JblZ6VmpHYkJMQXM1REVBN0R2V19PT2hsU0diZGpuSzFDUklpNGt5T1NaX25lUVQ3bHg4MzB0Y01aQjByRGN0RndsdkUyQXV6WnhIb0k1aVIxektvbzJvcHlhTEdhR3E5Ulo0bkpueU9sa3BiS0N0UzF3WXE2cUwtZXFfdl9LQnpBa0pDSVR6cGRVNg?oc=5",
      "source": "Yahoo Finance",
      "published": "2026-11-25 17:12 UTC",
-     "age_hours": 11.2,
+     "age_hours": 11.4,
      "ts": 1795626775,
      "sentiment": 0.0
     },
@@ -3715,7 +3727,7 @@
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMl80YjB4WXRxUmdnVEJZMm1sTk5FUGRUVkJHZlVVeTlvRU9jVkptaGlhMUpFVUtZb1NKS0NacDdfZEJ0UjR5MlF5UlNTZDliaFJyYmltYk9LenNQb1dVWnFubFYxNF9DNTN3b1pjdHhCRHQ1RnBKTUJqWkZTRXJaUlBQWlpJaXFzTXI1RFJqaGNyUzNBQTEzSTAtenRTNmFPSXc?oc=5",
      "source": "Yahoo Finance",
      "published": "2026-11-25 16:17 UTC",
-     "age_hours": 12.2,
+     "age_hours": 12.3,
      "ts": 1795623427,
      "sentiment": 0.0
     },
@@ -3724,7 +3736,7 @@
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdktqanV4Z1RsSWdQdlNfT2Q4S1MxdUtCOGlWeEQ4V1VqZWVuQ3B0VG1QU2lzXzVJSnFGakR2ZElJMnh0UEg0dkZwOVhzcEh6azk4UXN0UlNBZVJBd25wdjdEMFRhRUljS3QweHJJSDJDTjhKRmx6aU40MzVfRmNFVC1oamdYVXNoVVhkWlBsaVE2RVpUM2JYUE5tQkpBWDR4?oc=5",
      "source": "Yahoo Finance",
      "published": "2026-11-25 14:09 UTC",
-     "age_hours": 14.3,
+     "age_hours": 14.5,
      "ts": 1795615774,
      "sentiment": 0.0
     }
@@ -3733,8 +3745,8 @@
   {
    "id": "semi",
    "name": "半導體景氣",
-   "signal": 0.012,
-   "sentiment": 0.012,
+   "signal": 0.011,
+   "sentiment": 0.011,
    "heat": 1.0,
    "count": 30,
    "exposure": {
@@ -3751,7 +3763,7 @@
      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1vVDhHUjlPOFFRN1dDQnM1UmVIRHFaSVhBWVdkNDdYVG1scnUyT2pzNlBjS1Y4ZjVRNlJZamRUYnhSUFpDMWxaR2tKNngxM244ckpTSg?oc=5",
      "source": "EBC Financial Group",
      "published": "2026-11-26 02:12 UTC",
-     "age_hours": 2.2,
+     "age_hours": 2.4,
      "ts": 1795659120,
      "sentiment": 0.0
     },
@@ -3760,7 +3772,7 @@
      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9jWFp1OGwwcElzMHd5b2FtMDFBUmwxdU13ZFNjU2dlZDFUNkVDT0J4cDJjczhSVXNWN1MtYUxBeG1rNjNiT1p4cA?oc=5",
      "source": "鉅亨號",
      "published": "2026-11-26 01:59 UTC",
-     "age_hours": 2.5,
+     "age_hours": 2.6,
      "ts": 1795658344,
      "sentiment": 0.0
     },
@@ -3769,7 +3781,7 @@
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORDdQWldzVUpIZDdpYmE4TWhIVDE1SnRCaEdPcG82dmFOaWoyOXVjdGhZeFhVRmdqOFN1S2xWaXBfNi1PaGFDRXZsRU1HQ0NmS0VsMWowQ19pUXgyOER3bE8wSk02SmlIeW5LSzlOZFFnYXpzd3ZwdVhoUTByeWlvcDN2SF9VNl9KWUE3a3NSUQ?oc=5",
      "source": "Counterpoint Research",
      "published": "2026-11-25 23:47 UTC",
-     "age_hours": 4.6,
+     "age_hours": 4.8,
      "ts": 1795650434,
      "sentiment": 0.0
     },
@@ -3778,7 +3790,7 @@
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdXh3dWRUN08xV0RfUGk1eGl5RnJxYnl1bnQtZ0tBRUNXVWR4OWZnZkozalYydUVKV1FZMndiNHZySUV2Z2tYRTZ6blFNd2RhNkluMjlwa3JQTHdBNGh1SS1KdTR0WVN1cmZpN1JJc3VWU1lRb3h1NEc0ZjhVc3p5d2JIRWUwNE1BcVBtYXhMTERTYVRfd2VhS0VXZEU5bzJTVXlV?oc=5",
      "source": "The Futurum Group",
      "published": "2026-11-25 22:47 UTC",
-     "age_hours": 5.6,
+     "age_hours": 5.8,
      "ts": 1795646867,
      "sentiment": 0.333
     },
@@ -3787,7 +3799,7 @@
      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU0lZX1l6aHhOcG9sNXFRTlU4NkxpamNJNDdLOFBvVndMUjFscG0yYm5aYmEwSW1MWE9Wc0lLTTFxOEprMnJGSjRqQVZ3eWEwam5vbjBPQ3l0cTNNcExiTWJHOVhjbnY1algySlRtMWhSRWY4M0hfZ3ZKZVk3Z1dzcmJiRC1EaUxWd2VjLQ?oc=5",
      "source": "Beinsure",
      "published": "2026-11-25 21:03 UTC",
-     "age_hours": 7.4,
+     "age_hours": 7.5,
      "ts": 1795640635,
      "sentiment": -0.667
     },
@@ -3796,7 +3808,7 @@
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNkxsMGpzNlRjcVdFM0taQ3JZbVJyV0ZoU0dfUm1ZQVFBeXRpV1lld2M3RTY1aGRnZERCV2tLejNuQldpbTJ4QlBjVlloMkswOHE0ckRqejhRVDBpeDc4SUlqSkpmdE1jS3JhT0xWMXozZjF6YjRRS2dwWkhOS1p5bFVBLTU4R2dWbWhEeGpwVXJNOVdmYmxNUk1zeFg?oc=5",
      "source": "台視全球資訊網",
      "published": "2026-11-25 18:18 UTC",
-     "age_hours": 10.1,
+     "age_hours": 10.3,
      "ts": 1795630727,
      "sentiment": 0.0
     }
@@ -3806,7 +3818,7 @@
  "fx": {
   "source": "國泰世華銀行",
   "url": "https://www.cathaybk.com.tw/cathaybk/personal/product/deposit/currency-billboard/",
-  "board_time": "2026年11月26日 12:26:08",
+  "board_time": "2026年11月26日 12:36:53",
   "rates": [
    {
     "code": "USD",
@@ -3920,37 +3932,37 @@
     "code": "NZD",
     "name": "紐西蘭幣",
     "spot": {
-     "buy": 17.96,
-     "sell": 18.18
+     "buy": 17.97,
+     "sell": 18.19
     },
     "digital": {
-     "buy": 17.98,
-     "sell": 18.16
+     "buy": 17.99,
+     "sell": 18.17
     },
     "cash": {
      "buy": null,
      "sell": null
     },
     "prev_sell": 18.2,
-    "change_pct": -0.11
+    "change_pct": -0.055
    },
    {
     "code": "ZAR",
     "name": "南非幣",
     "spot": {
-     "buy": 1.831,
-     "sell": 1.926
+     "buy": 1.832,
+     "sell": 1.927
     },
     "digital": {
-     "buy": 1.836,
-     "sell": 1.921
+     "buy": 1.837,
+     "sell": 1.922
     },
     "cash": {
      "buy": null,
      "sell": null
     },
     "prev_sell": 1.929,
-    "change_pct": -0.156
+    "change_pct": -0.104
    },
    {
     "code": "CAD",
