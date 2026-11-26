@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 import numpy as np
 import pandas as pd
 
-from . import config, fx as fxmod, indicators, news
+from . import config, fx as fxmod, indicators, market_clock, news
 from .themes import THEMES
 
 
@@ -40,7 +40,8 @@ def news_query_for(symbol: str, name: str, market: str) -> str:
     return f"{name} stock" if name.upper() != symbol else f"{symbol} stock"
 
 
-def analyze(prices: dict | None = None, news_fetcher=news.fetch, fx_fetcher=fxmod.fetch) -> dict:
+def analyze(prices: dict | None = None, news_fetcher=news.fetch, fx_fetcher=fxmod.fetch,
+            quote_time_fetcher=market_clock.last_quote_time) -> dict:
     """prices 可傳入預先準備好的資料（測試/離線用），否則即時抓取。"""
     w = config.WEIGHTS
     result = {
@@ -79,9 +80,13 @@ def analyze(prices: dict | None = None, news_fetcher=news.fetch, fx_fetcher=fxmo
             idx_ind, idx_score, idx_reasons = {}, 0.0, ["大盤資料缺失"]
 
         market_score = 0.6 * idx_score + 0.4 * macro_score
+        quote = market_clock.describe(code, quote_time_fetcher(m["index"]))
+        if quote["time"] is None and idx_df is not None:  # 拿不到分鐘報價時，退而用日 K 最後一天
+            quote["date_only"] = idx_df.index[-1].strftime("%m/%d")
         mk = {
             "name": m["name"],
             "currency": m["currency"],
+            "quote": quote,
             "index": {
                 "symbol": m["index"], "name": m["index_name"],
                 "price": idx_ind.get("price"), "change_pct": idx_ind.get("change_pct"),

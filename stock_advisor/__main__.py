@@ -23,8 +23,9 @@ REPORT_DIR = ROOT / "reports"
 
 def run_once(demo: bool = False) -> dict:
     if demo:
-        from .demo import demo_fx, demo_news, demo_prices
-        result = engine.analyze(prices=demo_prices(), news_fetcher=demo_news, fx_fetcher=demo_fx)
+        from .demo import demo_fx, demo_news, demo_prices, demo_quote_time
+        result = engine.analyze(prices=demo_prices(), news_fetcher=demo_news, fx_fetcher=demo_fx,
+                                quote_time_fetcher=demo_quote_time)
         result["demo"] = True
     else:
         fetcher = news.cached(news.fetch, ROOT / ".cache" / "news.json", config.NEWS_CACHE_MINUTES)
