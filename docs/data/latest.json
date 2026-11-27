@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-26T23:49:44+00:00",
+ "generated_at": "2026-11-27T00:46:52+00:00",
  "markets": {
   "TW": {
    "name": "台灣股市",
    "currency": "TWD",
    "quote": {
-    "status": "已收盤",
+    "status": "盤前",
     "time": "2026-11-26T05:30+00:00",
     "time_taipei": "11/26 13:30",
     "time_local": "11/26 13:30"
@@ -23,25 +23,70 @@
      "近 20 日下跌 18.8%"
     ]
    },
-   "macro_sentiment": -0.015,
-   "market_score": -0.366,
+   "macro_sentiment": -0.027,
+   "market_score": -0.371,
    "market_view": "偏空：降低持股、保留現金",
    "headlines": [
     {
-     "title": "美媒：若美國AI資料中心建設停擺 台灣經濟可能由盛而衰 - Yahoo",
-     "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxQd1FUOHZhTXNSeW15d3FiZXhSOGFlb0sxYWt2bTNmcDBqY21OYjc3Qi1pVzdJcnNVS0dKT0s4eWk2TTBHdHhlOTItajdJb2hoMXg3S3N3RXZjaTdhQ09JQ1EwdzF2WEN2MzhRR1UyR1hlU18xQnBIRTE4VURSWkxjUDJuMjJQTHVVT0FiQjNkc1N0UTQ5WTlmRzIwRTNwX3lMMmxzWHdrWUc1Y1VhY0JnV3BROFhtTWc2d0pyU2cxV1l1am1adGZCUmk1bWtES0xSWVE2OURxY1JIMVgzSlpRVkJnQXJGZVlZcnE5b2dGbWpVOWE1cEVtYXpWQkt5QjJ1RWE0QWJsYTBBRjk2cnN5NGxMcE9ONHNiWjlyWWpjUnpKMlRJdU4xUFRtaDRzUUlERUFIVkkwa0dZcThxVi16aFNMVjk0U0t6LTdiY3RtbFR5alkwcDQ4YlluUE5Lb21JOUpPMkJR?oc=5",
-     "source": "Yahoo",
+     "title": "【台股真的跌完了嗎？】4大落底訊號揭密！12月反攻強勢股藏在這？！ - 鉅亨網",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBTYVl4VVUzS3lyV3E0VEw4bC14RUJBRlB3RGFVUmw2SXVObXJETnR1d3oyX3V6T2phc1EyLWVBdDhHcnlPSlQxbGZiTUZ3czQ?oc=5",
+     "source": "鉅亨網",
+     "published": "2026-11-27 00:30 UTC",
+     "age_hours": 0.3,
+     "ts": 1795739455,
+     "sentiment": 0.0
+    },
+    {
+     "title": "【1127台股盤前】台股強彈956點、台幣升回33元內，美股感恩節休市！外資連9賣對作內資撐盤，投本比鎖定【中砂】、【群聯】、【貿聯-KY】｜豐雲學堂2026 年 11 月 - 永豐金證券",
+     "link": "https://news.google.com/rss/articles/CBMiqgVBVV95cUxPdk9LNkkyUzdRUjVORnpoc2FkZzRQOWdZcDR4eUl1MzQ1MXhmcVZ0V1ZQX19kNEZCYkVQdzIwemNZTzVQYUcydkZuZWdhdFhjNE1WTy1fQkhxZUFGa0wwN1hRRURhYmlKYVFFRXJQUDJScHB5QTZITjhuTzB5ZmNJX01BdFhMbkxKUV9lV1pwSmJTcHpYMFVRalc1LVJKYWNjSGc4TU13Vnh5T1BnX093T2pQU2dqYV9nMnZPa1hVSWdUeG5YWGpJNlVFOEJTRi1uR01UQ3VRWmhCejlHWjNTQW8xdloybGJYa0pMUTJkOUJLRGtCMHB3dlZ4MHcyWC1acjdCTnNySUR6XzdLUWhyZWI1VDRrUGpVdC04MVBwZmpSVWpNNWZodjBGVUFfS214Nktnb2hXaHdKREZibnYxeUR5akFyOEZpN3VSaTB0M3VwZlBQb0IzNW81ckJmbll5UWtPOGI0SENMOHhmbE1zbmxXc3Y4N2FZUDFvcWpZVkJ1TGFVYXd4blJWU1ZjRnpjSnY5Q3FNOUlxZWh4djRUQTNUSEJranlYQmNEODRMWWMyeFA4dWZMX25EUm9wT2tMYkgzVGM2TmNnQ3VyWk9MVnpNa05yQWZxcHBwajBRQ1ZLcjE4ajdOYlhHUk1DRVhycGU1UHRzS0c3cUozcWZKc1AwLUZXS2t5amdQT0FIUjZhR2NndDNVT2thV1Y4TTc5UHVrcTFlQ1VDX29hNVU5M0h5V2gwMG53bnAzM1JSLTB4a0ZYY1Y5MXM5emFoM2Z5bGVMVERxaFFoYVlDdDdid3prTmdCTlRlcnQ0NVRRV21SaWlqbkVZZ1dTLWJyUGN5TkhZVXN4eFl4V0RsZDdmbDlNcHRxWEZuUWQzekJfb2tzaGV2bEhtSTRB?oc=5",
+     "source": "永豐金證券",
+     "published": "2026-11-27 00:12 UTC",
+     "age_hours": 0.6,
+     "ts": 1795738326,
+     "sentiment": 0.5
+    },
+    {
+     "title": "《金融股》華南金估央行年底升息 明年台灣經濟穩健成長、台幣偏升 - 富聯網",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQXViQTFsRGUxZ3cza1d4QzNTa1hqSXBTanUyTVRSMmVOSEMtN1pFd2RDWlkwcjNfRk1YM2FjR1doTlVIZGRhOUxJSFRvX05odVBVQ3lHZks4SDRyOUZNSFNLMFU4eUJMNlFRTjQwM0Y5cUlWQ3RNa1FVM3d1dkNSdkxJVVUyMUl6?oc=5",
+     "source": "富聯網",
+     "published": "2026-11-26 23:48 UTC",
+     "age_hours": 1.0,
+     "ts": 1795736880,
+     "sentiment": 0.0
+    },
+    {
+     "title": "美媒：若美國AI資料中心建設停擺 台灣經濟可能由盛而衰 - 信傳媒",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0ycTBWNmpQdkp2YlR4VXlSYWVoN3N4ckRGM1Z4dzZoSDhMdWxuNmhCaTNpeGFQLWo5Rkd6RmY2UU1SNXhja1RYY3ZkUjV5c2QxZzRKRU5TcXllUQ?oc=5",
+     "source": "信傳媒",
      "published": "2026-11-26 23:35 UTC",
-     "age_hours": 0.2,
+     "age_hours": 1.2,
      "ts": 1795736124,
      "sentiment": 0.0
+    },
+    {
+     "title": "早安世界》301台灣稅率估15%級別最低政院續爭取豁免及232零關稅配額| 生活 - 中央社 CNA",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGZHBFWmMzTGVkLVJWMklQWGxtc2M4U0t6Yy1CdnhVV3BuNmhzc3RmRHlnbHdNUkh0TG45d2dtN0pTYnFBb1JDMkwtM0FBZFpFN0VGbUxPSFpEUEJqZnUw?oc=5",
+     "source": "中央社 CNA",
+     "published": "2026-11-26 23:36 UTC",
+     "age_hours": 1.2,
+     "ts": 1795736160,
+     "sentiment": 0.167
+    },
+    {
+     "title": "風評：川普新關稅台灣增加50%，值得高興嗎？ | 主筆室 | 評論 - Storm.mg",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE81LUx2NjlvX0VUUkdRbmVuVUlYMzJvWEVLZHUxVk5aYlpZcTdQUVBKUnhOUGpPUFo0QTdJWVNtR2dac25jMmduWjB2Q29CUQ?oc=5",
+     "source": "Storm.mg",
+     "published": "2026-11-26 23:20 UTC",
+     "age_hours": 1.5,
+     "ts": 1795735200,
+     "sentiment": -0.333
     },
     {
      "title": "美股感恩節休市！台指期夜盤走勢曝光 台積電期貨上漲 - Yahoo股市",
      "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxNVEVKOExFWXp3SjFGaHZFT2M1bzJYX2xZbmtfZjg3SVpzdDZPOFB5dmc3aVQxU0NUdWhpa0s1YklDeVVPREl2cUp1QnV2N2NmVENoUi1XTHBKMlJLRnVoVTU5bTlQVDZ0U0Z4TG9KT1hYMFZWMERDTHh6SXZvRmRBdTltdkcyS0FPdFkyWE12Rm1SOW10Vm5oSHZOd3VHcUtEd0poVUNoOEVldmJpOXU4YVdJZDZKcWd5YzJCUW1mQTZVcWtrQnVKcE4wVnNVZmNlTjRGYUVTOFBtMDM0NlFGU053UHNNaFItendSdzRkOXVDZS1FVmdvdjFZWGFTeWhaeU9fZWwxU0VrMHdGWDlnQm5QZmN5UTVUTU1KMWxhd2hLbW0yRmo3TjRvRzdONV8zTTY0OTM4SzM0MEpwcFo5TndEcjctTXF5bGtqUzVySnNFREladDJEbnlpblBkblRKU0xQZndiRUdsUUJ1TGJyU0JR?oc=5",
      "source": "Yahoo股市",
      "published": "2026-11-26 22:20 UTC",
-     "age_hours": 1.5,
+     "age_hours": 2.4,
      "ts": 1795731658,
      "sentiment": 0.333
     },
@@ -50,7 +95,7 @@
      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VVzFEdTNDYmJjck51NTIyUWJsREhDQzNOWnBXcnRZTTkza2JPblpxSDZLTWFmRXR0M0tJX3puS3o2NlVBRGZyd2NIaWxMNmJvVDExdC1n0gFbQVVfeXFMTWJUczViZWp0VVBPb0puM0dtWG8yb2pHUHdSamRVQmVzTUZfSkJlbXFJQ2U5YjlKa0ZBNnNBWnFFREwtMGt4NFFUVWluWXFfdEV0YW1lYmpKV19WUQ?oc=5",
      "source": "自由財經",
      "published": "2026-11-26 21:30 UTC",
-     "age_hours": 2.3,
+     "age_hours": 3.3,
      "ts": 1795728600,
      "sentiment": 0.0
     },
@@ -59,7 +104,7 @@
      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4taW1QYjd1VGZCcjh4LXpNbXpMSDNiWjJsN1ZNaVpUajhfVF9VYmJYQ3JBQjQzWHE4NWtZanlxRzdkdUxWdlA2LWoxZHNfXzRwZGxnc3psYlBnc1XSAVtBVV95cUxOLWltUGI3dVRmQnI4eC16TW16TEgzYloybDdWTWlaVGo4X1RfVWJiWENyQUI0M1hxODVrWWp5cUc3ZHVMVnZQNi1qMWRzX180cGRsZ3N6bGJQZ3NV?oc=5",
      "source": "自由財經",
      "published": "2026-11-26 21:30 UTC",
-     "age_hours": 2.3,
+     "age_hours": 3.3,
      "ts": 1795728600,
      "sentiment": -0.333
     },
@@ -68,71 +113,26 @@
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5MWDczb0VIbE5YVlR6aDRlcDBqNlhFWUNZVndjczlpX2xNUmt3WTVsQXhEbmFEUGVGVUR4YjNLUTdlUUl4a3ZmTnNRWk1hSjFf?oc=5",
      "source": "鉅亨網",
      "published": "2026-11-26 20:36 UTC",
-     "age_hours": 3.2,
+     "age_hours": 4.2,
      "ts": 1795725410,
      "sentiment": 0.0
-    },
-    {
-     "title": "〈台股盤前要聞〉富邦006208分割投票開跑、華南金前10月獲利284億元超過去年 - 鉅亨網",
-     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKal9VTjcwT0ZkSzFUUV84Sl9aV0VxWExVRHp2TUhsM216MHB6eHhHQWlWVGVYUkY1V3FIOUpDRkl2cnh6UlVZb0M1ZS1GdUk?oc=5",
-     "source": "鉅亨網",
-     "published": "2026-11-26 20:09 UTC",
-     "age_hours": 3.7,
-     "ts": 1795723783,
-     "sentiment": 0.333
     },
     {
      "title": "經濟日報社論／關稅漸明朗 台灣挑戰才開始 - UDN",
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBuR2FtSFQzYUo1ODZSay1ESjVEYUViZWRPb1REUm9VSXRLdjRjUG04ZmJrc2NYZTdPR2dfZW5NMEo0dWR6N2RaMU94TFBMWkl30gFWQVVfeXFMTl90dEs2VzRwalBoRkplSkdTRUhxTktKc2laLUJrMEFycTFoanBhZlBWc3p1WENwYVFMZUVKN0F6cGJyc3NJM19LVmJzX0VVUnhIUDN3R0E?oc=5",
      "source": "UDN",
      "published": "2026-11-26 19:26 UTC",
-     "age_hours": 4.4,
+     "age_hours": 5.3,
      "ts": 1795721200,
      "sentiment": -0.333
-    },
-    {
-     "title": "台股築底訊號利率、外資賣壓是關鍵- 日報 - 工商時報",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96ZHY3VWxTODdhZ3h2VktDLWVPLXUzWGZiUXlMVnJkTHhrdHZVSXJteDI5S04yZkdTTkVKc2hIWEhWVnhqMFBPLUhMeUlvR09kRVpTRkRybk5INy1jMkRB?oc=5",
-     "source": "工商時報",
-     "published": "2026-11-26 19:00 UTC",
-     "age_hours": 4.8,
-     "ts": 1795719600,
-     "sentiment": 0.0
     },
     {
      "title": "權王股后收復年線外資送暖- 日報 - 工商時報",
      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnMWRtcGl2UjMzY3lELWh5bExBT2pGTmtITmJZNjdqc0R1ZnNPSmhhV19mdzdOS05OM3lGNV9fUmJCcXctdzBxM00zM2loQjkyalFsbkNocjh2ZTNQT3VN?oc=5",
      "source": "工商時報",
      "published": "2026-11-26 19:00 UTC",
-     "age_hours": 4.8,
+     "age_hours": 5.8,
      "ts": 1795719600,
-     "sentiment": 0.0
-    },
-    {
-     "title": "全球景氣擴張失衡 美科技投資成台灣外銷主要支撐 - 理財周刊",
-     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkbDF0YUNmUjRxeTg1WElTN0V6N0JxLThaeTIwdGZTQWJHZXcwdHpiNnhsbHRRN1k4MWNZWEpNUEEySl9ZX2FwcVRwZjlMaE5pZncxRGd4eEp2YzZNWmluaHpVSmVaY3JvWjZiMm5Jaw?oc=5",
-     "source": "理財周刊",
-     "published": "2026-11-26 17:49 UTC",
-     "age_hours": 6.0,
-     "ts": 1795715359,
-     "sentiment": 0.0
-    },
-    {
-     "title": "【1125台股盤前】黃仁勳閃電回歸激勵大漲近9%！外資尚未回頭留意美股休市量縮風險，策略共識股鎖定【聖暉*】、【至上】、【長榮航】｜豐雲學堂2026 年 11 月 - 永豐金證券",
-     "link": "https://news.google.com/rss/articles/CBMiwwVBVV95cUxNWXJBZ1Z6Vzk2OWFvam1CRWxKSnFWb0JHM0tJOWt0UUZ3SFdia3RmdVF5X0k1UzdodDN6TDdLc1RBa0o4SUhfVHFqZkJQbWhYZkNLZkdVSjNfcG1rNlRaaXU1NFBvWlJBYlp3TmY5SjYtWlBTRE85d3dHUU9TdEticGlqZXk2UU43ZE5GdURRaXJaRnMyS0NXd2o0RUxLYWlwcGJ4TktHR0FEc2R4N0ZyV3hJMzZfckE3WGhSblcyTWo1OXp1VnZPQ2d3QV9yNmhPLS0yNjZPLUZrWFYyMFBiT1pQS3lVYWFvRTJMdlJ6R1NPdEpqSkN3eHFFUnlHUVpmNkNpbmE5eXAyY0NRdHBtZnRWV0pmcWlOWWtQMUxlQUd1VlEwR1EyNVhnb0prZnlKcnQ3ZTdjUE5KbjNGSmhFT2xGWXN4Ni1KdmptTzJGY0poY0tSbU5lSDZYV29yZEQzVHNlRUhxVW9hVlZ0LXRmTVZxUnJLZy1OZGVEWl9mMWlKVEdHOEE5TnhOQy1Kc2VVVDBVTjZVSjVockNfbHdENUNySER4MndOMDZ4SUxfbWhHZXRFRVpsTDEzdlpsX2tlQW5vLVZCdllSeHNpamRISi1uZnlKZ2czY1F5QlQ4YTJXN1FsU0J3aGRFRG5LcUVsTnpjUE9YdUZrR0Y0dHI5a24xaW1BWGl3OTJiZmwwb1hvRjBNbkJuakI5NERmMVNzTXkzR0I1Y2xDYS1Mbi1xVDllNWdHZExZaDdRVjNDRWwzUC1SdmpNOWF0X1paZVhBQ3dXNTR5eHQ3dmxoUlExY0dzZlA3TWtSZlF3T3p6ejBmZmN4aGFyOTJtMHhPQ3VxNm1jVlNRYUZ2cVk0RlMtWnVTRWJYODJyRG5abU1pUU9NUjFuM1E3Nl9KaTNrVXJMZm1xbzhSLWxfYVdhRjJsbGNiNA?oc=5",
-     "source": "永豐金證券",
-     "published": "2026-11-26 17:41 UTC",
-     "age_hours": 6.1,
-     "ts": 1795714897,
-     "sentiment": 0.667
-    },
-    {
-     "title": "美股感恩節休市！台指期夜盤開低震盪 一度翻紅轉跌下探39008點 - Yahoo股市",
-     "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxOUFVzU0lDYkM5RnRnbFlZcW5BZ1BaQlAtQi1ZR1pBZGJEZnJkVk9IQjdMYkZ5am5ZZ0lnSUlQNW9FUGtnS0xPNE9PT0pfd1loOThvZFg2YnZZMmFMUDlNcmZpSGV1aGFUdHh4bGgxaUU5WGtjWWd4bk01b2RXVWVaN0lHSVlMYnJyLUt3WnZGLWJZMzFEbWZ4STIwSTJKSzM0NTd4ZFNyajdlbkozdjVqYlNQNHJJQlpmVG5pUHppbWQ5R0g2eW14bW1ETEtnZ1NrbmNTbVdnVHVXa2NKRVhENmNoZnRGaG5SRzJidFdmdGFWaklaY1J6MVlBejhuWE5OQ1NlbDFaNWZTSHhmMlhvTUpVdjRZeXZ6RFJBVWFMSDNVSDR3TWpOSjhibUpMdU5NWVRkNlZmMDZlVVIza3hocnNPZ0llVTZCTFRpZy1BMnIzQlVGWlpHZVNsMDF0X3NKMXBPNXQ5TXM2aXlpVzJYU3BXWko0end4M1dhZmw5TzV4UElC?oc=5",
-     "source": "Yahoo股市",
-     "published": "2026-11-26 14:54 UTC",
-     "age_hours": 8.9,
-     "ts": 1795704840,
      "sentiment": 0.0
     }
    ],
@@ -151,9 +151,9 @@
      "sma50": 154.27,
      "technical_score": 0.44,
      "news_score": -0.046,
-     "theme_score": -0.103,
+     "theme_score": -0.118,
      "themes": [],
-     "score": 0.112,
+     "score": 0.108,
      "rating": "持有觀望",
      "confidence": "低",
      "reasons": [
@@ -167,7 +167,7 @@
        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAyTG9JOUJkZnBkanVKcjdlSGJtSEp0a3FCdHlsRGxtRVV0QzlXcmswck9MWW1YTHBJVC11MXpxQ0hHQldFZEJ4LUJZcjRZdW85ZGpMTHR5b3c?oc=5",
        "source": "CMoney",
        "published": "2026-11-26 21:15 UTC",
-       "age_hours": 2.6,
+       "age_hours": 3.5,
        "ts": 1795727749,
        "sentiment": 0.0
       },
@@ -176,7 +176,7 @@
        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0xYzQyZTdaTmNaaHFZZHhHa0RyLS1WamF6aDNrZjRlQWhxQ2E4MHR4MXJVMDBTUThFT1FWMjBuaEllU3NmNzVXWXJGTQ?oc=5",
        "source": "三立新聞",
        "published": "2026-11-26 21:14 UTC",
-       "age_hours": 2.6,
+       "age_hours": 3.5,
        "ts": 1795727685,
        "sentiment": 0.333
       },
@@ -185,7 +185,7 @@
        "link": "https://news.google.com/rss/articles/CBMi1ARBVV95cUxPR3dsSGhFdTI3cVdTdWxJTk9yRDhDb05BYjJuRjExbURBZk5CeWY5ZjJ3ZkV0Tk5NZXFVNU4xTTBxeWlERS1KeXBLdU40YkRSMDBxYzV4MFdicExOQnhSMWtGZ2UtdkdscXAweVNnam4yb2tIUXZHZVRHWFdRTmkwSWxWeFg2ODB3ZmNmTzVWSEw1Sy0yNlJaSUhSSER4TEE1d0o3akJZa1hsQmNlR3dqRmF2c3VjZU1PcHgyYkpFcC1RSFp4bHZIREV6cHBwZ3BTVkdmYThxREFZUHFQVW5uWHEyMVZsckZIWndITTc4WHc1MmU4U3NYTGkwdHNKS2JHVkV6cUEwTHpRVEZOSlpZWmFhWjc3YlItTEZ0T3RVVzBjbi1GOTRsMXBKV0NkcUtnMnFBU1R3Z3hBa2pJa1c3N0xTcEs2N0dXVG5odnNscHpvbkJVWGxSbm16RzZkRERNNUxFUGlneFBZU2VEcWhxX09odXdYNHk3OVA2VW1lVG85ZlM1SzRmY3J4bXBqY2dBRnVqUFR6TXFiWXJjR2IxbmlKWmx2WnZ0VURNMXROUk9USVBuQlh0V1RrQWMtSWV5MDlIdXZEa2lNcmQydy0tNnF1TVdjSDNDaUoySjNTUWpvQUJfWkdNRTViSURvU0ZCc01CUkZCSDZjVU1vXzgyMTRkc3hSZUhVOF9hNGVKbEJKMDF6S1VYNVRjOXlCcFdnMlJZSnZYRnlNdmxmM2owdXAzdHJ2MWh4Q1ZSRGs1SHBGNXk3NnEzUmo0NHNuQV9FbnpXSA?oc=5",
        "source": "永豐金證券",
        "published": "2026-11-26 08:37 UTC",
-       "age_hours": 15.2,
+       "age_hours": 16.2,
        "ts": 1795682255,
        "sentiment": 0.0
       },
@@ -194,7 +194,7 @@
        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBrQWE4U3o2aDBFVkpsekZHUV9XWXJsYnBSb3R4U0R1ZWk1WGY4dWpFOV9hQnAxUm9ZX3dOZ0h5QTcwWC1SLXJXbG9weDRHWkYwVndPd2d0T01yWjJTTG82Wk9LMXdqaHJ3RVE?oc=5",
        "source": "旺得富理財網",
        "published": "2026-11-26 03:38 UTC",
-       "age_hours": 20.2,
+       "age_hours": 21.1,
        "ts": 1795664303,
        "sentiment": 0.0
       },
@@ -203,7 +203,7 @@
        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50dGtyMUo3T0lvM3dHTlh4Wkdjck1nV1Z0X1cwZzVqay13aGRqckFqbFZGeElVMjZYSlhKcVp6dFh4MmpHZ3RWcDU2dGxOWmZ3ZkHSAVdBVV95cUxNcHk5RVBES1RfM3RDVHctakdvc2RFOGtrVlc0OUFiX3BsQUdIamM5ZHJkYlhDUC1qNjlYWnd3U2lmYThYTVNYOTA2Y0pKcmZTUFdCNWpFQzg?oc=5",
        "source": "UDN",
        "published": "2026-11-26 02:16 UTC",
-       "age_hours": 21.6,
+       "age_hours": 22.5,
        "ts": 1795659399,
        "sentiment": -1.0
       }
@@ -284,23 +284,23 @@
      "sma20": 3768.5,
      "sma50": 4258.5,
      "technical_score": -0.288,
-     "news_score": -0.064,
-     "theme_score": -0.091,
+     "news_score": -0.06,
+     "theme_score": -0.093,
      "themes": [
       {
        "id": "tariff",
        "name": "關稅與貿易戰",
-       "impact": -0.264
+       "impact": -0.258
       },
       {
        "id": "geo",
        "name": "兩岸與地緣政治",
-       "impact": -0.116
+       "impact": -0.125
       },
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.085
+       "impact": 0.088
       }
      ],
      "score": -0.218,
@@ -315,11 +315,20 @@
      ],
      "news": [
       {
+       "title": "2454 聯發科 - 感恩節歐洲股市大漲- 股市爆料同學會 - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9PUDF0NzdlVUlmVElDemxGMGF3SjgtU3FvcGFOVnNEcm9BTFY1U0VHZEtpRW5hQjdxZm84emgzUkcxOTd6eHMzYXVKY2o1alN5Q1BNTkI5X24?oc=5",
+       "source": "CMoney",
+       "published": "2026-11-26 10:30 UTC",
+       "age_hours": 14.3,
+       "ts": 1795689045,
+       "sentiment": 0.667
+      },
+      {
        "title": "太空AI引爆資金潮！「這檔」飆逾9%炸307億元躍居前五 聯發科爆量552億緊追台積電 - Yahoo股市",
        "link": "https://news.google.com/rss/articles/CBMiyANBVV95cUxPYzZWMTZsZVduZlpqMlAyY3ZXVVAzYjZNN1BheklLWVRQdjNXZjhKdjQ1NmRFVllpMTZmRlhQd09ibDRNbkl3MFA1RWR1Zmo1azU0RU5YNkJ1cmo4LWNSWUtNcG1rWkRiUGVEaWwwWExSYjZFQ0FMX2FqUS11VHdCek9SN3JXZUk4NWNFQUMwWXAwZUs2S3ZxdW96Zlg0d3dCXy1NZmJ0R2cwbjBmUzRwTi0yTzNQMXBaUEM3Z01XWDJCOTYzV01wS042NWN2WGFmQXE2dUwxUi1VUm15X3phdEpVbDFsU3hmWU16N0NwdUtqbERFamVSdWxMaFhuRXJ1UUhMSDNZNzRaQkhiZGNmNWdydmZYQjEwaHhNNXpkUi1VNzdtb3p2SEJNQzUxbHBobk9VM2Zadm5fQ1AyQVNHSFBsVld5bWJmbXF0UEFZQ1ZORzdkQk9uY2VFa2hQTUpPZnIzWThueW5kYTA5T3ZGcHlHOVBna2V2NlJYZVpVaVVGblo4SVFXN0dtcFlxWWtnVjQtTlByRm1wXzA5YUhRSDRDN1FYZGExZ1NKWUk3VGNpOWt6dTk3NFk5NWlwU3FIa1kxVWMxMXU?oc=5",
        "source": "Yahoo股市",
        "published": "2026-11-26 09:33 UTC",
-       "age_hours": 14.3,
+       "age_hours": 15.2,
        "ts": 1795685580,
        "sentiment": 0.0
       },
@@ -328,35 +337,26 @@
        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBVS0E1bnFGaGdPTnAwTUx1WVZZdUhoZXN3MHRCYzliWU1QWFg3UU9XVHBubXl1TzBWMENqV3FtV3BoQkhmYmVJWmRyVHB4WTdfVVZldk5GRHE?oc=5",
        "source": "CMoney",
        "published": "2026-11-26 07:56 UTC",
-       "age_hours": 15.9,
+       "age_hours": 16.8,
        "ts": 1795679779,
        "sentiment": -0.333
-      },
-      {
-       "title": "ASIC殺盤過後分歧浮現！聯發科再迎AI大單想像 8雄面臨籌碼考驗 - 聚財網",
-       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5yVS1zbTI2R1N2V2NPU3VmUk1pVkhDWEM0TllyWG5xNm15eXpOR0wxSm51UHE4VjJlY05Gd2JSeldBY1JNUEdYdnR5a1A?oc=5",
-       "source": "聚財網",
-       "published": "2026-11-26 07:22 UTC",
-       "age_hours": 16.5,
-       "ts": 1795677728,
-       "sentiment": 0.0
       },
       {
        "title": "聯發科 2454 週五收盤，觀察是否站回 EMA13 - CMoney",
        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41X0wtd0N1NHNNNF9FWnJzQWtIZG0xTWw0OFZITlpuZFF6NE9VWWxuUmQzRGI0bEh3U1VxWExPcjY0NmtkVVdIMTllbl9lc2otTUstY0dtbVQ?oc=5",
        "source": "CMoney",
        "published": "2026-11-26 06:48 UTC",
-       "age_hours": 17.0,
+       "age_hours": 18.0,
        "ts": 1795675713,
        "sentiment": 0.0
       },
       {
-       "title": "《半導體》聯發科AI ASIC業務爆發外資估2027年放量、2028雙箭齊發- 上市櫃 - 旺得富理財網",
-       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaU1J6QVBieFNaa3p3NXE0NTdyUHV6RDA5MmxEb0puZzZ2U3FUeDg5Ylg3ZTVOME82dHBDNTdnZXNpb1hUVEc2M0poMzk1Z3ZkSVl3UFlocGhGY1JoN2hpOFg3WjVpUE9IQnc?oc=5",
-       "source": "旺得富理財網",
-       "published": "2026-11-26 02:17 UTC",
-       "age_hours": 21.5,
-       "ts": 1795659474,
+       "title": "2454 聯發科 - 明天加油 - 股市爆料同學會 - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qa002WjhERjZtSDQ0QmNrSlAyTmhBT3Y5ZVlXVnE1blphOEo3bjdyOXZyNTgzMXByY1djcl9YWVFwbkFzMlZWQmZLN1NNS3JvdWFwYV8yUWc?oc=5",
+       "source": "CMoney",
+       "published": "2026-11-26 06:06 UTC",
+       "age_hours": 18.7,
+       "ts": 1795673160,
        "sentiment": 0.0
       }
      ],
@@ -436,26 +436,26 @@
      "sma20": 283.82,
      "sma50": 311.73,
      "technical_score": -0.36,
-     "news_score": 0.023,
-     "theme_score": -0.136,
+     "news_score": 0.024,
+     "theme_score": -0.133,
      "themes": [
       {
        "id": "tariff",
        "name": "關稅與貿易戰",
-       "impact": -0.422
+       "impact": -0.413
       },
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.212
+       "impact": 0.22
       },
       {
        "id": "geo",
        "name": "兩岸與地緣政治",
-       "impact": -0.116
+       "impact": -0.125
       }
      ],
-     "score": -0.239,
+     "score": -0.24,
      "rating": "減碼",
      "confidence": "低",
      "reasons": [
@@ -463,8 +463,8 @@
       "位於 200 日均線之下（長空）",
       "MACD 黃金交叉",
       "近 20 日下跌 11.6%",
-      "受壓主題：關稅與貿易戰（-0.42）",
-      "受惠主題：AI 伺服器與算力（+0.21）"
+      "受壓主題：關稅與貿易戰（-0.41）",
+      "受惠主題：AI 伺服器與算力（+0.22）"
      ],
      "news": [
       {
@@ -472,7 +472,7 @@
        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5GR3ppTEZqT0g5bHhPWEtZQVUtTlVPNW14MkE4RUF4NExzYlNWc0plQjFLaWZvNjlGSlNJMXU1ZkFMTDNBeUFTWUl2REd3ZFU5bXhaMWxtQjJkMXpKclZaVGR3WE00YkRvNUo0?oc=5",
        "source": "中時新聞網",
        "published": "2026-11-26 20:10 UTC",
-       "age_hours": 3.7,
+       "age_hours": 4.6,
        "ts": 1795723800,
        "sentiment": 0.0
       },
@@ -481,7 +481,7 @@
        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1WSDlJSnBmZ0t6V2xVWDhleWpkLURSckYxWHlzZGNnUjNOam5yNHAwNWszc3FQR1pwWDZoeDdXTW5vM09PTkhSZTl4ZUh1QTRqdHln?oc=5",
        "source": "CMoney",
        "published": "2026-11-26 14:47 UTC",
-       "age_hours": 9.0,
+       "age_hours": 10.0,
        "ts": 1795704472,
        "sentiment": 0.0
       },
@@ -490,7 +490,7 @@
        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WZGluWU0zN0wtN05HYlNidEdEZUd3a1h2N2JQc0FOZ083X3hGbGQ2a0VpT2h1dTU0bUh6RGdqOG5WX2NLa2VZN2t6VHg1ZmVRZ1Jz?oc=5",
        "source": "鏈新聞 ABMedia",
        "published": "2026-11-26 03:13 UTC",
-       "age_hours": 20.6,
+       "age_hours": 21.6,
        "ts": 1795662824,
        "sentiment": 0.0
       },
@@ -499,7 +499,7 @@
        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hR21adndSMDFoRy1JWFFzWDBYTkNJTUZtSEt1NTMwT2xoZUlvazUxRTZUQ3V2RV9ZMlpjT1hTT1I0TGpKa3FybkNlNjdCVnRqbTNndTZiTnlfbnlnTTJHOXVXNjNsWDJqOWc?oc=5",
        "source": "旺得富理財網",
        "published": "2026-11-25 22:47 UTC",
-       "age_hours": 25.0,
+       "age_hours": 26.0,
        "ts": 1795646872,
        "sentiment": 0.0
       },
@@ -508,7 +508,7 @@
        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YUE10cUhGeHc1dGRlRUFTXzNDOUFVVmJJMTBUaGpOOTJiZDJBOTRmY2loRFRfVnRINkJjekpBZS1xMHp4R1RmRTIzVWhhNGhWVS0wSTN3?oc=5",
        "source": "優分析 UAnalyze",
        "published": "2026-11-25 08:13 UTC",
-       "age_hours": 39.6,
+       "age_hours": 40.6,
        "ts": 1795594403,
        "sentiment": 0.0
       }
@@ -589,38 +589,38 @@
      "sma20": 1148.0,
      "sma50": 1514.9,
      "technical_score": -0.46,
-     "news_score": 0.148,
-     "theme_score": -0.07,
+     "news_score": 0.153,
+     "theme_score": -0.061,
      "themes": [
       {
        "id": "tariff",
        "name": "關稅與貿易戰",
-       "impact": -0.316
+       "impact": -0.31
       },
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.148
+       "impact": 0.154
       },
       {
        "id": "geo",
        "name": "兩岸與地緣政治",
-       "impact": -0.097
+       "impact": -0.104
       },
       {
        "id": "ev",
        "name": "電動車",
-       "impact": 0.059
+       "impact": 0.076
       }
      ],
-     "score": -0.249,
+     "score": -0.248,
      "rating": "減碼",
      "confidence": "低",
      "reasons": [
       "股價跌破 20/50 日均線，空頭排列",
       "位於 200 日均線之下（長空）",
       "近 20 日下跌 24.3%",
-      "受壓主題：關稅與貿易戰（-0.32）",
+      "受壓主題：關稅與貿易戰（-0.31）",
       "受惠主題：AI 伺服器與算力（+0.15）"
      ],
      "news": [
@@ -629,7 +629,7 @@
        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zNDFNWHBvRnEzMUhlYkhEaGlFTm9yNXpFcHhSS0k1aGpoZGtjdU1TSHFkeF9OZHhuUVNINTI0eTlIUzQ3eGJQR0xTOF92SjExZ3JYT05IZWt2d2F1Znlr?oc=5",
        "source": "工商時報",
        "published": "2026-11-26 19:00 UTC",
-       "age_hours": 4.8,
+       "age_hours": 5.8,
        "ts": 1795719600,
        "sentiment": 0.0
       },
@@ -638,7 +638,7 @@
        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYSC1FOXZmSnVKcWVpck5EYjRvcjRCWjE0eDVtaUQ1cFpvRmEyb2VGNlZvdEwtUXg1OUM0aVNrNmFlWkF1eWwtMmtTM2x0OEVvUFVn?oc=5",
        "source": "CMoney",
        "published": "2026-11-26 17:52 UTC",
-       "age_hours": 6.0,
+       "age_hours": 6.9,
        "ts": 1795715524,
        "sentiment": 0.0
       },
@@ -647,7 +647,7 @@
        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4cnhoc24zeTJEdm1aRkFjdG9rUWp5ek5YOGNLa1hDM3VsWFA5OGN6a1hpSF9TTEZ5SVdkOW9fdzBOdjR3MGNEUjJiT1pfR0VKN3ZXcnlDUW9SQQ?oc=5",
        "source": "信傳媒",
        "published": "2026-11-26 10:35 UTC",
-       "age_hours": 13.2,
+       "age_hours": 14.2,
        "ts": 1795689315,
        "sentiment": 0.0
       },
@@ -656,7 +656,7 @@
        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd2ZsNFhENWoxQTlvTmlWYnowcno5eWtIV1lfOFh5QzNleUI4d1hhR0ctQ05zZEJZSkNKdW1USloxYWloaENUbW1jX2l1RUphSzFITXRHY2kyb1BPQ3loVzNnS2FhMFk5S0xndmN6X0plakI2Yk55S2J6SFJPWk92YzRYc3k?oc=5",
        "source": "CMoney投資網誌",
        "published": "2026-11-26 10:29 UTC",
-       "age_hours": 13.3,
+       "age_hours": 14.3,
        "ts": 1795688947,
        "sentiment": 0.0
       },
@@ -665,7 +665,7 @@
        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqZW9TdmhaRkFRSGR0U2lZZ0pSZ0hKM25HTHhiWVhuMUFCUV9qd0ZfclY0aGRPMnY3UldjT1JJNFJzVm9RX2dldGxwV2t3VW8?oc=5",
        "source": "鉅亨網",
        "published": "2026-11-26 10:01 UTC",
-       "age_hours": 13.8,
+       "age_hours": 14.8,
        "ts": 1795687276,
        "sentiment": 0.667
       }
@@ -746,65 +746,50 @@
      "sma20": 150.03,
      "sma50": 153.27,
      "technical_score": -0.4,
-     "news_score": -0.211,
-     "theme_score": 0.002,
+     "news_score": -0.069,
+     "theme_score": -0.042,
      "themes": [
       {
        "id": "geo",
        "name": "兩岸與地緣政治",
-       "impact": -0.116
-      },
-      {
-       "id": "fin",
-       "name": "金融與壽險",
-       "impact": 0.108
+       "impact": -0.125
       }
      ],
-     "score": -0.283,
+     "score": -0.263,
      "rating": "減碼",
      "confidence": "中",
      "reasons": [
       "股價跌破 20/50 日均線，空頭排列",
       "位於 200 日均線之上（長多）",
       "近 20 日下跌 14.5%",
-      "受壓主題：兩岸與地緣政治（-0.12）",
-      "受惠主題：金融與壽險（+0.11）"
+      "受壓主題：兩岸與地緣政治（-0.12）"
      ],
      "news": [
+      {
+       "title": "2881 富邦金- 前三季每股盈餘8.8 - 股市爆料同學會 - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0tMGpOVktBU3d3TENBaXNuelQ0cnM4ZjdHTUZGQTF0NDhXMjlyQThKTEp2eUtld3pjNmJSVFdMVks1c1FfbHJZNXlmQUNQZUR4RUM2V0FfWXY?oc=5",
+       "source": "CMoney",
+       "published": "2026-11-26 09:33 UTC",
+       "age_hours": 15.2,
+       "ts": 1795685597,
+       "sentiment": 0.0
+      },
       {
        "title": "《金融股》富邦金前3季每股盈餘8.8元 - 富聯網",
        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORFhFY0tBNW1fcVd4M3hYeGM4emZBNDBpdXhxM2otU2VMSkc1QkpqWFJEQTF2WU5KZWdkbFdwTFdzc1lxWkRaNThGTjQ4bnNUZ3hFTmxHdmRDWlpfX0VMZXpaR0NjMHRRME5LM0JRTHFUNGF5LU0xeV9EQ2FMU2t4MEZJRVRpbS0x?oc=5",
        "source": "富聯網",
        "published": "2026-11-26 09:31 UTC",
-       "age_hours": 14.3,
+       "age_hours": 15.3,
        "ts": 1795685460,
        "sentiment": 0.0
-      },
-      {
-       "title": "《富邦金》11/26 誰在倒貨？【群益金鼎】賣超 2,398 張居冠 - CMoney",
-       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9RWG9TODRGcVVuRFoyUFZ0Y2dqV2FNLXNOR1EzUy12N0x0QlBBeVNLZU5OM2hEVjFjZWkxTUhxODdhYVhhU2hIek94OWo2dHhCRVNOcFVTa1I?oc=5",
-       "source": "CMoney",
-       "published": "2026-11-25 23:30 UTC",
-       "age_hours": 24.3,
-       "ts": 1795649432,
-       "sentiment": -0.5
       },
       {
        "title": "富邦金(2881) 個股概覽 | 個股 - 股市 - CMoney",
        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ORnlGdXlaUnhPU2taSUNTdUJLcFZQalpyNnVMMFFrZnVoNHZSNWxxT1R2Wk13Y3pheUtwVTU4aFpMNGZSSjhrY2NxRjZkUzFmT0c4?oc=5",
        "source": "CMoney",
        "published": "2026-11-25 15:15 UTC",
-       "age_hours": 32.6,
+       "age_hours": 33.5,
        "ts": 1795619735,
-       "sentiment": 0.0
-      },
-      {
-       "title": "金融業獲獎數居冠！富邦金控暨子公司勇奪GCSA、TCSA共29座永續大獎 - UDN",
-       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xbVJfV0dqSGtIRTVQN2JOdFJLY0hGU2U4S08zQm9OTGxqZHF4dng4Q3BpZ0l1TlRzbnhabGc1RUVVMnkxdl9oM1RCV29DT21N0gFWQVVfeXFMTzNQWFlXS2JLNEIzYUNEQlpDYUs1c2M3NWFDRmNvWmtUOVNUWVlYOXZvNnFscWU5WDJMZ1VSeGpoZ1NRNDFyQlVhM2ZMY1RpU2drY1VheWc?oc=5",
-       "source": "UDN",
-       "published": "2026-11-25 11:05 UTC",
-       "age_hours": 36.7,
-       "ts": 1795604735,
        "sentiment": 0.0
       },
       {
@@ -812,9 +797,18 @@
        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLW1QRzY4cEtXWFJwbVQtX2VjdjJzUmFlc0d1RzNWR1AyZmZnZTVBdzdLZHk0VjhhNHY3TzJMc0FqTWswVjJlWHpLUF80Z2JJN0VHUVdYTTlYbTIwSjQ4Qnk5WlJ5TE96X21wSHR2bkg2ajI4Z2sxRmVUVWxTOVlMRQ?oc=5",
        "source": "今周刊",
        "published": "2026-11-25 09:39 UTC",
-       "age_hours": 38.2,
+       "age_hours": 39.1,
        "ts": 1795599540,
        "sentiment": -1.0
+      },
+      {
+       "title": "富邦證券再獲TCSA 3獎項 蟬聯百大永續典範企業獎殊榮 - 中央社 CNA",
+       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rZGlkZUFaaURqUFdiSnlhcU5nTHk2cEo3SnE1ZUIxVGtxaGJ5RVJkcUFRM2dodnlfQ2dETGJ1WGlfMkFaY0gtb0Nvb0hfTTl1a3NHNmcwSWxXUQ?oc=5",
+       "source": "中央社 CNA",
+       "published": "2026-11-25 09:28 UTC",
+       "age_hours": 39.3,
+       "ts": 1795598905,
+       "sentiment": 0.0
       }
      ],
      "spark": [
@@ -893,43 +887,61 @@
      "sma20": 2222.5,
      "sma50": 2365.52,
      "technical_score": -0.6,
-     "news_score": 0.037,
-     "theme_score": -0.071,
+     "news_score": 0.083,
+     "theme_score": -0.074,
      "themes": [
       {
        "id": "tariff",
        "name": "關稅與貿易戰",
-       "impact": -0.316
+       "impact": -0.31
       },
       {
        "id": "geo",
        "name": "兩岸與地緣政治",
-       "impact": -0.194
+       "impact": -0.209
       },
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.191
+       "impact": 0.198
       }
      ],
-     "score": -0.335,
+     "score": -0.327,
      "rating": "減碼",
      "confidence": "中",
      "reasons": [
       "股價跌破 20/50 日均線，空頭排列",
       "位於 200 日均線之下（長空）",
       "近 20 日下跌 11.2%",
-      "受壓主題：關稅與貿易戰（-0.32）",
-      "受壓主題：兩岸與地緣政治（-0.19）"
+      "受壓主題：關稅與貿易戰（-0.31）",
+      "受壓主題：兩岸與地緣政治（-0.21）"
      ],
      "news": [
       {
-       "title": "股市要聞：週四(26日)股票市場鉅額交易概況 - 富聯網",
-       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU0MtZDFZRExxTVU3V2NTbFIxcFRDUDVGSWdEa0FWdzVDeXVFSVozNnF4czdmWlI2OGF2dy1VcWJSbEZSVzdrSVpWRFVXakJYR0d6NUp2X1JCbTF3TTJmSUdPVE1rRjdtT1hTQW9CTFBucjdKSlZ0b2NfT1BXaWM4Y3VFVndfQ1E0?oc=5",
-       "source": "富聯網",
-       "published": "2026-11-26 23:16 UTC",
-       "age_hours": 0.6,
-       "ts": 1795734960,
+       "title": "台積電德州廠減稅案獲州審計長支持 估省3.54億美元、12月10日聽證 - 優分析 UAnalyze",
+       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyWktkWjBHU3dLR1dKNFBTSVBzaFFoemh1MThkTGdMY2FhSmVablNCdEhsV2ZfRFY3TVNVMVE1S2IxUVpNU1o4enVvVjhKem9JR1lUd1V3?oc=5",
+       "source": "優分析 UAnalyze",
+       "published": "2026-11-26 23:52 UTC",
+       "age_hours": 0.9,
+       "ts": 1795737167,
+       "sentiment": 0.0
+      },
+      {
+       "title": "2330 台積電 - 最後一天，國安基金全發- 股市爆料同學會 - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE50S3BvUWVlX2s2VkdQajlsQlNnWGluUTZ6S1FlVEdHaXNTeEltQ2IwMjVkUjJvc0lIbkx6YjRRXzl5N2dEbEQ2SHFWSktwV2tiWTlZaGNYRVA?oc=5",
+       "source": "CMoney",
+       "published": "2026-11-26 23:47 UTC",
+       "age_hours": 1.0,
+       "ts": 1795736877,
+       "sentiment": 0.0
+      },
+      {
+       "title": "2330 台積電 - 🥰鴻海204～229區間，聯電82.8～94.8區間 - 股市爆料同學會 - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Mc2dVbXZGQ3Rfa25tcnVyQWFMa2tBQS0zc2ZNSEo5M3B5OGpwTXZQSmduWUdxZWItOENkdHkybG9wX0JTdEJLbWtaMmRxX19vS21KektXbzY?oc=5",
+       "source": "CMoney",
+       "published": "2026-11-26 22:48 UTC",
+       "age_hours": 2.0,
+       "ts": 1795733332,
        "sentiment": 0.0
       },
       {
@@ -937,7 +949,7 @@
        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OREFhVUFDNGlVQWJMaWhfb25Ea0JNaVBuWXVrTjZ1Rm9meld5TTBneFJxUkR4SXdIY0dIX19vVUZqdmNaLUV2ejJVTUFCM3ZPb0xLVDhqWDA?oc=5",
        "source": "CMoney",
        "published": "2026-11-26 20:20 UTC",
-       "age_hours": 3.5,
+       "age_hours": 4.4,
        "ts": 1795724409,
        "sentiment": 0.167
       },
@@ -946,27 +958,9 @@
        "link": "https://news.google.com/rss/articles/CBMizARBVV95cUxOSmwwOE5QZWpFXzhsRG5KYUh6Z0NJejlSdTZJM3FlZHZqTFUtQ2xObngtVDVlUjNKZ2hxTkRsQmJrTzFRcmM5bTVnT3EtSkJIX25xbEhKS3RxYVotRVg1R0dDM3lXR3lja1k4bTFaVFl0c3R5dlR6eHpmVG4zZjJMSUdLNGFwMG9GNldCRkM2UXU3N1JIY3pSRWd4OVZDWDUwVklJOHBWRUkzVnZuN205QndBZFVFa0xGSlRBSU1nOFNQY0J3ZDA1bXhUMFlQNTRpamZfZXAxV1hueVZCVzVLMmdnUmFqdWVuRUcwSkU0N2lLWDhRZTRFSXgyX0VYd3BpOVBQeEpFdmRUSU9kQlpTUEh0bWNkLXB4LXkxTUJ6ekdQclk4YVJpX2ZpdlhhWXpKVG9jdDVYSkQ0ZFlZbWtBbHVobXJCdlVTbTQ0QWQ4UTlKNEVUZkcwa3ZHMk9pTWtPT20yWG5xOTJNdndBUGMtSlhKenVESUw2bGpzNzFuQTlPcngxa2o2S1FGcUZpbDBadGdjZjUwRl9IWUVJZVJIMkFLakhLSVdaakFVS3QwM2FoUkhObnRyb0V1NXlHdHZfOWZLX1hMc0ptV2NveUE0WDU1R243M3hrcHRzb2Ytblp3ME0tWVVOak5VOC12SHdobjNwTmpvbjV4N0F1OUs5dFQ1WU11cnVBa0k0cmJKbjdkV2FDY2ZHRWd6OTU2d2ZtazZ3WGJ2NFJ3SlRZTnQtS0ZSSWtHM1ZMUzhIUTM1cWhSSjdTVE5zNjlHZ2g?oc=5",
        "source": "永豐金證券",
        "published": "2026-11-26 17:41 UTC",
-       "age_hours": 6.1,
+       "age_hours": 7.1,
        "ts": 1795714897,
        "sentiment": 0.0
-      },
-      {
-       "title": "法人一日賣超金額排行榜 - CMoney",
-       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1YenVCeXV1MVBZaVF2bVZvOVkwWUJfaXNmdGNGamlvRW44QVlwelNYMUxtWHdPXzA3bksxbTVONjRfZmV2UUUzVWNBU2gyQXQ1TTkzbVR0Mk8?oc=5",
-       "source": "CMoney",
-       "published": "2026-11-26 16:10 UTC",
-       "age_hours": 7.7,
-       "ts": 1795709412,
-       "sentiment": -0.5
-      },
-      {
-       "title": "【即時新聞】台積電獲法人點名AI核心，投顧預估明年台股獲利成長30%！ - CMoney投資網誌",
-       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPODh6akttOVI0T3hRTXVRMG50cHZnb3JFcy1WdVZkbUlWdzFTN0pWS0FvOWlUSENiVW9PZDhxaFgyV1B1NUYzSnJRRzB6RXVVWDN6NzVSMWE3UVFsNjc1WDhQYVNVY1E3ZFNlLUhXNWxmR1Nuem9GXzR4SklOb2RiYVgwVmYxck90dFQwT0xIc0JFd0FOWml6dEQ5WlgxdW5DNVVVSkd0MUFIMlJRYWFsdnljOTFoV3gwVkdFcExuVW1lVjV2aU0wNzdReFVmRFJ4ZEE?oc=5",
-       "source": "CMoney投資網誌",
-       "published": "2026-11-26 15:52 UTC",
-       "age_hours": 8.0,
-       "ts": 1795708350,
-       "sentiment": 0.667
       }
      ],
      "spark": [
@@ -1045,26 +1039,26 @@
      "sma20": 97.12,
      "sma50": 105.19,
      "technical_score": -0.6,
-     "news_score": 0.053,
-     "theme_score": -0.1,
+     "news_score": 0.026,
+     "theme_score": -0.108,
      "themes": [
       {
        "id": "tariff",
        "name": "關稅與貿易戰",
-       "impact": -0.264
+       "impact": -0.258
       },
       {
        "id": "geo",
        "name": "兩岸與地緣政治",
-       "impact": -0.194
+       "impact": -0.209
       },
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.106
+       "impact": 0.11
       }
      ],
-     "score": -0.336,
+     "score": -0.344,
      "rating": "減碼",
      "confidence": "中",
      "reasons": [
@@ -1072,15 +1066,24 @@
       "位於 200 日均線之下（長空）",
       "近 20 日下跌 16.9%",
       "受壓主題：關稅與貿易戰（-0.26）",
-      "受壓主題：兩岸與地緣政治（-0.19）"
+      "受壓主題：兩岸與地緣政治（-0.21）"
      ],
      "news": [
+      {
+       "title": "0050、正2、反1多空神操作！他曬1.52億成交對帳單選前清倉淨收近2500萬 | 存股族愛ETF | 股市 - UDN",
+       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oVHo0a2wtS3pQWExVdnZnZ1B6UVp4YXBycmNQeDVNcmlXTEg0eEhlQnlvbHZ1YWIycnJnX3VxXzlIZ2RFUlQzVTY4QUF5SHhmTjF4ZDBlSWVDbUZzWWlvRVJTbGZFbkhkTjN2UG9JckEwcUlU?oc=5",
+       "source": "UDN",
+       "published": "2026-11-27 00:32 UTC",
+       "age_hours": 0.2,
+       "ts": 1795739551,
+       "sentiment": 0.0
+      },
       {
        "title": "最受歡迎10大ETF出爐！「這檔」破400萬人無懸念奪冠 專家曝市場3大趨勢 - FTNN新聞",
        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE41bkdmU3BLTlFmT3dKNHZ3WUJtY19pMWMyMGx2MXVEd01ZX0NUcUpsNm84X0IzeXBtRkJXaDVSRVRodTNOX2ZrTW5ySQ?oc=5",
        "source": "FTNN新聞",
        "published": "2026-11-26 22:15 UTC",
-       "age_hours": 1.6,
+       "age_hours": 2.5,
        "ts": 1795731300,
        "sentiment": 0.0
       },
@@ -1089,7 +1092,7 @@
        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBNTDBOVm9KczVYQWhzbUNJWFJpZkUtYkFJLUU5RU5YQ1RnQzA0V2RiTHFkTEJtVXNPMlBCOXBDbFAxNURqTGlpLVZDZw?oc=5",
        "source": "三立新聞",
        "published": "2026-11-26 21:34 UTC",
-       "age_hours": 2.3,
+       "age_hours": 3.2,
        "ts": 1795728887,
        "sentiment": 0.0
       },
@@ -1098,7 +1101,7 @@
        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pMV91d1RQSTV6V25LbU5iUlN5bGxRQ0ZSTjlVX2YzMVRFTmdPUGJjNENabkxmTzZMOUx1Vkltdm45V3l5di1nTmFQREozdUs1T3pMeFJHVFB4RzBE?oc=5",
        "source": "鏡週刊Mirror Media",
        "published": "2026-11-26 21:30 UTC",
-       "age_hours": 2.3,
+       "age_hours": 3.3,
        "ts": 1795728600,
        "sentiment": 0.0
       },
@@ -1107,17 +1110,8 @@
        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vbjdWdXFJMklRSHJzYk9LQmV3dEgxNkZFX1dRbS11MWlOZDRvd2hFQWlsRWc5ZmJkZzdFSGVxNmIycmRqWFRUcWdvNlhBNEczRXpkZHZR?oc=5",
        "source": "Yahoo 財經",
        "published": "2026-11-26 18:23 UTC",
-       "age_hours": 5.4,
+       "age_hours": 6.4,
        "ts": 1795717404,
-       "sentiment": 0.0
-      },
-      {
-       "title": "慘賠千萬今大逆轉！郭哲榮重押2.3億0050翻正　點名8檔黑馬股出列 - ETtoday財經雲",
-       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZT3FDMHZlbGtYNzU5WkczVkdoU2hNb2RmUzZiVnowYWFscGhfXzdtb0haX0RzT2dMaUFTSmxRMGlzbkFyU25IWXN0SDhlTWh0U3fSAVBBVV95cUxNXzdseE9IOFJvMldJem5DUWs0QTI0YXBzd0JUeTlGd0hjNURZbGdxZjRZdmdtdlQ4REFGZ3U4cVBrRm8ycFl3bHd1bnR6anpwWQ?oc=5",
-       "source": "ETtoday財經雲",
-       "published": "2026-11-26 15:44 UTC",
-       "age_hours": 8.1,
-       "ts": 1795707840,
        "sentiment": 0.0
       }
      ],
@@ -1197,42 +1191,60 @@
      "sma20": 229.47,
      "sma50": 240.8,
      "technical_score": -0.6,
-     "news_score": -0.091,
-     "theme_score": -0.112,
+     "news_score": -0.077,
+     "theme_score": -0.12,
      "themes": [
       {
        "id": "tariff",
        "name": "關稅與貿易戰",
-       "impact": -0.527
+       "impact": -0.516
       },
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.17
+       "impact": 0.176
       },
       {
        "id": "geo",
        "name": "兩岸與地緣政治",
-       "impact": -0.116
+       "impact": -0.125
       }
      ],
-     "score": -0.367,
+     "score": -0.366,
      "rating": "減碼",
      "confidence": "高",
      "reasons": [
       "股價跌破 20/50 日均線，空頭排列",
       "位於 200 日均線之下（長空）",
       "近 20 日下跌 12.7%",
-      "受壓主題：關稅與貿易戰（-0.53）",
-      "受惠主題：AI 伺服器與算力（+0.17）"
+      "受壓主題：關稅與貿易戰（-0.52）",
+      "受惠主題：AI 伺服器與算力（+0.18）"
      ],
      "news": [
+      {
+       "title": "2317 鴻海 - 下跌21天轉折❤️國安護盤V型反轉- 股市爆料同學會 - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9NZnZETXZFcDRnWGcxMTQ2TU5GRGw3dUItN2dmYWRoaDB1UUZoVE9KaGU2YVVvU2w1NXVJLURYWDZLTmw4bWtxYU8wZFQ2OW9zM2FjMVJKT3Y?oc=5",
+       "source": "CMoney",
+       "published": "2026-11-26 23:25 UTC",
+       "age_hours": 1.4,
+       "ts": 1795735513,
+       "sentiment": -0.333
+      },
+      {
+       "title": "2317 鴻海 - 自己的台股自己救！散戶集沙成塔！ - 股市爆料同學會 - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwV3VEdUtQWlRuSzFQZ183R3l1QlV0TGZSbDVWV3FrVnRJM2tyYXFZeFJKbGxfNDJXNWw3MTRSMHlJUmRpalVBaVhnSk1UUlVGRUg1cjJtSHM?oc=5",
+       "source": "CMoney",
+       "published": "2026-11-26 23:16 UTC",
+       "age_hours": 1.5,
+       "ts": 1795734973,
+       "sentiment": 0.0
+      },
       {
        "title": "2317 鴻海 - 馬斯克太空AI 鳴槍SpaceX 部署百萬顆衛星組建Starmind 算力星座鴻海跟著起飛- 股市爆料同學會 - CMoney",
        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwbjRodk1DeDM0VXNjRjY5dXpTRUp0NmQwNG5CNXhlLUxaTkpLWG0wYmZMVGdmTTJYYmtLY25obHJERExCWG9falFmQjB1cjhJVW5qTThXeGY?oc=5",
        "source": "CMoney",
        "published": "2026-11-26 19:44 UTC",
-       "age_hours": 4.1,
+       "age_hours": 5.0,
        "ts": 1795722270,
        "sentiment": 0.0
       },
@@ -1241,35 +1253,17 @@
        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE94OHJXVGhWWV92QVh0elZJYy1BUGtGX1NqYkZzM1J5QTN0UkZ2Y1k2NEFFMG9jMUZKb0NKcENILWloeVFUNVRsSVhQc0ZQTmVJRm9lTWhWUjQ?oc=5",
        "source": "CMoney",
        "published": "2026-11-26 19:44 UTC",
-       "age_hours": 4.1,
+       "age_hours": 5.0,
        "ts": 1795722282,
        "sentiment": 0.0
       },
       {
-       "title": "這檔老AI搶下SpaceX大單 目標價喊333元 - 鏡週刊Mirror Media",
-       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBIaUNmdjlyZ0dGbm5SUDBlOU9JMGNVOWNDREd3a0o2UUgtc2ZnZExJOEtrcTYwdDBsbzdJN2VEa1NuTEtsaWtWZHY4UUlZOUFFUTV4SmVSTXpuRWNH?oc=5",
-       "source": "鏡週刊Mirror Media",
-       "published": "2026-11-26 18:00 UTC",
-       "age_hours": 5.8,
-       "ts": 1795716000,
-       "sentiment": 0.0
-      },
-      {
-       "title": "鴻海（2317）外資賣超融資借券變化－熱門話題｜股市爆料同學會 - CMoney",
-       "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNNlUxdWc0SG9nY1ZCeEo5X0pjV1NuMHIyYTYtdlhSM2pRRXlERG9XWEttN25LOWRwOXpFT2xreTdRem9aVVRyR1lJb0tHakhCLXBhdFpuelV3TzE5dlg4elVtR2ltMU55dmJLaGJZaHByMjRwOGVNMURSSHZ3V2JYYndfMElJQnlXRGQzZWFrN3ZqZEhWZkh6THM5dXBfX1M4YXdLT1Y4Z05ZQTRXeFVMQWdGRmRGLXoyei1YazJrb09wWGdTZ2MyVGNDd0lSZi0xLVNiREVrMzk0VTV4X1E2bUtGSjRpbS1HTklpc3FkQmp1d2h4TjF4R0MzTHNpazBmd2pGVm9PV1piWXV3VE01eEJjbUU1NDNPclNTUzlzOE1LRFBQdHliSkZjUkU0TFJJdkZyQW5sS1dkOEQ5Q0RlSExGSzNhRmhENzFOcEdNZF9NdGhnUWo3UGtJVQ?oc=5",
-       "source": "CMoney",
-       "published": "2026-11-26 10:30 UTC",
-       "age_hours": 13.3,
-       "ts": 1795689030,
-       "sentiment": -0.5
-      },
-      {
-       "title": "個股：鴻海(2317)攜手臺北榮總打造智慧醫療新場域，AI化療自動化系統亮相 - 富聯網",
-       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQWRDaURuTlN4R2VSYkpvZGEyWFRKSURINDN1M2dtSWlzNE1VMHhFRDRRd1RzM05NZDFVejVzMy1qWFNzOC1vWGNwQy0yQ2hSS19UeDdlbjNvX1dDM3BsQmhRT1FwUi15NmdWS19laGZlcHlkMGl0OHl4MGt1a013NzJ0ekE3UUl1?oc=5",
-       "source": "富聯網",
-       "published": "2026-11-26 07:33 UTC",
-       "age_hours": 16.3,
-       "ts": 1795678380,
+       "title": "不只四大CSP！「這檔老AI」搶下SpaceX大單 目標價上看333元 - 三立新聞",
+       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE03WGRFZ2NnT1VBLXd6OHVvdU0wWEo0LTJ0cWpzY183cmV4Tk51UXZON0FpcjlyQmtaeGg3MDBBQ0FnMFgxLUczbDFUYw?oc=5",
+       "source": "三立新聞",
+       "published": "2026-11-26 18:04 UTC",
+       "age_hours": 6.7,
+       "ts": 1795716267,
        "sentiment": 0.0
       }
      ],
@@ -1341,7 +1335,7 @@
     {
      "id": "tariff",
      "name": "關稅與貿易戰",
-     "signal": -0.527,
+     "signal": -0.516,
      "heat": 1.0,
      "stocks": [
       {
@@ -1379,7 +1373,7 @@
     {
      "id": "ai",
      "name": "AI 伺服器與算力",
-     "signal": 0.212,
+     "signal": 0.22,
      "heat": 1.0,
      "stocks": [
       {
@@ -1417,7 +1411,7 @@
     {
      "id": "geo",
      "name": "兩岸與地緣政治",
-     "signal": -0.194,
+     "signal": -0.209,
      "heat": 1.0,
      "stocks": [
       {
@@ -1463,27 +1457,9 @@
      ]
     },
     {
-     "id": "fin",
-     "name": "金融與壽險",
-     "signal": 0.108,
-     "heat": 1.0,
-     "stocks": [
-      {
-       "symbol": "2881.TW",
-       "name": "富邦金",
-       "exposure": 1.0
-      },
-      {
-       "symbol": "0050.TW",
-       "name": "元大台灣50",
-       "exposure": 0.2
-      }
-     ]
-    },
-    {
      "id": "ev",
      "name": "電動車",
-     "signal": 0.084,
+     "signal": 0.108,
      "heat": 1.0,
      "stocks": [
       {
@@ -1501,7 +1477,7 @@
     {
      "id": "rates",
      "name": "利率與央行政策",
-     "signal": -0.043,
+     "signal": -0.058,
      "heat": 1.0,
      "stocks": [
       {
@@ -1529,7 +1505,7 @@
     {
      "id": "semi",
      "name": "半導體景氣",
-     "signal": 0.033,
+     "signal": 0.042,
      "heat": 1.0,
      "stocks": [
       {
@@ -1555,9 +1531,27 @@
      ]
     },
     {
+     "id": "fin",
+     "name": "金融與壽險",
+     "signal": 0.028,
+     "heat": 1.0,
+     "stocks": [
+      {
+       "symbol": "2881.TW",
+       "name": "富邦金",
+       "exposure": 1.0
+      },
+      {
+       "symbol": "0050.TW",
+       "name": "元大台灣50",
+       "exposure": 0.2
+      }
+     ]
+    },
+    {
      "id": "iphone",
      "name": "iPhone 與消費電子",
-     "signal": 0.028,
+     "signal": -0.024,
      "heat": 1.0,
      "stocks": [
       {
@@ -1600,25 +1594,34 @@
      "位於 200 日均線之下（長空）"
     ]
    },
-   "macro_sentiment": -0.009,
-   "market_score": -0.331,
+   "macro_sentiment": 0.005,
+   "market_score": -0.325,
    "market_view": "偏空：降低持股、保留現金",
    "headlines": [
     {
-     "title": "Wall Street Flips From AI Euphoria to Gloom - Bloomberg",
+     "title": "Wall Street Flips From AI Euphoria to Gloom - Bloomberg.com",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ3dMUTlPVV9IdUJTQ0NWSjV2ZEZLbmNnWWtoMEpQT05KdzZSX0d5cjRtNzBCYTZMdzBVZmQ0QU14a3B3dnRncGxPMmMyR0I3djQycmp0VWtWV0NqY3NQdHdPQlhDZGZuX2MwSHFFRmI2N3NydV9Bb3BRR1ZzUUs5NWNucklfOEZVNzczamJQdEY1OHRzRGdNdGZjb2ZYdw?oc=5",
-     "source": "Bloomberg",
-     "published": "2026-11-26 22:58 UTC",
-     "age_hours": 0.9,
-     "ts": 1795733897,
+     "source": "Bloomberg.com",
+     "published": "2026-11-27 00:28 UTC",
+     "age_hours": 0.3,
+     "ts": 1795739297,
      "sentiment": 0.0
+    },
+    {
+     "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday - Investor's Business Daily",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObC1aVl9wd1oxYktYZFRnZjVBMHFrS0ZPMVV3UzdacGU1SHh2clYzeTZXYTROc2ItcjhMVUFFZDlMUGkxUXg1TnNKcDRvdUZPVmo2OUduaTc4dHFqVE9BalVvRmJVWndMMWtvbHAtREJQQ294cDc3cFcxdF96OF9pY2dKWDBnLWN2M1AyeUtKLVhHUEp0Q20tSVJPM25ITXY4dFlfakdfMjE5RUJiMGRaZ3llUWZrRVlMZm5NVFcwWmhWdjFhX2YtckNpTTdsV0Nld3Vz?oc=5",
+     "source": "Investor's Business Daily",
+     "published": "2026-11-26 23:34 UTC",
+     "age_hours": 1.2,
+     "ts": 1795736040,
+     "sentiment": 0.833
     },
     {
      "title": "No Groundhog Day, No Cold Turkey: Wall Street's Thanksgiving Bounce Gives the AI Bulls Something to Chew On - The Dark Side Of The Boom",
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM01KV1N0a25MMThGR0JiaXo1UzJXcWFHQjktU0liWGlZcVBRSzQyR3lOZS1sRm9lSnQwbTNQUXZrMndkdkcwcU9yTjNuUVFnZG5FWlVVTDBNNjZPWWs5LTJXWHdlUzZfR3ZhbFhyblA2MG9wbmpWMFZGb0UwMjlfaXVSMkEzeUk?oc=5",
      "source": "The Dark Side Of The Boom",
      "published": "2026-11-26 21:26 UTC",
-     "age_hours": 2.4,
+     "age_hours": 3.3,
      "ts": 1795728385,
      "sentiment": 0.0
     },
@@ -1627,7 +1630,7 @@
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPckJoTzRUZlhpcnZBcjBQUDdDWGEzMmdPOGJVVjZLOFFmaDZOY0pJN1I1MGo3VEgyb1l2eE9RRzFhOFM0ekNfV3VqdE01UHBxX0pQMGtqT1JJTWZLbEE5czVWYXpOSm93bGxCWVRuNU1QSmh4d0NBdUVGWTVuNFcxc0FMY0NCZHJXa1lBRGp4Ym42U3FJckFBQjFGZzlPMEwwYnphal9sa1UwQ05lNTlMRA?oc=5",
      "source": "CryptoRank",
      "published": "2026-11-26 21:11 UTC",
-     "age_hours": 2.6,
+     "age_hours": 3.6,
      "ts": 1795727463,
      "sentiment": -0.167
     },
@@ -1636,7 +1639,7 @@
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSm1mMGdDSWlpS1R0bkh6bVFNSnZMNDFxRTA3SktkbFgtMU1sLWoyTXU5MXJwbG1ManVuUDBid3QtSm9md1MyWklfRXpwSklPMkE3ZkZuNC1COEZxQjhEdVZLemE1em02UXNxRlptd0Y3S1lHS2cyZGFOcHNhTWhnYml4RDAtQ195a1lYYzBoYnF4NFlnMDlPVlZiNGo?oc=5",
      "source": "Yahoo Finance",
      "published": "2026-11-26 20:37 UTC",
-     "age_hours": 3.2,
+     "age_hours": 4.2,
      "ts": 1795725463,
      "sentiment": 0.0
     },
@@ -1645,8 +1648,17 @@
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWXM4VDZHZFBaeGd2T2FMYnJGYzBYVWRhUVNuN3JKX2M0VTIyM3ZpVTZSN21kY29PQm4teUxKVElmTkdpd2pQX3dqRGt1bG9EUmFzX1J4bmVJTVRyZkUxaFpFVlBSRmtqOHVFZzFZU0hDUS0yMjRiOUdrV01jRlBzTWNpWEVKNTRaMU9abnpEUFY?oc=5",
      "source": "Barchart.com",
      "published": "2026-11-26 20:00 UTC",
-     "age_hours": 3.8,
+     "age_hours": 4.8,
      "ts": 1795723246,
+     "sentiment": 0.0
+    },
+    {
+     "title": "HP Stock Just Had Its Best Day Since May and Blew Past Wall Street’s Price Target - 24/7 Wall St.",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWTZXc1NrS3Fic0U4di12LUN6cWJJX0htWkdaTk44OFVsSV9KR25QV0VxdXoxUFNyZ2NUSmNCQVFKTUUxcHFZZ0hUbHlqWUZOOHlHZDRHNmVGak9NVS1zZjlWeXE5MmZFUlltS1Q1dFNrQlF1aGZpUUN6VGhsM0JLdlJBUGo0T19GeUZOQ2RacUtUMXVsS2UyOThjd1FBM3NYYUw4bHVwaDlrWkZzNnY4MmZESm5ETVZraFBqS3B1UV8wUQ?oc=5",
+     "source": "24/7 Wall St.",
+     "published": "2026-11-26 20:02 UTC",
+     "age_hours": 4.8,
+     "ts": 1795723320,
      "sentiment": 0.0
     },
     {
@@ -1654,26 +1666,8 @@
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMEJPSnRwQXBNQWVha19hYktCUGptdG5LVWtjeXRFTUdROXNLMW1GdlVCY25aSWE0aHlIc1J5c3hRbXVuVU1lMXpqMjhtcTRqYWNaVGpyWDIwc1NrNnlaeFJORk82LVd1MTJ0aGRTN2R5bEdnNG1yUWpibERTWVFjblJiRW50aFREYlh0LS01SlJ5Tk56VFNzc290ejVVOGFOLWdZUG1FMA?oc=5",
      "source": "Barchart.com",
      "published": "2026-11-26 19:51 UTC",
-     "age_hours": 4.0,
+     "age_hours": 4.9,
      "ts": 1795722706,
-     "sentiment": 0.0
-    },
-    {
-     "title": "Dow Jones Futures Rise With U.S. Markets Shut; Look For This Bullish Signal - Investor's Business Daily",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObC1aVl9wd1oxYktYZFRnZjVBMHFrS0ZPMVV3UzdacGU1SHh2clYzeTZXYTROc2ItcjhMVUFFZDlMUGkxUXg1TnNKcDRvdUZPVmo2OUduaTc4dHFqVE9BalVvRmJVWndMMWtvbHAtREJQQ294cDc3cFcxdF96OF9pY2dKWDBnLWN2M1AyeUtKLVhHUEp0Q20tSVJPM25ITXY4dFlfakdfMjE5RUJiMGRaZ3llUWZrRVlMZm5NVFcwWmhWdjFhX2YtckNpTTdsV0Nld3Vz?oc=5",
-     "source": "Investor's Business Daily",
-     "published": "2026-11-26 19:39 UTC",
-     "age_hours": 4.2,
-     "ts": 1795721940,
-     "sentiment": 0.833
-    },
-    {
-     "title": "Are Wall Street Analysts Predicting Nordson Stock Will Climb or Sink? - Barchart.com",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVHNtbllhVzY5T0JwQlJEc0xESFZtZEhMakV1c2Q2dWpuSm5XeG9PdVlkVDQtOVpXdTlUYmdtVFFCUDJiNU5UeXFGUWtZYVpRY1BuNVBPZXRfYWw1dElFS3Q0Sk1SVFVNb2dQc2xHVjdRTlhudVNmSFVxeUNONk5wREtQRHpfSlZXRk9MLTExZ1Nxa0JUdUhzTHVsV2RfNzVPWWlKN0g3TGhpVHk2WDNvUmt3?oc=5",
-     "source": "Barchart.com",
-     "published": "2026-11-26 19:33 UTC",
-     "age_hours": 4.3,
-     "ts": 1795721594,
      "sentiment": 0.0
     },
     {
@@ -1681,7 +1675,7 @@
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNY2cxMElER1I1ekdPaEtERHhOTzRQRHJSUUNjWHVsVXZkVjhrVXRQZ1NLT2p5djdlTkp1VkRsYVhzS1lCeVE1MjZ2TEtxZVcwMm82SXRmclVXRUZ0dGFlY0Y4QzNHRlpaOVJrb3R1Y2hwVlMyRVBRV3NVeVExTWNPR3FXaFJibjYyUjhJMW5HTEttUUxUc0NvVDlhNXl6a1VSdy1rZzk5cHpWWVJBUGFVcUl5RFJvTzlwa2xtb1pBSQ?oc=5",
      "source": "Center for Economic and Policy Research",
      "published": "2026-11-26 19:28 UTC",
-     "age_hours": 4.4,
+     "age_hours": 5.3,
      "ts": 1795721330,
      "sentiment": 0.0
     },
@@ -1690,7 +1684,7 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa1BuTFJHa3ZJUjZ3SGtpUHBPSXFTa3Q1OGQtbS1mdUxmZjg5UGRxckw0SUcweXg1M2RRZ0V0Q01UdjlsN2g3OEFmMVllSmRvSTJQYW9VTVVPX3ZtVWxQeFZXa25WQncyV1YzMS1NR21hZ1QyVkVjMThlUklZZWRja0R4YjNOdDE0MWx3cXhXWmxzakFFZjRiZTVVSGxaX1Zzd1RqRThHeVk?oc=5",
      "source": "Barchart.com",
      "published": "2026-11-26 19:26 UTC",
-     "age_hours": 4.4,
+     "age_hours": 5.3,
      "ts": 1795721203,
      "sentiment": 0.0
     },
@@ -1699,16 +1693,16 @@
      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWTlwM0hwX1NOeFJtMGxIOWk4OWVhcGRRS0FJRHF2dVMyZ3BfZVY3OFphaFVXb0dnQ3hTbGZoVFM4OEFtam9EYnhzTXRLOFBrQkJHT2hXV0ZDUVI4cVhWYlk3MVJwa3Bldl8ySXZPcmdGNkpLTjBYeUN0RVFMUy1HdjhwLV9za1MyNXBzN2hsdkNEaDJIeEZzN2RHSTNqSXdIZ3Q2N2pYdWhfNncxenJQdnRHVWVHaC0wMURia3c4SHJFSkU1WW5Ec2JQMFFuSXJ1VE1oQUEwUjc?oc=5",
      "source": "The Motley Fool",
      "published": "2026-11-26 18:27 UTC",
-     "age_hours": 5.4,
+     "age_hours": 6.3,
      "ts": 1795717622,
      "sentiment": 0.0
     },
     {
-     "title": "Stocks, Nasdaq Futures Climb as AI Trade Rebounds: Markets Wrap - Bloomberg",
+     "title": "Stocks, Nasdaq Futures Climb as AI Trade Rebounds: Markets Wrap - Bloomberg.com",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeEQtTUQwY0ZyTEpubU1fOUV6eVQzR2llam9uaF9UUnQ5LVNvcWJFT0dRYW9NRHM2cDQtYkpaOF9rS1ZuVE8zaDhmYWk0S1IzdU1sOER5aWJLOTQteFZFTjRkMUJwUTdta0ZnemNITTBEa1VVb1c1MGJkUnZoMFRKNDZjM1d6SDBqZ1g2NDZTenZfSEZK?oc=5",
-     "source": "Bloomberg",
+     "source": "Bloomberg.com",
      "published": "2026-11-26 18:07 UTC",
-     "age_hours": 5.7,
+     "age_hours": 6.7,
      "ts": 1795716463,
      "sentiment": 0.0
     }
@@ -1727,41 +1721,59 @@
      "sma20": 348.54,
      "sma50": 342.84,
      "technical_score": 0.41,
-     "news_score": -0.077,
-     "theme_score": -0.221,
+     "news_score": -0.155,
+     "theme_score": -0.238,
      "themes": [
       {
        "id": "tariff",
        "name": "關稅與貿易戰",
-       "impact": -0.527
+       "impact": -0.516
       },
       {
        "id": "antitrust",
        "name": "科技巨頭監管",
-       "impact": -0.157
+       "impact": -0.161
       },
       {
        "id": "geo",
        "name": "兩岸與地緣政治",
-       "impact": -0.078
+       "impact": -0.084
       }
      ],
-     "score": 0.08,
+     "score": 0.064,
      "rating": "持有觀望",
      "confidence": "低",
      "reasons": [
       "股價站上 20/50 日均線，多頭排列",
       "位於 200 日均線之上（長多）",
-      "受壓主題：關稅與貿易戰（-0.53）",
+      "受壓主題：關稅與貿易戰（-0.52）",
       "受壓主題：科技巨頭監管（-0.16）"
      ],
      "news": [
+      {
+       "title": "How Apple Avoided the Stock Market Crash With 31% Gains - BeInCrypto",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE56MDRwbDVnRVZwbGEybFlQZjZLOEdCNGdRMTBhMlhkY0pNLWJaUnFIWEZlQl8yTmw1aU1GS1BZamY2WTM3YUZyX0RDSVNXVXZpcGtDOFVHNS1BVjlIOGIxb2ZMVUxSQk1ETDFzQU01cw?oc=5",
+       "source": "BeInCrypto",
+       "published": "2026-11-26 22:49 UTC",
+       "age_hours": 2.0,
+       "ts": 1795733350,
+       "sentiment": -0.333
+      },
+      {
+       "title": "Apple Stocks Rise as AI Selloff Spares the iPhone Maker - TradingView",
+       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeEluNUNqeWJ6UGhtbVNFZUFfVkFuVkhSWkJrNXFjMElCeDAzS2NyV3NVTkhZVlEzRkpkTm5IODJ1cF9SY0JCdFFzcmVESjA3aFpzejIyWlo5WTFQM29RdGNYb3lPcWNxZzEteWM2VzNEOWRpWnZ0QkpvTTFLMTdsd25nUkE3NG9TQ3R5TjdlQVdRMGI0cG9vWGwyU19mdVdqM0I1WHdSeTRheTdsVUY5Z3dSSE9JZw?oc=5",
+       "source": "TradingView",
+       "published": "2026-11-26 19:00 UTC",
+       "age_hours": 5.8,
+       "ts": 1795719638,
+       "sentiment": -0.333
+      },
       {
        "title": "Apple Stock vs. Nvidia Stock: Which Is More Exposed to an AI Bubble? - Coinpaper",
        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTgteUk1bnZmVFllM3ZMTmFYbXlySXZrME0wRkk4UjBaUVQxQ2diMG9vQ05EejJ5QUxmTllwUWJvN21IU05TaXNWem03Y19zYk5MaWRkQk5mWWVaTXlpQWFySFJFLS1ad3VtWklNSENKZ3JKNjlxM1JWd1BXb0g4R3NFRVlnakNRZU9xZXYxcWp1U3pwQzRGXw?oc=5",
        "source": "Coinpaper",
        "published": "2026-11-26 17:40 UTC",
-       "age_hours": 6.2,
+       "age_hours": 7.1,
        "ts": 1795714820,
        "sentiment": 0.0
       },
@@ -1770,17 +1782,8 @@
        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQazg2R1lYQVpOWHZoV0NCcHdxdGpkMWlDZ09VT2lteEVwR1VONDhNV2lKZG14dDdGdG9iQWI5T2tNTVRDOFh6M1NYYnBQb1BGRFdLZHR4YXVINHpXRlFIQkJ3YzRiamp2Z3lvZGtrb1JGeWtnMHVmUWctNHhNWnlaTUZ2QUhWVVZ4b05J?oc=5",
        "source": "Barchart.com",
        "published": "2026-11-26 14:50 UTC",
-       "age_hours": 9.0,
+       "age_hours": 9.9,
        "ts": 1795704607,
-       "sentiment": 0.0
-      },
-      {
-       "title": "Netflix vs. Apple: Which Streaming Stock Has an Edge Right Now? - Zacks Investment Research",
-       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeFJoSVFieTNfbk83a2FJWkNvUmpJRWpON1ozckkwQ3VaU3Nib291cDFkR21DSjF3bjQ5TmJOUGk0MC02LUwzTVZZVGt5cnZuTHBXamMyWUxSYlZpZEtNZDQtRzFTRFNRcElFWlNMd1I2X2VuZ3JKNzRPRTZNSVFLazB5b0RkaVFGdnNrRlpmLTAyMWFzckFqQ3BTajhDR0kxVDlR?oc=5",
-       "source": "Zacks Investment Research",
-       "published": "2026-11-26 14:31 UTC",
-       "age_hours": 9.3,
-       "ts": 1795703477,
        "sentiment": 0.0
       },
       {
@@ -1788,17 +1791,8 @@
        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWVJhakVZODBTRHNvMDFpd0ZSN2pxOHJyTnE3VFlheW41R1FtYTdWMmNxcE1id1NURXlCWkUyd3Y5WmdjdVI2eTZFdEpnWnkwZklkV2NLX0QtMS00TGJqVVBMZkZCVXdFOXhZQktYSlpRa0lqLTZ6NXk0b3hBTGZTVExKakpyRTd2WFJj?oc=5",
        "source": "Traders Union",
        "published": "2026-11-26 14:02 UTC",
-       "age_hours": 9.8,
+       "age_hours": 10.7,
        "ts": 1795701750,
-       "sentiment": 0.0
-      },
-      {
-       "title": "An Apple Executive Just Filed to Sell $19 Million of Apple Stock With Shares a Hair Below Their Record - Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVnFVdWNJVWI3Tk1wUHNTS1A0Z2wwTHNpX3RFbkp2Ylk4V1ZMSHhzVGtSX2FUa01UanJEZm1jbnJuanN3UU5ZZ3Yxa1NmMEtQYUNPaW5hR1NPTlcycll5ZkdjemNsWVl6YWxtZmM2SjJ2NGVjdHh5akNEUHh6SVItbzJOWEQ0ZFI0UmdzU1FaYXRydFkyOGdwcTdQVEs?oc=5",
-       "source": "Yahoo Finance",
-       "published": "2026-11-26 12:57 UTC",
-       "age_hours": 10.9,
-       "ts": 1795697875,
        "sentiment": 0.0
       }
      ],
@@ -1878,27 +1872,27 @@
      "sma20": 382.15,
      "sma50": 377.17,
      "technical_score": -0.119,
-     "news_score": 0.09,
-     "theme_score": -0.111,
+     "news_score": 0.082,
+     "theme_score": -0.103,
      "themes": [
       {
        "id": "tariff",
        "name": "關稅與貿易戰",
-       "impact": -0.316
+       "impact": -0.31
       },
       {
        "id": "ev",
        "name": "電動車",
-       "impact": 0.084
+       "impact": 0.108
       }
      ],
-     "score": -0.108,
+     "score": -0.107,
      "rating": "持有觀望",
      "confidence": "低",
      "reasons": [
       "位於 200 日均線之下（長空）",
-      "受壓主題：關稅與貿易戰（-0.32）",
-      "受惠主題：電動車（+0.08）"
+      "受壓主題：關稅與貿易戰（-0.31）",
+      "受惠主題：電動車（+0.11）"
      ],
      "news": [
       {
@@ -1906,7 +1900,7 @@
        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQ01LUXdaUENRbDNZaHpBb3k4Qlc1Zi0yNmdOSWR6NFZBbXNET05Mb3ExenBBS1lxU1BKT0RLWmVmWlVNRm1wRTZOc21PLXZIR3FreWl6Z2c4MWQwMjVsTVNNZ0hNYXUwX3lFT19paTFwcVFWNnVCZjNUSTZzNkdZSUEzNlJiejUybVg2eEh0VW9ja3pIWUVHejVrM1d6aGM?oc=5",
        "source": "Crypto Briefing",
        "published": "2026-11-26 22:20 UTC",
-       "age_hours": 1.5,
+       "age_hours": 2.4,
        "ts": 1795731611,
        "sentiment": 0.0
       },
@@ -1915,7 +1909,7 @@
        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMG9hbzY3bEFYanl3MlgzNE1URjYxUzBnLVhUUDdGSW40Qk5ZWXdLSWNIWDJ1ZDhRZ3VDSXp3a0RENHE3V0gtd0RZcUhwN1BkeDhqeUhfV2ZzMkx2WGY4NWxMUGJDMU5RVWJsTzJ5TVlXRkFQTldMc0NiYmdGc19ma2Eyc3RCQWh6bVdHWEhR?oc=5",
        "source": "The Motley Fool",
        "published": "2026-11-26 22:15 UTC",
-       "age_hours": 1.6,
+       "age_hours": 2.5,
        "ts": 1795731302,
        "sentiment": 0.167
       },
@@ -1924,7 +1918,7 @@
        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZE1mYk8xa3ZuNmwtZFJSbjQ4YTBWdUo1dmZyNFNUTExiZnpVZXpUaVJNNlFCdkpOaUQxUGx4SGhKcE5zdHdJaFdxNmlrR1pKLVpuTEpSZGxvQi1Bd3RwbFNoMU1keC1JSF9aNC1BVllkclVUWS16Y2tlUlp0S3pSZEpFUlFieUpTRDh0Y2JRelJrT1RhVmpsVkNMY1NkcEhaLUg5aGNTZEdYdE9DWXVxLTBCNzMxRTNXTFVyeg?oc=5",
        "source": "TradingView",
        "published": "2026-11-26 16:32 UTC",
-       "age_hours": 7.3,
+       "age_hours": 8.2,
        "ts": 1795710760,
        "sentiment": 0.333
       },
@@ -1933,17 +1927,17 @@
        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQblh3N09CZVZLNXZVZENSTDU3NEx6ODRsVWdTbEdDRXI3Ukcyd09Pb2YxQlZmSlpJd09lb1Z6Q25OQUZJdGpHNEd6LV9xUWxuX2F3V0JwekdxRFQwdTJPYVFUOXNWTmROYmZaWGZqV201UURmcWlJbklBeXZTSHNFT25aYW41dzkyaVk0U0V3?oc=5",
        "source": "Traders Union",
        "published": "2026-11-26 14:41 UTC",
-       "age_hours": 9.1,
+       "age_hours": 10.1,
        "ts": 1795704103,
        "sentiment": 0.0
       },
       {
-       "title": "If SpaceX and Tesla Merge Next Year, Here's What a $5,000 Investment in the Combined Company Could Be Worth by the End of 2028 - The Motley Fool",
-       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPemtacDZ1ZW1Wa0NTbUp5a1ltaENNUE5oeUxRMWg2SkxzaFNMZ3ZhLXNwa05vMDB3WDhTNVJyVWpBRW9QLVlzR1dOZTVNUDNDbkcyQkNJbGR1SWotck9yQ2h2SENRamNwcnZKb2p3QjFYX25CUUpWMmd5T1VRN2d3ZWFFQkZZbl9pTFd2RFRJYmppNlZlSW53NnBmV2hSa2E1RTVIQ0MxYW0xUjlvSWFoMm9KbHAwUWpCTmpyRHhvTWJmOHB6UnhLb3dVODg2YjVWcW5rUjk1dHU1SS1mN29BZ3VMQ0NHZUZYcEZHYURrdWZhcnR5Nmk4QV9JZndkT2s?oc=5",
-       "source": "The Motley Fool",
-       "published": "2026-11-25 23:04 UTC",
-       "age_hours": 24.8,
-       "ts": 1795647842,
+       "title": "Tesla's Self-Driving Expansion in Europe Faces a Crucial Test - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQX0dpYmlyemx3Q0Fya0tXdUx1OFBjcDQ2UTlqX3k0NHB3SlBQbnczNVZaVnpybGpNamRFOFo0UV9KeEdpSkVEMnEtQ1UyOHE5ZUROdVhQRzIyTTBNOUZlVWlQSlE4U0QyeXQ0a1BYRl9pMUdmX29WUmNfT21fLTlaYkU5bFFGZFRiclQ4WUxYcmZ3QmFXMGhlUlRqOHg5RTNEVnc?oc=5",
+       "source": "Yahoo Finance",
+       "published": "2026-11-26 13:44 UTC",
+       "age_hours": 11.1,
+       "ts": 1795700640,
        "sentiment": 0.0
       }
      ],
@@ -2024,26 +2018,26 @@
      "sma50": 672.4,
      "technical_score": -0.408,
      "news_score": 0.138,
-     "theme_score": -0.076,
+     "theme_score": -0.08,
      "themes": [
       {
        "id": "antitrust",
        "name": "科技巨頭監管",
-       "impact": -0.262
+       "impact": -0.268
       },
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.127
+       "impact": 0.132
       }
      ],
-     "score": -0.223,
+     "score": -0.222,
      "rating": "減碼",
      "confidence": "低",
      "reasons": [
       "股價跌破 20/50 日均線，空頭排列",
       "位於 200 日均線之下（長空）",
-      "受壓主題：科技巨頭監管（-0.26）",
+      "受壓主題：科技巨頭監管（-0.27）",
       "受惠主題：AI 伺服器與算力（+0.13）"
      ],
      "news": [
@@ -2052,7 +2046,7 @@
        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQkV0bUtTeGVzUjJLQTBab0x1V1dSYlpJSUZ5eWFaTnRUb1JkSF94YTQ5UnJYanVCUlV2WGg5Mjg3UG0zU2h3RFdrdzNRZWVBeVlYaWhCby1YVmQzNzNHTlp5R2lLcWpVWGVacmc1S2lJYU02MWFxQllVUU1RTzVjMlozT2VRN3hSZVZFV1RoYk50em4tWnVBYWs4eUJfX1E2Nm1JMEpaRmZTeWtaSGV1WDFEajdxekRIcVFDZFJ1X29qam5aMHUyZzlKcnVKbDg?oc=5",
        "source": "TradingView",
        "published": "2026-11-26 17:23 UTC",
-       "age_hours": 6.4,
+       "age_hours": 7.4,
        "ts": 1795713818,
        "sentiment": 0.5
       },
@@ -2061,7 +2055,7 @@
        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPb2U3YUp5ZXVKUGEtRFlxVVJLeTQzcjlVZThVenlFczhZNkRlWGJSR2l0SHQtcHQwS2YxSS1KaVZWckoySl9rSTFhSnVUMVBpaTVuanhGc0pGaHpObWd2NFhpbEFxYVVFelpLUXhhUlhPNFJ3Ql9iUzVJVXc0NjlrVDdhTXhTdzg4UHc?oc=5",
        "source": "Barchart.com",
        "published": "2026-11-26 16:50 UTC",
-       "age_hours": 7.0,
+       "age_hours": 7.9,
        "ts": 1795711855,
        "sentiment": 0.0
       },
@@ -2070,7 +2064,7 @@
        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR0ZSZzdRU1E0Y05jU21DdC0yZUltMGpXYnFITXBBeTRaXzZXU3I1Y2tCeTNPSjdXbjlSVFVfUWxrcTNITXRKakQzSzM5S1dKcG5GTDdndk9lRy1FdGNlN3Z3U2JYdFZaNUxjendwbVVKdVllMm1CUUxMOTZnN3hORy1TdDk4RERmdEhIcjVQTjAzVnhzOU9BRFJVbmM2ZldpWDRV?oc=5",
        "source": "Yahoo Finance",
        "published": "2026-11-26 16:25 UTC",
-       "age_hours": 7.4,
+       "age_hours": 8.4,
        "ts": 1795710302,
        "sentiment": 0.0
       },
@@ -2079,7 +2073,7 @@
        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8tZTVOVzM3R3NveXJMQzVaTFVOSmRsbEdKU3MtZG9Pb1N0aEFLOXI4b0NaMXFzMmtJZWJaLTRTTzlVd1JhVmlIbUNlVDU1Zmx2d1N6OTJBNHByTnNlczhqX0d5VXZLM2lqanV6MlVib09uY1lBTHlPYWhvVQ?oc=5",
        "source": "Seeking Alpha",
        "published": "2026-11-26 14:30 UTC",
-       "age_hours": 9.3,
+       "age_hours": 10.3,
        "ts": 1795703400,
        "sentiment": 0.0
       },
@@ -2088,7 +2082,7 @@
        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQa0gxUXhqUjJ2bkhKMl9RbWRLQXdXa2pDY0xqdjBWVW5uNFhnWjhGZkoxLUtpcEJoVThqbURld09aS1dxNkFkc0NyekNiQmp1YzJkTXNlWHo0RWVSZlVOdmlmZFhYQzlveWxsT3I4ZHJWakFsYmZNNEZSaFNuQmVqdExWbnJFZmNsRTJRaWNCMXJvUQ?oc=5",
        "source": "Traders Union",
        "published": "2026-11-26 14:02 UTC",
-       "age_hours": 9.8,
+       "age_hours": 10.7,
        "ts": 1795701749,
        "sentiment": 0.0
       }
@@ -2157,6 +2151,152 @@
      ]
     },
     {
+     "symbol": "MSFT",
+     "name": "Microsoft",
+     "price": 489.93,
+     "change_pct": -1.25,
+     "price_twd": 16202.0,
+     "ret_5d": -3.43,
+     "ret_20d": -7.56,
+     "rsi14": 39.0,
+     "volatility": 38.8,
+     "sma20": 516.38,
+     "sma50": 518.64,
+     "technical_score": -0.351,
+     "news_score": -0.107,
+     "theme_score": 0.001,
+     "themes": [
+      {
+       "id": "ai",
+       "name": "AI 伺服器與算力",
+       "impact": 0.132
+      },
+      {
+       "id": "antitrust",
+       "name": "科技巨頭監管",
+       "impact": -0.107
+      }
+     ],
+     "score": -0.233,
+     "rating": "減碼",
+     "confidence": "中",
+     "reasons": [
+      "股價跌破 20/50 日均線，空頭排列",
+      "位於 200 日均線之上（長多）",
+      "受惠主題：AI 伺服器與算力（+0.13）",
+      "受壓主題：科技巨頭監管（-0.11）"
+     ],
+     "news": [
+      {
+       "title": "Tech Stock Sell-Off: Down 13%, Is Microsoft a Buy Now? - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRDRtekFKaGVnZ1lZanh5U1F2ZEVodndVeEhaanMyT1pleE42aE9Qa000TUpRbzljVGZWN1Nua3pqd2J0bXcyczZWU1hzMEs2aXIzZk1KdWxfLVBZMFEyWTZ3WWxvWWg5YzlpWG5NTXl2b3YwblVHRWplOXZHS1RMYVM0YlRUSlRFNmRPZ2hQU013MW8?oc=5",
+       "source": "Yahoo Finance",
+       "published": "2026-11-26 22:20 UTC",
+       "age_hours": 2.5,
+       "ts": 1795731602,
+       "sentiment": -0.5
+      },
+      {
+       "title": "Microsoft Stocks Slip 1.25% While Nadella Backs Cheaper In-House AI Models - TradingView",
+       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdmJXU045NHB0c3lBT1luQ016VDRicGgyVDFLTTVFZHhfS3hFeHZySWhobFp5dnZTV2ViTDBUM01sVFh6bFlhX3UyalRJWkRHQ0xaM1g4ZlZ1TENadlk1UkUxLWZzMTUxNzJUc3BSanU0d2tZd3FMYXZyX3pHSGFqQXFSeEdUd0l6cVNUMmVqcUdIZVVVU0plZVExaVFzMlctV21WN28weVpFeTBVWm5yU1preFQwdGRKVDdNemZKTXlCalJSTGJ0Rlo5bEFLdw?oc=5",
+       "source": "TradingView",
+       "published": "2026-11-26 18:42 UTC",
+       "age_hours": 6.1,
+       "ts": 1795718520,
+       "sentiment": 0.0
+      },
+      {
+       "title": "If You Invested $100 In Microsoft Stock 20 Years Ago, You Would Have This Much Today - Benzinga",
+       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYW5ONklROXhtNHpzb1k3UERjYXVWNWJkV205eW9hYnNsVWFzRFpOSmQxY2ctYktPRHBzcmhIdXJWZjRXUGY5WU93b0E2UjFPakNZTHVnclNISHVBSVJHaTEzWW92aEdleHgyQ09PSkxaam10Y2pBbm5EQ1ZnaVpoMjZ4WWVnOEhBTUQzZVFWRVNFbEtWZDBRMThUWG00NnBOVkE3N205ZlNYRzktRG5BbUV5YlMwVzhqaldV?oc=5",
+       "source": "Benzinga",
+       "published": "2026-11-26 16:45 UTC",
+       "age_hours": 8.0,
+       "ts": 1795711524,
+       "sentiment": 0.0
+      },
+      {
+       "title": "3 Things to Watch After Microsoft’s Cerebras Deal - The Motley Fool",
+       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUjFYbEYzY2ZqLUt1NVg3TFJCT095dUgtZFpLZFJYVEVOM2I1T3cyT2RWaS1RbHl5RTZNczI4UnZLc0RqSDBKbW5MM0FPd1FTY3V4dm5UN19mdWNpMXJrcUw3TFhONW1La1NyX1R2dDIwQm5IVmpHX0ROek85bnFZdFl4aVRzNW5HSXdOM25jU2I2LV9OR2cw?oc=5",
+       "source": "The Motley Fool",
+       "published": "2026-11-26 15:44 UTC",
+       "age_hours": 9.0,
+       "ts": 1795707850,
+       "sentiment": 0.333
+      },
+      {
+       "title": "Microsoft shares technical analysis: Seller pressure dominates as weak momentum persists - Traders Union",
+       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZHBWM2duQ3RNb3JWRnVybDlhQ2Z5MXIwc004eTlTVk5Xbm9UcE1tRmNrejZZb3QtVkhYdUVkckY4RzBCZ29VQjBNSXUyUGFyelNvdk1xMjM2a1hsV2Z5QnRvY2xaVjk1NGtJb2JmZzQ0THRVaGtKRUlsU1hxd3FKLU5ETGlZU2w1VFpCMjB6MTdqTUF4WEZJ?oc=5",
+       "source": "Traders Union",
+       "published": "2026-11-26 14:12 UTC",
+       "age_hours": 10.6,
+       "ts": 1795702356,
+       "sentiment": -0.333
+      }
+     ],
+     "spark": [
+      495.86,
+      509.14,
+      498.74,
+      493.0,
+      490.7,
+      491.49,
+      494.67,
+      504.44,
+      496.16,
+      489.35,
+      496.79,
+      492.83,
+      500.64,
+      497.04,
+      499.62,
+      496.97,
+      515.17,
+      508.24,
+      507.98,
+      511.91,
+      511.81,
+      516.53,
+      524.17,
+      528.28,
+      528.74,
+      521.6,
+      534.04,
+      540.11,
+      542.4,
+      532.66,
+      538.4,
+      528.03,
+      532.49,
+      530.84,
+      531.92,
+      520.08,
+      523.5,
+      531.57,
+      530.31,
+      529.99,
+      529.12,
+      520.9,
+      506.14,
+      519.99,
+      554.73,
+      534.9,
+      529.59,
+      544.13,
+      532.13,
+      520.13,
+      521.99,
+      522.87,
+      516.99,
+      505.26,
+      507.31,
+      498.3,
+      484.52,
+      492.5,
+      496.13,
+      489.93
+     ]
+    },
+    {
      "symbol": "AMZN",
      "name": "Amazon",
      "price": 244.43,
@@ -2170,25 +2310,25 @@
      "sma50": 255.12,
      "technical_score": -0.4,
      "news_score": 0.113,
-     "theme_score": -0.143,
+     "theme_score": -0.144,
      "themes": [
       {
        "id": "tariff",
        "name": "關稅與貿易戰",
-       "impact": -0.264
+       "impact": -0.258
       },
       {
        "id": "antitrust",
        "name": "科技巨頭監管",
-       "impact": -0.157
+       "impact": -0.161
       },
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.127
+       "impact": 0.132
       }
      ],
-     "score": -0.234,
+     "score": -0.233,
      "rating": "減碼",
      "confidence": "低",
      "reasons": [
@@ -2202,7 +2342,7 @@
        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOT3Q2NE9JQV9YMnBEdnpOc1JYb0s3Vk9BNkZqNWhoTlJidFpCS2ZTQlA2TWdSVGVSUlUwNzFXQkUtWGI5YVk3TWR4V0l6ZHlNTnJZOVFOdnlVMTVBb1JSNUpsSkIxdmVYbmZONXduRUtVcTM5LXFveVAydzRNbnY1VThCVHhuVW9QRTg5aWJrblFSZzZlSWgtenRrTG9BNjNzY2VLQWRxS1FSUW4wRldTNk9DV21oTFRBbzJnQnhB?oc=5",
        "source": "TradingView",
        "published": "2026-11-26 17:52 UTC",
-       "age_hours": 6.0,
+       "age_hours": 6.9,
        "ts": 1795715543,
        "sentiment": 0.0
       },
@@ -2211,7 +2351,7 @@
        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQME1fbUhrc2llZkM1a1ZBYUhjekFJX2p1S3c5YTBJVVBGaV9kUkUydm9yWU1qTkRyNm9fODhCLWtwc1lxTTF0RlNDdVhuRTZFU3QxNW9ETzdWZEpUYXJVMTduTE1iRFdSU1FFRl9jNERGNXVSV3NBWUJlbGJXOFdlcmo2WGpPUkpkNVg3TlZ3?oc=5",
        "source": "Barchart.com",
        "published": "2026-11-26 14:36 UTC",
-       "age_hours": 9.2,
+       "age_hours": 10.2,
        "ts": 1795703796,
        "sentiment": 0.0
       },
@@ -2220,7 +2360,7 @@
        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaTlxdmZYVVFERzhDZm5YQ1pFb2xuU3pmMWJqUU9EWjFta1JfMFVfOFFhckZRTjBJeWZRUlhJdXNXelhTNDIxNmQ2ZWNEQWRISnFIeVNwcU80TjVuTVNXdkU5RjM5VkpJcVNVNFY4NEdWMWNjaUgwQ2NmQjhPVk4wY0RSNEhSVk9HMEYyLQ?oc=5",
        "source": "Traders Union",
        "published": "2026-11-26 14:25 UTC",
-       "age_hours": 9.4,
+       "age_hours": 10.4,
        "ts": 1795703140,
        "sentiment": 0.0
       },
@@ -2229,7 +2369,7 @@
        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZTZkckpkeFliQ1VEc3o0c1VEWlY3andwNEJyWGs3VFJFeWxJcHZYajhEaF9td1o5d2NIeHdZR3luejZWRkN4UFhSZDI2TlpkRGpvdlhUdk01TEJpay1pRF83dmpHODd2WGNuYUFFcWR6LTA0X3JvZWVQQkQ0RUNaYkZLR2RoQVczNFg0UVltcVAzektXNEhzNnBZSkF6T0tYN1VYMlBkNA?oc=5",
        "source": "Yahoo Finance",
        "published": "2026-11-26 13:38 UTC",
-       "age_hours": 10.2,
+       "age_hours": 11.1,
        "ts": 1795700312,
        "sentiment": 0.0
       },
@@ -2238,7 +2378,7 @@
        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVnFhOEF1dEJnM1l3UGZobks1MENhb2QtTjRyY0p1NFB0QVZONi1ScHM2WDBKdXRyaE1tTmc4Qmhpb1VaZ0VtNV9IWnVKMnc5ZVBjRXQtelYyQ1dMdWRGZlJ4WVZjeG5PbW5ybGNzN2RoZnhIdHdScFVKc2V6bmJ2ZzNHLThVLWM3LVhWQTB3aE1tQXlxcC13Y200UjVQMFVBRkZZ?oc=5",
        "source": "Trefis",
        "published": "2026-11-26 07:43 UTC",
-       "age_hours": 16.1,
+       "age_hours": 17.1,
        "ts": 1795679014,
        "sentiment": 0.0
       }
@@ -2307,153 +2447,6 @@
      ]
     },
     {
-     "symbol": "MSFT",
-     "name": "Microsoft",
-     "price": 489.93,
-     "change_pct": -1.25,
-     "price_twd": 16202.0,
-     "ret_5d": -3.43,
-     "ret_20d": -7.56,
-     "rsi14": 39.0,
-     "volatility": 38.8,
-     "sma20": 516.38,
-     "sma50": 518.64,
-     "technical_score": -0.351,
-     "news_score": -0.268,
-     "theme_score": 0.004,
-     "themes": [
-      {
-       "id": "ai",
-       "name": "AI 伺服器與算力",
-       "impact": 0.127
-      },
-      {
-       "id": "antitrust",
-       "name": "科技巨頭監管",
-       "impact": -0.105
-      }
-     ],
-     "score": -0.266,
-     "rating": "減碼",
-     "confidence": "中",
-     "reasons": [
-      "股價跌破 20/50 日均線，空頭排列",
-      "位於 200 日均線之上（長多）",
-      "個股新聞偏負面（-0.27）",
-      "受惠主題：AI 伺服器與算力（+0.13）",
-      "受壓主題：科技巨頭監管（-0.10）"
-     ],
-     "news": [
-      {
-       "title": "Tech Stock Sell-Off: Down 13%, Is Microsoft a Buy Now? - Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRDRtekFKaGVnZ1lZanh5U1F2ZEVodndVeEhaanMyT1pleE42aE9Qa000TUpRbzljVGZWN1Nua3pqd2J0bXcyczZWU1hzMEs2aXIzZk1KdWxfLVBZMFEyWTZ3WWxvWWg5YzlpWG5NTXl2b3YwblVHRWplOXZHS1RMYVM0YlRUSlRFNmRPZ2hQU013MW8?oc=5",
-       "source": "Yahoo Finance",
-       "published": "2026-11-26 22:20 UTC",
-       "age_hours": 1.5,
-       "ts": 1795731602,
-       "sentiment": -0.5
-      },
-      {
-       "title": "If You Invested $100 In Microsoft Stock 20 Years Ago, You Would Have This Much Today - Benzinga",
-       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYW5ONklROXhtNHpzb1k3UERjYXVWNWJkV205eW9hYnNsVWFzRFpOSmQxY2ctYktPRHBzcmhIdXJWZjRXUGY5WU93b0E2UjFPakNZTHVnclNISHVBSVJHaTEzWW92aEdleHgyQ09PSkxaam10Y2pBbm5EQ1ZnaVpoMjZ4WWVnOEhBTUQzZVFWRVNFbEtWZDBRMThUWG00NnBOVkE3N205ZlNYRzktRG5BbUV5YlMwVzhqaldV?oc=5",
-       "source": "Benzinga",
-       "published": "2026-11-26 16:45 UTC",
-       "age_hours": 7.1,
-       "ts": 1795711524,
-       "sentiment": 0.0
-      },
-      {
-       "title": "Microsoft shares technical analysis: Seller pressure dominates as weak momentum persists - Traders Union",
-       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZHBWM2duQ3RNb3JWRnVybDlhQ2Z5MXIwc004eTlTVk5Xbm9UcE1tRmNrejZZb3QtVkhYdUVkckY4RzBCZ29VQjBNSXUyUGFyelNvdk1xMjM2a1hsV2Z5QnRvY2xaVjk1NGtJb2JmZzQ0THRVaGtKRUlsU1hxd3FKLU5ETGlZU2w1VFpCMjB6MTdqTUF4WEZJ?oc=5",
-       "source": "Traders Union",
-       "published": "2026-11-26 14:12 UTC",
-       "age_hours": 9.6,
-       "ts": 1795702356,
-       "sentiment": -0.333
-      },
-      {
-       "title": "Microsoft: Time To Sell Before Depreciation Eats Profits (Rating Downgrade) - Seeking Alpha",
-       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZmw2U0YyVDljSks4Qk40REVCYXg1YS03TXQ5QUJwellnY2Y5TnR5OXd4enFDbkpSbFNBcENaS19YUC1CU0hqYVY5cWQ4elF5MzdrMUdhSGtxaUV4UFV2QjVzbTZ4ajdJUDljSmdieGtQVmxTQTRFNmlxZVBHeDdHVlgzcXlILThBS3g1MUc5aEgyZWw0d1d0NS1SWDc?oc=5",
-       "source": "Seeking Alpha",
-       "published": "2026-11-26 10:34 UTC",
-       "age_hours": 13.3,
-       "ts": 1795689288,
-       "sentiment": -0.5
-      },
-      {
-       "title": "Market Movers blog: Global markets fall as Trump plans new tariffs - Investment Week",
-       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
-       "source": "Investment Week",
-       "published": "2026-11-26 09:08 UTC",
-       "age_hours": 14.7,
-       "ts": 1795684115,
-       "sentiment": -0.667
-      }
-     ],
-     "spark": [
-      495.86,
-      509.14,
-      498.74,
-      493.0,
-      490.7,
-      491.49,
-      494.67,
-      504.44,
-      496.16,
-      489.35,
-      496.79,
-      492.83,
-      500.64,
-      497.04,
-      499.62,
-      496.97,
-      515.17,
-      508.24,
-      507.98,
-      511.91,
-      511.81,
-      516.53,
-      524.17,
-      528.28,
-      528.74,
-      521.6,
-      534.04,
-      540.11,
-      542.4,
-      532.66,
-      538.4,
-      528.03,
-      532.49,
-      530.84,
-      531.92,
-      520.08,
-      523.5,
-      531.57,
-      530.31,
-      529.99,
-      529.12,
-      520.9,
-      506.14,
-      519.99,
-      554.73,
-      534.9,
-      529.59,
-      544.13,
-      532.13,
-      520.13,
-      521.99,
-      522.87,
-      516.99,
-      505.26,
-      507.31,
-      498.3,
-      484.52,
-      492.5,
-      496.13,
-      489.93
-     ]
-    },
-    {
      "symbol": "SPY",
      "name": "S&P 500 ETF",
      "price": 716.7,
@@ -2467,17 +2460,17 @@
      "sma50": 757.85,
      "technical_score": -0.544,
      "news_score": 0.159,
-     "theme_score": -0.083,
+     "theme_score": -0.093,
      "themes": [
       {
        "id": "tariff",
        "name": "關稅與貿易戰",
-       "impact": -0.211
+       "impact": -0.206
       },
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.064
+       "impact": 0.066
       }
      ],
      "score": -0.281,
@@ -2487,7 +2480,7 @@
       "股價跌破 20/50 日均線，空頭排列",
       "位於 200 日均線之下（長空）",
       "受壓主題：關稅與貿易戰（-0.21）",
-      "受惠主題：AI 伺服器與算力（+0.06）"
+      "受惠主題：AI 伺服器與算力（+0.07）"
      ],
      "news": [
       {
@@ -2495,7 +2488,7 @@
        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbDFVbE53TDRMS2JLaktVdlV2cHZNdWVRZHV3bHB0MzVLZFpsYUpKMkNubWlBSTdLWElfWmxpTmdvTjdxY3VMc1J3Nm43NWsySTNlS2lOVnlyb29na1R6ZmEtd2ZrMlNDV2h3dWVPbnlMUjBWTjQtUzdkMEpVY0o3WmdzX1paTll3TDFHekdhQi1VNEw0d2FOa0xjM0NCejVSbUVxMzVfNGtsVm9GVjZrOG84bWVEMnJpc0FRSGZn?oc=5",
        "source": "Benzinga",
        "published": "2026-11-26 17:45 UTC",
-       "age_hours": 6.1,
+       "age_hours": 7.0,
        "ts": 1795715107,
        "sentiment": 0.5
       },
@@ -2504,7 +2497,7 @@
        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPX2k0NlA3V3NyY1RKUTFnU0wtWlUyOWdiOWc0bHRIeG9aWUtRY01FTXRoc1dkUlV5Mm4tR3FUUDBZOXg5TzQ2Nm9uNkgycGFiS1diYnhyX1AtLVAyVkpNbGdKUWdOVFpiR3lEM0xaZGRlRU9HcEVuRWV6TWI1dHl3YjFFZkFwMENPMV9zUV9XYVppZlNQR2psRUswSEc4TE1wY1Q5NVFBNnBBSkR1Nkdqd21XaHd2YXRxdURudU5hQmFkMElWbW1zc0RFU0VFYk15M2lQZHhtdGg4enlCcUVtRDI4UHh6bXhNZUVRbUtmT1NvUQ?oc=5",
        "source": "24/7 Wall St.",
        "published": "2026-11-26 15:03 UTC",
-       "age_hours": 8.8,
+       "age_hours": 9.7,
        "ts": 1795705380,
        "sentiment": 0.333
       },
@@ -2513,7 +2506,7 @@
        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYU9QS05xWmRSamdqaHFWM0NOeWR6aXBJNU5mdmQwc1poNGQwVk9aVU80Q25xMU5uQklKRDdqeXBXSVgtSGRWdHFwaDVpb1V5UGdHcmEzcWsxVHQ1T2VoM3U4djZ5VGxZMWFxM251XzNFMVg1Wll1dUNhbS1MNzBrNTBXUFNTeHNNd3E1d2FrVzBNOERua0ZPZERNdUhSLUFYNEpQZTlJMTg2ZUszRy1yaFpXRTk?oc=5",
        "source": "BNN Bloomberg",
        "published": "2026-11-26 15:02 UTC",
-       "age_hours": 8.8,
+       "age_hours": 9.7,
        "ts": 1795705342,
        "sentiment": 0.0
       },
@@ -2522,7 +2515,7 @@
        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaHJ6N2NBdi02cGhvbXQ5bUVWMElNNE81ek5jT3Jmdk5QX2l1d283UUdJZFpnTHZQVnZfMlBTZ1dVeXRMc2VTMHRidEphdzF1UHFJVzdyM3BlXzRteGNwY3dNZkpwVzlzMmdqQWc1ZDNBVjdFZThxNVFtVEQydU93VzBIYWptMlJseGduR3d6ZklFU1J1bVhENUl1YkF6ZG01Q280bDBWNjFubWYtRjB0ZmZsb1JvU005d0FfRQ?oc=5",
        "source": "24/7 Wall St.",
        "published": "2026-11-26 12:02 UTC",
-       "age_hours": 11.8,
+       "age_hours": 12.8,
        "ts": 1795694520,
        "sentiment": 0.0
       },
@@ -2531,7 +2524,7 @@
        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcGFhbkc1TUVtS3FkVU9HY3I0cng0YkV3cWN6THRyMUNzR3pmZUloM3dqcExKc1Q4WC1pSzc2WS11cDFqNTJZeXZ3aFVwRDFDeUdsR1kwYUcteEpFd1ZTeTFvOEZuV25zdjNMQ0FWWDVrVnRBRmxIaEFqOWtteXpXbGc3amVJSXJWRnBNQ1Q2LWk0NWdBNmc?oc=5",
        "source": "Yahoo Finance",
        "published": "2026-11-26 10:20 UTC",
-       "age_hours": 13.5,
+       "age_hours": 14.5,
        "ts": 1795688402,
        "sentiment": 0.333
       }
@@ -2600,153 +2593,6 @@
      ]
     },
     {
-     "symbol": "GOOGL",
-     "name": "Alphabet",
-     "price": 273.1,
-     "change_pct": -2.13,
-     "price_twd": 9031.0,
-     "ret_5d": -3.31,
-     "ret_20d": -15.94,
-     "rsi14": 36.9,
-     "volatility": 58.6,
-     "sma20": 283.05,
-     "sma50": 318.24,
-     "technical_score": -0.52,
-     "news_score": -0.061,
-     "theme_score": -0.076,
-     "themes": [
-      {
-       "id": "antitrust",
-       "name": "科技巨頭監管",
-       "impact": -0.262
-      },
-      {
-       "id": "ai",
-       "name": "AI 伺服器與算力",
-       "impact": 0.127
-      }
-     ],
-     "score": -0.313,
-     "rating": "減碼",
-     "confidence": "高",
-     "reasons": [
-      "股價跌破 20/50 日均線，空頭排列",
-      "位於 200 日均線之下（長空）",
-      "近 20 日下跌 15.9%",
-      "受壓主題：科技巨頭監管（-0.26）",
-      "受惠主題：AI 伺服器與算力（+0.13）"
-     ],
-     "news": [
-      {
-       "title": "Jim Lebenthal Says This Is “a Correction, Not Something Worse.” Why He’s Buying More Alphabet - Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU3hfZEVRYnFHNzNSYXh2UFY5Tnc5ODRIbjlPZU16T0xfUE5fZ0Yyb3o3V2ZWZFM1eUJQWWhnZEZGWUpsTUlUQ3ZxbGR2a0VlcDRqT3ZNLWdhOFpqQjZjM3duTDV2SXdodEY3NDVqN2RDSl95T2UydWU2OUgybWlLU2VhXy1lT1Q0R0FXRjRXdXQ0Vkp3V1pFZklzTkxZZU0?oc=5",
-       "source": "Yahoo Finance",
-       "published": "2026-11-26 22:07 UTC",
-       "age_hours": 1.7,
-       "ts": 1795730875,
-       "sentiment": 0.0
-      },
-      {
-       "title": "Jim Lebenthal Says This Is \"a Correction, Not Something Worse.\" Why He's Buying More Alphabet - 24/7 Wall St.",
-       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeFBvTGdNOS1fcW9mZGRKcVhIZXVmeFZ4OGpIdDEyRzhaV0FlOXRtN2FUNFEtVXJvR0FNQlozZTVvZ0RDVDQ5TGMyc0hSa21HaXhTUUlJVjNKMzM1dDZsRDRsODE5ZGdqN0lwVzZPV3k5azZBQ1JFcHZOT2dSS2dBTEx2ZTQwLWVWb1FTMGtrRlV1bGZETndibTJwRWlId2o4OV9ja3dFc19lRWtlUWY5MVh4SzlLVU5PUkUxcmpyLWwxSWZRUHZnVmJKVzg?oc=5",
-       "source": "24/7 Wall St.",
-       "published": "2026-11-26 22:07 UTC",
-       "age_hours": 1.7,
-       "ts": 1795730820,
-       "sentiment": 0.0
-      },
-      {
-       "title": "Alphabet Confronts Growing Fears Over AI Investment Returns - FinanceBuzz",
-       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81WnlJdEVvcHdmeVZWYjZXQ2xGbHZWX0NZQkczeGNlRmlZRTY1Ri1qa0lvMC1sVklnU1BtYXZIUVBzX0ZvemVvSnJtdnJuY0MzUW1XRVhDTUtxNS11RmR0c05WNHNPS0RkWjRYTmNn?oc=5",
-       "source": "FinanceBuzz",
-       "published": "2026-11-26 21:20 UTC",
-       "age_hours": 2.5,
-       "ts": 1795728038,
-       "sentiment": -0.5
-      },
-      {
-       "title": "Alphabet Stocks Slip 2.13% as Credit Swaps Hit Record Amid $9.1 Billion Cash Burn - TradingView",
-       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRWNHMG44ZG5TcVdTYllrbTY4ZHltY1lYVW9URkFkN3RVQ2tTaGprM0RaNkJSWl9zdzQ1Mk9ERkdkQkRBYzRTSlNoa0J5MDFJY2FUaHdRTkJtUmU3S1JibE5yT0F3UmE2VHQ4dnc4MEJWNll0d3VIZmlfQWh5TzRTek1jS3BEQnBUNm9ZbzJQdGo4ZWgtSkFFOGZuTGtzbzMtMkxQY1VuSExZR2pydGZEbDQyM1UtWG13Y1RROVZ2WjRmckFmdndYc01OVDhVbHUzS0hvY1Z3?oc=5",
-       "source": "TradingView",
-       "published": "2026-11-26 18:26 UTC",
-       "age_hours": 5.4,
-       "ts": 1795717561,
-       "sentiment": 0.0
-      },
-      {
-       "title": "Alphabet Could Be the Safest Way to Own Anthropic. Here’s the Math. - The Motley Fool",
-       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWXdVSHU0ZnVLbUtWVDFxR2dVRHJmNXdQc1lwNi1xb01sVHk2b3RpZFBPN2tWNmRDNnRlRWd2MzJDSkZFalpDQ1VnWHBaQXFCODFjWFFpbGw3TDA4RnBDUFRxUkFKejQ2VFVHSWN6T2UyOVVYSnRBSHd3ako2RmRid2x0VF9LblJUVUVkVlVBc2NuVVZ2VXJuTzdLZVM5UV9WVG9BRDlnM3NIRGxa?oc=5",
-       "source": "The Motley Fool",
-       "published": "2026-11-26 17:27 UTC",
-       "age_hours": 6.4,
-       "ts": 1795714022,
-       "sentiment": 0.0
-      }
-     ],
-     "spark": [
-      336.9,
-      342.26,
-      338.46,
-      338.36,
-      330.65,
-      332.6,
-      338.5,
-      349.39,
-      344.98,
-      342.87,
-      347.33,
-      349.54,
-      354.97,
-      351.16,
-      337.83,
-      342.36,
-      343.92,
-      342.75,
-      340.92,
-      344.08,
-      338.24,
-      343.5,
-      346.47,
-      347.68,
-      350.5,
-      348.29,
-      351.66,
-      352.72,
-      353.78,
-      347.64,
-      349.22,
-      340.59,
-      344.18,
-      340.28,
-      334.76,
-      324.22,
-      320.21,
-      316.8,
-      320.58,
-      324.89,
-      283.82,
-      279.84,
-      278.99,
-      280.03,
-      288.93,
-      282.57,
-      284.78,
-      288.15,
-      287.38,
-      293.45,
-      298.7,
-      295.77,
-      283.72,
-      280.2,
-      282.44,
-      272.66,
-      265.29,
-      282.1,
-      279.05,
-      273.1
-     ]
-    },
-    {
      "symbol": "NVDA",
      "name": "NVIDIA",
      "price": 149.3,
@@ -2759,42 +2605,51 @@
      "sma20": 172.48,
      "sma50": 203.65,
      "technical_score": -0.6,
-     "news_score": 0.064,
-     "theme_score": -0.016,
+     "news_score": 0.105,
+     "theme_score": -0.013,
      "themes": [
       {
        "id": "ai",
        "name": "AI 伺服器與算力",
-       "impact": 0.212
+       "impact": 0.22
       },
       {
        "id": "tariff",
        "name": "關稅與貿易戰",
-       "impact": -0.211
+       "impact": -0.206
       },
       {
        "id": "geo",
        "name": "兩岸與地緣政治",
-       "impact": -0.058
+       "impact": -0.063
       }
      ],
-     "score": -0.315,
+     "score": -0.305,
      "rating": "減碼",
      "confidence": "中",
      "reasons": [
       "股價跌破 20/50 日均線，空頭排列",
       "位於 200 日均線之下（長空）",
       "近 20 日下跌 30.7%",
-      "受惠主題：AI 伺服器與算力（+0.21）",
+      "受惠主題：AI 伺服器與算力（+0.22）",
       "受壓主題：關稅與貿易戰（-0.21）"
      ],
      "news": [
+      {
+       "title": "Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSndtT1dTZXdiYWpqTXRoMktMU3pTZ3U0d1lMTURLenJTa1BpdkE5c0IwNnVPTFJYX2NidVRlb2FuT3BNZFptMDBvQ3ZPdTVEbGowUlRvbVlpNXpZRFlTQUkyd0VMTmtmUUZfWjlnWWJYbVJYY0VGa3BDVEU2clpGR18zbmlaV0xOTWRDb2xWYnBhWE5iZUdJ?oc=5",
+       "source": "Yahoo Finance",
+       "published": "2026-11-26 21:22 UTC",
+       "age_hours": 3.4,
+       "ts": 1795728120,
+       "sentiment": 0.167
+      },
       {
        "title": "Is NVIDIA Stock Underperforming the Dow? - Barchart.com",
        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSU9JS2ctSTktQ0NhMzM1T0FvVk9WcXpJX0NDdWRZT0c0ZjFKcGpmenpZLWF1Q3NzN3FPdGQwd2NUX3Z6UHllZU9HcGtXOFhGcDl1bFdxMTlKM1A2ZVNLUGc2M1lJWHhXcGRrVFVOVHhTTlJKc09DU2h3aHNDVlZhR1llZE4zWEx5QnBJ?oc=5",
        "source": "Barchart.com",
        "published": "2026-11-26 19:44 UTC",
-       "age_hours": 4.1,
+       "age_hours": 5.0,
        "ts": 1795722258,
        "sentiment": 0.0
       },
@@ -2803,25 +2658,16 @@
        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNlYtanViOVZ0ZUxOeUxTeXpWaXE5Slc5R2tLNjU4UDI3YzVEUnV0ckNfQ1QtOGxySUI1REtKd3JSQ3RqOF9ab0VCVDlrMk9maFFTbEtNRHdtbHJPTzM3MHlENl81WjFYdUJueGdtQ3F5Q05lMTJIWnRtaFR1OG41a0VoVGtTN0JwaUI5WTN4SnJhV1VfRFZ5S200TUxISFZKYmZJNjh0bWxMLTktaERMX0FWN1JxLWl0dFNNeXY4a3BabHVIMlQ2QkNXSVhYZldJZUJzVEtuc2NxZw?oc=5",
        "source": "The Motley Fool",
        "published": "2026-11-26 17:57 UTC",
-       "age_hours": 5.9,
+       "age_hours": 6.8,
        "ts": 1795715822,
        "sentiment": 0.0
-      },
-      {
-       "title": "Should You Buy Nvidia After Its Sharp Decline? Warren Buffett’s Long-Held Investment Philosophy Provides a Clear Answer - Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT3ZDaWhTMllvUEx6RzRWLUpFQW11TnpqYXZiTi1VZzdjUVl2aUhYUUVVeHctWVdiMmJCXzVaRDhFX2xmS2k1QWM2M1VpcWtqQVBiUDV2dXRXNWQ3MEI4N2pmcjB3UVo5bXNqbDFMMG5MOU9sWVIyTlk4b3ZhRTVUZDEwd3prLVVxX092d2xZc1dqZmYwcE5yemF5S2s?oc=5",
-       "source": "Yahoo Finance",
-       "published": "2026-11-26 17:35 UTC",
-       "age_hours": 6.2,
-       "ts": 1795714502,
-       "sentiment": -0.167
       },
       {
        "title": "A Retiree Who Bought 1,000 Nvidia Shares at $122 Just Watched Jensen Huang Get a 'Second Chance.' Here's What Theirs Looks Like After a $117,000 Gain Nearly Vanished - 24/7 Wall St.",
        "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQdHJtLXJ6UGtVUXlGN2ZaanMySTE5ZEwwVVlQMTNUUWU1Yzc1UEJYVzVmTl9IZGhWX0w0ZWtJUU1BbmJHT2ZoOVljZ1RmaWpCcmNVQ2lWOXJ6ZXJfSWxBOVBrZW5jT1hXT3oyelN5Q3hudHVvX2R5TDhESHpkWXV6MVVCRTBTbkE4SGptRy0yb05LQUNQWTlrQnA3MXZlWUpuQ08xWjhOXzY3d0xGRlBCMG5mQmp0U3B5cUZZV2ZQTVJ6QVpsblRRN0pZS1U2eHhvR3FFeC1fN01qa1JQVG9wUERnYkRWelk0VlRyVDZ4OXQtNWJjSG1JMmJiRnJteVYxeG1ja0R1dFJUeFdkbWJIVWU5ZGxxb0szMVBoODNxQXpkZFE4NzRldA?oc=5",
        "source": "24/7 Wall St.",
        "published": "2026-11-26 16:38 UTC",
-       "age_hours": 7.2,
+       "age_hours": 8.2,
        "ts": 1795711080,
        "sentiment": 0.333
       },
@@ -2830,7 +2676,7 @@
        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX25IV1otSXF1N2JqSWF2MDlxaUJtanYtaE1hcUF6SE9tdDg3YzZtXy1tbFhTQm84cXBtdG1TTmxaUUxSYzZockR4dXZ1TjlfYnhDVFJMVXJ5eVBPNTZFeHBSb0NaRnZqZjFqQXhYRVFWTDc5ZmZOa0FDV2hXSm54ejQxZGhwUnp1RlBDQlIyS3FVMm51M3doTHd30gGfAUFVX3lxTE1jYVNXRlpkVERiTmJDMWJLN3dsTzI5M0VNUkZEckFOeFBlUGNMZUVFaG13VmVWdmpsbTVucUhERmRXZkk0MGQ2RFAwdVBjT0dpSE5lUWVGUGZoRS04RFRYTzU5ZEw4MnJRUFZ2NVhwMWVVb1l3UnVNcFBaY21abll1MHVxcXEzV2FfRnlSeVZkZWhkRFdoa054b0hEM0w5OA?oc=5",
        "source": "CNBC",
        "published": "2026-11-26 16:00 UTC",
-       "age_hours": 7.8,
+       "age_hours": 8.8,
        "ts": 1795708801,
        "sentiment": 0.0
       }
@@ -2897,13 +2743,160 @@
       155.38,
       149.3
      ]
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet",
+     "price": 273.1,
+     "change_pct": -2.13,
+     "price_twd": 9031.0,
+     "ret_5d": -3.31,
+     "ret_20d": -15.94,
+     "rsi14": 36.9,
+     "volatility": 58.6,
+     "sma20": 283.05,
+     "sma50": 318.24,
+     "technical_score": -0.52,
+     "news_score": -0.074,
+     "theme_score": -0.08,
+     "themes": [
+      {
+       "id": "antitrust",
+       "name": "科技巨頭監管",
+       "impact": -0.268
+      },
+      {
+       "id": "ai",
+       "name": "AI 伺服器與算力",
+       "impact": 0.132
+      }
+     ],
+     "score": -0.315,
+     "rating": "減碼",
+     "confidence": "高",
+     "reasons": [
+      "股價跌破 20/50 日均線，空頭排列",
+      "位於 200 日均線之下（長空）",
+      "近 20 日下跌 15.9%",
+      "受壓主題：科技巨頭監管（-0.27）",
+      "受惠主題：AI 伺服器與算力（+0.13）"
+     ],
+     "news": [
+      {
+       "title": "Jim Lebenthal Says This Is “a Correction, Not Something Worse.” Why He’s Buying More Alphabet - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU3hfZEVRYnFHNzNSYXh2UFY5Tnc5ODRIbjlPZU16T0xfUE5fZ0Yyb3o3V2ZWZFM1eUJQWWhnZEZGWUpsTUlUQ3ZxbGR2a0VlcDRqT3ZNLWdhOFpqQjZjM3duTDV2SXdodEY3NDVqN2RDSl95T2UydWU2OUgybWlLU2VhXy1lT1Q0R0FXRjRXdXQ0Vkp3V1pFZklzTkxZZU0?oc=5",
+       "source": "Yahoo Finance",
+       "published": "2026-11-26 22:07 UTC",
+       "age_hours": 2.7,
+       "ts": 1795730875,
+       "sentiment": 0.0
+      },
+      {
+       "title": "Jim Lebenthal Says This Is \"a Correction, Not Something Worse.\" Why He's Buying More Alphabet - 24/7 Wall St.",
+       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeFBvTGdNOS1fcW9mZGRKcVhIZXVmeFZ4OGpIdDEyRzhaV0FlOXRtN2FUNFEtVXJvR0FNQlozZTVvZ0RDVDQ5TGMyc0hSa21HaXhTUUlJVjNKMzM1dDZsRDRsODE5ZGdqN0lwVzZPV3k5azZBQ1JFcHZOT2dSS2dBTEx2ZTQwLWVWb1FTMGtrRlV1bGZETndibTJwRWlId2o4OV9ja3dFc19lRWtlUWY5MVh4SzlLVU5PUkUxcmpyLWwxSWZRUHZnVmJKVzg?oc=5",
+       "source": "24/7 Wall St.",
+       "published": "2026-11-26 22:07 UTC",
+       "age_hours": 2.7,
+       "ts": 1795730820,
+       "sentiment": 0.0
+      },
+      {
+       "title": "Alphabet Confronts Growing Fears Over AI Investment Returns - FinanceBuzz",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81WnlJdEVvcHdmeVZWYjZXQ2xGbHZWX0NZQkczeGNlRmlZRTY1Ri1qa0lvMC1sVklnU1BtYXZIUVBzX0ZvemVvSnJtdnJuY0MzUW1XRVhDTUtxNS11RmR0c05WNHNPS0RkWjRYTmNn?oc=5",
+       "source": "FinanceBuzz",
+       "published": "2026-11-26 21:20 UTC",
+       "age_hours": 3.4,
+       "ts": 1795728038,
+       "sentiment": -0.5
+      },
+      {
+       "title": "Alphabet Stocks Slip 2.13% as Credit Swaps Hit Record Amid $9.1 Billion Cash Burn - TradingView",
+       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRWNHMG44ZG5TcVdTYllrbTY4ZHltY1lYVW9URkFkN3RVQ2tTaGprM0RaNkJSWl9zdzQ1Mk9ERkdkQkRBYzRTSlNoa0J5MDFJY2FUaHdRTkJtUmU3S1JibE5yT0F3UmE2VHQ4dnc4MEJWNll0d3VIZmlfQWh5TzRTek1jS3BEQnBUNm9ZbzJQdGo4ZWgtSkFFOGZuTGtzbzMtMkxQY1VuSExZR2pydGZEbDQyM1UtWG13Y1RROVZ2WjRmckFmdndYc01OVDhVbHUzS0hvY1Z3?oc=5",
+       "source": "TradingView",
+       "published": "2026-11-26 18:26 UTC",
+       "age_hours": 6.4,
+       "ts": 1795717561,
+       "sentiment": 0.0
+      },
+      {
+       "title": "Alphabet Could Be the Safest Way to Own Anthropic. Here’s the Math. - The Motley Fool",
+       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWXdVSHU0ZnVLbUtWVDFxR2dVRHJmNXdQc1lwNi1xb01sVHk2b3RpZFBPN2tWNmRDNnRlRWd2MzJDSkZFalpDQ1VnWHBaQXFCODFjWFFpbGw3TDA4RnBDUFRxUkFKejQ2VFVHSWN6T2UyOVVYSnRBSHd3ako2RmRid2x0VF9LblJUVUVkVlVBc2NuVVZ2VXJuTzdLZVM5UV9WVG9BRDlnM3NIRGxa?oc=5",
+       "source": "The Motley Fool",
+       "published": "2026-11-26 17:27 UTC",
+       "age_hours": 7.3,
+       "ts": 1795714022,
+       "sentiment": 0.0
+      }
+     ],
+     "spark": [
+      336.9,
+      342.26,
+      338.46,
+      338.36,
+      330.65,
+      332.6,
+      338.5,
+      349.39,
+      344.98,
+      342.87,
+      347.33,
+      349.54,
+      354.97,
+      351.16,
+      337.83,
+      342.36,
+      343.92,
+      342.75,
+      340.92,
+      344.08,
+      338.24,
+      343.5,
+      346.47,
+      347.68,
+      350.5,
+      348.29,
+      351.66,
+      352.72,
+      353.78,
+      347.64,
+      349.22,
+      340.59,
+      344.18,
+      340.28,
+      334.76,
+      324.22,
+      320.21,
+      316.8,
+      320.58,
+      324.89,
+      283.82,
+      279.84,
+      278.99,
+      280.03,
+      288.93,
+      282.57,
+      284.78,
+      288.15,
+      287.38,
+      293.45,
+      298.7,
+      295.77,
+      283.72,
+      280.2,
+      282.44,
+      272.66,
+      265.29,
+      282.1,
+      279.05,
+      273.1
+     ]
     }
    ],
    "themes": [
     {
      "id": "tariff",
      "name": "關稅與貿易戰",
-     "signal": -0.527,
+     "signal": -0.516,
      "heat": 1.0,
      "stocks": [
       {
@@ -2936,7 +2929,7 @@
     {
      "id": "antitrust",
      "name": "科技巨頭監管",
-     "signal": -0.262,
+     "signal": -0.268,
      "heat": 1.0,
      "stocks": [
       {
@@ -2969,7 +2962,7 @@
     {
      "id": "ai",
      "name": "AI 伺服器與算力",
-     "signal": 0.212,
+     "signal": 0.22,
      "heat": 1.0,
      "stocks": [
       {
@@ -3007,7 +3000,7 @@
     {
      "id": "geo",
      "name": "兩岸與地緣政治",
-     "signal": -0.194,
+     "signal": -0.209,
      "heat": 1.0,
      "stocks": [
       {
@@ -3023,22 +3016,9 @@
      ]
     },
     {
-     "id": "fin",
-     "name": "金融與壽險",
-     "signal": 0.108,
-     "heat": 1.0,
-     "stocks": [
-      {
-       "symbol": "SPY",
-       "name": "S&P 500 ETF",
-       "exposure": 0.2
-      }
-     ]
-    },
-    {
      "id": "ev",
      "name": "電動車",
-     "signal": 0.084,
+     "signal": 0.108,
      "heat": 1.0,
      "stocks": [
       {
@@ -3051,7 +3031,7 @@
     {
      "id": "rates",
      "name": "利率與央行政策",
-     "signal": -0.043,
+     "signal": -0.058,
      "heat": 1.0,
      "stocks": [
       {
@@ -3099,7 +3079,7 @@
     {
      "id": "semi",
      "name": "半導體景氣",
-     "signal": 0.033,
+     "signal": 0.042,
      "heat": 1.0,
      "stocks": [
       {
@@ -3115,9 +3095,22 @@
      ]
     },
     {
+     "id": "fin",
+     "name": "金融與壽險",
+     "signal": 0.028,
+     "heat": 1.0,
+     "stocks": [
+      {
+       "symbol": "SPY",
+       "name": "S&P 500 ETF",
+       "exposure": 0.2
+      }
+     ]
+    },
+    {
      "id": "iphone",
      "name": "iPhone 與消費電子",
-     "signal": 0.028,
+     "signal": -0.024,
      "heat": 1.0,
      "stocks": [
       {
@@ -3134,10 +3127,10 @@
   {
    "id": "tariff",
    "name": "關稅與貿易戰",
-   "signal": -0.527,
-   "sentiment": -0.327,
+   "signal": -0.516,
+   "sentiment": -0.316,
    "heat": 1.0,
-   "count": 30,
+   "count": 29,
    "exposure": {
     "2317.TW": 1.0,
     "2382.TW": 0.8,
@@ -3153,20 +3146,20 @@
    },
    "headlines": [
     {
-     "title": "New trade war could be brewing following tariff proposal - KSNV",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ2xzZ2tRckZqaVpwUGpFVUtldFBpdVM1QmdKc29LdWVFTjU0akI4aWtwaWpyLXVUb3FNeWItbEhQTk9KeWZoSTlRaXJuZDdXc3FwdFBsdnNESG5jRmZ1UWtzZlNLTXJyQVQ3TC1HU1FXbjVYU2MwWmpNTmtNd0JZM0pudFVUY0pDS3FiSkFVcEZraWd5Zy1XZ1ctWU1mS3RBbW1VRVVGT0F6dTFTNklaRlEtNUF0Zw?oc=5",
-     "source": "KSNV",
-     "published": "2026-11-26 22:52 UTC",
-     "age_hours": 1.0,
-     "ts": 1795733550,
+     "title": "New trade war could be brewing following tariff proposal - WBFF",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNU2MzUndyTnRMcXV6V21BU1R4UVctdnhiNGxZMEMxM2Mwc0JZMDBwN0hMQjV1bmRRSS1fRmVUNHJuSWdyZ2ZhUlZvXzVGUDAtbGd1LTlZeHh6XzlDblFpMElZU05tbk4wZDM0V2o5aHE0U1JyQ3R0T2tvMktrajNjVzhqRVlMcXN0OGxhUTZOQ2JvaUxrNXdPNlEtNllVUlFna0c0aU1TWlVmVHJ0VnZSZUV2SldLLURzMi1MMw?oc=5",
+     "source": "WBFF",
+     "published": "2026-11-26 20:57 UTC",
+     "age_hours": 3.8,
+     "ts": 1795726638,
      "sentiment": -0.333
     },
     {
-     "title": "Five takeaways from Trump’s new tariffs - BNN Bloomberg",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQjVkYWQ3NDV5T2ZTTFI3c1d3eFA2QnNBN3lrbHVWZ2FoMzNFYzNVLV9ETk5LZTV4VEJBQWhYWlBVZUZMbkZsdWFLM0pENW9hSnVmdWYwYUFKZ1ctMWd1VC1VOU5feEVKTVF3NFdBbml3QXMySk03ME85MWZ5N3BVQXA3eDVHSjYwUDNjS2VFcw?oc=5",
-     "source": "BNN Bloomberg",
+     "title": "Five takeaways from Trump’s new tariffs - CTV News",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTHhiekREaEpuUkFNcjJCc09KVW9lSEdQTFhzOVplUGd6VGFCZ29GNzRHd1JFcldXaTM5SzZYYUQ1a2hCTVZLSUw4YmVzaE9kbVZHQlBQUjctVG53R29CRC1IbGlyVWhFbnFSczRMazRWbXFqRG05NG50bHdGeUJiLUl2VTJPSmNYTlZMdk1OUXRocEdXVXc?oc=5",
+     "source": "CTV News",
      "published": "2026-11-26 19:36 UTC",
-     "age_hours": 4.2,
+     "age_hours": 5.2,
      "ts": 1795721767,
      "sentiment": -0.333
     },
@@ -3175,44 +3168,44 @@
      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBweHdveUp5S2F0aGJwSEs2U2lOMkF6NzRNZTd3bEJUdTQwVjhRX0pjZmFzZ25hRzk4MHE0WW9KVkEtUjIxRUNWbXRzX3pmd1A5UWhyaE5Ja1ZWdw?oc=5",
      "source": "BBC",
      "published": "2026-11-26 18:54 UTC",
-     "age_hours": 4.9,
+     "age_hours": 5.9,
      "ts": 1795719291,
      "sentiment": -0.333
-    },
-    {
-     "title": "Video | China Slams Trump's New Tariffs, Warns Against Trade War Escalation - NDTV",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVTBveXA4NzdsYkVYVk41SkFEeHBwdXNGS2NSTWJjNV9ZY3JlQjlrQjBWM2x0X0dzajlWa2xJM2x5OHl1Rk9vY25PcTlpbjlRSnRnX3A2ekhOWW1NcHBIREU5dkRLbTNSLUFiMG9GLTZycFRnbGN0LUxMbEg3YnJkcjJ5Skw3U1Fhb2ozTko0ZzFWUEV2ek5yX0E5b3BZVGtvX3hR?oc=5",
-     "source": "NDTV",
-     "published": "2026-11-26 16:44 UTC",
-     "age_hours": 7.1,
-     "ts": 1795711471,
-     "sentiment": -0.833
     },
     {
      "title": "China, others bash Trump’s latest tariff gambit: ‘Trade wars serve no one’s interests’ - The Hill",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR0FwRFprd3NQTTRNT3o4YnpQQ3UwVVpuRWplc3A4eHN0QnRqcVY5cHpfek1IU2JUV0pyd3ozTndHdC1yUlNPNzhka3JTbTRWN1JDLW9wNEwxS0gyVENiTHBoWFVKdVZzTC11eDRhdUxTU1cybWI4bHI3Z0kxYUVCSWZra0RWSHNwN2JaaEd3T213b3RiaFhyQdIBngFBVV95cUxPY1RoTjh5ODJaOTRHY2txY1RhSUNONkxBcUxMLWVwOFBPNEliYVg5RldJSy1iZ2dEMVJMMENKR1g0QzBZdXN6bTEwcGNzYVB3V29ZNVNFYWhhYTJqczZLbWZkTHJmRzZ4dVJwbUh0WTRnalhfSW9YdnJyejRoNFhDb19rQmFfV2VzYmNNeXJHUXNnZjYyeVBoYXAxQzJKZw?oc=5",
      "source": "The Hill",
      "published": "2026-11-26 15:44 UTC",
-     "age_hours": 8.1,
+     "age_hours": 9.0,
      "ts": 1795707840,
      "sentiment": -0.333
     },
     {
-     "title": "Mexico and Asia Gain Auto Share in Canada as US Trade War Takes a Toll - Bloomberg",
+     "title": "Mexico and Asia Gain Auto Share in Canada as US Trade War Takes a Toll - Bloomberg.com",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcFNvdEg3TThhSTFYaVZVZGh1aHJ5Tkg5SnQwRkFXV2NaS1lTNmY4RHlJM0NwVWo5bUc3U0dFT1JrazNDTTVQNkpxMl9WZ09JOTI5SWJmNUEyNG1IdjU0OFFKNGg0WFVBeEQtT3ZnaE1RaGlXQWlWendzTEIxOUVfajE0LVFRYmQtd2ttQy1oaWRYSHVNZnpQUmlFTC01c215aG10RGVMVnpXZkhvQkx2ZHkzaXJJQ3ht?oc=5",
-     "source": "Bloomberg",
+     "source": "Bloomberg.com",
      "published": "2026-11-26 15:01 UTC",
-     "age_hours": 8.8,
+     "age_hours": 9.8,
      "ts": 1795705300,
      "sentiment": 0.333
+    },
+    {
+     "title": "貿易戰再啟 經貿辦卻空轉擺爛 - 翻爆",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtbHZDNW5sM2trS1VnN2gtVUYwU3N3dF9qWjUzQ2pXdHF3c0pMbDVsOTQ5ZjdwY3RZT0YySmFfTzhRYnRFMnFfZ0JQZDRZZG8?oc=5",
+     "source": "翻爆",
+     "published": "2026-11-26 10:05 UTC",
+     "age_hours": 14.7,
+     "ts": 1795687510,
+     "sentiment": 0.0
     }
    ]
   },
   {
    "id": "antitrust",
    "name": "科技巨頭監管",
-   "signal": -0.262,
-   "sentiment": -0.162,
+   "signal": -0.268,
+   "sentiment": -0.168,
    "heat": 1.0,
    "count": 29,
    "exposure": {
@@ -3228,7 +3221,7 @@
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObGtDRkRVeERrMEVwb3UtX1hxZ1R6WW5LZWZRemtUXzBjSE5zSC0zUi1mQzAwSE5XMWE3T0lNYjZWQ0MwaEFqOFVjNUlwOGV6akxHYjJSWHJwS2RsNnBzSENkdXpzMnRMZ1I1b0xPUXllcW9zeVZ4ekJUamlzNkpwMjJsa1BUWDhNMUZPQ2hENkZOMkxCbDE0Zkh1WlFEekR5WXc?oc=5",
      "source": "Marin Independent Journal",
      "published": "2026-11-26 21:01 UTC",
-     "age_hours": 2.8,
+     "age_hours": 3.8,
      "ts": 1795726879,
      "sentiment": -0.333
     },
@@ -3237,7 +3230,7 @@
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMmxhSTdLRHJqcEhZX0VNX0tteTZhbkNwSkM2WjFvWEQ2M25XT0FfRjlDTFB4TkJFVmhmNGtjYzlRSEpMNmQ5ZUdtcElncFRRcjIzSUFONlpNVVE1ODVuNXp3cWdaMW43VlpMd3pzdTdjXzhmRWhWNUY1NEg3QV9PdHlpbFgyQQ?oc=5",
      "source": "PANews",
      "published": "2026-11-26 16:17 UTC",
-     "age_hours": 7.5,
+     "age_hours": 8.5,
      "ts": 1795709837,
      "sentiment": 0.0
     },
@@ -3246,25 +3239,16 @@
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQUxJcWNBbHJhS2dOYlNxMzVLNlVlYjFEcGRyWXFielRmYTVfZmdlVktwbHl2OGRnaVBXQlB5Rjl2MG90VWY2aVhneURhbk5jTVZJMFpucUNZRU5qVWhOTWxjSUpMTmhPcUxKUWJILTR6ZDJsRE10cVREWnpqRFF1VlpiMTRXd3NhOG9YQThEb2o0QmxpX29iVDFHaw?oc=5",
      "source": "MLQ.ai",
      "published": "2026-11-26 10:24 UTC",
-     "age_hours": 13.4,
+     "age_hours": 14.4,
      "ts": 1795688653,
      "sentiment": -0.333
-    },
-    {
-     "title": "Australia's new online-safety law puts Big Tech on notice for private lawsuits - MLex",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZGxWTzlBYjJmWG0tUE5SeEQzWnNCV2RvVDQxRU1WS0VmVjhmdzd5WldWOE1vbmpPbW5nZnE5RUVpM2RZZVlLWkFDT3RKUEVHX01YOVhwb0RFejB5elQ0endLRDFrTEtVOXJ2S1B5YnNaVzQ5UU1sUGxrXzhrbkV3akZWd1Y1RTg2Tk5EYnFXdFFYeEx5eEhFTFQ3MWQ3VGlvS2Q5XzM0YkJOa1pOSjlvVXMzSlhvVmxHWVYxbkNR0gFaQVVfeXFMTUN5Y3NzSUwwMWFvN09yVFY1S1k2VzZwRzVzWVpWWC1BbzFvOWoxZWh6WDF3ajk3eDJNaURIc01KdnBPbVZkQW82WjhEQV9mbm05WTFDRnVZa2Jn?oc=5",
-     "source": "MLex",
-     "published": "2026-11-26 05:56 UTC",
-     "age_hours": 17.9,
-     "ts": 1795672615,
-     "sentiment": 0.0
     },
     {
      "title": "川普擬對14國祭新關稅 美國Q3經濟成長率上修至4.3% - 民視財經網",
      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pWG5PVzRTU093S0dPdXFiQ2RZaFBOeDNNVTdvV0h6VWlZZHpxLXd1VzdwaGlnb2ZoNWtWYzd6eTA1QkhRc1RJdE1jWDlqVy16R01zOWotdjM1ck56S3RXSTNSVktuZw?oc=5",
      "source": "民視財經網",
      "published": "2026-11-25 23:59 UTC",
-     "age_hours": 23.8,
+     "age_hours": 24.8,
      "ts": 1795651170,
      "sentiment": 0.5
     },
@@ -3273,17 +3257,26 @@
      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNTXVpbmtOemdCaC02Y3hndk93RzU3ZEh1WmhPb2Q1QTA0eExITWhrcjRZUTJGcHJkNzBta0JncW1oTkNoZzFTWGM3UHNLbXFCdUp0Ni1WVUppdnBpM25tczZJYkVpdHYwazZpemRMRzVfdkRmM2ZvNm9ndVhtN19GR24zV2ZMdTJQR1R3cVhIQTBwNzJLYWVUYVd6NXVNV3o0eUZlY2NSTUJkcW5QUVM1NnN2NDUzWEU2WFc5MmdrcGt6cHpYR0phSGFQY2RaQkN3dklYekxsZVdZT0VMRGwyM0tlMnNMZFlTNHBHdURyT05jbDFUWmJLUTUyTnBqeklhMXdBMVZ2a2ZGeVNhNWRhSUhHamxYYy02ZVZxbHlWV01iOVV5endIbFpyTW9SYnpPZ3NBZE5sV1JYUjVsS0E?oc=5",
      "source": "RFI",
      "published": "2026-11-25 21:00 UTC",
-     "age_hours": 26.8,
+     "age_hours": 27.8,
      "ts": 1795640431,
      "sentiment": -0.5
+    },
+    {
+     "title": "Antitrust regulation is central to curbing tech's extractive grip - Business Standard",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNa3pEREJ3S09wdVVhTDVPMy0xT1NrQ1NzcDVUeklTSUF4eDUtaEpBOGo2TEZGbkQxQUpHU0hrU2o0cU94aVA2LXQ3dnE4VUNhUTU2NGlCTWZrWFcxX3NTOVFIdGFLVXZVeFNhTWxUZG9ZRVp5NHAwYTUtcUxzV2dHcmpDWHVncVp1Ui10ckhmYlJrSHlHa2pHRElXck1DWThQR2Q2QkVPLVJrS2NWOGRxUXpjV3Z6ODRNVlNvbG9PYWJvSDZTSFpV0gHHAUFVX3lxTE1rekREQndLT3B1VWFMNU8zLTFPU2tDU3NwNVR6SVNJQXh4NS1oSkE4ajZMRkZuRDFBSkdTSGtTajRxT3hpUDYtdDd2cThVQ2FRNTY0aUJNZmtYVzFfc1M5UUh0YUtVdlV4U2FNbFRkb1lFWnk0cDBhNS1xTHNXZ0dyakNYdWdxWnVSLXRySGZiUmtIeUdrakdESVdyTUNZOFBHZDZCRU8tUmtLY1Y4ZHFRemNXdno4NE1WU29sb09hYm9INlNIWlU?oc=5",
+     "source": "Business Standard",
+     "published": "2026-11-25 17:33 UTC",
+     "age_hours": 31.2,
+     "ts": 1795628011,
+     "sentiment": -0.333
     }
    ]
   },
   {
    "id": "ai",
    "name": "AI 伺服器與算力",
-   "signal": 0.212,
-   "sentiment": 0.162,
+   "signal": 0.22,
+   "sentiment": 0.17,
    "heat": 1.0,
    "count": 29,
    "exposure": {
@@ -3302,20 +3295,29 @@
    },
    "headlines": [
     {
-     "title": "Which uses more water: an AI data center or a golf course? - Golfweek",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeHNOVUdCcHFqbTBCN1drT3JINUMxRUVBWWljSEllZ1U1YWdaTHpndnU0dEU0QkstX09sckhWX2lxLVRFZ1NNQmxPclBJYnFlWGg0eG5yREdMems3QVVXQjNONUM2Z2RETWpDeGswcFlGUmRWSFBJTEZUUXd5VTQteGppcldWUVR3UUhoTzM2OHhrUWlrS1loTkR0aE9IQkxBc21RVWFmWUpCTlBNZkxZSFNQYUpDd0VlOUluczBZbWFoQ1NucjVR?oc=5",
-     "source": "Golfweek",
-     "published": "2026-11-26 23:00 UTC",
-     "age_hours": 0.8,
-     "ts": 1795734000,
+     "title": "SpaceX獲准部署100萬顆衛星，帶動太空太陽能與AI伺服器需求-財經焦點情報站 - CMoney投資網誌",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORWtzNnl5NHk3TlkyYkpoOER6eHN4cEJXUlFBVEp4eWE0UTFBc2xOWGh1QWEzWTdrYlU2UGZUb3hKUzZzVzFURWdSc0RpZWZRNkR2eU42SWNRRzZaQVRsTm5JMXlZZ285dE9JM2Nma3BMZ2FTVWRvLWs5XzZxY3NvMlJ3?oc=5",
+     "source": "CMoney投資網誌",
+     "published": "2026-11-27 00:02 UTC",
+     "age_hours": 0.7,
+     "ts": 1795737750,
      "sentiment": 0.0
     },
     {
-     "title": "TWA00 加權指數- AI伺服器需求熱！半導體供應鏈加速擴產- 股市爆料同學會 - CMoney",
+     "title": "Enverus estimates power plants account for 90% of AI inference’s water footprint - Superpower Daily",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZTVzb3kxb200bExiY2RLYk1BQk9mMnJfd0ttRVZJb3pCSE5oRnE5TlhOVjlHMC1QbmtvMWVNUDQwUjZFZUNGWTZQS1JFUFJxcEVuZUV0emlmZWNtVVk0RWdYMDFkcXQzLVh6WlVsYWhtMzh4eUlvSDZzYlVQcGs5eXZaeUY3V0l4U3VQN25SZWt3bExHRTFFb3BWZE5RX3lsVXV1U2tLaE1tdDc0aXF5aW5qWQ?oc=5",
+     "source": "Superpower Daily",
+     "published": "2026-11-26 23:39 UTC",
+     "age_hours": 1.1,
+     "ts": 1795736362,
+     "sentiment": 0.0
+    },
+    {
+     "title": "AI伺服器需求熱！半導體供應鏈加速擴產 - CMoney",
      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1lcUtFRUtzZnAwby1YSHpfM1pEYXkxd0lTODBocGswZFJqamRYMC1WQWYxeld4OVhHUThVZFBFOWRsT3lKanVpd1JDMkhxdUxwNld1TlRwMlE?oc=5",
      "source": "CMoney",
      "published": "2026-11-26 22:33 UTC",
-     "age_hours": 1.3,
+     "age_hours": 2.2,
      "ts": 1795732417,
      "sentiment": 0.333
     },
@@ -3324,7 +3326,7 @@
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR0EzLTFGWHpubWdOQll1alVPeTI2X21JTXBQX0JNcGFJdUg1OUNiMnFTVWNyZ1djVkRsZjJKSXYyNk9VQ3lCelJSZXc2T0NURUJaamh0a210MWVMdjNZblo5QWVhYVNNU0dpY3A2bXN5empJMURZQXhUN1dBVHhuejRNTTA5Y1Vsa2ZKbDdiNUo?oc=5",
      "source": "CMoney投資網誌",
      "published": "2026-11-26 22:09 UTC",
-     "age_hours": 1.7,
+     "age_hours": 2.6,
      "ts": 1795730975,
      "sentiment": 0.0
     },
@@ -3333,26 +3335,17 @@
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQUJpbmloX2VfT20teGE3UVNJRjVvaXhia3BDSFpvcmxQck55OWZUOEdyR0hBbzBNWThiNFFxSkxIT1NQQ1gtejdtYThQdllfazF0RUNQYmpkVjZQVWsxTkN1REdXVWlwbGdYSVY5Tmd2Mk5Xazg2Ql9CMnZ0MUZyUVlhcEVyUndVTXJMZWRhZw?oc=5",
      "source": "Yahoo Finance",
      "published": "2026-11-26 19:00 UTC",
-     "age_hours": 4.8,
+     "age_hours": 5.8,
      "ts": 1795719600,
      "sentiment": 0.167
     },
     {
-     "title": "這檔老AI搶下SpaceX大單 目標價喊333元 - 鏡週刊Mirror Media",
-     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBIaUNmdjlyZ0dGbm5SUDBlOU9JMGNVOWNDREd3a0o2UUgtc2ZnZExJOEtrcTYwdDBsbzdJN2VEa1NuTEtsaWtWZHY4UUlZOUFFUTV4SmVSTXpuRWNH?oc=5",
-     "source": "鏡週刊Mirror Media",
-     "published": "2026-11-26 18:00 UTC",
-     "age_hours": 5.8,
-     "ts": 1795716000,
-     "sentiment": 0.0
-    },
-    {
-     "title": "期貨商論壇／鴻海期 動能帶勁 - UDN",
-     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBOU3JVeElodkV4TDZtQ1NuMFpaWUZucDFBcEMtZ1hxeUZTRjFtYTdJclFRT0h1TXFRbkZBS2staF8wVWh3azE5QmpKVndrVEdY0gFWQVVfeXFMUDZIY1lsWEJxVmNhV2p0T1JFamJFVGtwTmp3YS1mVHh0bzlZWUVuM0RMUVQ5dExlY2ZqVEpKc1ozUEVsbXdndDg4djdBN2ZVN3dKWUw0aFE?oc=5",
-     "source": "UDN",
-     "published": "2026-11-26 17:40 UTC",
-     "age_hours": 6.2,
-     "ts": 1795714840,
+     "title": "不只四大CSP！「這檔老AI」搶下SpaceX大單 目標價上看333元 - 三立新聞",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE03WGRFZ2NnT1VBLXd6OHVvdU0wWEo0LTJ0cWpzY183cmV4Tk51UXZON0FpcjlyQmtaeGg3MDBBQ0FnMFgxLUczbDFUYw?oc=5",
+     "source": "三立新聞",
+     "published": "2026-11-26 18:04 UTC",
+     "age_hours": 6.7,
+     "ts": 1795716267,
      "sentiment": 0.0
     }
    ]
@@ -3360,8 +3353,8 @@
   {
    "id": "geo",
    "name": "兩岸與地緣政治",
-   "signal": -0.194,
-   "sentiment": -0.044,
+   "signal": -0.209,
+   "sentiment": -0.059,
    "heat": 1.0,
    "count": 30,
    "exposure": {
@@ -3378,12 +3371,12 @@
    },
    "headlines": [
     {
-     "title": "市場憂中東供應再受阻 原油期貨價格上升 - TVB",
-     "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQVkduZzltdGZaTkQzRUtMLTBhT2ZVUm4weThDU2VqUE5zSGJobjJjRG1INVBNVlp5LUNFenUzMnBzTWxBUUlZRHJOMTJPa3k3RGpwcWI3TjFWeFA3TmZQYVVLbGpiclc1TnJ4b2ZidzhnNERqaXNlaGRCbGNKMS1SQ1VpOHNRV3FkUjUzNnpTb1dQWTc2VV9yNWJQYnUwU0dTeWdyOTVlc3lUMHk1UkhsckJVYVQ3V3MzOEx0ZXp6YkpFZW5iUVF6R2x1aHlucFpWcXA1WjNXektFSkVZUE45RzJST2RZYkxuY2dLSUhhRy1VVHdrVGhHdGNodGtmNThXRERld1o3SU9HR3lkRmhtREVnajFCOGVLSVJOUFlmOA?oc=5",
-     "source": "TVB",
-     "published": "2026-11-26 22:30 UTC",
-     "age_hours": 1.3,
-     "ts": 1795732200,
+     "title": "China May Be Preparing for Tougher U.S. Relations After Trump Leaves Office, Analyst Says - International Business Times",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zUHp2Ykh4TUZieFB0cFNfbGpPMHhDc2VOOGxIYjN5VTZpWVZ6SG9fTGlMbThvQllwVksxZ1pmZmM2enNXX0ZWVWYzY0xrV08tc05vWjltR2ViMkxUV0dRSFJHeU9tNzQ0TjZPQ0dQTjFIemUtekJTOUJB?oc=5",
+     "source": "International Business Times",
+     "published": "2026-11-26 18:44 UTC",
+     "age_hours": 6.0,
+     "ts": 1795718672,
      "sentiment": 0.0
     },
     {
@@ -3391,7 +3384,7 @@
      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aX2thYUlJc1JUcjhDd290Tkt2MzFNV0FmNXRWcXphTDdLMzEwUWdjTU9DYVltV3pKaXFJX3A3WE1MdWZGUVFJUUc4bXpEcHc2d0cyckdCSTZaMExKc1QxUmFrZzBhOFczaWZNS0hGdDBTaGJXQmZvdkpR?oc=5",
      "source": "dotdotnews",
      "published": "2026-11-26 16:22 UTC",
-     "age_hours": 7.4,
+     "age_hours": 8.4,
      "ts": 1795710177,
      "sentiment": 0.0
     },
@@ -3400,25 +3393,16 @@
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY2NYdDhvY3BlSXZqaWU3NUFlTndXbTNrUzJtWXU0MHpsVUVjQWl3VERySVlyVkhUbDFzdVJBMUlUNWRsbl9pbndWZmZzYWhpeGo0Slhtbk92MHcwc0RIa2lkR3BWRmpiVU1MUHowTlZfU1dkSFdNNmFYWWZsalFGZ0lhUGFLaFEwNU9mR0VsT3k0cDlFT1ZEVDBfeWZrcnVVdDNLcGNNSTVXdw?oc=5",
      "source": "The China-Global South Project",
      "published": "2026-11-26 16:20 UTC",
-     "age_hours": 7.5,
+     "age_hours": 8.4,
      "ts": 1795710027,
      "sentiment": -0.5
-    },
-    {
-     "title": "China's Defence Ministry urges Japan to stop 'stirring up' South China Sea disputes - The Hindu",
-     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdFhqMEFJbVdYV0F0ODRfMWp0b1hpNUxFUDBFQjFjd2FsX2lwVHFyMkFldHN5bDBMM04wcDNHdmpIM2s5Qy1VS2hTT05LbnlPVTkwbDBYMUlYejNWUEw4UmQ3cDFpZHp4NWFCY3VWTUR3SHNsYTFvcVVDeEgxMURZZzRpbElrUExvMkNmTWxKSXM3UDh0N1FnS1htVy1Hal9fVDd6Q01BUmlpNVVyVzh2Z1pQcU9BNV9RXzFnY0x0cDV5ZEF0NjRMX0ZibFFrRmNPQ3ZMWlBKSkw3Sy1DbEFzVGdUY9IB4wFBVV95cUxNdFhqMEFJbVdYV0F0ODRfMWp0b1hpNUxFUDBFQjFjd2FsX2lwVHFyMkFldHN5bDBMM04wcDNHdmpIM2s5Qy1VS2hTT05LbnlPVTkwbDBYMUlYejNWUEw4UmQ3cDFpZHp4NWFCY3VWTUR3SHNsYTFvcVVDeEgxMURZZzRpbElrUExvMkNmTWxKSXM3UDh0N1FnS1htVy1Hal9fVDd6Q01BUmlpNVVyVzh2Z1pQcU9BNV9RXzFnY0x0cDV5ZEF0NjRMX0ZibFFrRmNPQ3ZMWlBKSkw3Sy1DbEFzVGdUYw?oc=5",
-     "source": "The Hindu",
-     "published": "2026-11-26 15:58 UTC",
-     "age_hours": 7.9,
-     "ts": 1795708698,
-     "sentiment": 0.0
     },
     {
      "title": "大國外交｜中方：就日本船隻擅闖釣魚島提嚴正交涉 堅定維護國家領土主權 - TVB",
      "link": "https://news.google.com/rss/articles/CBMiuwNBVV95cUxOM3hqNzdlVWlqc0VDdmZ5cEFYQ0JzLXBJazg0R0RZZXVKa1dTeHdfTDdvbmprMnJiYjh0eDB4SjJ6U3dYSTNtbXk3aWFaUjc4LVVWNG5INHkteVNhbnVzVUJhb2ZIRVZsNE1qUTNnSkFuaDQ1enhMVDJrTXFlZmpXaWFVNUZDY3ZweFZDa2JrUlptWklNd0RhZkhaVVRqYWFMUVF5UUZoOFRpMXRKc2lIRHRBeF8zdll2dlk0N0xYUjdybng1bnhqNFg3VTJrVjlJM3ZnNmNYeW00QnlqM2pLUDM2ZUlZbU8xd2Y3SkJ1UjNfLWdlMnRuZWNNbGE5QVJ6THJTNWpuR0RQbDJaNVA2WnpLakxiOXVYZGZYdHRqTjJNZWZmaGY3bjZjbllHWktmOW5fdHN5TGRSNlFiNXZaemxWSUdRVURPX2QyS0hhbHJUeUdxVEVjMGVNQnhReHN1QWsxUDN5SHRXdXMxSWl6SU5JVTFQWjVjWHE1dlA2WmFxZk8yVGtJa2NuMENBWjJ0NVNwbkI2TWlHYmNxdHlZQ2Zkd3J1akJtamRPZDdPcE1zOXVfSWxYNWZZOA?oc=5",
      "source": "TVB",
      "published": "2026-11-26 14:09 UTC",
-     "age_hours": 9.7,
+     "age_hours": 10.6,
      "ts": 1795702140,
      "sentiment": 0.0
     },
@@ -3427,86 +3411,26 @@
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZlFMMm1pX0d1amxrMTgzNkRMM0RJam1tR0hfWnA4ZElvb3BOeTZJSUFrYWV4Z0EtcWl6c2NKa2k0bFBpTWFUUTduRXVLR25WaHNaNG01Qk5TdGNKNkZpRTEzcGE4QmhiQ2dEeHVrTlBMTWNTWnFWbTNEblNrWVZtRUtoLXFEbGhjUTJWZ3gxWTF4ZVoxcTZmYnlZeC1CNHp5cDAtZlpqVnBScEpfc3RoVzBUajhrN1dyTVV0WThFOXA1R0ZoX0JV0gHMAUFVX3lxTFB5UnV1Qmc2TS1XMnh1QlRDdHB3Sjlwd18zS3VSZmtOdDJZQjlvSG41NUpIVXdjenhJbEI3c3E2dkx4VlVGLU9QNVBFejU4VDhvbnpIek5VYUpwbkJIV190SndkdzlxeTROdG9FS01wS1JuZXZiMUJraVFwdFNMdGJhZDNyQjRZSTBwQjRKMXlMTUxxckVJN0ZUTHA1WF9pVjhTdUR4WnZ4azE0YkhIbVc2ekJMUzlDU3ZZTzZUR1dGUmNBN01ZN2JZQzhYaw?oc=5",
      "source": "ThePrint",
      "published": "2026-11-26 13:28 UTC",
-     "age_hours": 10.4,
+     "age_hours": 11.3,
      "ts": 1795699710,
      "sentiment": -0.5
-    }
-   ]
-  },
-  {
-   "id": "fin",
-   "name": "金融與壽險",
-   "signal": 0.108,
-   "sentiment": 0.108,
-   "heat": 1.0,
-   "count": 30,
-   "exposure": {
-    "2881.TW": 1.0,
-    "0050.TW": 0.2,
-    "SPY": 0.2
-   },
-   "headlines": [
-    {
-     "title": "Banking Sector Posts 21.5 Trillion Won Net Profit Through Third Quarter : Finance : JKN - 재경일보",
-     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83UlFnYW5xTGtCQ2dIRG0xMFk2Y1dvME9HeF96T1V6SWpJZ1JJa0N6OWpDWFgwWmh4ajIxVnh5SHI5WTNkZTJaZ3dhOG1yVEFRRFoyU1kzaHJrN1h2eExPMjB3?oc=5",
-     "source": "재경일보",
-     "published": "2026-11-26 21:40 UTC",
-     "age_hours": 2.2,
-     "ts": 1795729200,
-     "sentiment": 0.167
     },
     {
-     "title": "11月股災暴殺7千點！富邦、國泰、元大、兆豐、中信...8金釵誰掃到颱風尾？誰殖利率最香？大咖法人全說了：這3家贏一哥 - 旺得富理財網",
-     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fZG42R0RoeGFTUzd2cmYzM1BzazhyN2pZUWtpM3hnZ3lIQ19ROVR3LTFnMnRXUXhERlZXcU1Zb096WHlSMHlXVmU5WEpocTZ1aGJoM1pNX0pFeEZUV2RxMXZvbm5XRmRxeXc?oc=5",
-     "source": "旺得富理財網",
-     "published": "2026-11-26 21:13 UTC",
-     "age_hours": 2.6,
-     "ts": 1795727638,
+     "title": "Colombia’s Foreign Minister Meets Chinese Envoy Amid Taiwan Controversy - ColombiaOne.com",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSUdnbzZlTGk4SmJYQ055a2NfUXM2YXJ4YkMydkVpQnNXRlE3OW96dnJiZ041UzQtWEhWcWlBZE52X2MxNkk0OWFMU2U5TXItVTZaZ2ZzOXhFYTlsaWdGTG9XRC1ucFB4VkhyUkZyMlVCY2hjREdHYTFfVWlWelZjZTZMdXFLbTFxVGtwZEs0cmxXUDRmdEN2REs5VXh4LUJaS2c?oc=5",
+     "source": "ColombiaOne.com",
+     "published": "2026-11-26 12:16 UTC",
+     "age_hours": 12.5,
+     "ts": 1795695362,
      "sentiment": 0.0
-    },
-    {
-     "title": "2887 台新新光金- 銀行型金控或壽險型金控？ - 股市爆料同學會 - CMoney",
-     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE91ZWV3b0pMSmpPcEhpMURYUlpzTGhmYTQwZF84Wk03RUc4eUxuVW1xczVNMlJ4UEFqNHBKSms0d1FGOGZxQ184anlOVXNXbXlidi1xTzIySlA?oc=5",
-     "source": "CMoney",
-     "published": "2026-11-26 18:43 UTC",
-     "age_hours": 5.1,
-     "ts": 1795718615,
-     "sentiment": 0.0
-    },
-    {
-     "title": "壽險業迎最慘 10 月 全年獲利攀峰夢恐碎 - 經濟日報",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0wMXhwOTlzQ2tNQ2dRUllBVHp6MUszUzBreVpGa0xJeEdVYlJrbjZQVmtqaVdZekFDS1NDWEM2V3pjNUxHOE9BalNyVzNNRS1WTEh6SDduTVFZLXMtYWZyT0pkSHNoVC1maTQ3VkxWV2k0SlliZXNr0gFfQVVfeXFMT2pBVF9RY1FSMmo1QW9xcFZiVmwyM0pqekpUVWQ3UTU0el9MaHl4NWZIbWRTLXdybU1uTWxYZGt1M25xU1NleGFZaTNSanJ5RGpIUklVdFlySXQ3Zl9KNjQ?oc=5",
-     "source": "經濟日報",
-     "published": "2026-11-26 18:34 UTC",
-     "age_hours": 5.3,
-     "ts": 1795718075,
-     "sentiment": 0.333
-    },
-    {
-     "title": "外幣保單熱賣 新契約保費衝五年高點 - UDN",
-     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4wcF94ZWdRdk00a1FraWlabF9PeHpzWFFPZVBDNHVIQkhrWWQwUXBUaWZyRmd3WnVvUVlYbmFTcnkzb2ZDbS0zVHpmSnBpN2020gFWQVVfeXFMUElHc1JiNzBUN29rRVh2aWJkZXVmRklLdlFUVVVxTXhFbURWdjlZcWlpWmE2WGJMOGprTzFXZnlrZkYxYUloRWU5VzJMaGlMaWF1QU81OEE?oc=5",
-     "source": "UDN",
-     "published": "2026-11-26 18:31 UTC",
-     "age_hours": 5.3,
-     "ts": 1795717902,
-     "sentiment": 0.0
-    },
-    {
-     "title": "Cenbank orders StanChart to retain employees’ 5% profit share as retained earnings - The Business Standard",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTS00ekhSUTZiRWUzVHVCVXlpeHJ4ZkUwMGxQRDZtT0t1UTNTSDVFV0d2YVF3UFpLWk85T1BYc29FSDh2b3Nhc09lVkhfUWlrNWlFcFJEV0F3MmZqcFBVSUVOSUJnc2hwRUZyVnNLNU45V0tnYjNmckFOSFJxajBJSVlKdFU0eUtZb0ZhVzdQUElYYjdGbTZOU0tOelFYajNJMkxJY3g0LXZOZnBneVl5bWZKcnVMOTdLbnkzRWhFQQ?oc=5",
-     "source": "The Business Standard",
-     "published": "2026-11-26 15:36 UTC",
-     "age_hours": 8.2,
-     "ts": 1795707382,
-     "sentiment": 0.167
     }
    ]
   },
   {
    "id": "ev",
    "name": "電動車",
-   "signal": 0.084,
-   "sentiment": 0.084,
+   "signal": 0.108,
+   "sentiment": 0.108,
    "heat": 1.0,
    "count": 29,
    "exposure": {
@@ -3516,12 +3440,12 @@
    },
    "headlines": [
     {
-     "title": "台積電也怕稀土斷鏈！一顆小馬達，為何可能是先進製程供應鏈的致命弱點？ - 天下雜誌",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBIaklsOTNBOEFtbTBjWHh2dE0ybnRaQ2xHT0xHTGRCM1hlcERhREVZTjJsU0FYMHJ0aU94U2s4RHdJVzdaaWM5eHBfUU5kUQ?oc=5",
-     "source": "天下雜誌",
-     "published": "2026-11-26 22:18 UTC",
-     "age_hours": 1.5,
-     "ts": 1795731516,
+     "title": "Smart bet: #5 electric SUV to lift Australian sales after \"plodding\" start - EV Central",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNX2tWTFluSlM3anJrc01fYk1JSkdvRS1aazJJRXdOSlpCOGpNbS1TZXpKbnIwcFpadnRsMVpnQnlRVVZURTdzbUJpbVBzbmxFb3RHcW9YcnRjNkJyUUZsckhKZGcyVUMtOHNzNXZWbEdsRFdXMWowc3BrR1I1SVlZNjQwYjgxUkw3eE5VY1VGend2N2J3R2tUenE2Y0M?oc=5",
+     "source": "EV Central",
+     "published": "2026-11-27 00:23 UTC",
+     "age_hours": 0.4,
+     "ts": 1795739021,
      "sentiment": 0.0
     },
     {
@@ -3529,7 +3453,7 @@
      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1mbGFKb2NVdm1HS05FWS1PVVltemxrdDdZX3BDVEU2VWdLcWxGRkdpbUZnNUxXMDBsVW54SG9rYkc5aUYwMUJ3dGpQcTctS2xQSWxDUlU5a0M?oc=5",
      "source": "EVWORLD.COM",
      "published": "2026-11-26 21:13 UTC",
-     "age_hours": 2.6,
+     "age_hours": 3.6,
      "ts": 1795727620,
      "sentiment": 0.0
     },
@@ -3538,7 +3462,7 @@
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR093NDlXa1NMS0xldVQ1RUZPTXk3Q2R0dHFRcTZmdjlQMmNDNF9CS1VtY2xHMzhDSm9ZeURreXhTaWVyN0VqcXpwMS1MZU9lRnJmX3U3eDA5bk1YY1B5NHhjWDhOYUxlQ0JJcGF0c2hMVURwdjhRWGVrMDNOMWFkanFVdi1XVGYzV2VfOGlPa2EtdTdDUkozcThVN3N0SU5fcWUxYkhwaw?oc=5",
      "source": "Daily Hive",
      "published": "2026-11-26 19:20 UTC",
-     "age_hours": 4.5,
+     "age_hours": 5.4,
      "ts": 1795720800,
      "sentiment": 0.0
     },
@@ -3547,7 +3471,7 @@
      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPY1kxSGVmV080clhBTlljYUMtVTI5bEJlU3dpZGYwajM3aU84cXVHZVBWN0hYVkxYVWRreDIxaEJTNnMteWR2dU1HeWZZbXVucFBpZldWMFBES2RFelJua2RuWkpybVh4VnVHQUV4NDJ2dG9nMHBUV1lENFRPeUo5NDdRbUEyLUZFM0JjQWlTTlVhdjNKRkhRN2EzaGpaVTNWbEJueVRHX3hIaWdlaDhkZ2NVT2xqRk5GOVhkUjRENzJXWWNVU2RxdEJDaGlTZlo1czVZM1RNcFpZX19Lak8wWjNBYU9fVHRBcGRLYzhvMlk3MXBzYXMzbnZPcw?oc=5",
      "source": "IndexBox",
      "published": "2026-11-26 15:51 UTC",
-     "age_hours": 8.0,
+     "age_hours": 8.9,
      "ts": 1795708264,
      "sentiment": 0.333
     },
@@ -3556,17 +3480,17 @@
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSml0a3NwSXlFQmMwWmp0cGpOZ0dWLVVsWHNueUhpQ0R0ZWNrY2FiNWZ5SlUwS1lLd2N4RnlMREo0X3B1b1ZPeGRpUU8yYVZUa3g3SEQ0LVJXcnd6UnVfRi1BTm1ZUkFOTFQtNUZjSVBEWVI4MGN4emU2WkxCM29iQWQ1TXUyTFJCSUJHVWJ2X2huOGQ0SjhVRUxBOFJfb3hCd1dpU0dReVlLZw?oc=5",
      "source": "IDTechEx",
      "published": "2026-11-26 14:59 UTC",
-     "age_hours": 8.8,
+     "age_hours": 9.8,
      "ts": 1795705141,
      "sentiment": 0.0
     },
     {
-     "title": "Tesla’s U.S. Sales Tanked In Q1. It Still Gained Market Share - InsideEVs",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qaUZ1ZVpCRTAxRkZCZ3BiNG1pRFN3UFAwOGhPZEh1N1M3d1R2U21FRlpfemlHazFsMzJUQUlIODMwblhWT3h6RDRNbFlabkc5S25iTGxReGhxRXdmVjlBNUE3b1QxenJwZFpmUg?oc=5",
-     "source": "InsideEVs",
-     "published": "2026-11-26 14:12 UTC",
-     "age_hours": 9.6,
-     "ts": 1795702350,
+     "title": "Xiaomi to Enter UK EV Market in 2028 with German Expansion - Fuel Cells Works",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeEtrNTRwZUZzT2VpbE1ub2dKSmJ0QkhpVEE3WjhCelZBZzQ1YmhrdnhQQVFkdTgtelNnTnlMaFlVc2tsODE1RU9MMmdvbXdDTWM5ZHlacFNjelhaVS1VTXU4M2MxYmRPZ1I3Z201THFoaGZmUVUxbElQck5CMUJGaTBGQ01FREFpd1k0Smh3MjJFd2paczR4VXlncTdwY3BsMEQ2akhBQURSWFNoN21WUzNyLTl3QkZBNmxsU1FkYV85T0ViekxEV0VES0JuYjVmYWVv?oc=5",
+     "source": "Fuel Cells Works",
+     "published": "2026-11-26 13:07 UTC",
+     "age_hours": 11.7,
+     "ts": 1795698420,
      "sentiment": 0.0
     }
    ]
@@ -3574,10 +3498,10 @@
   {
    "id": "rates",
    "name": "利率與央行政策",
-   "signal": -0.043,
-   "sentiment": -0.043,
+   "signal": -0.058,
+   "sentiment": -0.058,
    "heat": 1.0,
-   "count": 29,
+   "count": 30,
    "exposure": {
     "TSLA": 0.8,
     "NVDA": 0.5,
@@ -3594,11 +3518,29 @@
    },
    "headlines": [
     {
+     "title": "國際金融：土耳其央行暫停7天期回購拍賣，變相拉高融資利率收緊銀根 - 富聯網",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOExacUxwd3ZzRUZDcjY1RVhmVEplOFhvOTdsSzgxUHB3bXlPVjc0QU0tR2JvOTRBY2xaejhzNGVZcGh5M2pVWDMtdktYRnRVWjllOHVzZzhGYzByTHBRU2pXQVFwSUZBTDdIRHFsTVptUGljVTBPaXhkMnV5YnpJazF5TUpQZ3FP?oc=5",
+     "source": "富聯網",
+     "published": "2026-11-26 23:55 UTC",
+     "age_hours": 0.9,
+     "ts": 1795737300,
+     "sentiment": 0.0
+    },
+    {
+     "title": "《金融股》華南金估央行年底升息 明年台灣經濟穩健成長、台幣偏升 - 富聯網",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQXViQTFsRGUxZ3cza1d4QzNTa1hqSXBTanUyTVRSMmVOSEMtN1pFd2RDWlkwcjNfRk1YM2FjR1doTlVIZGRhOUxJSFRvX05odVBVQ3lHZks4SDRyOUZNSFNLMFU4eUJMNlFRTjQwM0Y5cUlWQ3RNa1FVM3d1dkNSdkxJVVUyMUl6?oc=5",
+     "source": "富聯網",
+     "published": "2026-11-26 23:48 UTC",
+     "age_hours": 1.0,
+     "ts": 1795736880,
+     "sentiment": 0.0
+    },
+    {
      "title": "US Inflation Hits 3.8%: Will the Fed Raise Interest Rates Again in December? - CryptoRank",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPckJoTzRUZlhpcnZBcjBQUDdDWGEzMmdPOGJVVjZLOFFmaDZOY0pJN1I1MGo3VEgyb1l2eE9RRzFhOFM0ekNfV3VqdE01UHBxX0pQMGtqT1JJTWZLbEE5czVWYXpOSm93bGxCWVRuNU1QSmh4d0NBdUVGWTVuNFcxc0FMY0NCZHJXa1lBRGp4Ym42U3FJckFBQjFGZzlPMEwwYnphal9sa1UwQ05lNTlMRA?oc=5",
      "source": "CryptoRank",
      "published": "2026-11-26 21:11 UTC",
-     "age_hours": 2.6,
+     "age_hours": 3.6,
      "ts": 1795727463,
      "sentiment": -0.167
     },
@@ -3607,7 +3549,7 @@
      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBYdldwREJqblVaWEI5RFNiVVJFcmxBTmpuMjRhWk9qRlgzczdxOXVlNVFoY29rWlR5UkFhd1h5aDlmWDZqWGdGLWNyd1NRRFJ4VWc4TU9mQVo?oc=5",
      "source": "Cryptonews.net",
      "published": "2026-11-26 20:02 UTC",
-     "age_hours": 3.8,
+     "age_hours": 4.7,
      "ts": 1795723339,
      "sentiment": -0.333
     },
@@ -3616,17 +3558,8 @@
      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrbWt4b09XVE9SU1pLaUZXVUZxSGhtVlpGdzZoeXZBSVRuR25DcjEtbkxZX21JM1NPeThJaDBxdGtKcXJ2U3dyYWkyZ2ZTdzNlSVBMOFZ0UGlnUjh4WHppQ0RBOA?oc=5",
      "source": "money.com",
      "published": "2026-11-26 15:49 UTC",
-     "age_hours": 8.0,
+     "age_hours": 9.0,
      "ts": 1795708147,
-     "sentiment": 0.0
-    },
-    {
-     "title": "澳元：隨著澳儲行接近利率峰值，上行空間受限 - 華僑銀行 - FXStreet",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcXhNQkJXTHdsRE40OTRzSWxzd0pmbDROUlBaTjJUMjJNX2daZ01yc2ZEczRPYldQUU41cE9xMHNvMGxPd0VpUVFvcENCUS1JcmY1WXRLT1J1TDBVRDBBUTRWRDdVNFVrTFN4Nmt6MGd5X3BMeENHX2hxZTVWemd6bll6YWFLNmdFbFhkWENoRUdGc0pfRmlYRkRVYWoyVFhWeVFKZUZ5YlU2Rndid2dGZFY3SFZkTkE1NnhpRlVZdzRSeDZ0bmRjaXpXaXNHVUUyT0dBWjhYUHg?oc=5",
-     "source": "FXStreet",
-     "published": "2026-11-26 13:42 UTC",
-     "age_hours": 10.1,
-     "ts": 1795700562,
      "sentiment": 0.0
     },
     {
@@ -3634,26 +3567,17 @@
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTVRwX013SlBQa1FhVko0VU0xMGxGbE41MDNaMXJnMzNFcDVHbnhsMkxyY0M2Ymo1TEpVYWEyTWpmZE9rV0p0M1NGUmxDdWl4ZjdYLXotNjBXRzhDYW1VZ2hfdEgyZURhSG0tSzhIc1ZkaXpYVm5pSm5aX0tVNm1GMXZUR0xadEwzdllmYVVoUS1QSmZHelViZ3h1bTBpZ1lkYnIwZklKbXdiYXhpMVE1QWhBRy1pdW5GbWV3UXo5YmRGWUprczNISGsxaw?oc=5",
      "source": "www.tmgm.com",
      "published": "2026-11-26 13:45 UTC",
-     "age_hours": 10.1,
+     "age_hours": 11.0,
      "ts": 1795700720,
      "sentiment": 0.333
-    },
-    {
-     "title": "〈華南金法說〉央行不排除年底前升息！蕭玉美看AI與出口支撐動能 台幣震盪偏升 - 鉅亨網",
-     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBCS1JkYUYxMks5VXdKRWpIUzRTS21JZmVkUUE1bF92dzU1bFFLMTRTWTZ0emFrOVZLd2VSa3ZETnFpTUt0Vk9XTVJVYzhUX0k?oc=5",
-     "source": "鉅亨網",
-     "published": "2026-11-26 12:21 UTC",
-     "age_hours": 11.5,
-     "ts": 1795695711,
-     "sentiment": -0.333
     }
    ]
   },
   {
    "id": "semi",
    "name": "半導體景氣",
-   "signal": 0.033,
-   "sentiment": 0.033,
+   "signal": 0.042,
+   "sentiment": 0.042,
    "heat": 1.0,
    "count": 25,
    "exposure": {
@@ -3670,7 +3594,7 @@
      "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQbDFscjFvaVc4UWtXa19RNTlwU0VDZWlMM1hOb0JsNWhmUUg3SGFpY0FvSjJqOTZxa01jcVBHRjVXSTVrR3JVRDZlTS1uTFFiNE1FckNZOHJWRGdRdmlOUzBReVlDTnMwcHlvMDhBTWxFWEk0ZllhX2wyR0Ywd3JjUXlRQnA4SnBqMGo4TmFXM1FCSFlXb2lxcXUwT0xHc3ZUUl94SWlzUHFQbUxtVm52eV9uWTQwM1RrTVJrVkd5NFFqWi1USjB4Y3JENnkxYmgyZG90SXFPczFJTk9uaENjYi1La2dfQXE2Rk5WMEx1bTF2UXVLOExaOERvLWNLRURPQ3NJMUxUOEx3WlB1XzNkMFBBR1I4SGtuRFZEWG9FYnZJeGd1bFBGUURnU1dwV3M0NlVNbHBNR3pNQQ?oc=5",
      "source": "The Globe and Mail",
      "published": "2026-11-26 23:18 UTC",
-     "age_hours": 0.5,
+     "age_hours": 1.5,
      "ts": 1795735115,
      "sentiment": 0.167
     },
@@ -3679,53 +3603,122 @@
      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vYXRyeHNtVDIxc3NadlFsc2FFS1pIOXZSZHRXTjJrZ2Q4dGpFdksweWptVzJaX05mZkdnRjMxckhYNGY3cndRb0lGTm43NHVKc1phNHJ2TmhGNG1CSDlhbdIBYEFVX3lxTE5vYXRyeHNtVDIxc3NadlFsc2FFS1pIOXZSZHRXTjJrZ2Q4dGpFdksweWptVzJaX05mZkdnRjMxckhYNGY3cndRb0lGTm43NHVKc1phNHJ2TmhGNG1CSDlhbQ?oc=5",
      "source": "經濟日報",
      "published": "2026-11-26 15:50 UTC",
-     "age_hours": 8.0,
+     "age_hours": 8.9,
      "ts": 1795708247,
      "sentiment": 0.667
-    },
-    {
-     "title": "Chip exports surpass oil and gas for first time, Deutsche Bank analysis finds - Superpower Daily",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWHNlMUtoNUV0T0dXYWZYS0dJQ3BCTFVocU1jYjlXd1Bkd0NkS3Nrc19leHllMlZ3bllhbDAxSmpFZ01Ia2lHb3I2WW5UdTYwWVJidkdyYklCcFQ2Nm5CeVNZMjFWSkF6R2ZrejlTODN5dHZOU2tiTXJiRlROa3ZyXzFZeXZHQnZFTmJpUmlHU1pxX3ZVM01RcG0zemlYZW0xaEtENWdCbUNoOElxaGtr?oc=5",
-     "source": "Superpower Daily",
-     "published": "2026-11-26 15:21 UTC",
-     "age_hours": 8.5,
-     "ts": 1795706504,
-     "sentiment": 0.0
     },
     {
      "title": "Semiconductor chips are the new oil. Here's why - CNBC",
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeWJNUmR4b0VWNEhyVVRaQkNHWmZBMDhHYm9qUjRaMHdTVmgtWHZZOFlNdzN3eklwM29DN2NUWGxMVFdCd1I3TlJ4dGoydVJNRmI4WHJWZlhzNFBmOUp4MUhuVjBiU0l4MjdVNkRVS2lIQjFic3BlRl90enRxQmRqdzhJMnkxbkNMN1HSAY8BQVVfeXFMTTh1ZHNGeGg5dVAtMHlRYkxlYnlfWHI0T1ZleEJZNlByLWl3c0VKODlUekhuRzd0R2F0TzVoTXA1SkFmam1KRXBGS090bHpuVVh5RmFCQmQ2ZjdrV1RETFQzeThQUUg0bDE5dXkyN0dzdTVqLVNtNmVRRWdKQ2JPSmM0azYxT3JFTW1zXzZWNVk?oc=5",
      "source": "CNBC",
      "published": "2026-11-26 13:19 UTC",
-     "age_hours": 10.5,
+     "age_hours": 11.5,
      "ts": 1795699165,
      "sentiment": 0.0
     },
     {
-     "title": "Semiconductor Market Outlook 2027: Why Chip Investment Will Grow Rapidly and Spread Beyond Taiwan, Starting With Japan - EIN News",
-     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOS3UwekZvaHRaV3F5OWEzR0hqVjFrcGNpdUFDbjF0dG1GXy1JZXQ1RTNUbmphbElzWXg4RFZaZXREX21uWWxwdFN4QXZqMTVySklCRFhwNFMtNHJpSklULWxTUXhxeHlaSEQzYlYwQ3FrRXZyTUVjVFBUVWE3QlpOamRvME0zdFpGUm9lN215aHlETjVCeUYxaE9oT1I4TUdzVmFMT2NINkl4TFRSbTIwb0NiWk1Lb0JCM1RpVEVPSXd1TE8zR0FOc3A4T2tjcTdWeWNGQXM0ajNZSWYxVU4ySWdWci1EX1pGZXdha1gwUQ?oc=5",
-     "source": "EIN News",
-     "published": "2026-11-26 12:59 UTC",
-     "age_hours": 10.8,
-     "ts": 1795697940,
+     "title": "India’s semiconductor ecosystem needs demand across sectors to scale, say industry leaders - electronics.economictimes.indiatimes.com",
+     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPMDlnTEJXNURJeGc4Sm9vcGlSUWh3a3ZZT0JOQXpMLTRGYmZ0cE40NnRkMWVFSzRwbnZESk05bHViTS1BV05rZTdPWklEZVhET1pmVDBPc2dxZzFzUlEtLUpmVzM4NDBLNTdOSWlMYkJIaTYyWmJFWVd3eV9nSUJFLXNSNmRnSktkdTgtY0JJWVE5dkJ0VU5IWm01MWNucjRJWkcyN3lNTWlPTUxHX19aY0F4MVcxeGEybmtWa0xtOXlEUkpiQ2x4YzVaRVk0N1dqMkxOQkc4NTBxNzEtU20xVG9FQzRhdUZscEljUXlJSnBtWmZYZDdQR3BOY9IBgAJBVV95cUxPMzR1YWx3aEtNSkxBd0hxaFByYU5keVdMT0tyN2JVWXo0SEt5bVp3QlVjU181aWFyeVJLc21IUVJONEgwOWNRMFNaT3Npcjhkb3IwUHY5V0hMd1dMUlBCdVNETDQ0c3lIVlRWZVNDa1dKd3NncGFLbjJ3c2dJMmEtVGNya3RSMGtrNFgwbG5FNTdPRjd5ZFhsczJaVFMybXA4dndLbFgtNHRMd0gwMXZIbFhoZElnLXd4NWhVV1lkMnlWampGVm9CaXVqWVhnM3l6aExQTnpGbERmLU14SUcyeUFnZHdPNlBmUzdheDBQSlJta1Y5dHlGSHdDLUMybUxR?oc=5",
+     "source": "electronics.economictimes.indiatimes.com",
+     "published": "2026-11-26 11:14 UTC",
+     "age_hours": 13.5,
+     "ts": 1795691695,
      "sentiment": 0.0
     },
     {
-     "title": "Global Pure Foundry Market Share: Quarterly - Counterpoint Research",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORDdQWldzVUpIZDdpYmE4TWhIVDE1SnRCaEdPcG82dmFOaWoyOXVjdGhZeFhVRmdqOFN1S2xWaXBfNi1PaGFDRXZsRU1HQ0NmS0VsMWowQ19pUXgyOER3bE8wSk02SmlIeW5LSzlOZFFnYXpzd3ZwdVhoUTByeWlvcDN2SF9VNl9KWUE3a3NSUQ?oc=5",
-     "source": "Counterpoint Research",
-     "published": "2026-11-26 11:11 UTC",
-     "age_hours": 12.6,
-     "ts": 1795691491,
+     "title": "Micron sees demand rising for its ‘Made-in-Singapore’ chips amid AI boom - Singapore Economic Development Board (EDB)",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTDhIRlo1d3gzamFmRzU4b244a2daWVVFNWYtNWlRWUxWa3hwVF9VUjlLd0N3aXEyQlRfZUVLc1dfWGNkYUk5X1dxSkFidWVUVlVHckl1X0pQekFiVUE4Rl9Wd2JwZENqWEtOWFM0SzlkNU1lMEluR28xRGVFR1pIMWJueERIOHN1ZHRrMUdXS3ZDQjAwLVFMRFRScDlfOUJWeVdiWmdDeE9KbFhLa2ZObQ?oc=5",
+     "source": "Singapore Economic Development Board (EDB)",
+     "published": "2026-11-26 11:13 UTC",
+     "age_hours": 13.6,
+     "ts": 1795691591,
      "sentiment": 0.0
+    },
+    {
+     "title": "Chip players in Singapore ride AI wave to bump up investments in semiconductor ecosystem - Singapore Economic Development Board (EDB)",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdGxWX3hhT1JBT3kzR0xrRDRDZlFJbkNtenpsTWRsVVpOV0NiZTgzZW53VzJDS1hkdmdsTDRETGlOZ2t0N1pkTVhET2tOM3YtSnY5cllQTlpRSkxnSEI5YUROVW0xN3RrOW5YWmR2b2F2Q2I4RDR1U1F2aFV6VWd1VzF5VjJoSEo0RmFhSlpZRF8tcGl4b3I5RVJ2SkhTaFdKVl80RWkyNkxyZnk4a2xibnNjbURUdjFDZTQ0cTI0a1hnWTA4MUtad2loei0?oc=5",
+     "source": "Singapore Economic Development Board (EDB)",
+     "published": "2026-11-26 11:05 UTC",
+     "age_hours": 13.7,
+     "ts": 1795691132,
+     "sentiment": 0.0
+    }
+   ]
+  },
+  {
+   "id": "fin",
+   "name": "金融與壽險",
+   "signal": 0.028,
+   "sentiment": 0.028,
+   "heat": 1.0,
+   "count": 29,
+   "exposure": {
+    "2881.TW": 1.0,
+    "0050.TW": 0.2,
+    "SPY": 0.2
+   },
+   "headlines": [
+    {
+     "title": "Banking Sector Posts 21.5 Trillion Won Net Profit Through Third Quarter : Finance : JKN - 재경일보",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83UlFnYW5xTGtCQ2dIRG0xMFk2Y1dvME9HeF96T1V6SWpJZ1JJa0N6OWpDWFgwWmh4ajIxVnh5SHI5WTNkZTJaZ3dhOG1yVEFRRFoyU1kzaHJrN1h2eExPMjB3?oc=5",
+     "source": "재경일보",
+     "published": "2026-11-26 21:40 UTC",
+     "age_hours": 3.1,
+     "ts": 1795729200,
+     "sentiment": 0.167
+    },
+    {
+     "title": "11月股災暴殺7千點！富邦、國泰、元大、兆豐、中信...8金釵誰掃到颱風尾？誰殖利率最香？大咖法人全說了：這3家贏一哥 - 旺得富理財網",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fZG42R0RoeGFTUzd2cmYzM1BzazhyN2pZUWtpM3hnZ3lIQ19ROVR3LTFnMnRXUXhERlZXcU1Zb096WHlSMHlXVmU5WEpocTZ1aGJoM1pNX0pFeEZUV2RxMXZvbm5XRmRxeXc?oc=5",
+     "source": "旺得富理財網",
+     "published": "2026-11-26 21:13 UTC",
+     "age_hours": 3.6,
+     "ts": 1795727638,
+     "sentiment": 0.0
+    },
+    {
+     "title": "2887 台新新光金- 銀行型金控或壽險型金控？ - 股市爆料同學會 - CMoney",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE91ZWV3b0pMSmpPcEhpMURYUlpzTGhmYTQwZF84Wk03RUc4eUxuVW1xczVNMlJ4UEFqNHBKSms0d1FGOGZxQ184anlOVXNXbXlidi1xTzIySlA?oc=5",
+     "source": "CMoney",
+     "published": "2026-11-26 18:43 UTC",
+     "age_hours": 6.1,
+     "ts": 1795718615,
+     "sentiment": 0.0
+    },
+    {
+     "title": "壽險10月遇股災虧損112億 全年賺4,000億難度大增 - UDN",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oOUNlei1SYmhTRkgxNWx3RVdxOXVlcVVLVFRONHYyRU1pczZtc3JyaUp2Y0N4cmNGQjVzdmc3OEVyZ0VwdmlyOHEzNE5aT0xs0gFWQVVfeXFMTzM3Q0xuSXdISi1uTEh3aGl3ZjNySFZjZF8wa0dhaFh1QkhzNUc5V3M1WUUtNW91dVFFTkEtY0xpTXJjM2g0YW1mYkR4RkhuS3ZMRkplTXc?oc=5",
+     "source": "UDN",
+     "published": "2026-11-26 18:34 UTC",
+     "age_hours": 6.2,
+     "ts": 1795718075,
+     "sentiment": -0.5
+    },
+    {
+     "title": "Cenbank orders StanChart to retain employees’ 5% profit share as retained earnings - The Business Standard",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTS00ekhSUTZiRWUzVHVCVXlpeHJ4ZkUwMGxQRDZtT0t1UTNTSDVFV0d2YVF3UFpLWk85T1BYc29FSDh2b3Nhc09lVkhfUWlrNWlFcFJEV0F3MmZqcFBVSUVOSUJnc2hwRUZyVnNLNU45V0tnYjNmckFOSFJxajBJSVlKdFU0eUtZb0ZhVzdQUElYYjdGbTZOU0tOelFYajNJMkxJY3g0LXZOZnBneVl5bWZKcnVMOTdLbnkzRWhFQQ?oc=5",
+     "source": "The Business Standard",
+     "published": "2026-11-26 15:36 UTC",
+     "age_hours": 9.2,
+     "ts": 1795707382,
+     "sentiment": 0.167
+    },
+    {
+     "title": "Banking stocks rebound on earnings strength, improving asset quality - The Hindu",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNnk5b3lJSzZSZlVEVHF6MEN2LVJlNF9SalRTb29LNGhvc2RPU0JXclNJQVpZTW1lSS1hM0F4TUlxUmxTUV9oMDBJbzRKVEJCLTJGZHQzQ1R4TmdtMVdodE9lU2NLNFJsTmdpbmNLWFBDaGdKV3RPQk1uSlpteC05R0dRSkxRZzVCX0VXYnowSnY0MWs1OEREQjB3R2R4c3d0WGxPY3ZOd2RXREdXUFlfcloxMnNKd3F5c1dnemlEZ0RqN3hOb3lfV1VBZFI3R2fSAc8BQVVfeXFMTzZ5OW95SUs2UmZVRFRxejBDdi1SZTRfUmpUU29vSzRob3NkT1NCV3JTSUFaWU1tZUktYTNBeE1JcVJsU1FfaDAwSW80SlRCQi0yRmR0M0NUeE5nbTFXaHRPZVNjSzRSbE5naW5jS1hQQ2hnSld0T0JNbkpabXgtOUdHUUpMUWc1Ql9FV2J6MEp2NDFrNThEREIwd0dkeHN3dFhsT2N2TndkV0RHV1BZX3JaMTJzSndxeXNXZ3ppRGdEajd4Tm95X1dVQWRSN0dn?oc=5",
+     "source": "The Hindu",
+     "published": "2026-11-26 15:36 UTC",
+     "age_hours": 9.2,
+     "ts": 1795707379,
+     "sentiment": 0.333
     }
    ]
   },
   {
    "id": "iphone",
    "name": "iPhone 與消費電子",
-   "signal": 0.028,
-   "sentiment": 0.028,
+   "signal": -0.024,
+   "sentiment": -0.024,
    "heat": 1.0,
    "count": 30,
    "exposure": {
@@ -3740,7 +3733,7 @@
      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBWVHVVOEh1UXROWW9hdlBLMU9kT2RiNDBfaUxVeG9kdXFudHpqNHpiSGdBVnRiZmdXa0pDNzczYUx3LVNxa3ZSY0VGa0t5SVpKR0RnbEdZSDFvdHFQUVozMzNwV0k1anI3dmVtU2dMeWZ1UmMyaDRuRTRB?oc=5",
      "source": "NewMobileLife",
      "published": "2026-11-26 21:26 UTC",
-     "age_hours": 2.4,
+     "age_hours": 3.3,
      "ts": 1795728368,
      "sentiment": 0.0
     },
@@ -3749,26 +3742,26 @@
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMmtmMGRWV0VVUWEtbkZqWE1EREN6anVGZEFmY2p5eU1SS1gxOTZ3dkhuQ19kZXN0SlhnYU1YM3l0UGZ3UTBTOVBKcU5uS3NKemZRRGJmT2V0NEZxUDFPdEtuR0Y5RmJRSW9RSVI2Q0pkZmNOdXRVZGd2b0xBQUtfRXlhd2Fpc2ZqdU5ybTJCZnZQdw?oc=5",
      "source": "MLQ.ai",
      "published": "2026-11-26 20:15 UTC",
-     "age_hours": 3.6,
+     "age_hours": 4.5,
      "ts": 1795724100,
      "sentiment": -0.333
-    },
-    {
-     "title": "Black Friday Apple iPhone 17 Pro Max deal gives fantastic 19% discount to the 512GB model - PC Guide",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWUpWR29ybXoyTFJLRkYwRm00R1JXaXNHSDlOR0ZpTURWWXdqVGlQQUdXRmpwY0U5d2RGWTc1ZE1Za1JGTVB2Y3Z6X010NXAyMkxsR2R6NzU0VzVMal80cVNZdTZ1Wll4Zkh3Slg0MVllelVpMFRCQ1llcjdaYXBFS184RTVBQ0YtX2xZTXlfTXQxc2Z6TnB0TS1FVVJSdW9wVlRHSDRJSnJaYW1uNjVGeDNrT0VvM01UZzM4?oc=5",
-     "source": "PC Guide",
-     "published": "2026-11-26 19:35 UTC",
-     "age_hours": 4.2,
-     "ts": 1795721745,
-     "sentiment": 0.333
     },
     {
      "title": "Apple Dominates China’s Singles’ Day Smartphone Sales as Market Falls 17% - The Mac Observer",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRzhtZlEtcXVBYVg3YUZVLUo0eFlIUUJERWlIUHJIajVnYWpLOVl2MUJ3TXV3NUNfQzRMbV9YNWpiaTN5UmVpaEE5VC1GdkZGTi1YRktnWDVIbU5neGVyZFVheEY4akxSWER6cFRuSE9ZcUh2dHVUdEhXYy13NmZEQ01BYVJJMGg1TEh2emRub044SnA5bEd3c2RvSThJd3VCNVFmLU1VQQ?oc=5",
      "source": "The Mac Observer",
      "published": "2026-11-26 18:08 UTC",
-     "age_hours": 5.7,
+     "age_hours": 6.6,
      "ts": 1795716499,
+     "sentiment": -0.333
+    },
+    {
+     "title": "iPhone Sales in China Fall 8% in Double 11, Market Down 17% - iThinkDifferent",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvN2JwX0ZVUF9kZVdweHFwU2liMGNFY1dpNi1FSkFiUkFxQ1k5V1FHbzFYVXBHQ3U1cFJkY0hjeEs1S3hEdFUtYzBBcHVPS2hhSXVDV1hwMXgtZUhDQlVRSmlZZlEwX181OTVsdUd3?oc=5",
+     "source": "iThinkDifferent",
+     "published": "2026-11-26 16:14 UTC",
+     "age_hours": 8.5,
+     "ts": 1795709699,
      "sentiment": -0.333
     },
     {
@@ -3776,7 +3769,7 @@
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQmxReDFjMWN2RDdmVEExdlJSeHF2cVJrZHJwVFdQSnBfOWhRWnZ0cmVMOThtazlSVDhvcDVSSWdldDZBallCRFhRQ1JHaDdISlY2aGFMdVY5RldEUVllS3prVGZJR2dfcnNxN3lFeVBiUUxTSVBtYUNjZUVVNGlvUURwSQ?oc=5",
      "source": "NewMobileLife",
      "published": "2026-11-26 13:46 UTC",
-     "age_hours": 10.1,
+     "age_hours": 11.0,
      "ts": 1795700778,
      "sentiment": 0.0
     },
@@ -3785,7 +3778,7 @@
      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5abHY0aHRJMkozVzlvd0hmUWZ5TFlRMTF3dlhsOXRpWXNaNWlTYV9Gdl9hVFR3YklHZGVBX1ROTU5kUFNjcWJVSzFoQVBWSUt0c2lub1E0MHViTTdBZXhsZE83dGx4WTdILXBrUHY3dzA?oc=5",
      "source": "Investing.com 香港 - 股市報價& 財經新聞",
      "published": "2026-11-26 12:37 UTC",
-     "age_hours": 11.2,
+     "age_hours": 12.2,
      "ts": 1795696627,
      "sentiment": 0.0
     }
@@ -3795,7 +3788,7 @@
  "fx": {
   "source": "國泰世華銀行",
   "url": "https://www.cathaybk.com.tw/cathaybk/personal/product/deposit/currency-billboard/",
-  "board_time": "2026年11月27日 07:49:49",
+  "board_time": "2026年11月27日 08:46:56",
   "rates": [
    {
     "code": "USD",
